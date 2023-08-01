@@ -1,0 +1,256 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "tokenAddress",
+          "type": "address"
+        }
+      ],
+      "name": "getPriceUsdcRecommended",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getPriceUsdcRecommended(address)": "482ba306"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"tokenAddress\",\"type\":\"address\"}],\"name\":\"getPriceUsdcRecommended\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Copied from: https://github.com/yearn/yearn-lens/blob/68096999c0fd369ced2527f9475afddc52459805/contracts/Oracle/Calculations/YearnVaults.sol#L55 at commit a67d8fa\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/vendor/IYearnLensOracle.sol\":\"IYearnLensOracle\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/src/\",\"lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/\"]},\"sources\":{\"src/vendor/IYearnLensOracle.sol\":{\"keccak256\":\"0xa9e7c589d50e957fe936514714e1afeffcb7f46edbdcd6938f5d92189ab8903e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8b26888f2a626100133089820370a3f3a5a41e07089c0e6e383d56ec4a5d09d3\",\"dweb:/ipfs/QmbLzDktLciBMsLrpKdBRQgq9K7XU28KGoogqFJYGWrehG\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "tokenAddress",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getPriceUsdcRecommended",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/=node_modules/@openzeppelin/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+        "forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/",
+        "forge-std/=lib/forge-std/src/",
+        "hardhat-deploy/=node_modules/hardhat-deploy/",
+        "hardhat/=node_modules/hardhat/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        "openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "permit2/=lib/permit2/src/",
+        "prb-proxy/=lib/prb-proxy/src/",
+        "prb-test/=lib/prb-proxy/lib/prb-test/src/",
+        "solmate/=lib/permit2/lib/solmate/src/",
+        "lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 100
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/vendor/IYearnLensOracle.sol": "IYearnLensOracle"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/vendor/IYearnLensOracle.sol": {
+        "keccak256": "0xa9e7c589d50e957fe936514714e1afeffcb7f46edbdcd6938f5d92189ab8903e",
+        "urls": [
+          "bzz-raw://8b26888f2a626100133089820370a3f3a5a41e07089c0e6e383d56ec4a5d09d3",
+          "dweb:/ipfs/QmbLzDktLciBMsLrpKdBRQgq9K7XU28KGoogqFJYGWrehG"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/vendor/IYearnLensOracle.sol",
+    "id": 131992,
+    "exportedSymbols": {
+      "IYearnLensOracle": [
+        131991
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:355:179",
+    "nodes": [
+      {
+        "id": 131982,
+        "nodeType": "PragmaDirective",
+        "src": "32:23:179",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".2"
+        ]
+      },
+      {
+        "id": 131991,
+        "nodeType": "ContractDefinition",
+        "src": "240:146:179",
+        "nodes": [
+          {
+            "id": 131990,
+            "nodeType": "FunctionDefinition",
+            "src": "273:111:179",
+            "nodes": [],
+            "functionSelector": "482ba306",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getPriceUsdcRecommended",
+            "nameLocation": "282:23:179",
+            "parameters": {
+              "id": 131986,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 131985,
+                  "mutability": "mutable",
+                  "name": "tokenAddress",
+                  "nameLocation": "314:12:179",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 131990,
+                  "src": "306:20:179",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 131984,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "306:7:179",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "305:22:179"
+            },
+            "returnParameters": {
+              "id": 131989,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 131988,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 131990,
+                  "src": "375:7:179",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 131987,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "375:7:179",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "374:9:179"
+            },
+            "scope": 131991,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IYearnLensOracle",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 131983,
+          "nodeType": "StructuredDocumentation",
+          "src": "57:183:179",
+          "text": "@notice Copied from:\n https://github.com/yearn/yearn-lens/blob/68096999c0fd369ced2527f9475afddc52459805/contracts/Oracle/Calculations/YearnVaults.sol#L55\n at commit a67d8fa"
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          131991
+        ],
+        "name": "IYearnLensOracle",
+        "nameLocation": "250:16:179",
+        "scope": 131992,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 179
+}

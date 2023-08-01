@@ -1,0 +1,2118 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "contract ICDM",
+              "name": "cdm",
+              "type": "address"
+            },
+            {
+              "internalType": "contract IOracle",
+              "name": "oracle",
+              "type": "address"
+            },
+            {
+              "internalType": "contract IBuffer",
+              "name": "buffer",
+              "type": "address"
+            },
+            {
+              "internalType": "contract IERC20",
+              "name": "token",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "tokenScale",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "protocolFee",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint64",
+              "name": "targetUtilizationRatio",
+              "type": "uint64"
+            },
+            {
+              "internalType": "uint64",
+              "name": "maxUtilizationRatio",
+              "type": "uint64"
+            },
+            {
+              "internalType": "uint64",
+              "name": "minInterestRate",
+              "type": "uint64"
+            },
+            {
+              "internalType": "uint64",
+              "name": "maxInterestRate",
+              "type": "uint64"
+            },
+            {
+              "internalType": "uint64",
+              "name": "targetInterestRate",
+              "type": "uint64"
+            },
+            {
+              "internalType": "uint128",
+              "name": "rebateRate",
+              "type": "uint128"
+            },
+            {
+              "internalType": "uint128",
+              "name": "maxRebate",
+              "type": "uint128"
+            }
+          ],
+          "internalType": "struct CDPVaultConstants",
+          "name": "cdpVaultConstants",
+          "type": "tuple"
+        },
+        {
+          "components": [
+            {
+              "internalType": "uint64",
+              "name": "liquidationPenalty",
+              "type": "uint64"
+            },
+            {
+              "internalType": "uint64",
+              "name": "liquidationDiscount",
+              "type": "uint64"
+            },
+            {
+              "internalType": "uint64",
+              "name": "targetHealthFactor",
+              "type": "uint64"
+            }
+          ],
+          "internalType": "struct CDPVault_TypeAConfig",
+          "name": "cdpVaultTypeAConfig",
+          "type": "tuple"
+        },
+        {
+          "components": [
+            {
+              "internalType": "uint128",
+              "name": "debtFloor",
+              "type": "uint128"
+            },
+            {
+              "internalType": "uint256",
+              "name": "limitOrderFloor",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint64",
+              "name": "liquidationRatio",
+              "type": "uint64"
+            },
+            {
+              "internalType": "uint64",
+              "name": "globalLiquidationRatio",
+              "type": "uint64"
+            },
+            {
+              "internalType": "uint256",
+              "name": "baseRate",
+              "type": "uint256"
+            },
+            {
+              "internalType": "address",
+              "name": "roleAdmin",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "vaultAdmin",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "tickManager",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "vaultUnwinder",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "pauseAdmin",
+              "type": "address"
+            }
+          ],
+          "internalType": "struct CDPVaultConfig",
+          "name": "cdpVaultConfig",
+          "type": "tuple"
+        },
+        {
+          "internalType": "uint256",
+          "name": "debtCeiling",
+          "type": "uint256"
+        }
+      ],
+      "name": "create",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getConstants",
+      "outputs": [
+        {
+          "internalType": "contract ICDM",
+          "name": "cdm",
+          "type": "address"
+        },
+        {
+          "internalType": "contract IOracle",
+          "name": "oracle",
+          "type": "address"
+        },
+        {
+          "internalType": "contract IBuffer",
+          "name": "buffer",
+          "type": "address"
+        },
+        {
+          "internalType": "contract IERC20",
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenScale",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "protocolFee",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "utilizationParams",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "rebateParams",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "withholder",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "unwinderFactory",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "create((address,address,address,address,uint256,uint256,uint64,uint64,uint64,uint64,uint64,uint128,uint128),(uint64,uint64,uint64),(uint128,uint256,uint64,uint64,uint256,address,address,address,address,address),uint256)": "4723da21",
+    "getConstants()": "9a295e73",
+    "unwinderFactory()": "8e107be4"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"components\":[{\"internalType\":\"contract ICDM\",\"name\":\"cdm\",\"type\":\"address\"},{\"internalType\":\"contract IOracle\",\"name\":\"oracle\",\"type\":\"address\"},{\"internalType\":\"contract IBuffer\",\"name\":\"buffer\",\"type\":\"address\"},{\"internalType\":\"contract IERC20\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenScale\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"protocolFee\",\"type\":\"uint256\"},{\"internalType\":\"uint64\",\"name\":\"targetUtilizationRatio\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"maxUtilizationRatio\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"minInterestRate\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"maxInterestRate\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"targetInterestRate\",\"type\":\"uint64\"},{\"internalType\":\"uint128\",\"name\":\"rebateRate\",\"type\":\"uint128\"},{\"internalType\":\"uint128\",\"name\":\"maxRebate\",\"type\":\"uint128\"}],\"internalType\":\"struct CDPVaultConstants\",\"name\":\"cdpVaultConstants\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint64\",\"name\":\"liquidationPenalty\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"liquidationDiscount\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"targetHealthFactor\",\"type\":\"uint64\"}],\"internalType\":\"struct CDPVault_TypeAConfig\",\"name\":\"cdpVaultTypeAConfig\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint128\",\"name\":\"debtFloor\",\"type\":\"uint128\"},{\"internalType\":\"uint256\",\"name\":\"limitOrderFloor\",\"type\":\"uint256\"},{\"internalType\":\"uint64\",\"name\":\"liquidationRatio\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"globalLiquidationRatio\",\"type\":\"uint64\"},{\"internalType\":\"uint256\",\"name\":\"baseRate\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"roleAdmin\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"vaultAdmin\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"tickManager\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"vaultUnwinder\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"pauseAdmin\",\"type\":\"address\"}],\"internalType\":\"struct CDPVaultConfig\",\"name\":\"cdpVaultConfig\",\"type\":\"tuple\"},{\"internalType\":\"uint256\",\"name\":\"debtCeiling\",\"type\":\"uint256\"}],\"name\":\"create\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getConstants\",\"outputs\":[{\"internalType\":\"contract ICDM\",\"name\":\"cdm\",\"type\":\"address\"},{\"internalType\":\"contract IOracle\",\"name\":\"oracle\",\"type\":\"address\"},{\"internalType\":\"contract IBuffer\",\"name\":\"buffer\",\"type\":\"address\"},{\"internalType\":\"contract IERC20\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenScale\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"protocolFee\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"utilizationParams\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"rebateParams\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"withholder\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"unwinderFactory\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/ICDPVault_TypeA_Factory.sol\":\"ICDPVault_TypeA_Factory\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/src/\",\"lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/\"]},\"sources\":{\"lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x00c839ff53d07d19db2e7cfa1e5133f9ee90a8d64b0e2e57f50446a2d1a3a0e0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3dac621d015a68a5251b1e5d41dda0faf252699bf6e8bcf46a958b29964d9dd1\",\"dweb:/ipfs/QmP9axjgZv4cezAhALoTemM62sdLtMDJ9MGTxECnNwHgSJ\"]},\"src/interfaces/IBuffer.sol\":{\"keccak256\":\"0xca68bc0b0ad51d45574138eaab1d2597f95bae6b925206e4640dba7e8a7a766f\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://f18316a82aecd4fbd85b697c4a6f447025ccea9648353d5d5f71c0adbfeffeff\",\"dweb:/ipfs/Qmf5TvffBBLh6w4phbNknX7zwBrDHY4VUQqoKTexSHKpyY\"]},\"src/interfaces/ICDM.sol\":{\"keccak256\":\"0x5a501346e83a397a842bc6a74de7c717df5adc9885efec3cc5493119808d67a9\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://94ead2b55fb26eb76ce383d3983e289ab41065446796a66780c8b4ae8162e973\",\"dweb:/ipfs/QmZwRkzXKppqnaUoUkzMxMT9D1c2JDy8ttNjYjQ1eYAD63\"]},\"src/interfaces/ICDPVault_TypeA_Factory.sol\":{\"keccak256\":\"0x9ea6fe3a8b5d6ab2f041c72b6058e1e59b3df5e12d54ccc845a27f90f45ddf01\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://c805f1c1b060173d445de751c4a8565232938ad23a6d200c08b99eb634679638\",\"dweb:/ipfs/QmSajnrXMZHMwYF8Y2C6obNp1K7bq2XjexdkqcVoHDFhGm\"]},\"src/interfaces/IOracle.sol\":{\"keccak256\":\"0x9269d961b833e8efa72ba58b324fcae69d7d6200034aab32f16c8a6ea45fd417\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://fa1ab8fd4ba70144d9bc48e61cdb5f85cc250760a3c4850369b328c98a6d73da\",\"dweb:/ipfs/QmQqBe67B94u3vwLZBM4DBYgK5piBKXaYEaiAkRM81wGFF\"]},\"src/interfaces/IPermission.sol\":{\"keccak256\":\"0xd9cf3a29c16e192f2f265396870cb93cf91c91bbe62cb9a1ed343c32b4052f48\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://48e25c7560455ffda43cbfb37ee47ed4da9c6bd38e46bcfd5fe4e982d5c34eaf\",\"dweb:/ipfs/Qmco16L9EdpXGFJXn7mdgkCpKErYRB4HFUzYB5m5yUnZcz\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "struct CDPVaultConstants",
+              "name": "cdpVaultConstants",
+              "type": "tuple",
+              "components": [
+                {
+                  "internalType": "contract ICDM",
+                  "name": "cdm",
+                  "type": "address"
+                },
+                {
+                  "internalType": "contract IOracle",
+                  "name": "oracle",
+                  "type": "address"
+                },
+                {
+                  "internalType": "contract IBuffer",
+                  "name": "buffer",
+                  "type": "address"
+                },
+                {
+                  "internalType": "contract IERC20",
+                  "name": "token",
+                  "type": "address"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "tokenScale",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "protocolFee",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint64",
+                  "name": "targetUtilizationRatio",
+                  "type": "uint64"
+                },
+                {
+                  "internalType": "uint64",
+                  "name": "maxUtilizationRatio",
+                  "type": "uint64"
+                },
+                {
+                  "internalType": "uint64",
+                  "name": "minInterestRate",
+                  "type": "uint64"
+                },
+                {
+                  "internalType": "uint64",
+                  "name": "maxInterestRate",
+                  "type": "uint64"
+                },
+                {
+                  "internalType": "uint64",
+                  "name": "targetInterestRate",
+                  "type": "uint64"
+                },
+                {
+                  "internalType": "uint128",
+                  "name": "rebateRate",
+                  "type": "uint128"
+                },
+                {
+                  "internalType": "uint128",
+                  "name": "maxRebate",
+                  "type": "uint128"
+                }
+              ]
+            },
+            {
+              "internalType": "struct CDPVault_TypeAConfig",
+              "name": "cdpVaultTypeAConfig",
+              "type": "tuple",
+              "components": [
+                {
+                  "internalType": "uint64",
+                  "name": "liquidationPenalty",
+                  "type": "uint64"
+                },
+                {
+                  "internalType": "uint64",
+                  "name": "liquidationDiscount",
+                  "type": "uint64"
+                },
+                {
+                  "internalType": "uint64",
+                  "name": "targetHealthFactor",
+                  "type": "uint64"
+                }
+              ]
+            },
+            {
+              "internalType": "struct CDPVaultConfig",
+              "name": "cdpVaultConfig",
+              "type": "tuple",
+              "components": [
+                {
+                  "internalType": "uint128",
+                  "name": "debtFloor",
+                  "type": "uint128"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "limitOrderFloor",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint64",
+                  "name": "liquidationRatio",
+                  "type": "uint64"
+                },
+                {
+                  "internalType": "uint64",
+                  "name": "globalLiquidationRatio",
+                  "type": "uint64"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "baseRate",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "address",
+                  "name": "roleAdmin",
+                  "type": "address"
+                },
+                {
+                  "internalType": "address",
+                  "name": "vaultAdmin",
+                  "type": "address"
+                },
+                {
+                  "internalType": "address",
+                  "name": "tickManager",
+                  "type": "address"
+                },
+                {
+                  "internalType": "address",
+                  "name": "vaultUnwinder",
+                  "type": "address"
+                },
+                {
+                  "internalType": "address",
+                  "name": "pauseAdmin",
+                  "type": "address"
+                }
+              ]
+            },
+            {
+              "internalType": "uint256",
+              "name": "debtCeiling",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "create",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "getConstants",
+          "outputs": [
+            {
+              "internalType": "contract ICDM",
+              "name": "cdm",
+              "type": "address"
+            },
+            {
+              "internalType": "contract IOracle",
+              "name": "oracle",
+              "type": "address"
+            },
+            {
+              "internalType": "contract IBuffer",
+              "name": "buffer",
+              "type": "address"
+            },
+            {
+              "internalType": "contract IERC20",
+              "name": "token",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "tokenScale",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "protocolFee",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "utilizationParams",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "rebateParams",
+              "type": "uint256"
+            },
+            {
+              "internalType": "address",
+              "name": "withholder",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "unwinderFactory",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/=node_modules/@openzeppelin/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+        "forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/",
+        "forge-std/=lib/forge-std/src/",
+        "hardhat-deploy/=node_modules/hardhat-deploy/",
+        "hardhat/=node_modules/hardhat/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        "openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "permit2/=lib/permit2/src/",
+        "prb-proxy/=lib/prb-proxy/src/",
+        "prb-test/=lib/prb-proxy/lib/prb-test/src/",
+        "solmate/=lib/permit2/lib/solmate/src/",
+        "lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 100
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/interfaces/ICDPVault_TypeA_Factory.sol": "ICDPVault_TypeA_Factory"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
+        "keccak256": "0x00c839ff53d07d19db2e7cfa1e5133f9ee90a8d64b0e2e57f50446a2d1a3a0e0",
+        "urls": [
+          "bzz-raw://3dac621d015a68a5251b1e5d41dda0faf252699bf6e8bcf46a958b29964d9dd1",
+          "dweb:/ipfs/QmP9axjgZv4cezAhALoTemM62sdLtMDJ9MGTxECnNwHgSJ"
+        ],
+        "license": "MIT"
+      },
+      "src/interfaces/IBuffer.sol": {
+        "keccak256": "0xca68bc0b0ad51d45574138eaab1d2597f95bae6b925206e4640dba7e8a7a766f",
+        "urls": [
+          "bzz-raw://f18316a82aecd4fbd85b697c4a6f447025ccea9648353d5d5f71c0adbfeffeff",
+          "dweb:/ipfs/Qmf5TvffBBLh6w4phbNknX7zwBrDHY4VUQqoKTexSHKpyY"
+        ],
+        "license": "GPL-2.0-or-later"
+      },
+      "src/interfaces/ICDM.sol": {
+        "keccak256": "0x5a501346e83a397a842bc6a74de7c717df5adc9885efec3cc5493119808d67a9",
+        "urls": [
+          "bzz-raw://94ead2b55fb26eb76ce383d3983e289ab41065446796a66780c8b4ae8162e973",
+          "dweb:/ipfs/QmZwRkzXKppqnaUoUkzMxMT9D1c2JDy8ttNjYjQ1eYAD63"
+        ],
+        "license": "GPL-2.0-or-later"
+      },
+      "src/interfaces/ICDPVault_TypeA_Factory.sol": {
+        "keccak256": "0x9ea6fe3a8b5d6ab2f041c72b6058e1e59b3df5e12d54ccc845a27f90f45ddf01",
+        "urls": [
+          "bzz-raw://c805f1c1b060173d445de751c4a8565232938ad23a6d200c08b99eb634679638",
+          "dweb:/ipfs/QmSajnrXMZHMwYF8Y2C6obNp1K7bq2XjexdkqcVoHDFhGm"
+        ],
+        "license": "GPL-2.0-or-later"
+      },
+      "src/interfaces/IOracle.sol": {
+        "keccak256": "0x9269d961b833e8efa72ba58b324fcae69d7d6200034aab32f16c8a6ea45fd417",
+        "urls": [
+          "bzz-raw://fa1ab8fd4ba70144d9bc48e61cdb5f85cc250760a3c4850369b328c98a6d73da",
+          "dweb:/ipfs/QmQqBe67B94u3vwLZBM4DBYgK5piBKXaYEaiAkRM81wGFF"
+        ],
+        "license": "GPL-2.0-or-later"
+      },
+      "src/interfaces/IPermission.sol": {
+        "keccak256": "0xd9cf3a29c16e192f2f265396870cb93cf91c91bbe62cb9a1ed343c32b4052f48",
+        "urls": [
+          "bzz-raw://48e25c7560455ffda43cbfb37ee47ed4da9c6bd38e46bcfd5fe4e982d5c34eaf",
+          "dweb:/ipfs/Qmco16L9EdpXGFJXn7mdgkCpKErYRB4HFUzYB5m5yUnZcz"
+        ],
+        "license": "GPL-2.0-or-later"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/interfaces/ICDPVault_TypeA_Factory.sol",
+    "id": 49332,
+    "exportedSymbols": {
+      "CDPVaultConfig": [
+        49277
+      ],
+      "CDPVaultConstants": [
+        49256
+      ],
+      "CDPVault_TypeAConfig": [
+        49284
+      ],
+      "IBuffer": [
+        48624
+      ],
+      "ICDM": [
+        48682
+      ],
+      "ICDPVault_TypeA_Factory": [
+        49331
+      ],
+      "IERC20": [
+        34464
+      ],
+      "IOracle": [
+        49618
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "45:1634:104",
+    "nodes": [
+      {
+        "id": 49217,
+        "nodeType": "PragmaDirective",
+        "src": "45:24:104",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".19"
+        ]
+      },
+      {
+        "id": 49219,
+        "nodeType": "ImportDirective",
+        "src": "71:69:104",
+        "nodes": [],
+        "absolutePath": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "file": "openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 49332,
+        "sourceUnit": 34465,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 49218,
+              "name": "IERC20",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 34464,
+              "src": "79:6:104",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 49221,
+        "nodeType": "ImportDirective",
+        "src": "142:32:104",
+        "nodes": [],
+        "absolutePath": "src/interfaces/ICDM.sol",
+        "file": "./ICDM.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 49332,
+        "sourceUnit": 48683,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 49220,
+              "name": "ICDM",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 48682,
+              "src": "150:4:104",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 49223,
+        "nodeType": "ImportDirective",
+        "src": "175:38:104",
+        "nodes": [],
+        "absolutePath": "src/interfaces/IOracle.sol",
+        "file": "./IOracle.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 49332,
+        "sourceUnit": 49619,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 49222,
+              "name": "IOracle",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 49618,
+              "src": "183:7:104",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 49225,
+        "nodeType": "ImportDirective",
+        "src": "214:38:104",
+        "nodes": [],
+        "absolutePath": "src/interfaces/IBuffer.sol",
+        "file": "./IBuffer.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 49332,
+        "sourceUnit": 48625,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 49224,
+              "name": "IBuffer",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 48624,
+              "src": "222:7:104",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 49256,
+        "nodeType": "StructDefinition",
+        "src": "284:350:104",
+        "nodes": [],
+        "canonicalName": "CDPVaultConstants",
+        "members": [
+          {
+            "constant": false,
+            "id": 49228,
+            "mutability": "mutable",
+            "name": "cdm",
+            "nameLocation": "320:3:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49256,
+            "src": "315:8:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_ICDM_$48682",
+              "typeString": "contract ICDM"
+            },
+            "typeName": {
+              "id": 49227,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 49226,
+                "name": "ICDM",
+                "nameLocations": [
+                  "315:4:104"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 48682,
+                "src": "315:4:104"
+              },
+              "referencedDeclaration": 48682,
+              "src": "315:4:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ICDM_$48682",
+                "typeString": "contract ICDM"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49231,
+            "mutability": "mutable",
+            "name": "oracle",
+            "nameLocation": "337:6:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49256,
+            "src": "329:14:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_IOracle_$49618",
+              "typeString": "contract IOracle"
+            },
+            "typeName": {
+              "id": 49230,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 49229,
+                "name": "IOracle",
+                "nameLocations": [
+                  "329:7:104"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 49618,
+                "src": "329:7:104"
+              },
+              "referencedDeclaration": 49618,
+              "src": "329:7:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_IOracle_$49618",
+                "typeString": "contract IOracle"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49234,
+            "mutability": "mutable",
+            "name": "buffer",
+            "nameLocation": "357:6:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49256,
+            "src": "349:14:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_IBuffer_$48624",
+              "typeString": "contract IBuffer"
+            },
+            "typeName": {
+              "id": 49233,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 49232,
+                "name": "IBuffer",
+                "nameLocations": [
+                  "349:7:104"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 48624,
+                "src": "349:7:104"
+              },
+              "referencedDeclaration": 48624,
+              "src": "349:7:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_IBuffer_$48624",
+                "typeString": "contract IBuffer"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49237,
+            "mutability": "mutable",
+            "name": "token",
+            "nameLocation": "376:5:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49256,
+            "src": "369:12:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_IERC20_$34464",
+              "typeString": "contract IERC20"
+            },
+            "typeName": {
+              "id": 49236,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 49235,
+                "name": "IERC20",
+                "nameLocations": [
+                  "369:6:104"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 34464,
+                "src": "369:6:104"
+              },
+              "referencedDeclaration": 34464,
+              "src": "369:6:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_IERC20_$34464",
+                "typeString": "contract IERC20"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49239,
+            "mutability": "mutable",
+            "name": "tokenScale",
+            "nameLocation": "395:10:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49256,
+            "src": "387:18:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 49238,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "387:7:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49241,
+            "mutability": "mutable",
+            "name": "protocolFee",
+            "nameLocation": "419:11:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49256,
+            "src": "411:19:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 49240,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "411:7:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49243,
+            "mutability": "mutable",
+            "name": "targetUtilizationRatio",
+            "nameLocation": "443:22:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49256,
+            "src": "436:29:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint64",
+              "typeString": "uint64"
+            },
+            "typeName": {
+              "id": 49242,
+              "name": "uint64",
+              "nodeType": "ElementaryTypeName",
+              "src": "436:6:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint64",
+                "typeString": "uint64"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49245,
+            "mutability": "mutable",
+            "name": "maxUtilizationRatio",
+            "nameLocation": "478:19:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49256,
+            "src": "471:26:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint64",
+              "typeString": "uint64"
+            },
+            "typeName": {
+              "id": 49244,
+              "name": "uint64",
+              "nodeType": "ElementaryTypeName",
+              "src": "471:6:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint64",
+                "typeString": "uint64"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49247,
+            "mutability": "mutable",
+            "name": "minInterestRate",
+            "nameLocation": "510:15:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49256,
+            "src": "503:22:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint64",
+              "typeString": "uint64"
+            },
+            "typeName": {
+              "id": 49246,
+              "name": "uint64",
+              "nodeType": "ElementaryTypeName",
+              "src": "503:6:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint64",
+                "typeString": "uint64"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49249,
+            "mutability": "mutable",
+            "name": "maxInterestRate",
+            "nameLocation": "538:15:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49256,
+            "src": "531:22:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint64",
+              "typeString": "uint64"
+            },
+            "typeName": {
+              "id": 49248,
+              "name": "uint64",
+              "nodeType": "ElementaryTypeName",
+              "src": "531:6:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint64",
+                "typeString": "uint64"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49251,
+            "mutability": "mutable",
+            "name": "targetInterestRate",
+            "nameLocation": "566:18:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49256,
+            "src": "559:25:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint64",
+              "typeString": "uint64"
+            },
+            "typeName": {
+              "id": 49250,
+              "name": "uint64",
+              "nodeType": "ElementaryTypeName",
+              "src": "559:6:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint64",
+                "typeString": "uint64"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49253,
+            "mutability": "mutable",
+            "name": "rebateRate",
+            "nameLocation": "598:10:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49256,
+            "src": "590:18:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint128",
+              "typeString": "uint128"
+            },
+            "typeName": {
+              "id": 49252,
+              "name": "uint128",
+              "nodeType": "ElementaryTypeName",
+              "src": "590:7:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint128",
+                "typeString": "uint128"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49255,
+            "mutability": "mutable",
+            "name": "maxRebate",
+            "nameLocation": "622:9:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49256,
+            "src": "614:17:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint128",
+              "typeString": "uint128"
+            },
+            "typeName": {
+              "id": 49254,
+              "name": "uint128",
+              "nodeType": "ElementaryTypeName",
+              "src": "614:7:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint128",
+                "typeString": "uint128"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "name": "CDPVaultConstants",
+        "nameLocation": "291:17:104",
+        "scope": 49332,
+        "visibility": "public"
+      },
+      {
+        "id": 49277,
+        "nodeType": "StructDefinition",
+        "src": "636:286:104",
+        "nodes": [],
+        "canonicalName": "CDPVaultConfig",
+        "members": [
+          {
+            "constant": false,
+            "id": 49258,
+            "mutability": "mutable",
+            "name": "debtFloor",
+            "nameLocation": "672:9:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49277,
+            "src": "664:17:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint128",
+              "typeString": "uint128"
+            },
+            "typeName": {
+              "id": 49257,
+              "name": "uint128",
+              "nodeType": "ElementaryTypeName",
+              "src": "664:7:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint128",
+                "typeString": "uint128"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49260,
+            "mutability": "mutable",
+            "name": "limitOrderFloor",
+            "nameLocation": "695:15:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49277,
+            "src": "687:23:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 49259,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "687:7:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49262,
+            "mutability": "mutable",
+            "name": "liquidationRatio",
+            "nameLocation": "723:16:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49277,
+            "src": "716:23:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint64",
+              "typeString": "uint64"
+            },
+            "typeName": {
+              "id": 49261,
+              "name": "uint64",
+              "nodeType": "ElementaryTypeName",
+              "src": "716:6:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint64",
+                "typeString": "uint64"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49264,
+            "mutability": "mutable",
+            "name": "globalLiquidationRatio",
+            "nameLocation": "752:22:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49277,
+            "src": "745:29:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint64",
+              "typeString": "uint64"
+            },
+            "typeName": {
+              "id": 49263,
+              "name": "uint64",
+              "nodeType": "ElementaryTypeName",
+              "src": "745:6:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint64",
+                "typeString": "uint64"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49266,
+            "mutability": "mutable",
+            "name": "baseRate",
+            "nameLocation": "788:8:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49277,
+            "src": "780:16:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 49265,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "780:7:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49268,
+            "mutability": "mutable",
+            "name": "roleAdmin",
+            "nameLocation": "810:9:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49277,
+            "src": "802:17:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 49267,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "802:7:104",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49270,
+            "mutability": "mutable",
+            "name": "vaultAdmin",
+            "nameLocation": "833:10:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49277,
+            "src": "825:18:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 49269,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "825:7:104",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49272,
+            "mutability": "mutable",
+            "name": "tickManager",
+            "nameLocation": "857:11:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49277,
+            "src": "849:19:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 49271,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "849:7:104",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49274,
+            "mutability": "mutable",
+            "name": "vaultUnwinder",
+            "nameLocation": "882:13:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49277,
+            "src": "874:21:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 49273,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "874:7:104",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49276,
+            "mutability": "mutable",
+            "name": "pauseAdmin",
+            "nameLocation": "909:10:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49277,
+            "src": "901:18:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 49275,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "901:7:104",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "name": "CDPVaultConfig",
+        "nameLocation": "643:14:104",
+        "scope": 49332,
+        "visibility": "public"
+      },
+      {
+        "id": 49284,
+        "nodeType": "StructDefinition",
+        "src": "924:125:104",
+        "nodes": [],
+        "canonicalName": "CDPVault_TypeAConfig",
+        "members": [
+          {
+            "constant": false,
+            "id": 49279,
+            "mutability": "mutable",
+            "name": "liquidationPenalty",
+            "nameLocation": "965:18:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49284,
+            "src": "958:25:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint64",
+              "typeString": "uint64"
+            },
+            "typeName": {
+              "id": 49278,
+              "name": "uint64",
+              "nodeType": "ElementaryTypeName",
+              "src": "958:6:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint64",
+                "typeString": "uint64"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49281,
+            "mutability": "mutable",
+            "name": "liquidationDiscount",
+            "nameLocation": "996:19:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49284,
+            "src": "989:26:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint64",
+              "typeString": "uint64"
+            },
+            "typeName": {
+              "id": 49280,
+              "name": "uint64",
+              "nodeType": "ElementaryTypeName",
+              "src": "989:6:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint64",
+                "typeString": "uint64"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49283,
+            "mutability": "mutable",
+            "name": "targetHealthFactor",
+            "nameLocation": "1028:18:104",
+            "nodeType": "VariableDeclaration",
+            "scope": 49284,
+            "src": "1021:25:104",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint64",
+              "typeString": "uint64"
+            },
+            "typeName": {
+              "id": 49282,
+              "name": "uint64",
+              "nodeType": "ElementaryTypeName",
+              "src": "1021:6:104",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint64",
+                "typeString": "uint64"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "name": "CDPVault_TypeAConfig",
+        "nameLocation": "931:20:104",
+        "scope": 49332,
+        "visibility": "public"
+      },
+      {
+        "id": 49331,
+        "nodeType": "ContractDefinition",
+        "src": "1051:627:104",
+        "nodes": [
+          {
+            "id": 49300,
+            "nodeType": "FunctionDefinition",
+            "src": "1091:233:104",
+            "nodes": [],
+            "functionSelector": "4723da21",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "create",
+            "nameLocation": "1100:6:104",
+            "parameters": {
+              "id": 49296,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 49287,
+                  "mutability": "mutable",
+                  "name": "cdpVaultConstants",
+                  "nameLocation": "1141:17:104",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49300,
+                  "src": "1116:42:104",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_CDPVaultConstants_$49256_memory_ptr",
+                    "typeString": "struct CDPVaultConstants"
+                  },
+                  "typeName": {
+                    "id": 49286,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 49285,
+                      "name": "CDPVaultConstants",
+                      "nameLocations": [
+                        "1116:17:104"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 49256,
+                      "src": "1116:17:104"
+                    },
+                    "referencedDeclaration": 49256,
+                    "src": "1116:17:104",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_CDPVaultConstants_$49256_storage_ptr",
+                      "typeString": "struct CDPVaultConstants"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 49290,
+                  "mutability": "mutable",
+                  "name": "cdpVaultTypeAConfig",
+                  "nameLocation": "1196:19:104",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49300,
+                  "src": "1168:47:104",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_CDPVault_TypeAConfig_$49284_memory_ptr",
+                    "typeString": "struct CDPVault_TypeAConfig"
+                  },
+                  "typeName": {
+                    "id": 49289,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 49288,
+                      "name": "CDPVault_TypeAConfig",
+                      "nameLocations": [
+                        "1168:20:104"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 49284,
+                      "src": "1168:20:104"
+                    },
+                    "referencedDeclaration": 49284,
+                    "src": "1168:20:104",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_CDPVault_TypeAConfig_$49284_storage_ptr",
+                      "typeString": "struct CDPVault_TypeAConfig"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 49293,
+                  "mutability": "mutable",
+                  "name": "cdpVaultConfig",
+                  "nameLocation": "1247:14:104",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49300,
+                  "src": "1225:36:104",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_CDPVaultConfig_$49277_memory_ptr",
+                    "typeString": "struct CDPVaultConfig"
+                  },
+                  "typeName": {
+                    "id": 49292,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 49291,
+                      "name": "CDPVaultConfig",
+                      "nameLocations": [
+                        "1225:14:104"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 49277,
+                      "src": "1225:14:104"
+                    },
+                    "referencedDeclaration": 49277,
+                    "src": "1225:14:104",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_CDPVaultConfig_$49277_storage_ptr",
+                      "typeString": "struct CDPVaultConfig"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 49295,
+                  "mutability": "mutable",
+                  "name": "debtCeiling",
+                  "nameLocation": "1279:11:104",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49300,
+                  "src": "1271:19:104",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 49294,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1271:7:104",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1106:190:104"
+            },
+            "returnParameters": {
+              "id": 49299,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 49298,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49300,
+                  "src": "1315:7:104",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 49297,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1315:7:104",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1314:9:104"
+            },
+            "scope": 49331,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 49325,
+            "nodeType": "FunctionDefinition",
+            "src": "1330:286:104",
+            "nodes": [],
+            "functionSelector": "9a295e73",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getConstants",
+            "nameLocation": "1339:12:104",
+            "parameters": {
+              "id": 49301,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1351:2:104"
+            },
+            "returnParameters": {
+              "id": 49324,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 49304,
+                  "mutability": "mutable",
+                  "name": "cdm",
+                  "nameLocation": "1386:3:104",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49325,
+                  "src": "1381:8:104",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ICDM_$48682",
+                    "typeString": "contract ICDM"
+                  },
+                  "typeName": {
+                    "id": 49303,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 49302,
+                      "name": "ICDM",
+                      "nameLocations": [
+                        "1381:4:104"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 48682,
+                      "src": "1381:4:104"
+                    },
+                    "referencedDeclaration": 48682,
+                    "src": "1381:4:104",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ICDM_$48682",
+                      "typeString": "contract ICDM"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 49307,
+                  "mutability": "mutable",
+                  "name": "oracle",
+                  "nameLocation": "1407:6:104",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49325,
+                  "src": "1399:14:104",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_IOracle_$49618",
+                    "typeString": "contract IOracle"
+                  },
+                  "typeName": {
+                    "id": 49306,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 49305,
+                      "name": "IOracle",
+                      "nameLocations": [
+                        "1399:7:104"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 49618,
+                      "src": "1399:7:104"
+                    },
+                    "referencedDeclaration": 49618,
+                    "src": "1399:7:104",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_IOracle_$49618",
+                      "typeString": "contract IOracle"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 49310,
+                  "mutability": "mutable",
+                  "name": "buffer",
+                  "nameLocation": "1431:6:104",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49325,
+                  "src": "1423:14:104",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_IBuffer_$48624",
+                    "typeString": "contract IBuffer"
+                  },
+                  "typeName": {
+                    "id": 49309,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 49308,
+                      "name": "IBuffer",
+                      "nameLocations": [
+                        "1423:7:104"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 48624,
+                      "src": "1423:7:104"
+                    },
+                    "referencedDeclaration": 48624,
+                    "src": "1423:7:104",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_IBuffer_$48624",
+                      "typeString": "contract IBuffer"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 49313,
+                  "mutability": "mutable",
+                  "name": "token",
+                  "nameLocation": "1454:5:104",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49325,
+                  "src": "1447:12:104",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_IERC20_$34464",
+                    "typeString": "contract IERC20"
+                  },
+                  "typeName": {
+                    "id": 49312,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 49311,
+                      "name": "IERC20",
+                      "nameLocations": [
+                        "1447:6:104"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 34464,
+                      "src": "1447:6:104"
+                    },
+                    "referencedDeclaration": 34464,
+                    "src": "1447:6:104",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_IERC20_$34464",
+                      "typeString": "contract IERC20"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 49315,
+                  "mutability": "mutable",
+                  "name": "tokenScale",
+                  "nameLocation": "1477:10:104",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49325,
+                  "src": "1469:18:104",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 49314,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1469:7:104",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 49317,
+                  "mutability": "mutable",
+                  "name": "protocolFee",
+                  "nameLocation": "1505:11:104",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49325,
+                  "src": "1497:19:104",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 49316,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1497:7:104",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 49319,
+                  "mutability": "mutable",
+                  "name": "utilizationParams",
+                  "nameLocation": "1534:17:104",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49325,
+                  "src": "1526:25:104",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 49318,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1526:7:104",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 49321,
+                  "mutability": "mutable",
+                  "name": "rebateParams",
+                  "nameLocation": "1569:12:104",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49325,
+                  "src": "1561:20:104",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 49320,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1561:7:104",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 49323,
+                  "mutability": "mutable",
+                  "name": "withholder",
+                  "nameLocation": "1599:10:104",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49325,
+                  "src": "1591:18:104",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 49322,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1591:7:104",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1371:244:104"
+            },
+            "scope": 49331,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 49330,
+            "nodeType": "FunctionDefinition",
+            "src": "1622:54:104",
+            "nodes": [],
+            "functionSelector": "8e107be4",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "unwinderFactory",
+            "nameLocation": "1631:15:104",
+            "parameters": {
+              "id": 49326,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1646:2:104"
+            },
+            "returnParameters": {
+              "id": 49329,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 49328,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 49330,
+                  "src": "1667:7:104",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 49327,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1667:7:104",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1666:9:104"
+            },
+            "scope": 49331,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ICDPVault_TypeA_Factory",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          49331
+        ],
+        "name": "ICDPVault_TypeA_Factory",
+        "nameLocation": "1061:23:104",
+        "scope": 49332,
+        "usedErrors": []
+      }
+    ],
+    "license": "GPL-2.0-or-later"
+  },
+  "id": 104
+}

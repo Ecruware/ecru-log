@@ -1,0 +1,1393 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "PRBProxy_ExecutionReverted",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "caller",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "target",
+          "type": "address"
+        }
+      ],
+      "name": "PRBProxy_ExecutionUnauthorized",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "caller",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes4",
+          "name": "method",
+          "type": "bytes4"
+        }
+      ],
+      "name": "PRBProxy_PluginNotInstalledForMethod",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "contract IPRBProxyPlugin",
+          "name": "plugin",
+          "type": "address"
+        }
+      ],
+      "name": "PRBProxy_PluginReverted",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "target",
+          "type": "address"
+        }
+      ],
+      "name": "PRBProxy_TargetNotContract",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "target",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes",
+          "name": "response",
+          "type": "bytes"
+        }
+      ],
+      "name": "Execute",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "contract IPRBProxyPlugin",
+          "name": "plugin",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes",
+          "name": "response",
+          "type": "bytes"
+        }
+      ],
+      "name": "RunPlugin",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "target",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "execute",
+      "outputs": [
+        {
+          "internalType": "bytes",
+          "name": "response",
+          "type": "bytes"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "registry",
+      "outputs": [
+        {
+          "internalType": "contract IPRBProxyRegistry",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "execute(address,bytes)": "1cff79cd",
+    "owner()": "8da5cb5b",
+    "registry()": "7b103999"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"PRBProxy_ExecutionReverted\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"caller\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"target\",\"type\":\"address\"}],\"name\":\"PRBProxy_ExecutionUnauthorized\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"caller\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"bytes4\",\"name\":\"method\",\"type\":\"bytes4\"}],\"name\":\"PRBProxy_PluginNotInstalledForMethod\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"contract IPRBProxyPlugin\",\"name\":\"plugin\",\"type\":\"address\"}],\"name\":\"PRBProxy_PluginReverted\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"target\",\"type\":\"address\"}],\"name\":\"PRBProxy_TargetNotContract\",\"type\":\"error\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"target\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"response\",\"type\":\"bytes\"}],\"name\":\"Execute\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"contract IPRBProxyPlugin\",\"name\":\"plugin\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"response\",\"type\":\"bytes\"}],\"name\":\"RunPlugin\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"target\",\"type\":\"address\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"execute\",\"outputs\":[{\"internalType\":\"bytes\",\"name\":\"response\",\"type\":\"bytes\"}],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"registry\",\"outputs\":[{\"internalType\":\"contract IPRBProxyRegistry\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"execute(address,bytes)\":{\"details\":\"Emits an {Execute} event. Requirements: - The caller must be either the owner or an envoy with permission. - `target` must be a contract.\",\"params\":{\"data\":\"Function selector plus ABI encoded data.\",\"target\":\"The address of the target contract.\"},\"returns\":{\"response\":\"The response received from the target contract, if any.\"}}},\"title\":\"IPRBProxy\",\"version\":1},\"userdoc\":{\"errors\":{\"PRBProxy_ExecutionReverted()\":[{\"notice\":\"Thrown when a target contract reverts without a specified reason.\"}],\"PRBProxy_ExecutionUnauthorized(address,address,address)\":[{\"notice\":\"Thrown when an unauthorized account tries to execute a delegate call.\"}],\"PRBProxy_PluginNotInstalledForMethod(address,address,bytes4)\":[{\"notice\":\"Thrown when the fallback function fails to find an installed plugin for the method selector.\"}],\"PRBProxy_PluginReverted(address)\":[{\"notice\":\"Thrown when a plugin execution reverts without a specified reason.\"}],\"PRBProxy_TargetNotContract(address)\":[{\"notice\":\"Thrown when a non-contract address is passed as the target.\"}]},\"events\":{\"Execute(address,bytes,bytes)\":{\"notice\":\"Emitted when a target contract is delegate called.\"},\"RunPlugin(address,bytes,bytes)\":{\"notice\":\"Emitted when a plugin is run for a provided method.\"}},\"kind\":\"user\",\"methods\":{\"execute(address,bytes)\":{\"notice\":\"Delegate calls to the provided target contract by forwarding the data. It returns the data it gets back, and bubbles up any potential revert.\"},\"owner()\":{\"notice\":\"The address of the owner account or contract, which controls the proxy.\"},\"registry()\":{\"notice\":\"The address of the registry that has deployed this proxy.\"}},\"notice\":\"Proxy contract to compose transactions on behalf of the owner.\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"lib/prb-proxy/src/interfaces/IPRBProxy.sol\":\"IPRBProxy\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/src/\",\"lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/\"]},\"sources\":{\"lib/prb-proxy/src/interfaces/IPRBProxy.sol\":{\"keccak256\":\"0x3acec1c08296ef7f81902a7b6b883a70be6923c259af27ded37b43cd33d8663e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6f5fb1345605398e99ac334d27043bea6adf4242868b6a9f274623f8c1ff754a\",\"dweb:/ipfs/QmfXVKyH3ctiC8YrKjCLRiehVpgAMY6GiKrpAvVn1CduQ6\"]},\"lib/prb-proxy/src/interfaces/IPRBProxyPlugin.sol\":{\"keccak256\":\"0x6e0ce4998cd104b2cde36cdd3e0e07fb200f606e82a98cb25b1302ac0d969714\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://baeb01d83a07b81412341a9899d6048426b6aec72d06c88271bf7c261e2dea88\",\"dweb:/ipfs/QmTkUVmRzpxuf8SvLpm2TKE2AcJ7KL7gVMKRYJ9apCLVM1\"]},\"lib/prb-proxy/src/interfaces/IPRBProxyRegistry.sol\":{\"keccak256\":\"0x3dc040a25929144a7d88710d82f94448fcc40367c6175345b14b0ae36189aa59\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2a9b01bb4b8605ac28451b9dea628228d6f4b17641e29b00cc4d40acb10d15ce\",\"dweb:/ipfs/Qmbfz7THunKGVtX6VCyiXiGoGLeAbh3fk5MWj8cyn1Vamt\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "PRBProxy_ExecutionReverted"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "caller",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "target",
+              "type": "address"
+            }
+          ],
+          "type": "error",
+          "name": "PRBProxy_ExecutionUnauthorized"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "caller",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "internalType": "bytes4",
+              "name": "method",
+              "type": "bytes4"
+            }
+          ],
+          "type": "error",
+          "name": "PRBProxy_PluginNotInstalledForMethod"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "contract IPRBProxyPlugin",
+              "name": "plugin",
+              "type": "address"
+            }
+          ],
+          "type": "error",
+          "name": "PRBProxy_PluginReverted"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "target",
+              "type": "address"
+            }
+          ],
+          "type": "error",
+          "name": "PRBProxy_TargetNotContract"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "target",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "internalType": "bytes",
+              "name": "data",
+              "type": "bytes",
+              "indexed": false
+            },
+            {
+              "internalType": "bytes",
+              "name": "response",
+              "type": "bytes",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "Execute",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "contract IPRBProxyPlugin",
+              "name": "plugin",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "internalType": "bytes",
+              "name": "data",
+              "type": "bytes",
+              "indexed": false
+            },
+            {
+              "internalType": "bytes",
+              "name": "response",
+              "type": "bytes",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "RunPlugin",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "target",
+              "type": "address"
+            },
+            {
+              "internalType": "bytes",
+              "name": "data",
+              "type": "bytes"
+            }
+          ],
+          "stateMutability": "payable",
+          "type": "function",
+          "name": "execute",
+          "outputs": [
+            {
+              "internalType": "bytes",
+              "name": "response",
+              "type": "bytes"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "owner",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "registry",
+          "outputs": [
+            {
+              "internalType": "contract IPRBProxyRegistry",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "execute(address,bytes)": {
+            "details": "Emits an {Execute} event. Requirements: - The caller must be either the owner or an envoy with permission. - `target` must be a contract.",
+            "params": {
+              "data": "Function selector plus ABI encoded data.",
+              "target": "The address of the target contract."
+            },
+            "returns": {
+              "response": "The response received from the target contract, if any."
+            }
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {
+          "execute(address,bytes)": {
+            "notice": "Delegate calls to the provided target contract by forwarding the data. It returns the data it gets back, and bubbles up any potential revert."
+          },
+          "owner()": {
+            "notice": "The address of the owner account or contract, which controls the proxy."
+          },
+          "registry()": {
+            "notice": "The address of the registry that has deployed this proxy."
+          }
+        },
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/=node_modules/@openzeppelin/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+        "forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/",
+        "forge-std/=lib/forge-std/src/",
+        "hardhat-deploy/=node_modules/hardhat-deploy/",
+        "hardhat/=node_modules/hardhat/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        "openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "permit2/=lib/permit2/src/",
+        "prb-proxy/=lib/prb-proxy/src/",
+        "prb-test/=lib/prb-proxy/lib/prb-test/src/",
+        "solmate/=lib/permit2/lib/solmate/src/",
+        "lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 100
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "lib/prb-proxy/src/interfaces/IPRBProxy.sol": "IPRBProxy"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/prb-proxy/src/interfaces/IPRBProxy.sol": {
+        "keccak256": "0x3acec1c08296ef7f81902a7b6b883a70be6923c259af27ded37b43cd33d8663e",
+        "urls": [
+          "bzz-raw://6f5fb1345605398e99ac334d27043bea6adf4242868b6a9f274623f8c1ff754a",
+          "dweb:/ipfs/QmfXVKyH3ctiC8YrKjCLRiehVpgAMY6GiKrpAvVn1CduQ6"
+        ],
+        "license": "MIT"
+      },
+      "lib/prb-proxy/src/interfaces/IPRBProxyPlugin.sol": {
+        "keccak256": "0x6e0ce4998cd104b2cde36cdd3e0e07fb200f606e82a98cb25b1302ac0d969714",
+        "urls": [
+          "bzz-raw://baeb01d83a07b81412341a9899d6048426b6aec72d06c88271bf7c261e2dea88",
+          "dweb:/ipfs/QmTkUVmRzpxuf8SvLpm2TKE2AcJ7KL7gVMKRYJ9apCLVM1"
+        ],
+        "license": "MIT"
+      },
+      "lib/prb-proxy/src/interfaces/IPRBProxyRegistry.sol": {
+        "keccak256": "0x3dc040a25929144a7d88710d82f94448fcc40367c6175345b14b0ae36189aa59",
+        "urls": [
+          "bzz-raw://2a9b01bb4b8605ac28451b9dea628228d6f4b17641e29b00cc4d40acb10d15ce",
+          "dweb:/ipfs/Qmbfz7THunKGVtX6VCyiXiGoGLeAbh3fk5MWj8cyn1Vamt"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "lib/prb-proxy/src/interfaces/IPRBProxy.sol",
+    "id": 40457,
+    "exportedSymbols": {
+      "IPRBProxy": [
+        40456
+      ],
+      "IPRBProxyPlugin": [
+        40467
+      ],
+      "IPRBProxyRegistry": [
+        40743
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:3139:83",
+    "nodes": [
+      {
+        "id": 40376,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:83",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".4"
+        ]
+      },
+      {
+        "id": 40378,
+        "nodeType": "ImportDirective",
+        "src": "58:56:83",
+        "nodes": [],
+        "absolutePath": "lib/prb-proxy/src/interfaces/IPRBProxyPlugin.sol",
+        "file": "./IPRBProxyPlugin.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 40457,
+        "sourceUnit": 40468,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 40377,
+              "name": "IPRBProxyPlugin",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 40467,
+              "src": "67:15:83",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 40380,
+        "nodeType": "ImportDirective",
+        "src": "115:60:83",
+        "nodes": [],
+        "absolutePath": "lib/prb-proxy/src/interfaces/IPRBProxyRegistry.sol",
+        "file": "./IPRBProxyRegistry.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 40457,
+        "sourceUnit": 40744,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 40379,
+              "name": "IPRBProxyRegistry",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 40743,
+              "src": "124:17:83",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 40456,
+        "nodeType": "ContractDefinition",
+        "src": "273:2897:83",
+        "nodes": [
+          {
+            "id": 40384,
+            "nodeType": "ErrorDefinition",
+            "src": "590:35:83",
+            "nodes": [],
+            "documentation": {
+              "id": 40382,
+              "nodeType": "StructuredDocumentation",
+              "src": "508:77:83",
+              "text": "@notice Thrown when a target contract reverts without a specified reason."
+            },
+            "errorSelector": "61a160d0",
+            "name": "PRBProxy_ExecutionReverted",
+            "nameLocation": "596:26:83",
+            "parameters": {
+              "id": 40383,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "622:2:83"
+            }
+          },
+          {
+            "id": 40393,
+            "nodeType": "ErrorDefinition",
+            "src": "717:84:83",
+            "nodes": [],
+            "documentation": {
+              "id": 40385,
+              "nodeType": "StructuredDocumentation",
+              "src": "631:81:83",
+              "text": "@notice Thrown when an unauthorized account tries to execute a delegate call."
+            },
+            "errorSelector": "55d17509",
+            "name": "PRBProxy_ExecutionUnauthorized",
+            "nameLocation": "723:30:83",
+            "parameters": {
+              "id": 40392,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 40387,
+                  "mutability": "mutable",
+                  "name": "owner",
+                  "nameLocation": "762:5:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40393,
+                  "src": "754:13:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 40386,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "754:7:83",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 40389,
+                  "mutability": "mutable",
+                  "name": "caller",
+                  "nameLocation": "777:6:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40393,
+                  "src": "769:14:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 40388,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "769:7:83",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 40391,
+                  "mutability": "mutable",
+                  "name": "target",
+                  "nameLocation": "793:6:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40393,
+                  "src": "785:14:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 40390,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "785:7:83",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "753:47:83"
+            }
+          },
+          {
+            "id": 40402,
+            "nodeType": "ErrorDefinition",
+            "src": "916:89:83",
+            "nodes": [],
+            "documentation": {
+              "id": 40394,
+              "nodeType": "StructuredDocumentation",
+              "src": "807:104:83",
+              "text": "@notice Thrown when the fallback function fails to find an installed plugin for the method selector."
+            },
+            "errorSelector": "8848730f",
+            "name": "PRBProxy_PluginNotInstalledForMethod",
+            "nameLocation": "922:36:83",
+            "parameters": {
+              "id": 40401,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 40396,
+                  "mutability": "mutable",
+                  "name": "caller",
+                  "nameLocation": "967:6:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40402,
+                  "src": "959:14:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 40395,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "959:7:83",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 40398,
+                  "mutability": "mutable",
+                  "name": "owner",
+                  "nameLocation": "983:5:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40402,
+                  "src": "975:13:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 40397,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "975:7:83",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 40400,
+                  "mutability": "mutable",
+                  "name": "method",
+                  "nameLocation": "997:6:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40402,
+                  "src": "990:13:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes4",
+                    "typeString": "bytes4"
+                  },
+                  "typeName": {
+                    "id": 40399,
+                    "name": "bytes4",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "990:6:83",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "958:46:83"
+            }
+          },
+          {
+            "id": 40408,
+            "nodeType": "ErrorDefinition",
+            "src": "1094:54:83",
+            "nodes": [],
+            "documentation": {
+              "id": 40403,
+              "nodeType": "StructuredDocumentation",
+              "src": "1011:78:83",
+              "text": "@notice Thrown when a plugin execution reverts without a specified reason."
+            },
+            "errorSelector": "08f01174",
+            "name": "PRBProxy_PluginReverted",
+            "nameLocation": "1100:23:83",
+            "parameters": {
+              "id": 40407,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 40406,
+                  "mutability": "mutable",
+                  "name": "plugin",
+                  "nameLocation": "1140:6:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40408,
+                  "src": "1124:22:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_IPRBProxyPlugin_$40467",
+                    "typeString": "contract IPRBProxyPlugin"
+                  },
+                  "typeName": {
+                    "id": 40405,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 40404,
+                      "name": "IPRBProxyPlugin",
+                      "nameLocations": [
+                        "1124:15:83"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 40467,
+                      "src": "1124:15:83"
+                    },
+                    "referencedDeclaration": 40467,
+                    "src": "1124:15:83",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_IPRBProxyPlugin_$40467",
+                      "typeString": "contract IPRBProxyPlugin"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1123:24:83"
+            }
+          },
+          {
+            "id": 40413,
+            "nodeType": "ErrorDefinition",
+            "src": "1230:49:83",
+            "nodes": [],
+            "documentation": {
+              "id": 40409,
+              "nodeType": "StructuredDocumentation",
+              "src": "1154:71:83",
+              "text": "@notice Thrown when a non-contract address is passed as the target."
+            },
+            "errorSelector": "da2fcbde",
+            "name": "PRBProxy_TargetNotContract",
+            "nameLocation": "1236:26:83",
+            "parameters": {
+              "id": 40412,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 40411,
+                  "mutability": "mutable",
+                  "name": "target",
+                  "nameLocation": "1271:6:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40413,
+                  "src": "1263:14:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 40410,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1263:7:83",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1262:16:83"
+            }
+          },
+          {
+            "id": 40422,
+            "nodeType": "EventDefinition",
+            "src": "1561:66:83",
+            "nodes": [],
+            "anonymous": false,
+            "documentation": {
+              "id": 40414,
+              "nodeType": "StructuredDocumentation",
+              "src": "1494:62:83",
+              "text": "@notice Emitted when a target contract is delegate called."
+            },
+            "eventSelector": "b24ebe141c5f2a744b103bea65fce6c40e0dc65d7341d092c09b160f40447990",
+            "name": "Execute",
+            "nameLocation": "1567:7:83",
+            "parameters": {
+              "id": 40421,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 40416,
+                  "indexed": true,
+                  "mutability": "mutable",
+                  "name": "target",
+                  "nameLocation": "1591:6:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40422,
+                  "src": "1575:22:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 40415,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1575:7:83",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 40418,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "data",
+                  "nameLocation": "1605:4:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40422,
+                  "src": "1599:10:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 40417,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1599:5:83",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 40420,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "response",
+                  "nameLocation": "1617:8:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40422,
+                  "src": "1611:14:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 40419,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1611:5:83",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1574:52:83"
+            }
+          },
+          {
+            "id": 40432,
+            "nodeType": "EventDefinition",
+            "src": "1701:76:83",
+            "nodes": [],
+            "anonymous": false,
+            "documentation": {
+              "id": 40423,
+              "nodeType": "StructuredDocumentation",
+              "src": "1633:63:83",
+              "text": "@notice Emitted when a plugin is run for a provided method."
+            },
+            "eventSelector": "c4dabe0d7ef7462e2218f2c398c21ef217803e1c46f5cf802d1a5d1d9b503f2f",
+            "name": "RunPlugin",
+            "nameLocation": "1707:9:83",
+            "parameters": {
+              "id": 40431,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 40426,
+                  "indexed": true,
+                  "mutability": "mutable",
+                  "name": "plugin",
+                  "nameLocation": "1741:6:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40432,
+                  "src": "1717:30:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_IPRBProxyPlugin_$40467",
+                    "typeString": "contract IPRBProxyPlugin"
+                  },
+                  "typeName": {
+                    "id": 40425,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 40424,
+                      "name": "IPRBProxyPlugin",
+                      "nameLocations": [
+                        "1717:15:83"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 40467,
+                      "src": "1717:15:83"
+                    },
+                    "referencedDeclaration": 40467,
+                    "src": "1717:15:83",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_IPRBProxyPlugin_$40467",
+                      "typeString": "contract IPRBProxyPlugin"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 40428,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "data",
+                  "nameLocation": "1755:4:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40432,
+                  "src": "1749:10:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 40427,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1749:5:83",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 40430,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "response",
+                  "nameLocation": "1767:8:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40432,
+                  "src": "1761:14:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 40429,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1761:5:83",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1716:60:83"
+            }
+          },
+          {
+            "id": 40438,
+            "nodeType": "FunctionDefinition",
+            "src": "2086:49:83",
+            "nodes": [],
+            "documentation": {
+              "id": 40433,
+              "nodeType": "StructuredDocumentation",
+              "src": "1998:83:83",
+              "text": "@notice The address of the owner account or contract, which controls the proxy."
+            },
+            "functionSelector": "8da5cb5b",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "owner",
+            "nameLocation": "2095:5:83",
+            "parameters": {
+              "id": 40434,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2100:2:83"
+            },
+            "returnParameters": {
+              "id": 40437,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 40436,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40438,
+                  "src": "2126:7:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 40435,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2126:7:83",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2125:9:83"
+            },
+            "scope": 40456,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 40445,
+            "nodeType": "FunctionDefinition",
+            "src": "2215:62:83",
+            "nodes": [],
+            "documentation": {
+              "id": 40439,
+              "nodeType": "StructuredDocumentation",
+              "src": "2141:69:83",
+              "text": "@notice The address of the registry that has deployed this proxy."
+            },
+            "functionSelector": "7b103999",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "registry",
+            "nameLocation": "2224:8:83",
+            "parameters": {
+              "id": 40440,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2232:2:83"
+            },
+            "returnParameters": {
+              "id": 40444,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 40443,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40445,
+                  "src": "2258:17:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_IPRBProxyRegistry_$40743",
+                    "typeString": "contract IPRBProxyRegistry"
+                  },
+                  "typeName": {
+                    "id": 40442,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 40441,
+                      "name": "IPRBProxyRegistry",
+                      "nameLocations": [
+                        "2258:17:83"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 40743,
+                      "src": "2258:17:83"
+                    },
+                    "referencedDeclaration": 40743,
+                    "src": "2258:17:83",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_IPRBProxyRegistry_$40743",
+                      "typeString": "contract IPRBProxyRegistry"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2257:19:83"
+            },
+            "scope": 40456,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 40455,
+            "nodeType": "FunctionDefinition",
+            "src": "3065:103:83",
+            "nodes": [],
+            "documentation": {
+              "id": 40446,
+              "nodeType": "StructuredDocumentation",
+              "src": "2500:560:83",
+              "text": "@notice Delegate calls to the provided target contract by forwarding the data. It returns the data it\n gets back, and bubbles up any potential revert.\n @dev Emits an {Execute} event.\n Requirements:\n - The caller must be either the owner or an envoy with permission.\n - `target` must be a contract.\n @param target The address of the target contract.\n @param data Function selector plus ABI encoded data.\n @return response The response received from the target contract, if any."
+            },
+            "functionSelector": "1cff79cd",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "execute",
+            "nameLocation": "3074:7:83",
+            "parameters": {
+              "id": 40451,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 40448,
+                  "mutability": "mutable",
+                  "name": "target",
+                  "nameLocation": "3090:6:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40455,
+                  "src": "3082:14:83",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 40447,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3082:7:83",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 40450,
+                  "mutability": "mutable",
+                  "name": "data",
+                  "nameLocation": "3113:4:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40455,
+                  "src": "3098:19:83",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 40449,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3098:5:83",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3081:37:83"
+            },
+            "returnParameters": {
+              "id": 40454,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 40453,
+                  "mutability": "mutable",
+                  "name": "response",
+                  "nameLocation": "3158:8:83",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40455,
+                  "src": "3145:21:83",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 40452,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3145:5:83",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3144:23:83"
+            },
+            "scope": 40456,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IPRBProxy",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 40381,
+          "nodeType": "StructuredDocumentation",
+          "src": "177:96:83",
+          "text": "@title IPRBProxy\n @notice Proxy contract to compose transactions on behalf of the owner."
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          40456
+        ],
+        "name": "IPRBProxy",
+        "nameLocation": "283:9:83",
+        "scope": 40457,
+        "usedErrors": [
+          40384,
+          40393,
+          40402,
+          40408,
+          40413
+        ]
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 83
+}

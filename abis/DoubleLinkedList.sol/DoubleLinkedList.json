@@ -1,0 +1,3594 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "IdIsZero",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ItemInList",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ItemNotInList",
+      "type": "error"
+    }
+  ],
+  "bytecode": {
+    "object": "0x60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220867cb085d9523b33916eeea2bc2d6d7d1af4b23bfbd7d50b7eed8170a505cc6164736f6c63430008130033",
+    "sourceMap": "248:4142:170:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;248:4142:170;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220867cb085d9523b33916eeea2bc2d6d7d1af4b23bfbd7d50b7eed8170a505cc6164736f6c63430008130033",
+    "sourceMap": "248:4142:170:-:0;;;;;;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"IdIsZero\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"ItemInList\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"ItemNotInList\",\"type\":\"error\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"title\":\"DoubleLinkedList\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Implements a double linked list where the head is defined as the null item's next pointer and the tail is defined as the null item's prev pointer\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/utils/DoubleLinkedList.sol\":\"DoubleLinkedList\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/src/\",\"lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/\"]},\"sources\":{\"src/utils/DoubleLinkedList.sol\":{\"keccak256\":\"0xb9ab1eb6864f624f7d652c58386335f104a450a75b6dd19179b9fa1ad8637691\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4a0d6e4ddf26a4af573bd782ffdb99801557ef16ad64372ef0486d0dd6b832cb\",\"dweb:/ipfs/QmcMgm9QS5qeLnVKLshEuFoyicuqLaJ5imphpfbPK3J7EC\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "IdIsZero"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "ItemInList"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "ItemNotInList"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/=node_modules/@openzeppelin/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+        "forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/",
+        "forge-std/=lib/forge-std/src/",
+        "hardhat-deploy/=node_modules/hardhat-deploy/",
+        "hardhat/=node_modules/hardhat/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        "openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "permit2/=lib/permit2/src/",
+        "prb-proxy/=lib/prb-proxy/src/",
+        "prb-test/=lib/prb-proxy/lib/prb-test/src/",
+        "solmate/=lib/permit2/lib/solmate/src/",
+        "lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 100
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/utils/DoubleLinkedList.sol": "DoubleLinkedList"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/utils/DoubleLinkedList.sol": {
+        "keccak256": "0xb9ab1eb6864f624f7d652c58386335f104a450a75b6dd19179b9fa1ad8637691",
+        "urls": [
+          "bzz-raw://4a0d6e4ddf26a4af573bd782ffdb99801557ef16ad64372ef0486d0dd6b832cb",
+          "dweb:/ipfs/QmcMgm9QS5qeLnVKLshEuFoyicuqLaJ5imphpfbPK3J7EC"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/utils/DoubleLinkedList.sol",
+    "id": 131172,
+    "exportedSymbols": {
+      "DoubleLinkedList": [
+        131171
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:4359:170",
+    "nodes": [
+      {
+        "id": 130887,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:170",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".19"
+        ]
+      },
+      {
+        "id": 131171,
+        "nodeType": "ContractDefinition",
+        "src": "248:4142:170",
+        "nodes": [
+          {
+            "id": 130893,
+            "nodeType": "StructDefinition",
+            "src": "459:63:170",
+            "nodes": [],
+            "canonicalName": "DoubleLinkedList.Item",
+            "members": [
+              {
+                "constant": false,
+                "id": 130890,
+                "mutability": "mutable",
+                "name": "prev",
+                "nameLocation": "489:4:170",
+                "nodeType": "VariableDeclaration",
+                "scope": 130893,
+                "src": "481:12:170",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 130889,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "481:7:170",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 130892,
+                "mutability": "mutable",
+                "name": "next",
+                "nameLocation": "511:4:170",
+                "nodeType": "VariableDeclaration",
+                "scope": 130893,
+                "src": "503:12:170",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 130891,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "503:7:170",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Item",
+            "nameLocation": "466:4:170",
+            "scope": 131171,
+            "visibility": "public"
+          },
+          {
+            "id": 130899,
+            "nodeType": "StructDefinition",
+            "src": "528:59:170",
+            "nodes": [],
+            "canonicalName": "DoubleLinkedList.List",
+            "members": [
+              {
+                "constant": false,
+                "id": 130898,
+                "mutability": "mutable",
+                "name": "items",
+                "nameLocation": "575:5:170",
+                "nodeType": "VariableDeclaration",
+                "scope": 130899,
+                "src": "550:30:170",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                  "typeString": "mapping(uint256 => struct DoubleLinkedList.Item)"
+                },
+                "typeName": {
+                  "id": 130897,
+                  "keyName": "",
+                  "keyNameLocation": "-1:-1:-1",
+                  "keyType": {
+                    "id": 130894,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "558:7:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "nodeType": "Mapping",
+                  "src": "550:24:170",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                    "typeString": "mapping(uint256 => struct DoubleLinkedList.Item)"
+                  },
+                  "valueName": "",
+                  "valueNameLocation": "-1:-1:-1",
+                  "valueType": {
+                    "id": 130896,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 130895,
+                      "name": "Item",
+                      "nameLocations": [
+                        "569:4:170"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 130893,
+                      "src": "569:4:170"
+                    },
+                    "referencedDeclaration": 130893,
+                    "src": "569:4:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Item_$130893_storage_ptr",
+                      "typeString": "struct DoubleLinkedList.Item"
+                    }
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "List",
+            "nameLocation": "535:4:170",
+            "scope": 131171,
+            "visibility": "public"
+          },
+          {
+            "id": 130901,
+            "nodeType": "ErrorDefinition",
+            "src": "772:17:170",
+            "nodes": [],
+            "errorSelector": "ee7efd57",
+            "name": "IdIsZero",
+            "nameLocation": "778:8:170",
+            "parameters": {
+              "id": 130900,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "786:2:170"
+            }
+          },
+          {
+            "id": 130903,
+            "nodeType": "ErrorDefinition",
+            "src": "794:22:170",
+            "nodes": [],
+            "errorSelector": "ac9c4cae",
+            "name": "ItemNotInList",
+            "nameLocation": "800:13:170",
+            "parameters": {
+              "id": 130902,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "813:2:170"
+            }
+          },
+          {
+            "id": 130905,
+            "nodeType": "ErrorDefinition",
+            "src": "821:19:170",
+            "nodes": [],
+            "errorSelector": "3c57789e",
+            "name": "ItemInList",
+            "nameLocation": "827:10:170",
+            "parameters": {
+              "id": 130904,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "837:2:170"
+            }
+          },
+          {
+            "id": 130921,
+            "nodeType": "FunctionDefinition",
+            "src": "1191:110:170",
+            "nodes": [],
+            "body": {
+              "id": 130920,
+              "nodeType": "Block",
+              "src": "1259:42:170",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "expression": {
+                      "baseExpression": {
+                        "expression": {
+                          "id": 130914,
+                          "name": "list",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 130909,
+                          "src": "1276:4:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                            "typeString": "struct DoubleLinkedList.List storage pointer"
+                          }
+                        },
+                        "id": 130915,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "1281:5:170",
+                        "memberName": "items",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 130898,
+                        "src": "1276:10:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                          "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                        }
+                      },
+                      "id": 130917,
+                      "indexExpression": {
+                        "hexValue": "30",
+                        "id": 130916,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1287:1:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        },
+                        "value": "0"
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "1276:13:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Item_$130893_storage",
+                        "typeString": "struct DoubleLinkedList.Item storage ref"
+                      }
+                    },
+                    "id": 130918,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberLocation": "1290:4:170",
+                    "memberName": "next",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": 130892,
+                    "src": "1276:18:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 130913,
+                  "id": 130919,
+                  "nodeType": "Return",
+                  "src": "1269:25:170"
+                }
+              ]
+            },
+            "documentation": {
+              "id": 130906,
+              "nodeType": "StructuredDocumentation",
+              "src": "1027:159:170",
+              "text": "@notice Returns the head item id of the list if the `id` is 0\n @param list Linked list which contains the item\n @return _ Id of the head item"
+            },
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getHead",
+            "nameLocation": "1200:7:170",
+            "parameters": {
+              "id": 130910,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 130909,
+                  "mutability": "mutable",
+                  "name": "list",
+                  "nameLocation": "1221:4:170",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 130921,
+                  "src": "1208:17:170",
+                  "stateVariable": false,
+                  "storageLocation": "storage",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                    "typeString": "struct DoubleLinkedList.List"
+                  },
+                  "typeName": {
+                    "id": 130908,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 130907,
+                      "name": "List",
+                      "nameLocations": [
+                        "1208:4:170"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 130899,
+                      "src": "1208:4:170"
+                    },
+                    "referencedDeclaration": 130899,
+                    "src": "1208:4:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                      "typeString": "struct DoubleLinkedList.List"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1207:19:170"
+            },
+            "returnParameters": {
+              "id": 130913,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 130912,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 130921,
+                  "src": "1250:7:170",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 130911,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1250:7:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1249:9:170"
+            },
+            "scope": 131171,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "internal"
+          },
+          {
+            "id": 130937,
+            "nodeType": "FunctionDefinition",
+            "src": "1454:110:170",
+            "nodes": [],
+            "body": {
+              "id": 130936,
+              "nodeType": "Block",
+              "src": "1522:42:170",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "expression": {
+                      "baseExpression": {
+                        "expression": {
+                          "id": 130930,
+                          "name": "list",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 130925,
+                          "src": "1539:4:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                            "typeString": "struct DoubleLinkedList.List storage pointer"
+                          }
+                        },
+                        "id": 130931,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "1544:5:170",
+                        "memberName": "items",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 130898,
+                        "src": "1539:10:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                          "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                        }
+                      },
+                      "id": 130933,
+                      "indexExpression": {
+                        "hexValue": "30",
+                        "id": 130932,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1550:1:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        },
+                        "value": "0"
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "1539:13:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Item_$130893_storage",
+                        "typeString": "struct DoubleLinkedList.Item storage ref"
+                      }
+                    },
+                    "id": 130934,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberLocation": "1553:4:170",
+                    "memberName": "prev",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": 130890,
+                    "src": "1539:18:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 130929,
+                  "id": 130935,
+                  "nodeType": "Return",
+                  "src": "1532:25:170"
+                }
+              ]
+            },
+            "documentation": {
+              "id": 130922,
+              "nodeType": "StructuredDocumentation",
+              "src": "1307:142:170",
+              "text": "@notice Returns the tail item id of the list\n @param list Linked list which contains the item\n @return _ Id of the tail item"
+            },
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getTail",
+            "nameLocation": "1463:7:170",
+            "parameters": {
+              "id": 130926,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 130925,
+                  "mutability": "mutable",
+                  "name": "list",
+                  "nameLocation": "1484:4:170",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 130937,
+                  "src": "1471:17:170",
+                  "stateVariable": false,
+                  "storageLocation": "storage",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                    "typeString": "struct DoubleLinkedList.List"
+                  },
+                  "typeName": {
+                    "id": 130924,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 130923,
+                      "name": "List",
+                      "nameLocations": [
+                        "1471:4:170"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 130899,
+                      "src": "1471:4:170"
+                    },
+                    "referencedDeclaration": 130899,
+                    "src": "1471:4:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                      "typeString": "struct DoubleLinkedList.List"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1470:19:170"
+            },
+            "returnParameters": {
+              "id": 130929,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 130928,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 130937,
+                  "src": "1513:7:170",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 130927,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1513:7:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1512:9:170"
+            },
+            "scope": 131171,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "internal"
+          },
+          {
+            "id": 130955,
+            "nodeType": "FunctionDefinition",
+            "src": "1837:123:170",
+            "nodes": [],
+            "body": {
+              "id": 130954,
+              "nodeType": "Block",
+              "src": "1917:43:170",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "expression": {
+                      "baseExpression": {
+                        "expression": {
+                          "id": 130948,
+                          "name": "list",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 130941,
+                          "src": "1934:4:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                            "typeString": "struct DoubleLinkedList.List storage pointer"
+                          }
+                        },
+                        "id": 130949,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "1939:5:170",
+                        "memberName": "items",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 130898,
+                        "src": "1934:10:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                          "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                        }
+                      },
+                      "id": 130951,
+                      "indexExpression": {
+                        "id": 130950,
+                        "name": "id",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 130943,
+                        "src": "1945:2:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "1934:14:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Item_$130893_storage",
+                        "typeString": "struct DoubleLinkedList.Item storage ref"
+                      }
+                    },
+                    "id": 130952,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberLocation": "1949:4:170",
+                    "memberName": "next",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": 130892,
+                    "src": "1934:19:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 130947,
+                  "id": 130953,
+                  "nodeType": "Return",
+                  "src": "1927:26:170"
+                }
+              ]
+            },
+            "documentation": {
+              "id": 130938,
+              "nodeType": "StructuredDocumentation",
+              "src": "1570:262:170",
+              "text": "@notice Returns the item id which follows item `id`. Returns the head item id of the list if the `id` is 0.\n @param list Linked list which contains the items\n @param id Id of the current item\n @return _ Id of the current item's next item"
+            },
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNext",
+            "nameLocation": "1846:7:170",
+            "parameters": {
+              "id": 130944,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 130941,
+                  "mutability": "mutable",
+                  "name": "list",
+                  "nameLocation": "1867:4:170",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 130955,
+                  "src": "1854:17:170",
+                  "stateVariable": false,
+                  "storageLocation": "storage",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                    "typeString": "struct DoubleLinkedList.List"
+                  },
+                  "typeName": {
+                    "id": 130940,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 130939,
+                      "name": "List",
+                      "nameLocations": [
+                        "1854:4:170"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 130899,
+                      "src": "1854:4:170"
+                    },
+                    "referencedDeclaration": 130899,
+                    "src": "1854:4:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                      "typeString": "struct DoubleLinkedList.List"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 130943,
+                  "mutability": "mutable",
+                  "name": "id",
+                  "nameLocation": "1881:2:170",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 130955,
+                  "src": "1873:10:170",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 130942,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1873:7:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1853:31:170"
+            },
+            "returnParameters": {
+              "id": 130947,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 130946,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 130955,
+                  "src": "1908:7:170",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 130945,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1908:7:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1907:9:170"
+            },
+            "scope": 131171,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "internal"
+          },
+          {
+            "id": 130973,
+            "nodeType": "FunctionDefinition",
+            "src": "2238:123:170",
+            "nodes": [],
+            "body": {
+              "id": 130972,
+              "nodeType": "Block",
+              "src": "2318:43:170",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "expression": {
+                      "baseExpression": {
+                        "expression": {
+                          "id": 130966,
+                          "name": "list",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 130959,
+                          "src": "2335:4:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                            "typeString": "struct DoubleLinkedList.List storage pointer"
+                          }
+                        },
+                        "id": 130967,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "2340:5:170",
+                        "memberName": "items",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 130898,
+                        "src": "2335:10:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                          "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                        }
+                      },
+                      "id": 130969,
+                      "indexExpression": {
+                        "id": 130968,
+                        "name": "id",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 130961,
+                        "src": "2346:2:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "2335:14:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Item_$130893_storage",
+                        "typeString": "struct DoubleLinkedList.Item storage ref"
+                      }
+                    },
+                    "id": 130970,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberLocation": "2350:4:170",
+                    "memberName": "prev",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": 130890,
+                    "src": "2335:19:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 130965,
+                  "id": 130971,
+                  "nodeType": "Return",
+                  "src": "2328:26:170"
+                }
+              ]
+            },
+            "documentation": {
+              "id": 130956,
+              "nodeType": "StructuredDocumentation",
+              "src": "1966:267:170",
+              "text": "@notice Returns the item id which precedes item `id`. Returns the tail item id of the list if the `id` is 0.\n @param list Linked list which contains the items\n @param id Id of the current item\n @return _ Id of the current item's previous item"
+            },
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getPrev",
+            "nameLocation": "2247:7:170",
+            "parameters": {
+              "id": 130962,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 130959,
+                  "mutability": "mutable",
+                  "name": "list",
+                  "nameLocation": "2268:4:170",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 130973,
+                  "src": "2255:17:170",
+                  "stateVariable": false,
+                  "storageLocation": "storage",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                    "typeString": "struct DoubleLinkedList.List"
+                  },
+                  "typeName": {
+                    "id": 130958,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 130957,
+                      "name": "List",
+                      "nameLocations": [
+                        "2255:4:170"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 130899,
+                      "src": "2255:4:170"
+                    },
+                    "referencedDeclaration": 130899,
+                    "src": "2255:4:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                      "typeString": "struct DoubleLinkedList.List"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 130961,
+                  "mutability": "mutable",
+                  "name": "id",
+                  "nameLocation": "2282:2:170",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 130973,
+                  "src": "2274:10:170",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 130960,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2274:7:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2254:31:170"
+            },
+            "returnParameters": {
+              "id": 130965,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 130964,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 130973,
+                  "src": "2309:7:170",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 130963,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2309:7:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2308:9:170"
+            },
+            "scope": 131171,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "internal"
+          },
+          {
+            "id": 131017,
+            "nodeType": "FunctionDefinition",
+            "src": "2601:224:170",
+            "nodes": [],
+            "body": {
+              "id": 131016,
+              "nodeType": "Block",
+              "src": "2679:146:170",
+              "nodes": [],
+              "statements": [
+                {
+                  "condition": {
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 130986,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "id": 130984,
+                      "name": "id",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 130979,
+                      "src": "2693:2:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "hexValue": "30",
+                      "id": 130985,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "2699:1:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_0_by_1",
+                        "typeString": "int_const 0"
+                      },
+                      "value": "0"
+                    },
+                    "src": "2693:7:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 130990,
+                  "nodeType": "IfStatement",
+                  "src": "2689:30:170",
+                  "trueBody": {
+                    "errorCall": {
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 130987,
+                        "name": "IdIsZero",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 130901,
+                        "src": "2709:8:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_error_pure$__$returns$__$",
+                          "typeString": "function () pure"
+                        }
+                      },
+                      "id": 130988,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "2709:10:170",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_tuple$__$",
+                        "typeString": "tuple()"
+                      }
+                    },
+                    "id": 130989,
+                    "nodeType": "RevertStatement",
+                    "src": "2702:17:170"
+                  }
+                },
+                {
+                  "expression": {
+                    "components": [
+                      {
+                        "commonType": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        "id": 131013,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "commonType": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          },
+                          "id": 131005,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "commonType": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            },
+                            "id": 130997,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "leftExpression": {
+                              "expression": {
+                                "baseExpression": {
+                                  "expression": {
+                                    "id": 130991,
+                                    "name": "list",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 130977,
+                                    "src": "2737:4:170",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                                      "typeString": "struct DoubleLinkedList.List storage pointer"
+                                    }
+                                  },
+                                  "id": 130992,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "memberLocation": "2742:5:170",
+                                  "memberName": "items",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": 130898,
+                                  "src": "2737:10:170",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                                    "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                                  }
+                                },
+                                "id": 130994,
+                                "indexExpression": {
+                                  "id": 130993,
+                                  "name": "id",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 130979,
+                                  "src": "2748:2:170",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  }
+                                },
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "nodeType": "IndexAccess",
+                                "src": "2737:14:170",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_struct$_Item_$130893_storage",
+                                  "typeString": "struct DoubleLinkedList.Item storage ref"
+                                }
+                              },
+                              "id": 130995,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberLocation": "2752:4:170",
+                              "memberName": "prev",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 130890,
+                              "src": "2737:19:170",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "nodeType": "BinaryOperation",
+                            "operator": "!=",
+                            "rightExpression": {
+                              "hexValue": "30",
+                              "id": 130996,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "kind": "number",
+                              "lValueRequested": false,
+                              "nodeType": "Literal",
+                              "src": "2760:1:170",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_rational_0_by_1",
+                                "typeString": "int_const 0"
+                              },
+                              "value": "0"
+                            },
+                            "src": "2737:24:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bool",
+                              "typeString": "bool"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "||",
+                          "rightExpression": {
+                            "commonType": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            },
+                            "id": 131004,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "leftExpression": {
+                              "expression": {
+                                "baseExpression": {
+                                  "expression": {
+                                    "id": 130998,
+                                    "name": "list",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 130977,
+                                    "src": "2765:4:170",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                                      "typeString": "struct DoubleLinkedList.List storage pointer"
+                                    }
+                                  },
+                                  "id": 130999,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "memberLocation": "2770:5:170",
+                                  "memberName": "items",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": 130898,
+                                  "src": "2765:10:170",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                                    "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                                  }
+                                },
+                                "id": 131001,
+                                "indexExpression": {
+                                  "id": 131000,
+                                  "name": "id",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 130979,
+                                  "src": "2776:2:170",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  }
+                                },
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "nodeType": "IndexAccess",
+                                "src": "2765:14:170",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_struct$_Item_$130893_storage",
+                                  "typeString": "struct DoubleLinkedList.Item storage ref"
+                                }
+                              },
+                              "id": 131002,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberLocation": "2780:4:170",
+                              "memberName": "next",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 130892,
+                              "src": "2765:19:170",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "nodeType": "BinaryOperation",
+                            "operator": "!=",
+                            "rightExpression": {
+                              "hexValue": "30",
+                              "id": 131003,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "kind": "number",
+                              "lValueRequested": false,
+                              "nodeType": "Literal",
+                              "src": "2788:1:170",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_rational_0_by_1",
+                                "typeString": "int_const 0"
+                              },
+                              "value": "0"
+                            },
+                            "src": "2765:24:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bool",
+                              "typeString": "bool"
+                            }
+                          },
+                          "src": "2737:52:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "||",
+                        "rightExpression": {
+                          "commonType": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          },
+                          "id": 131012,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "expression": {
+                              "baseExpression": {
+                                "expression": {
+                                  "id": 131006,
+                                  "name": "list",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 130977,
+                                  "src": "2793:4:170",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                                    "typeString": "struct DoubleLinkedList.List storage pointer"
+                                  }
+                                },
+                                "id": 131007,
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberLocation": "2798:5:170",
+                                "memberName": "items",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 130898,
+                                "src": "2793:10:170",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                                  "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                                }
+                              },
+                              "id": 131009,
+                              "indexExpression": {
+                                "hexValue": "30",
+                                "id": 131008,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": true,
+                                "kind": "number",
+                                "lValueRequested": false,
+                                "nodeType": "Literal",
+                                "src": "2804:1:170",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_rational_0_by_1",
+                                  "typeString": "int_const 0"
+                                },
+                                "value": "0"
+                              },
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "nodeType": "IndexAccess",
+                              "src": "2793:13:170",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_Item_$130893_storage",
+                                "typeString": "struct DoubleLinkedList.Item storage ref"
+                              }
+                            },
+                            "id": 131010,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberLocation": "2807:4:170",
+                            "memberName": "next",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 130892,
+                            "src": "2793:18:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "==",
+                          "rightExpression": {
+                            "id": 131011,
+                            "name": "id",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 130979,
+                            "src": "2815:2:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "src": "2793:24:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        },
+                        "src": "2737:80:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "id": 131014,
+                    "isConstant": false,
+                    "isInlineArray": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "TupleExpression",
+                    "src": "2736:82:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 130983,
+                  "id": 131015,
+                  "nodeType": "Return",
+                  "src": "2729:89:170"
+                }
+              ]
+            },
+            "documentation": {
+              "id": 130974,
+              "nodeType": "StructuredDocumentation",
+              "src": "2367:229:170",
+              "text": "@notice Returns whether the list contains item `id`\n @param list Linked list which should contain the item\n @param id Id of the item to check\n @return _ True if the list contains the item, false otherwise"
+            },
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "contains",
+            "nameLocation": "2610:8:170",
+            "parameters": {
+              "id": 130980,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 130977,
+                  "mutability": "mutable",
+                  "name": "list",
+                  "nameLocation": "2632:4:170",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 131017,
+                  "src": "2619:17:170",
+                  "stateVariable": false,
+                  "storageLocation": "storage",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                    "typeString": "struct DoubleLinkedList.List"
+                  },
+                  "typeName": {
+                    "id": 130976,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 130975,
+                      "name": "List",
+                      "nameLocations": [
+                        "2619:4:170"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 130899,
+                      "src": "2619:4:170"
+                    },
+                    "referencedDeclaration": 130899,
+                    "src": "2619:4:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                      "typeString": "struct DoubleLinkedList.List"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 130979,
+                  "mutability": "mutable",
+                  "name": "id",
+                  "nameLocation": "2646:2:170",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 131017,
+                  "src": "2638:10:170",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 130978,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2638:7:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2618:31:170"
+            },
+            "returnParameters": {
+              "id": 130983,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 130982,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 131017,
+                  "src": "2673:4:170",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 130981,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2673:4:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2672:6:170"
+            },
+            "scope": 131171,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "internal"
+          },
+          {
+            "id": 131072,
+            "nodeType": "FunctionDefinition",
+            "src": "3063:290:170",
+            "nodes": [],
+            "body": {
+              "id": 131071,
+              "nodeType": "Block",
+              "src": "3119:234:170",
+              "nodes": [],
+              "statements": [
+                {
+                  "assignments": [
+                    131028
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 131028,
+                      "mutability": "mutable",
+                      "name": "item",
+                      "nameLocation": "3141:4:170",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 131071,
+                      "src": "3129:16:170",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Item_$130893_memory_ptr",
+                        "typeString": "struct DoubleLinkedList.Item"
+                      },
+                      "typeName": {
+                        "id": 131027,
+                        "nodeType": "UserDefinedTypeName",
+                        "pathNode": {
+                          "id": 131026,
+                          "name": "Item",
+                          "nameLocations": [
+                            "3129:4:170"
+                          ],
+                          "nodeType": "IdentifierPath",
+                          "referencedDeclaration": 130893,
+                          "src": "3129:4:170"
+                        },
+                        "referencedDeclaration": 130893,
+                        "src": "3129:4:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Item_$130893_storage_ptr",
+                          "typeString": "struct DoubleLinkedList.Item"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 131033,
+                  "initialValue": {
+                    "baseExpression": {
+                      "expression": {
+                        "id": 131029,
+                        "name": "list",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 131021,
+                        "src": "3148:4:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                          "typeString": "struct DoubleLinkedList.List storage pointer"
+                        }
+                      },
+                      "id": 131030,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "3153:5:170",
+                      "memberName": "items",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 130898,
+                      "src": "3148:10:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                        "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                      }
+                    },
+                    "id": 131032,
+                    "indexExpression": {
+                      "id": 131031,
+                      "name": "id",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 131023,
+                      "src": "3159:2:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "3148:14:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Item_$130893_storage",
+                      "typeString": "struct DoubleLinkedList.Item storage ref"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "3129:33:170"
+                },
+                {
+                  "condition": {
+                    "id": 131038,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "UnaryOperation",
+                    "operator": "!",
+                    "prefix": true,
+                    "src": "3176:19:170",
+                    "subExpression": {
+                      "arguments": [
+                        {
+                          "id": 131035,
+                          "name": "list",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 131021,
+                          "src": "3186:4:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                            "typeString": "struct DoubleLinkedList.List storage pointer"
+                          }
+                        },
+                        {
+                          "id": 131036,
+                          "name": "id",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 131023,
+                          "src": "3192:2:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                            "typeString": "struct DoubleLinkedList.List storage pointer"
+                          },
+                          {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        ],
+                        "id": 131034,
+                        "name": "contains",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 131017,
+                        "src": "3177:8:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$_t_struct$_List_$130899_storage_ptr_$_t_uint256_$returns$_t_bool_$",
+                          "typeString": "function (struct DoubleLinkedList.List storage pointer,uint256) view returns (bool)"
+                        }
+                      },
+                      "id": 131037,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "3177:18:170",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 131042,
+                  "nodeType": "IfStatement",
+                  "src": "3172:47:170",
+                  "trueBody": {
+                    "errorCall": {
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 131039,
+                        "name": "ItemNotInList",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 130903,
+                        "src": "3204:13:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_error_pure$__$returns$__$",
+                          "typeString": "function () pure"
+                        }
+                      },
+                      "id": 131040,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "3204:15:170",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_tuple$__$",
+                        "typeString": "tuple()"
+                      }
+                    },
+                    "id": 131041,
+                    "nodeType": "RevertStatement",
+                    "src": "3197:22:170"
+                  }
+                },
+                {
+                  "expression": {
+                    "id": 131052,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "baseExpression": {
+                          "expression": {
+                            "id": 131043,
+                            "name": "list",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 131021,
+                            "src": "3229:4:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                              "typeString": "struct DoubleLinkedList.List storage pointer"
+                            }
+                          },
+                          "id": 131047,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "3234:5:170",
+                          "memberName": "items",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 130898,
+                          "src": "3229:10:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                            "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                          }
+                        },
+                        "id": 131048,
+                        "indexExpression": {
+                          "expression": {
+                            "id": 131045,
+                            "name": "item",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 131028,
+                            "src": "3240:4:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_struct$_Item_$130893_memory_ptr",
+                              "typeString": "struct DoubleLinkedList.Item memory"
+                            }
+                          },
+                          "id": 131046,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "3245:4:170",
+                          "memberName": "prev",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 130890,
+                          "src": "3240:9:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "3229:21:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Item_$130893_storage",
+                          "typeString": "struct DoubleLinkedList.Item storage ref"
+                        }
+                      },
+                      "id": 131049,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberLocation": "3251:4:170",
+                      "memberName": "next",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 130892,
+                      "src": "3229:26:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "expression": {
+                        "id": 131050,
+                        "name": "item",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 131028,
+                        "src": "3258:4:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Item_$130893_memory_ptr",
+                          "typeString": "struct DoubleLinkedList.Item memory"
+                        }
+                      },
+                      "id": 131051,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "3263:4:170",
+                      "memberName": "next",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 130892,
+                      "src": "3258:9:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "3229:38:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 131053,
+                  "nodeType": "ExpressionStatement",
+                  "src": "3229:38:170"
+                },
+                {
+                  "expression": {
+                    "id": 131063,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "baseExpression": {
+                          "expression": {
+                            "id": 131054,
+                            "name": "list",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 131021,
+                            "src": "3277:4:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                              "typeString": "struct DoubleLinkedList.List storage pointer"
+                            }
+                          },
+                          "id": 131058,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "3282:5:170",
+                          "memberName": "items",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 130898,
+                          "src": "3277:10:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                            "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                          }
+                        },
+                        "id": 131059,
+                        "indexExpression": {
+                          "expression": {
+                            "id": 131056,
+                            "name": "item",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 131028,
+                            "src": "3288:4:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_struct$_Item_$130893_memory_ptr",
+                              "typeString": "struct DoubleLinkedList.Item memory"
+                            }
+                          },
+                          "id": 131057,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "3293:4:170",
+                          "memberName": "next",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 130892,
+                          "src": "3288:9:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "3277:21:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Item_$130893_storage",
+                          "typeString": "struct DoubleLinkedList.Item storage ref"
+                        }
+                      },
+                      "id": 131060,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberLocation": "3299:4:170",
+                      "memberName": "prev",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 130890,
+                      "src": "3277:26:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "expression": {
+                        "id": 131061,
+                        "name": "item",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 131028,
+                        "src": "3306:4:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Item_$130893_memory_ptr",
+                          "typeString": "struct DoubleLinkedList.Item memory"
+                        }
+                      },
+                      "id": 131062,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "3311:4:170",
+                      "memberName": "prev",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 130890,
+                      "src": "3306:9:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "3277:38:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 131064,
+                  "nodeType": "ExpressionStatement",
+                  "src": "3277:38:170"
+                },
+                {
+                  "expression": {
+                    "id": 131069,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "UnaryOperation",
+                    "operator": "delete",
+                    "prefix": true,
+                    "src": "3325:21:170",
+                    "subExpression": {
+                      "baseExpression": {
+                        "expression": {
+                          "id": 131065,
+                          "name": "list",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 131021,
+                          "src": "3332:4:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                            "typeString": "struct DoubleLinkedList.List storage pointer"
+                          }
+                        },
+                        "id": 131066,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "3337:5:170",
+                        "memberName": "items",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 130898,
+                        "src": "3332:10:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                          "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                        }
+                      },
+                      "id": 131068,
+                      "indexExpression": {
+                        "id": 131067,
+                        "name": "id",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 131023,
+                        "src": "3343:2:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "3332:14:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Item_$130893_storage",
+                        "typeString": "struct DoubleLinkedList.Item storage ref"
+                      }
+                    },
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 131070,
+                  "nodeType": "ExpressionStatement",
+                  "src": "3325:21:170"
+                }
+              ]
+            },
+            "documentation": {
+              "id": 131018,
+              "nodeType": "StructuredDocumentation",
+              "src": "2831:227:170",
+              "text": "@notice Removes item `id` from the list\n @dev This function should not be called with an `id` that is not in the list\n @param list Linked list which contains the item\n @param id Id of the item to remove"
+            },
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "remove",
+            "nameLocation": "3072:6:170",
+            "parameters": {
+              "id": 131024,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 131021,
+                  "mutability": "mutable",
+                  "name": "list",
+                  "nameLocation": "3092:4:170",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 131072,
+                  "src": "3079:17:170",
+                  "stateVariable": false,
+                  "storageLocation": "storage",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                    "typeString": "struct DoubleLinkedList.List"
+                  },
+                  "typeName": {
+                    "id": 131020,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 131019,
+                      "name": "List",
+                      "nameLocations": [
+                        "3079:4:170"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 130899,
+                      "src": "3079:4:170"
+                    },
+                    "referencedDeclaration": 130899,
+                    "src": "3079:4:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                      "typeString": "struct DoubleLinkedList.List"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 131023,
+                  "mutability": "mutable",
+                  "name": "id",
+                  "nameLocation": "3106:2:170",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 131072,
+                  "src": "3098:10:170",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 131022,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3098:7:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3078:31:170"
+            },
+            "returnParameters": {
+              "id": 131025,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3119:0:170"
+            },
+            "scope": 131171,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "internal"
+          },
+          {
+            "id": 131170,
+            "nodeType": "FunctionDefinition",
+            "src": "3915:473:170",
+            "nodes": [],
+            "body": {
+              "id": 131169,
+              "nodeType": "Block",
+              "src": "3985:403:170",
+              "nodes": [],
+              "statements": [
+                {
+                  "condition": {
+                    "arguments": [
+                      {
+                        "id": 131084,
+                        "name": "list",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 131076,
+                        "src": "4008:4:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                          "typeString": "struct DoubleLinkedList.List storage pointer"
+                        }
+                      },
+                      {
+                        "id": 131085,
+                        "name": "id",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 131078,
+                        "src": "4014:2:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                          "typeString": "struct DoubleLinkedList.List storage pointer"
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "id": 131083,
+                      "name": "contains",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 131017,
+                      "src": "3999:8:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_List_$130899_storage_ptr_$_t_uint256_$returns$_t_bool_$",
+                        "typeString": "function (struct DoubleLinkedList.List storage pointer,uint256) view returns (bool)"
+                      }
+                    },
+                    "id": 131086,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "3999:18:170",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 131090,
+                  "nodeType": "IfStatement",
+                  "src": "3995:43:170",
+                  "trueBody": {
+                    "errorCall": {
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 131087,
+                        "name": "ItemInList",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 130905,
+                        "src": "4026:10:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_error_pure$__$returns$__$",
+                          "typeString": "function () pure"
+                        }
+                      },
+                      "id": 131088,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "4026:12:170",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_tuple$__$",
+                        "typeString": "tuple()"
+                      }
+                    },
+                    "id": 131089,
+                    "nodeType": "RevertStatement",
+                    "src": "4019:19:170"
+                  }
+                },
+                {
+                  "condition": {
+                    "commonType": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "id": 131099,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "commonType": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "id": 131093,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "leftExpression": {
+                        "id": 131091,
+                        "name": "next",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 131080,
+                        "src": "4052:4:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "nodeType": "BinaryOperation",
+                      "operator": "!=",
+                      "rightExpression": {
+                        "hexValue": "30",
+                        "id": 131092,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "4060:1:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        },
+                        "value": "0"
+                      },
+                      "src": "4052:9:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "&&",
+                    "rightExpression": {
+                      "id": 131098,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "UnaryOperation",
+                      "operator": "!",
+                      "prefix": true,
+                      "src": "4065:21:170",
+                      "subExpression": {
+                        "arguments": [
+                          {
+                            "id": 131095,
+                            "name": "list",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 131076,
+                            "src": "4075:4:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                              "typeString": "struct DoubleLinkedList.List storage pointer"
+                            }
+                          },
+                          {
+                            "id": 131096,
+                            "name": "next",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 131080,
+                            "src": "4081:4:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                              "typeString": "struct DoubleLinkedList.List storage pointer"
+                            },
+                            {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          ],
+                          "id": 131094,
+                          "name": "contains",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 131017,
+                          "src": "4066:8:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_internal_view$_t_struct$_List_$130899_storage_ptr_$_t_uint256_$returns$_t_bool_$",
+                            "typeString": "function (struct DoubleLinkedList.List storage pointer,uint256) view returns (bool)"
+                          }
+                        },
+                        "id": 131097,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "4066:20:170",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "4052:34:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 131103,
+                  "nodeType": "IfStatement",
+                  "src": "4048:62:170",
+                  "trueBody": {
+                    "errorCall": {
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 131100,
+                        "name": "ItemNotInList",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 130903,
+                        "src": "4095:13:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_error_pure$__$returns$__$",
+                          "typeString": "function () pure"
+                        }
+                      },
+                      "id": 131101,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "4095:15:170",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_tuple$__$",
+                        "typeString": "tuple()"
+                      }
+                    },
+                    "id": 131102,
+                    "nodeType": "RevertStatement",
+                    "src": "4088:22:170"
+                  }
+                },
+                {
+                  "assignments": [
+                    131105
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 131105,
+                      "mutability": "mutable",
+                      "name": "prev",
+                      "nameLocation": "4128:4:170",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 131169,
+                      "src": "4120:12:170",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "typeName": {
+                        "id": 131104,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "4120:7:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 131111,
+                  "initialValue": {
+                    "expression": {
+                      "baseExpression": {
+                        "expression": {
+                          "id": 131106,
+                          "name": "list",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 131076,
+                          "src": "4135:4:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                            "typeString": "struct DoubleLinkedList.List storage pointer"
+                          }
+                        },
+                        "id": 131107,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "4140:5:170",
+                        "memberName": "items",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 130898,
+                        "src": "4135:10:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                          "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                        }
+                      },
+                      "id": 131109,
+                      "indexExpression": {
+                        "id": 131108,
+                        "name": "next",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 131080,
+                        "src": "4146:4:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "4135:16:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Item_$130893_storage",
+                        "typeString": "struct DoubleLinkedList.Item storage ref"
+                      }
+                    },
+                    "id": 131110,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberLocation": "4152:4:170",
+                    "memberName": "prev",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": 130890,
+                    "src": "4135:21:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "4120:36:170"
+                },
+                {
+                  "expression": {
+                    "id": 131119,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "baseExpression": {
+                          "expression": {
+                            "id": 131112,
+                            "name": "list",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 131076,
+                            "src": "4166:4:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                              "typeString": "struct DoubleLinkedList.List storage pointer"
+                            }
+                          },
+                          "id": 131115,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "4171:5:170",
+                          "memberName": "items",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 130898,
+                          "src": "4166:10:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                            "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                          }
+                        },
+                        "id": 131116,
+                        "indexExpression": {
+                          "id": 131114,
+                          "name": "next",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 131080,
+                          "src": "4177:4:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "4166:16:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Item_$130893_storage",
+                          "typeString": "struct DoubleLinkedList.Item storage ref"
+                        }
+                      },
+                      "id": 131117,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberLocation": "4183:4:170",
+                      "memberName": "prev",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 130890,
+                      "src": "4166:21:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 131118,
+                      "name": "id",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 131078,
+                      "src": "4190:2:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "4166:26:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 131120,
+                  "nodeType": "ExpressionStatement",
+                  "src": "4166:26:170"
+                },
+                {
+                  "condition": {
+                    "commonType": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "id": 131131,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "commonType": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "id": 131123,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "leftExpression": {
+                        "id": 131121,
+                        "name": "next",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 131080,
+                        "src": "4206:4:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "nodeType": "BinaryOperation",
+                      "operator": "==",
+                      "rightExpression": {
+                        "hexValue": "30",
+                        "id": 131122,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "4214:1:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        },
+                        "value": "0"
+                      },
+                      "src": "4206:9:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "&&",
+                    "rightExpression": {
+                      "commonType": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "id": 131130,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "leftExpression": {
+                        "expression": {
+                          "baseExpression": {
+                            "expression": {
+                              "id": 131124,
+                              "name": "list",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 131076,
+                              "src": "4219:4:170",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                                "typeString": "struct DoubleLinkedList.List storage pointer"
+                              }
+                            },
+                            "id": 131125,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberLocation": "4224:5:170",
+                            "memberName": "items",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 130898,
+                            "src": "4219:10:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                              "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                            }
+                          },
+                          "id": 131127,
+                          "indexExpression": {
+                            "id": 131126,
+                            "name": "next",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 131080,
+                            "src": "4230:4:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "nodeType": "IndexAccess",
+                          "src": "4219:16:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Item_$130893_storage",
+                            "typeString": "struct DoubleLinkedList.Item storage ref"
+                          }
+                        },
+                        "id": 131128,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "4236:4:170",
+                        "memberName": "next",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 130892,
+                        "src": "4219:21:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "nodeType": "BinaryOperation",
+                      "operator": "==",
+                      "rightExpression": {
+                        "hexValue": "30",
+                        "id": 131129,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "4244:1:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        },
+                        "value": "0"
+                      },
+                      "src": "4219:26:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "4206:39:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 131141,
+                  "nodeType": "IfStatement",
+                  "src": "4202:71:170",
+                  "trueBody": {
+                    "expression": {
+                      "id": 131139,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "leftHandSide": {
+                        "expression": {
+                          "baseExpression": {
+                            "expression": {
+                              "id": 131132,
+                              "name": "list",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 131076,
+                              "src": "4247:4:170",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                                "typeString": "struct DoubleLinkedList.List storage pointer"
+                              }
+                            },
+                            "id": 131135,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberLocation": "4252:5:170",
+                            "memberName": "items",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 130898,
+                            "src": "4247:10:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                              "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                            }
+                          },
+                          "id": 131136,
+                          "indexExpression": {
+                            "id": 131134,
+                            "name": "next",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 131080,
+                            "src": "4258:4:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "nodeType": "IndexAccess",
+                          "src": "4247:16:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Item_$130893_storage",
+                            "typeString": "struct DoubleLinkedList.Item storage ref"
+                          }
+                        },
+                        "id": 131137,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": true,
+                        "memberLocation": "4264:4:170",
+                        "memberName": "next",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 130892,
+                        "src": "4247:21:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "nodeType": "Assignment",
+                      "operator": "=",
+                      "rightHandSide": {
+                        "id": 131138,
+                        "name": "id",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 131078,
+                        "src": "4271:2:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "src": "4247:26:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 131140,
+                    "nodeType": "ExpressionStatement",
+                    "src": "4247:26:170"
+                  }
+                },
+                {
+                  "expression": {
+                    "id": 131149,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "baseExpression": {
+                          "expression": {
+                            "id": 131142,
+                            "name": "list",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 131076,
+                            "src": "4283:4:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                              "typeString": "struct DoubleLinkedList.List storage pointer"
+                            }
+                          },
+                          "id": 131145,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "4288:5:170",
+                          "memberName": "items",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 130898,
+                          "src": "4283:10:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                            "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                          }
+                        },
+                        "id": 131146,
+                        "indexExpression": {
+                          "id": 131144,
+                          "name": "prev",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 131105,
+                          "src": "4294:4:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "4283:16:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Item_$130893_storage",
+                          "typeString": "struct DoubleLinkedList.Item storage ref"
+                        }
+                      },
+                      "id": 131147,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberLocation": "4300:4:170",
+                      "memberName": "next",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 130892,
+                      "src": "4283:21:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 131148,
+                      "name": "id",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 131078,
+                      "src": "4307:2:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "4283:26:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 131150,
+                  "nodeType": "ExpressionStatement",
+                  "src": "4283:26:170"
+                },
+                {
+                  "expression": {
+                    "id": 131158,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "baseExpression": {
+                          "expression": {
+                            "id": 131151,
+                            "name": "list",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 131076,
+                            "src": "4319:4:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                              "typeString": "struct DoubleLinkedList.List storage pointer"
+                            }
+                          },
+                          "id": 131154,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "4324:5:170",
+                          "memberName": "items",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 130898,
+                          "src": "4319:10:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                            "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                          }
+                        },
+                        "id": 131155,
+                        "indexExpression": {
+                          "id": 131153,
+                          "name": "id",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 131078,
+                          "src": "4330:2:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "4319:14:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Item_$130893_storage",
+                          "typeString": "struct DoubleLinkedList.Item storage ref"
+                        }
+                      },
+                      "id": 131156,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberLocation": "4334:4:170",
+                      "memberName": "prev",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 130890,
+                      "src": "4319:19:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 131157,
+                      "name": "prev",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 131105,
+                      "src": "4341:4:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "4319:26:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 131159,
+                  "nodeType": "ExpressionStatement",
+                  "src": "4319:26:170"
+                },
+                {
+                  "expression": {
+                    "id": 131167,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "baseExpression": {
+                          "expression": {
+                            "id": 131160,
+                            "name": "list",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 131076,
+                            "src": "4355:4:170",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                              "typeString": "struct DoubleLinkedList.List storage pointer"
+                            }
+                          },
+                          "id": 131163,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "4360:5:170",
+                          "memberName": "items",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 130898,
+                          "src": "4355:10:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$130893_storage_$",
+                            "typeString": "mapping(uint256 => struct DoubleLinkedList.Item storage ref)"
+                          }
+                        },
+                        "id": 131164,
+                        "indexExpression": {
+                          "id": 131162,
+                          "name": "id",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 131078,
+                          "src": "4366:2:170",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "4355:14:170",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Item_$130893_storage",
+                          "typeString": "struct DoubleLinkedList.Item storage ref"
+                        }
+                      },
+                      "id": 131165,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberLocation": "4370:4:170",
+                      "memberName": "next",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 130892,
+                      "src": "4355:19:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 131166,
+                      "name": "next",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 131080,
+                      "src": "4377:4:170",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "4355:26:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 131168,
+                  "nodeType": "ExpressionStatement",
+                  "src": "4355:26:170"
+                }
+              ]
+            },
+            "documentation": {
+              "id": 131073,
+              "nodeType": "StructuredDocumentation",
+              "src": "3359:551:170",
+              "text": "@notice Inserts an item with `id` in the list before item `next`\n - if `next` is 0, the item is inserted at the end (tail) of the list\n - if `next` is the head of the list, the item is inserted at the beginning (head) of the list\n @dev This function should not be called with an `id` that is already in the list.\n @param list Linked list which contains the next item and into which the new item will be inserted\n @param id Id of the item to insert\n @param next Id of the item which should follow item `id`"
+            },
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "insert",
+            "nameLocation": "3924:6:170",
+            "parameters": {
+              "id": 131081,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 131076,
+                  "mutability": "mutable",
+                  "name": "list",
+                  "nameLocation": "3944:4:170",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 131170,
+                  "src": "3931:17:170",
+                  "stateVariable": false,
+                  "storageLocation": "storage",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                    "typeString": "struct DoubleLinkedList.List"
+                  },
+                  "typeName": {
+                    "id": 131075,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 131074,
+                      "name": "List",
+                      "nameLocations": [
+                        "3931:4:170"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 130899,
+                      "src": "3931:4:170"
+                    },
+                    "referencedDeclaration": 130899,
+                    "src": "3931:4:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_List_$130899_storage_ptr",
+                      "typeString": "struct DoubleLinkedList.List"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 131078,
+                  "mutability": "mutable",
+                  "name": "id",
+                  "nameLocation": "3958:2:170",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 131170,
+                  "src": "3950:10:170",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 131077,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3950:7:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 131080,
+                  "mutability": "mutable",
+                  "name": "next",
+                  "nameLocation": "3970:4:170",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 131170,
+                  "src": "3962:12:170",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 131079,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3962:7:170",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3930:45:170"
+            },
+            "returnParameters": {
+              "id": 131082,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3985:0:170"
+            },
+            "scope": 131171,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "internal"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "DoubleLinkedList",
+        "contractDependencies": [],
+        "contractKind": "library",
+        "documentation": {
+          "id": 130888,
+          "nodeType": "StructuredDocumentation",
+          "src": "58:190:170",
+          "text": "@title DoubleLinkedList\n @notice Implements a double linked list where the head is defined as the null item's next pointer\n and the tail is defined as the null item's prev pointer"
+        },
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          131171
+        ],
+        "name": "DoubleLinkedList",
+        "nameLocation": "256:16:170",
+        "scope": 131172,
+        "usedErrors": [
+          130901,
+          130903,
+          130905
+        ]
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 170
+}

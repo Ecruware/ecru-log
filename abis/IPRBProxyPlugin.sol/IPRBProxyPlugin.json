@@ -1,0 +1,241 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getMethods",
+      "outputs": [
+        {
+          "internalType": "bytes4[]",
+          "name": "methods",
+          "type": "bytes4[]"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getMethods()": "6aeb4594"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getMethods\",\"outputs\":[{\"internalType\":\"bytes4[]\",\"name\":\"methods\",\"type\":\"bytes4[]\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"Plugins are contracts that enable the proxy to interact with and respond to calls from other contracts. These plugins are run via the proxy's fallback function. This interface is meant to be directly inherited by plugin implementations.\",\"kind\":\"dev\",\"methods\":{\"getMethods()\":{\"details\":\"The registry pulls these methods when installing the plugin. Requirements: - The plugin must implement at least one method.\",\"returns\":{\"methods\":\"The array of the methods implemented by the plugin.\"}}},\"title\":\"IPRBProxyPlugin\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"getMethods()\":{\"notice\":\"Retrieves the methods implemented by the plugin.\"}},\"notice\":\"Interface for plugin contracts that can be installed on a proxy.\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"lib/prb-proxy/src/interfaces/IPRBProxyPlugin.sol\":\"IPRBProxyPlugin\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/src/\",\"lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/\"]},\"sources\":{\"lib/prb-proxy/src/interfaces/IPRBProxyPlugin.sol\":{\"keccak256\":\"0x6e0ce4998cd104b2cde36cdd3e0e07fb200f606e82a98cb25b1302ac0d969714\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://baeb01d83a07b81412341a9899d6048426b6aec72d06c88271bf7c261e2dea88\",\"dweb:/ipfs/QmTkUVmRzpxuf8SvLpm2TKE2AcJ7KL7gVMKRYJ9apCLVM1\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "getMethods",
+          "outputs": [
+            {
+              "internalType": "bytes4[]",
+              "name": "methods",
+              "type": "bytes4[]"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "getMethods()": {
+            "details": "The registry pulls these methods when installing the plugin. Requirements: - The plugin must implement at least one method.",
+            "returns": {
+              "methods": "The array of the methods implemented by the plugin."
+            }
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {
+          "getMethods()": {
+            "notice": "Retrieves the methods implemented by the plugin."
+          }
+        },
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/=node_modules/@openzeppelin/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+        "forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/",
+        "forge-std/=lib/forge-std/src/",
+        "hardhat-deploy/=node_modules/hardhat-deploy/",
+        "hardhat/=node_modules/hardhat/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        "openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "permit2/=lib/permit2/src/",
+        "prb-proxy/=lib/prb-proxy/src/",
+        "prb-test/=lib/prb-proxy/lib/prb-test/src/",
+        "solmate/=lib/permit2/lib/solmate/src/",
+        "lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 100
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "lib/prb-proxy/src/interfaces/IPRBProxyPlugin.sol": "IPRBProxyPlugin"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/prb-proxy/src/interfaces/IPRBProxyPlugin.sol": {
+        "keccak256": "0x6e0ce4998cd104b2cde36cdd3e0e07fb200f606e82a98cb25b1302ac0d969714",
+        "urls": [
+          "bzz-raw://baeb01d83a07b81412341a9899d6048426b6aec72d06c88271bf7c261e2dea88",
+          "dweb:/ipfs/QmTkUVmRzpxuf8SvLpm2TKE2AcJ7KL7gVMKRYJ9apCLVM1"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "lib/prb-proxy/src/interfaces/IPRBProxyPlugin.sol",
+    "id": 40468,
+    "exportedSymbols": {
+      "IPRBProxyPlugin": [
+        40467
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:798:84",
+    "nodes": [
+      {
+        "id": 40458,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:84",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".4"
+        ]
+      },
+      {
+        "id": 40467,
+        "nodeType": "ContractDefinition",
+        "src": "420:409:84",
+        "nodes": [
+          {
+            "id": 40466,
+            "nodeType": "FunctionDefinition",
+            "src": "762:65:84",
+            "nodes": [],
+            "documentation": {
+              "id": 40460,
+              "nodeType": "StructuredDocumentation",
+              "src": "452:305:84",
+              "text": "@notice Retrieves the methods implemented by the plugin.\n @dev The registry pulls these methods when installing the plugin.\n Requirements:\n - The plugin must implement at least one method.\n @return methods The array of the methods implemented by the plugin."
+            },
+            "functionSelector": "6aeb4594",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getMethods",
+            "nameLocation": "771:10:84",
+            "parameters": {
+              "id": 40461,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "781:2:84"
+            },
+            "returnParameters": {
+              "id": 40465,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 40464,
+                  "mutability": "mutable",
+                  "name": "methods",
+                  "nameLocation": "818:7:84",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40466,
+                  "src": "802:23:84",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_bytes4_$dyn_memory_ptr",
+                    "typeString": "bytes4[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 40462,
+                      "name": "bytes4",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "802:6:84",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes4",
+                        "typeString": "bytes4"
+                      }
+                    },
+                    "id": 40463,
+                    "nodeType": "ArrayTypeName",
+                    "src": "802:8:84",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_bytes4_$dyn_storage_ptr",
+                      "typeString": "bytes4[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "801:25:84"
+            },
+            "scope": 40467,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IPRBProxyPlugin",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 40459,
+          "nodeType": "StructuredDocumentation",
+          "src": "58:362:84",
+          "text": "@title IPRBProxyPlugin\n @notice Interface for plugin contracts that can be installed on a proxy.\n @dev Plugins are contracts that enable the proxy to interact with and respond to calls from other contracts. These\n plugins are run via the proxy's fallback function.\n This interface is meant to be directly inherited by plugin implementations."
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          40467
+        ],
+        "name": "IPRBProxyPlugin",
+        "nameLocation": "430:15:84",
+        "scope": 40468,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 84
+}

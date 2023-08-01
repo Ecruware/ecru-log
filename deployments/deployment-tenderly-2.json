@@ -1,0 +1,308 @@
+{
+  "core": {
+    "CDM": {
+      "address": "0x22D9Af45B54A14a90917d3A8fA40d0E5C70282aa",
+      "artifactName": "CDM",
+      "constructorArguments": [
+        "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+        "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+        "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa"
+      ]
+    },
+    "Stablecoin": {
+      "address": "0x147A2df4cFB06D09C9813a4f423812e8FEd3a16a",
+      "artifactName": "Stablecoin",
+      "constructorArguments": []
+    },
+    "Minter": {
+      "address": "0x308e6920336Fc1BDafE64b689B25b2f639522D5E",
+      "artifactName": "Minter",
+      "constructorArguments": [
+        "0x22D9Af45B54A14a90917d3A8fA40d0E5C70282aa",
+        "0x147A2df4cFB06D09C9813a4f423812e8FEd3a16a",
+        "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+        "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa"
+      ]
+    },
+    "Flashlender": {
+      "address": "0xaBe1aaFa9CE1bda8aa6e66e187bE4f55b3C60Fd4",
+      "artifactName": "Flashlender",
+      "constructorArguments": [
+        "0x308e6920336Fc1BDafE64b689B25b2f639522D5E",
+        "0"
+      ]
+    },
+    "BufferProxyAdmin": {
+      "address": "0xa34080439a39db8Ee2BF4aAe21d75bD01657940c",
+      "artifactName": "ProxyAdmin",
+      "constructorArguments": []
+    },
+    "BufferImplementation": {
+      "address": "0xC2081BdeA6EaB1BFccfDbFcfe137dbD8BDb0Db73",
+      "artifactName": "Buffer",
+      "constructorArguments": []
+    },
+    "Buffer": {
+      "address": "0x605249b633a691492558B75513839DcCeDF03500",
+      "artifactName": "Buffer",
+      "constructorArguments": [
+        "0xC2081BdeA6EaB1BFccfDbFcfe137dbD8BDb0Db73",
+        "0xa34080439a39db8Ee2BF4aAe21d75bD01657940c",
+        "0x485cc95500000000000000000000000054a66bfed39dd3a51fca506d79818b3dcd07d6aa00000000000000000000000054a66bfed39dd3a51fca506d79818b3dcd07d6aa"
+      ]
+    },
+    "MockOracle": {
+      "address": "0xb4a7E1EB3B3f6A7E0454e52f26Eb38fCc14db7E1",
+      "artifactName": "MockOracle",
+      "constructorArguments": []
+    },
+    "CDPVaultUnwinderFactory": {
+      "address": "0x0B00af2bD7ce8E5637ab0855c7C01427b31430C2",
+      "artifactName": "CDPVaultUnwinderFactory",
+      "constructorArguments": []
+    },
+    "SwapAction": {
+      "address": "0x67B2777F7dbB4856abbf6154f76DdD8e31D79913",
+      "artifactName": "SwapAction",
+      "constructorArguments": [
+        "0x1111111254EEB25477B68fb85Ed929f73A960582",
+        "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+        "0xE592427A0AEce92De3Edee1F18E0157C05861564"
+      ]
+    },
+    "ERC165Plugin": {
+      "address": "0x93CD468c16e303CA1f9E0999f7D0D933e00C2cb7",
+      "artifactName": "ERC165Plugin",
+      "constructorArguments": []
+    },
+    "PositionAction20": {
+      "address": "0x15A35D2C3E848D107EB3aa4C2616D6a3ec49E741",
+      "artifactName": "PositionAction20",
+      "constructorArguments": [
+        "0xaBe1aaFa9CE1bda8aa6e66e187bE4f55b3C60Fd4",
+        "0x67B2777F7dbB4856abbf6154f76DdD8e31D79913"
+      ]
+    },
+    "PositionActionYV": {
+      "address": "0x87c633179Edd62235cd6CD20Aee73b0C393b11a4",
+      "artifactName": "PositionActionYV",
+      "constructorArguments": [
+        "0xaBe1aaFa9CE1bda8aa6e66e187bE4f55b3C60Fd4",
+        "0x67B2777F7dbB4856abbf6154f76DdD8e31D79913"
+      ]
+    },
+    "CDPVault_TypeA_Deployer": {
+      "address": "0x05289C2f095E56fE4592e240e42e3CaA48fc6f08",
+      "artifactName": "CDPVault_TypeA_Deployer",
+      "constructorArguments": []
+    },
+    "CDPVault_TypeA_Factory": {
+      "address": "0xb885D5f0CEEB6a763aaD98Cf37185fdbBf8c0E03",
+      "artifactName": "CDPVault_TypeA_Factory",
+      "constructorArguments": [
+        "0x05289C2f095E56fE4592e240e42e3CaA48fc6f08",
+        "0x0B00af2bD7ce8E5637ab0855c7C01427b31430C2",
+        "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+        "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+        "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa"
+      ]
+    }
+  },
+  "vaults": {
+    "CDPVault_TypeA_WETH": {
+      "address": "0x186018B0d528caa77C56BBc16b9361D7a6324DA5",
+      "artifactName": "CDPVault_TypeA",
+      "constructorArguments": [
+        [
+          "0x22D9Af45B54A14a90917d3A8fA40d0E5C70282aa",
+          "0xb4a7E1EB3B3f6A7E0454e52f26Eb38fCc14db7E1",
+          "0x605249b633a691492558B75513839DcCeDF03500",
+          "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "1000000000000000000",
+          "1000000000000000",
+          "0",
+          "800000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000"
+        ],
+        [
+          "1000000000000000000",
+          "1000000000000000000",
+          "1150000000000000000"
+        ],
+        [
+          "2000000000000000000",
+          "10000000000000000000",
+          "1100000000000000000",
+          "0",
+          "1000000000626221517",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa"
+        ],
+        "20000000000000000000000"
+      ]
+    },
+    "CDPVault_TypeA_USDC": {
+      "address": "0x93c4f1E767d3a7fE5dD71c0Ea8551599F347A413",
+      "artifactName": "CDPVault_TypeA",
+      "constructorArguments": [
+        [
+          "0x22D9Af45B54A14a90917d3A8fA40d0E5C70282aa",
+          "0xb4a7E1EB3B3f6A7E0454e52f26Eb38fCc14db7E1",
+          "0x605249b633a691492558B75513839DcCeDF03500",
+          "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "1000000",
+          "0",
+          "0",
+          "800000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000"
+        ],
+        [
+          "1000000000000000000",
+          "1000000000000000000",
+          "1150000000000000000"
+        ],
+        [
+          "200000000000000000000",
+          "10000000000000000000",
+          "1100000000000000000",
+          "0",
+          "1000000000157721789",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa"
+        ],
+        "1500000000000000000000000"
+      ]
+    },
+    "CDPVault_TypeA_DAI": {
+      "address": "0xd15eB20632802C9820050085681BfF2598D935A1",
+      "artifactName": "CDPVault_TypeA",
+      "constructorArguments": [
+        [
+          "0x22D9Af45B54A14a90917d3A8fA40d0E5C70282aa",
+          "0xb4a7E1EB3B3f6A7E0454e52f26Eb38fCc14db7E1",
+          "0x605249b633a691492558B75513839DcCeDF03500",
+          "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+          "1000000000000000000",
+          "0",
+          "0",
+          "800000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000"
+        ],
+        [
+          "1000000000000000000",
+          "1000000000000000000",
+          "1150000000000000000"
+        ],
+        [
+          "200000000000000000000",
+          "10000000000000000000",
+          "1100000000000000000",
+          "0",
+          "1000000000314660837",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa"
+        ],
+        "10000000000000000000000"
+      ]
+    },
+    "CDPVault_TypeA_CRV": {
+      "address": "0x9e959b21CAe13F12AEFca6c5B016EdF9F8DafA01",
+      "artifactName": "CDPVault_TypeA",
+      "constructorArguments": [
+        [
+          "0x22D9Af45B54A14a90917d3A8fA40d0E5C70282aa",
+          "0xb4a7E1EB3B3f6A7E0454e52f26Eb38fCc14db7E1",
+          "0x605249b633a691492558B75513839DcCeDF03500",
+          "0xD533a949740bb3306d119CC777fa900bA034cd52",
+          "1000000000000000000",
+          "0",
+          "0",
+          "800000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000"
+        ],
+        [
+          "1000000000000000000",
+          "1000000000000000000",
+          "1150000000000000000"
+        ],
+        [
+          "1000000000000000000000",
+          "10000000000000000000",
+          "1100000000000000000",
+          "0",
+          "1000000001542898837",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa"
+        ],
+        "1000000000000000000000"
+      ]
+    },
+    "CDPVault_TypeA_yvDAI": {
+      "address": "0x0a3CafFf07A653d3241e1E034143b46f4767eF47",
+      "artifactName": "CDPVault_TypeA",
+      "constructorArguments": [
+        [
+          "0x22D9Af45B54A14a90917d3A8fA40d0E5C70282aa",
+          "0xb4a7E1EB3B3f6A7E0454e52f26Eb38fCc14db7E1",
+          "0x605249b633a691492558B75513839DcCeDF03500",
+          "0xdA816459F1AB5631232FE5e97a05BBBb94970c95",
+          "1000000000000000000",
+          "1000000000000000",
+          "0",
+          "800000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000"
+        ],
+        [
+          "1000000000000000000",
+          "1000000000000000000",
+          "1150000000000000000"
+        ],
+        [
+          "200000000000000000000",
+          "10000000000000000000",
+          "1100000000000000000",
+          "0",
+          "1000000000934742532",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
+          "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa"
+        ],
+        "1000000000000000000000"
+      ]
+    }
+  }
+}

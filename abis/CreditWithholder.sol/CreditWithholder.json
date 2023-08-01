@@ -1,0 +1,527 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "contract ICDM",
+          "name": "cdm",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "unwinderFactory",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "vault",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b506040516101ad3803806101ad83398101604081905261002f91610113565b60405163d9c70f5760e01b81526001600160a01b0382811660048301526001602483015284169063d9c70f5790604401600060405180830381600087803b15801561007957600080fd5b505af115801561008d573d6000803e3d6000fd5b505060405163d9c70f5760e01b81526001600160a01b038581166004830152600160248301528616925063d9c70f579150604401600060405180830381600087803b1580156100db57600080fd5b505af11580156100ef573d6000803e3d6000fd5b50505050505050610160565b6001600160a01b038116811461011057600080fd5b50565b60008060006060848603121561012857600080fd5b8351610133816100fb565b6020850151909350610144816100fb565b6040850151909250610155816100fb565b809150509250925092565b603f8061016e6000396000f3fe6080604052600080fdfea2646970667358221220d7705025393d8c5277d02a6ce300ffd3502b9a8821d0814072bbd86518c5fdcd64736f6c63430008130033",
+    "sourceMap": "394:307:92:-:0;;;426:273;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;606:33;;-1:-1:-1;;;606:33:92;;-1:-1:-1;;;;;898:32:181;;;606:33:92;;;880:51:181;634:4:92;947:18:181;;;940:50;606:20:92;;;;;853:18:181;;606:33:92;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;649:43:92;;-1:-1:-1;;;649:43:92;;-1:-1:-1;;;;;898:32:181;;;649:43:92;;;880:51:181;687:4:92;947:18:181;;;940:50;649:20:92;;;-1:-1:-1;649:20:92;;-1:-1:-1;853:18:181;;649:43:92;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;426:273;;;394:307;;14:137:181;-1:-1:-1;;;;;95:31:181;;85:42;;75:70;;141:1;138;131:12;75:70;14:137;:::o;156:551::-;258:6;266;274;327:2;315:9;306:7;302:23;298:32;295:52;;;343:1;340;333:12;295:52;375:9;369:16;394:37;425:5;394:37;:::i;:::-;500:2;485:18;;479:25;450:5;;-1:-1:-1;513:39:181;479:25;513:39;:::i;:::-;623:2;608:18;;602:25;571:7;;-1:-1:-1;636:39:181;602:25;636:39;:::i;:::-;694:7;684:17;;;156:551;;;;;:::o;712:284::-;394:307:92;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600080fdfea2646970667358221220d7705025393d8c5277d02a6ce300ffd3502b9a8821d0814072bbd86518c5fdcd64736f6c63430008130033",
+    "sourceMap": "394:307:92:-:0;;;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract ICDM\",\"name\":\"cdm\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"unwinderFactory\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"vault\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"title\":\"CreditWithholder\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Credit account for the vault. Used for: - temp. withholding an estimated amount of credit for epochs for which the exact credit claim hasn't been fixed yet - temp. storing the fixed credit claim for epochs until the (un)delegators withdraw it\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/CreditWithholder.sol\":\"CreditWithholder\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/src/\",\"lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/\"]},\"sources\":{\"src/CreditWithholder.sol\":{\"keccak256\":\"0x3a9c179889788e828956cb427188c8893f80504d5396bfb5641e3370204e2e62\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fa9ca7b65de3a772dff289367057b37033b331fc58fa414fb1ac08fc8d6d004f\",\"dweb:/ipfs/QmQjoeQEkuDxzHanuWYqJmazcvvZa8BxkoNdFLJ3PCehiQ\"]},\"src/interfaces/ICDM.sol\":{\"keccak256\":\"0x5a501346e83a397a842bc6a74de7c717df5adc9885efec3cc5493119808d67a9\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://94ead2b55fb26eb76ce383d3983e289ab41065446796a66780c8b4ae8162e973\",\"dweb:/ipfs/QmZwRkzXKppqnaUoUkzMxMT9D1c2JDy8ttNjYjQ1eYAD63\"]},\"src/interfaces/IPermission.sol\":{\"keccak256\":\"0xd9cf3a29c16e192f2f265396870cb93cf91c91bbe62cb9a1ed343c32b4052f48\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://48e25c7560455ffda43cbfb37ee47ed4da9c6bd38e46bcfd5fe4e982d5c34eaf\",\"dweb:/ipfs/Qmco16L9EdpXGFJXn7mdgkCpKErYRB4HFUzYB5m5yUnZcz\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "contract ICDM",
+              "name": "cdm",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "unwinderFactory",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "vault",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/=node_modules/@openzeppelin/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+        "forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/",
+        "forge-std/=lib/forge-std/src/",
+        "hardhat-deploy/=node_modules/hardhat-deploy/",
+        "hardhat/=node_modules/hardhat/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        "openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "permit2/=lib/permit2/src/",
+        "prb-proxy/=lib/prb-proxy/src/",
+        "prb-test/=lib/prb-proxy/lib/prb-test/src/",
+        "solmate/=lib/permit2/lib/solmate/src/",
+        "lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 100
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/CreditWithholder.sol": "CreditWithholder"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/CreditWithholder.sol": {
+        "keccak256": "0x3a9c179889788e828956cb427188c8893f80504d5396bfb5641e3370204e2e62",
+        "urls": [
+          "bzz-raw://fa9ca7b65de3a772dff289367057b37033b331fc58fa414fb1ac08fc8d6d004f",
+          "dweb:/ipfs/QmQjoeQEkuDxzHanuWYqJmazcvvZa8BxkoNdFLJ3PCehiQ"
+        ],
+        "license": "MIT"
+      },
+      "src/interfaces/ICDM.sol": {
+        "keccak256": "0x5a501346e83a397a842bc6a74de7c717df5adc9885efec3cc5493119808d67a9",
+        "urls": [
+          "bzz-raw://94ead2b55fb26eb76ce383d3983e289ab41065446796a66780c8b4ae8162e973",
+          "dweb:/ipfs/QmZwRkzXKppqnaUoUkzMxMT9D1c2JDy8ttNjYjQ1eYAD63"
+        ],
+        "license": "GPL-2.0-or-later"
+      },
+      "src/interfaces/IPermission.sol": {
+        "keccak256": "0xd9cf3a29c16e192f2f265396870cb93cf91c91bbe62cb9a1ed343c32b4052f48",
+        "urls": [
+          "bzz-raw://48e25c7560455ffda43cbfb37ee47ed4da9c6bd38e46bcfd5fe4e982d5c34eaf",
+          "dweb:/ipfs/Qmco16L9EdpXGFJXn7mdgkCpKErYRB4HFUzYB5m5yUnZcz"
+        ],
+        "license": "GPL-2.0-or-later"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/CreditWithholder.sol",
+    "id": 47523,
+    "exportedSymbols": {
+      "CreditWithholder": [
+        47522
+      ],
+      "ICDM": [
+        48682
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:670:92",
+    "nodes": [
+      {
+        "id": 47493,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:92",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".19"
+        ]
+      },
+      {
+        "id": 47495,
+        "nodeType": "ImportDirective",
+        "src": "58:43:92",
+        "nodes": [],
+        "absolutePath": "src/interfaces/ICDM.sol",
+        "file": "./interfaces/ICDM.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 47523,
+        "sourceUnit": 48683,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 47494,
+              "name": "ICDM",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 48682,
+              "src": "66:4:92",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 47522,
+        "nodeType": "ContractDefinition",
+        "src": "394:307:92",
+        "nodes": [
+          {
+            "id": 47521,
+            "nodeType": "FunctionDefinition",
+            "src": "426:273:92",
+            "nodes": [],
+            "body": {
+              "id": 47520,
+              "nodeType": "Block",
+              "src": "488:211:92",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 47509,
+                        "name": "vault",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 47503,
+                        "src": "627:5:92",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "hexValue": "74727565",
+                        "id": 47510,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "bool",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "634:4:92",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        "value": "true"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "expression": {
+                        "id": 47506,
+                        "name": "cdm",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 47499,
+                        "src": "606:3:92",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeString": "contract ICDM"
+                        }
+                      },
+                      "id": 47508,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "610:16:92",
+                      "memberName": "modifyPermission",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 49650,
+                      "src": "606:20:92",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_bool_$returns$__$",
+                        "typeString": "function (address,bool) external"
+                      }
+                    },
+                    "id": 47511,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "606:33:92",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 47512,
+                  "nodeType": "ExpressionStatement",
+                  "src": "606:33:92"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 47516,
+                        "name": "unwinderFactory",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 47501,
+                        "src": "670:15:92",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "hexValue": "74727565",
+                        "id": 47517,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "bool",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "687:4:92",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        "value": "true"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "expression": {
+                        "id": 47513,
+                        "name": "cdm",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 47499,
+                        "src": "649:3:92",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeString": "contract ICDM"
+                        }
+                      },
+                      "id": 47515,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "653:16:92",
+                      "memberName": "modifyPermission",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 49650,
+                      "src": "649:20:92",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_bool_$returns$__$",
+                        "typeString": "function (address,bool) external"
+                      }
+                    },
+                    "id": 47518,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "649:43:92",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 47519,
+                  "nodeType": "ExpressionStatement",
+                  "src": "649:43:92"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 47504,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 47499,
+                  "mutability": "mutable",
+                  "name": "cdm",
+                  "nameLocation": "443:3:92",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 47521,
+                  "src": "438:8:92",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ICDM_$48682",
+                    "typeString": "contract ICDM"
+                  },
+                  "typeName": {
+                    "id": 47498,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 47497,
+                      "name": "ICDM",
+                      "nameLocations": [
+                        "438:4:92"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 48682,
+                      "src": "438:4:92"
+                    },
+                    "referencedDeclaration": 48682,
+                    "src": "438:4:92",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ICDM_$48682",
+                      "typeString": "contract ICDM"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 47501,
+                  "mutability": "mutable",
+                  "name": "unwinderFactory",
+                  "nameLocation": "456:15:92",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 47521,
+                  "src": "448:23:92",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 47500,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "448:7:92",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 47503,
+                  "mutability": "mutable",
+                  "name": "vault",
+                  "nameLocation": "481:5:92",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 47521,
+                  "src": "473:13:92",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 47502,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "473:7:92",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "437:50:92"
+            },
+            "returnParameters": {
+              "id": 47505,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "488:0:92"
+            },
+            "scope": 47522,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "CreditWithholder",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": {
+          "id": 47496,
+          "nodeType": "StructuredDocumentation",
+          "src": "103:291:92",
+          "text": "@title CreditWithholder\n @notice Credit account for the vault. Used for:\n - temp. withholding an estimated amount of credit for epochs for which the exact credit claim hasn't been fixed yet\n - temp. storing the fixed credit claim for epochs until the (un)delegators withdraw it"
+        },
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          47522
+        ],
+        "name": "CreditWithholder",
+        "nameLocation": "403:16:92",
+        "scope": 47523,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 92
+}

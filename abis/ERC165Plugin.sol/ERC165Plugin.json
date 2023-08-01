@@ -1,0 +1,1141 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getMethods",
+      "outputs": [
+        {
+          "internalType": "bytes4[]",
+          "name": "methods",
+          "type": "bytes4[]"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "onERC1155BatchReceived",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "onERC1155Received",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "onERC721Received",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes4",
+          "name": "interfaceId",
+          "type": "bytes4"
+        }
+      ],
+      "name": "supportsInterface",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b506105a1806100206000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c806301ffc9a71461005c578063150b7a02146100845780636aeb4594146100bb578063bc197c81146100d0578063f23a6e61146100ef575b600080fd5b61006f61006a36600461020c565b61010e565b60405190151581526020015b60405180910390f35b6100a2610092366004610310565b630a85bd0160e11b949350505050565b6040516001600160e01b0319909116815260200161007b565b6100c3610145565b60405161007b9190610378565b6100a26100de366004610446565b63bc197c8160e01b95945050505050565b6100a26100fd3660046104f0565b63f23a6e6160e01b95945050505050565b60006001600160e01b03198216630271189760e51b148061013f57506301ffc9a760e01b6001600160e01b03198316145b92915050565b6040805160038082526080820190925260609160208201838036833701905050905063f23a6e6160e01b8160008151811061018257610182610555565b6001600160e01b031990921660209283029190910190910152805163bc197c8160e01b90829060019081106101b9576101b9610555565b6001600160e01b0319909216602092830291909101909101528051630a85bd0160e11b90829060029081106101f0576101f0610555565b6001600160e01b03199092166020928302919091019091015290565b60006020828403121561021e57600080fd5b81356001600160e01b03198116811461023657600080fd5b9392505050565b80356001600160a01b038116811461025457600080fd5b919050565b634e487b7160e01b600052604160045260246000fd5b604051601f8201601f1916810167ffffffffffffffff8111828210171561029857610298610259565b604052919050565b600082601f8301126102b157600080fd5b813567ffffffffffffffff8111156102cb576102cb610259565b6102de601f8201601f191660200161026f565b8181528460208386010111156102f357600080fd5b816020850160208301376000918101602001919091529392505050565b6000806000806080858703121561032657600080fd5b61032f8561023d565b935061033d6020860161023d565b925060408501359150606085013567ffffffffffffffff81111561036057600080fd5b61036c878288016102a0565b91505092959194509250565b6020808252825182820181905260009190848201906040850190845b818110156103ba5783516001600160e01b03191683529284019291840191600101610394565b50909695505050505050565b600082601f8301126103d757600080fd5b8135602067ffffffffffffffff8211156103f3576103f3610259565b8160051b61040282820161026f565b928352848101820192828101908785111561041c57600080fd5b83870192505b8483101561043b57823582529183019190830190610422565b979650505050505050565b600080600080600060a0868803121561045e57600080fd5b6104678661023d565b94506104756020870161023d565b9350604086013567ffffffffffffffff8082111561049257600080fd5b61049e89838a016103c6565b945060608801359150808211156104b457600080fd5b6104c089838a016103c6565b935060808801359150808211156104d657600080fd5b506104e3888289016102a0565b9150509295509295909350565b600080600080600060a0868803121561050857600080fd5b6105118661023d565b945061051f6020870161023d565b93506040860135925060608601359150608086013567ffffffffffffffff81111561054957600080fd5b6104e3888289016102a0565b634e487b7160e01b600052603260045260246000fdfea264697066735822122003e9a14e5729327be2246e3fc3dcf7d8b82876bee519d485f959cc833cc2823664736f6c63430008130033",
+    "sourceMap": "420:707:116:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c806301ffc9a71461005c578063150b7a02146100845780636aeb4594146100bb578063bc197c81146100d0578063f23a6e61146100ef575b600080fd5b61006f61006a36600461020c565b61010e565b60405190151581526020015b60405180910390f35b6100a2610092366004610310565b630a85bd0160e11b949350505050565b6040516001600160e01b0319909116815260200161007b565b6100c3610145565b60405161007b9190610378565b6100a26100de366004610446565b63bc197c8160e01b95945050505050565b6100a26100fd3660046104f0565b63f23a6e6160e01b95945050505050565b60006001600160e01b03198216630271189760e51b148061013f57506301ffc9a760e01b6001600160e01b03198316145b92915050565b6040805160038082526080820190925260609160208201838036833701905050905063f23a6e6160e01b8160008151811061018257610182610555565b6001600160e01b031990921660209283029190910190910152805163bc197c8160e01b90829060019081106101b9576101b9610555565b6001600160e01b0319909216602092830291909101909101528051630a85bd0160e11b90829060029081106101f0576101f0610555565b6001600160e01b03199092166020928302919091019091015290565b60006020828403121561021e57600080fd5b81356001600160e01b03198116811461023657600080fd5b9392505050565b80356001600160a01b038116811461025457600080fd5b919050565b634e487b7160e01b600052604160045260246000fd5b604051601f8201601f1916810167ffffffffffffffff8111828210171561029857610298610259565b604052919050565b600082601f8301126102b157600080fd5b813567ffffffffffffffff8111156102cb576102cb610259565b6102de601f8201601f191660200161026f565b8181528460208386010111156102f357600080fd5b816020850160208301376000918101602001919091529392505050565b6000806000806080858703121561032657600080fd5b61032f8561023d565b935061033d6020860161023d565b925060408501359150606085013567ffffffffffffffff81111561036057600080fd5b61036c878288016102a0565b91505092959194509250565b6020808252825182820181905260009190848201906040850190845b818110156103ba5783516001600160e01b03191683529284019291840191600101610394565b50909695505050505050565b600082601f8301126103d757600080fd5b8135602067ffffffffffffffff8211156103f3576103f3610259565b8160051b61040282820161026f565b928352848101820192828101908785111561041c57600080fd5b83870192505b8483101561043b57823582529183019190830190610422565b979650505050505050565b600080600080600060a0868803121561045e57600080fd5b6104678661023d565b94506104756020870161023d565b9350604086013567ffffffffffffffff8082111561049257600080fd5b61049e89838a016103c6565b945060608801359150808211156104b457600080fd5b6104c089838a016103c6565b935060808801359150808211156104d657600080fd5b506104e3888289016102a0565b9150509295509295909350565b600080600080600060a0868803121561050857600080fd5b6105118661023d565b945061051f6020870161023d565b93506040860135925060608601359150608086013567ffffffffffffffff81111561054957600080fd5b6104e3888289016102a0565b634e487b7160e01b600052603260045260246000fdfea264697066735822122003e9a14e5729327be2246e3fc3dcf7d8b82876bee519d485f959cc833cc2823664736f6c63430008130033",
+    "sourceMap": "420:707:116:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;387:221:51;;;;;;:::i;:::-;;:::i;:::-;;;470:14:181;;463:22;445:41;;433:2;418:18;387:221:51;;;;;;;;588:162:64;;;;;;:::i;:::-;-1:-1:-1;;;588:162:64;;;;;;;;;;-1:-1:-1;;;;;;2326:33:181;;;2308:52;;2296:2;2281:18;588:162:64;2164:202:181;847:278:116;;;:::i;:::-;;;;;;;:::i;724:247:50:-;;;;;;:::i;:::-;-1:-1:-1;;;724:247:50;;;;;;;;499:219;;;;;;:::i;:::-;-1:-1:-1;;;499:219:50;;;;;;;;387:221:51;489:4;-1:-1:-1;;;;;;512:49:51;;-1:-1:-1;;;512:49:51;;:89;;-1:-1:-1;;;;;;;;;;937:40:73;;;565:36:51;505:96;387:221;-1:-1:-1;;387:221:51:o;847:278:116:-;937:15;;;950:1;937:15;;;;;;;;;892:23;;937:15;;;892:23;;937:15;;;;;-1:-1:-1;937:15:116;927:25;;975:31;;;962:7;970:1;962:10;;;;;;;;:::i;:::-;-1:-1:-1;;;;;;962:44:116;;;:10;;;;;;;;;;;:44;1016:10;;-1:-1:-1;;;1029:36:116;1016:7;;1024:1;;1016:10;;;;;;:::i;:::-;-1:-1:-1;;;;;;1016:49:116;;;:10;;;;;;;;;;;:49;1075:10;;-1:-1:-1;;;1088:30:116;1075:7;;1083:1;;1075:10;;;;;;:::i;:::-;-1:-1:-1;;;;;;1075:43:116;;;:10;;;;;;;;;;;:43;847:278;:::o;14:286:181:-;72:6;125:2;113:9;104:7;100:23;96:32;93:52;;;141:1;138;131:12;93:52;167:23;;-1:-1:-1;;;;;;219:32:181;;209:43;;199:71;;266:1;263;256:12;199:71;289:5;14:286;-1:-1:-1;;;14:286:181:o;497:173::-;565:20;;-1:-1:-1;;;;;614:31:181;;604:42;;594:70;;660:1;657;650:12;594:70;497:173;;;:::o;675:127::-;736:10;731:3;727:20;724:1;717:31;767:4;764:1;757:15;791:4;788:1;781:15;807:275;878:2;872:9;943:2;924:13;;-1:-1:-1;;920:27:181;908:40;;978:18;963:34;;999:22;;;960:62;957:88;;;1025:18;;:::i;:::-;1061:2;1054:22;807:275;;-1:-1:-1;807:275:181:o;1087:530::-;1129:5;1182:3;1175:4;1167:6;1163:17;1159:27;1149:55;;1200:1;1197;1190:12;1149:55;1236:6;1223:20;1262:18;1258:2;1255:26;1252:52;;;1284:18;;:::i;:::-;1328:55;1371:2;1352:13;;-1:-1:-1;;1348:27:181;1377:4;1344:38;1328:55;:::i;:::-;1408:2;1399:7;1392:19;1454:3;1447:4;1442:2;1434:6;1430:15;1426:26;1423:35;1420:55;;;1471:1;1468;1461:12;1420:55;1536:2;1529:4;1521:6;1517:17;1510:4;1501:7;1497:18;1484:55;1584:1;1559:16;;;1577:4;1555:27;1548:38;;;;1563:7;1087:530;-1:-1:-1;;;1087:530:181:o;1622:537::-;1717:6;1725;1733;1741;1794:3;1782:9;1773:7;1769:23;1765:33;1762:53;;;1811:1;1808;1801:12;1762:53;1834:29;1853:9;1834:29;:::i;:::-;1824:39;;1882:38;1916:2;1905:9;1901:18;1882:38;:::i;:::-;1872:48;;1967:2;1956:9;1952:18;1939:32;1929:42;;2022:2;2011:9;2007:18;1994:32;2049:18;2041:6;2038:30;2035:50;;;2081:1;2078;2071:12;2035:50;2104:49;2145:7;2136:6;2125:9;2121:22;2104:49;:::i;:::-;2094:59;;;1622:537;;;;;;;:::o;2371:657::-;2540:2;2592:21;;;2662:13;;2565:18;;;2684:22;;;2511:4;;2540:2;2763:15;;;;2737:2;2722:18;;;2511:4;2806:196;2820:6;2817:1;2814:13;2806:196;;;2885:13;;-1:-1:-1;;;;;;2881:40:181;2869:53;;2977:15;;;;2942:12;;;;2842:1;2835:9;2806:196;;;-1:-1:-1;3019:3:181;;2371:657;-1:-1:-1;;;;;;2371:657:181:o;3033:712::-;3087:5;3140:3;3133:4;3125:6;3121:17;3117:27;3107:55;;3158:1;3155;3148:12;3107:55;3194:6;3181:20;3220:4;3243:18;3239:2;3236:26;3233:52;;;3265:18;;:::i;:::-;3311:2;3308:1;3304:10;3334:28;3358:2;3354;3350:11;3334:28;:::i;:::-;3396:15;;;3466;;;3462:24;;;3427:12;;;;3498:15;;;3495:35;;;3526:1;3523;3516:12;3495:35;3562:2;3554:6;3550:15;3539:26;;3574:142;3590:6;3585:3;3582:15;3574:142;;;3656:17;;3644:30;;3607:12;;;;3694;;;;3574:142;;;3734:5;3033:712;-1:-1:-1;;;;;;;3033:712:181:o;3750:943::-;3904:6;3912;3920;3928;3936;3989:3;3977:9;3968:7;3964:23;3960:33;3957:53;;;4006:1;4003;3996:12;3957:53;4029:29;4048:9;4029:29;:::i;:::-;4019:39;;4077:38;4111:2;4100:9;4096:18;4077:38;:::i;:::-;4067:48;;4166:2;4155:9;4151:18;4138:32;4189:18;4230:2;4222:6;4219:14;4216:34;;;4246:1;4243;4236:12;4216:34;4269:61;4322:7;4313:6;4302:9;4298:22;4269:61;:::i;:::-;4259:71;;4383:2;4372:9;4368:18;4355:32;4339:48;;4412:2;4402:8;4399:16;4396:36;;;4428:1;4425;4418:12;4396:36;4451:63;4506:7;4495:8;4484:9;4480:24;4451:63;:::i;:::-;4441:73;;4567:3;4556:9;4552:19;4539:33;4523:49;;4597:2;4587:8;4584:16;4581:36;;;4613:1;4610;4603:12;4581:36;;4636:51;4679:7;4668:8;4657:9;4653:24;4636:51;:::i;:::-;4626:61;;;3750:943;;;;;;;;:::o;4698:606::-;4802:6;4810;4818;4826;4834;4887:3;4875:9;4866:7;4862:23;4858:33;4855:53;;;4904:1;4901;4894:12;4855:53;4927:29;4946:9;4927:29;:::i;:::-;4917:39;;4975:38;5009:2;4998:9;4994:18;4975:38;:::i;:::-;4965:48;;5060:2;5049:9;5045:18;5032:32;5022:42;;5111:2;5100:9;5096:18;5083:32;5073:42;;5166:3;5155:9;5151:19;5138:33;5194:18;5186:6;5183:30;5180:50;;;5226:1;5223;5216:12;5180:50;5249:49;5290:7;5281:6;5270:9;5266:22;5249:49;:::i;5309:127::-;5370:10;5365:3;5361:20;5358:1;5351:31;5401:4;5398:1;5391:15;5425:4;5422:1;5415:15",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getMethods()": "6aeb4594",
+    "onERC1155BatchReceived(address,address,uint256[],uint256[],bytes)": "bc197c81",
+    "onERC1155Received(address,address,uint256,uint256,bytes)": "f23a6e61",
+    "onERC721Received(address,address,uint256,bytes)": "150b7a02",
+    "supportsInterface(bytes4)": "01ffc9a7"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getMethods\",\"outputs\":[{\"internalType\":\"bytes4[]\",\"name\":\"methods\",\"type\":\"bytes4[]\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"uint256[]\",\"name\":\"\",\"type\":\"uint256[]\"},{\"internalType\":\"uint256[]\",\"name\":\"\",\"type\":\"uint256[]\"},{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"name\":\"onERC1155BatchReceived\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"name\":\"onERC1155Received\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"name\":\"onERC721Received\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"getMethods()\":{\"returns\":{\"methods\":\"The list of function signatures\"}},\"onERC721Received(address,address,uint256,bytes)\":{\"details\":\"See {IERC721Receiver-onERC721Received}. Always returns `IERC721Receiver.onERC721Received.selector`.\"},\"supportsInterface(bytes4)\":{\"details\":\"See {IERC165-supportsInterface}.\"}},\"title\":\"PRBProxyERCPlugin\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"getMethods()\":{\"notice\":\"Returns the list of function signatures of the methods that enable ERC1155 and ERC721 support\"}},\"notice\":\"Plugin that implements ERC1155 and ERC721 support for the proxy\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/proxy/ERC165Plugin.sol\":\"ERC165Plugin\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/src/\",\"lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/\"]},\"sources\":{\"lib/openzeppelin-contracts/contracts/token/ERC1155/IERC1155Receiver.sol\":{\"keccak256\":\"0xeb373f1fdc7b755c6a750123a9b9e3a8a02c1470042fd6505d875000a80bde0b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0e28648f994abf1d6bc345644a361cc0b7efa544f8bc0c8ec26011fed85a91ec\",\"dweb:/ipfs/QmVVE7AiRjKaQYYji7TkjmTeVzGpNmms5eoxqTCfvvpj6D\"]},\"lib/openzeppelin-contracts/contracts/token/ERC1155/utils/ERC1155Holder.sol\":{\"keccak256\":\"0x2e024ca51ce5abe16c0d34e6992a1104f356e2244eb4ccbec970435e8b3405e3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a74009db3c6fc8db851ba69ddb6795b5c1ef1120c5a00fd1a8dc3a717dd9d519\",\"dweb:/ipfs/QmZMk8Yh2X3gPS51ckUVLEXjZUhMSEeGApnA53WtjvLb9h\"]},\"lib/openzeppelin-contracts/contracts/token/ERC1155/utils/ERC1155Receiver.sol\":{\"keccak256\":\"0x3dd5e1a66a56f30302108a1da97d677a42b1daa60e503696b2bcbbf3e4c95bcb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0808de0ae4918c664643c885ca7fa6503e8ef2bd75609dfc85152c0128a3422d\",\"dweb:/ipfs/QmNrhFC1XgBKuuxfahFeiwi1MCdu3FLNpHj2uStgmf4iJj\"]},\"lib/openzeppelin-contracts/contracts/token/ERC721/IERC721Receiver.sol\":{\"keccak256\":\"0xa82b58eca1ee256be466e536706850163d2ec7821945abd6b4778cfb3bee37da\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6e75cf83beb757b8855791088546b8337e9d4684e169400c20d44a515353b708\",\"dweb:/ipfs/QmYvPafLfoquiDMEj7CKHtvbgHu7TJNPSVPSCjrtjV8HjV\"]},\"lib/openzeppelin-contracts/contracts/token/ERC721/utils/ERC721Holder.sol\":{\"keccak256\":\"0xe703814ee88fca440ac66fbfbbf3a5085d9028237145e6c3447c7ca44d1177ed\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2c09e9ee347c311074d0cce306cef98c1b9ab7d06ff360031c4c71214e1395ef\",\"dweb:/ipfs/QmTE9VX4ejp2D5wimaPvzoAZefAMVNybCwdYJm2sEwfXni\"]},\"lib/openzeppelin-contracts/contracts/utils/introspection/ERC165.sol\":{\"keccak256\":\"0xd10975de010d89fd1c78dc5e8a9a7e7f496198085c151648f20cba166b32582b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fb0048dee081f6fffa5f74afc3fb328483c2a30504e94a0ddd2a5114d731ec4d\",\"dweb:/ipfs/QmZptt1nmYoA5SgjwnSgWqgUSDgm4q52Yos3xhnMv3MV43\"]},\"lib/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol\":{\"keccak256\":\"0x447a5f3ddc18419d41ff92b3773fb86471b1db25773e07f877f548918a185bf1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://be161e54f24e5c6fae81a12db1a8ae87bc5ae1b0ddc805d82a1440a68455088f\",\"dweb:/ipfs/QmP7C3CHdY9urF4dEMb9wmsp1wMxHF6nhA2yQE5SKiPAdy\"]},\"lib/prb-proxy/src/interfaces/IPRBProxyPlugin.sol\":{\"keccak256\":\"0x6e0ce4998cd104b2cde36cdd3e0e07fb200f606e82a98cb25b1302ac0d969714\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://baeb01d83a07b81412341a9899d6048426b6aec72d06c88271bf7c261e2dea88\",\"dweb:/ipfs/QmTkUVmRzpxuf8SvLpm2TKE2AcJ7KL7gVMKRYJ9apCLVM1\"]},\"src/proxy/ERC165Plugin.sol\":{\"keccak256\":\"0x7e96d1d31595b317fc0d76c60fbf6d440bab05f954676c244890dfdf5237566f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://977be34f45bd60e07bf999ad8aac6a247a28f94edd1794c4f7f49a91d8645086\",\"dweb:/ipfs/QmcbADseXhYw2yNUSz6KCGJy6v9Xc1297Yk6P69otBem9D\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "getMethods",
+          "outputs": [
+            {
+              "internalType": "bytes4[]",
+              "name": "methods",
+              "type": "bytes4[]"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "",
+              "type": "uint256[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "",
+              "type": "uint256[]"
+            },
+            {
+              "internalType": "bytes",
+              "name": "",
+              "type": "bytes"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "onERC1155BatchReceived",
+          "outputs": [
+            {
+              "internalType": "bytes4",
+              "name": "",
+              "type": "bytes4"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bytes",
+              "name": "",
+              "type": "bytes"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "onERC1155Received",
+          "outputs": [
+            {
+              "internalType": "bytes4",
+              "name": "",
+              "type": "bytes4"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bytes",
+              "name": "",
+              "type": "bytes"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "onERC721Received",
+          "outputs": [
+            {
+              "internalType": "bytes4",
+              "name": "",
+              "type": "bytes4"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "bytes4",
+              "name": "interfaceId",
+              "type": "bytes4"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "supportsInterface",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "getMethods()": {
+            "returns": {
+              "methods": "The list of function signatures"
+            }
+          },
+          "onERC721Received(address,address,uint256,bytes)": {
+            "details": "See {IERC721Receiver-onERC721Received}. Always returns `IERC721Receiver.onERC721Received.selector`."
+          },
+          "supportsInterface(bytes4)": {
+            "details": "See {IERC165-supportsInterface}."
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {
+          "getMethods()": {
+            "notice": "Returns the list of function signatures of the methods that enable ERC1155 and ERC721 support"
+          }
+        },
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/=node_modules/@openzeppelin/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+        "forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/",
+        "forge-std/=lib/forge-std/src/",
+        "hardhat-deploy/=node_modules/hardhat-deploy/",
+        "hardhat/=node_modules/hardhat/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        "openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "permit2/=lib/permit2/src/",
+        "prb-proxy/=lib/prb-proxy/src/",
+        "prb-test/=lib/prb-proxy/lib/prb-test/src/",
+        "solmate/=lib/permit2/lib/solmate/src/",
+        "lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 100
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/proxy/ERC165Plugin.sol": "ERC165Plugin"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/openzeppelin-contracts/contracts/token/ERC1155/IERC1155Receiver.sol": {
+        "keccak256": "0xeb373f1fdc7b755c6a750123a9b9e3a8a02c1470042fd6505d875000a80bde0b",
+        "urls": [
+          "bzz-raw://0e28648f994abf1d6bc345644a361cc0b7efa544f8bc0c8ec26011fed85a91ec",
+          "dweb:/ipfs/QmVVE7AiRjKaQYYji7TkjmTeVzGpNmms5eoxqTCfvvpj6D"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/token/ERC1155/utils/ERC1155Holder.sol": {
+        "keccak256": "0x2e024ca51ce5abe16c0d34e6992a1104f356e2244eb4ccbec970435e8b3405e3",
+        "urls": [
+          "bzz-raw://a74009db3c6fc8db851ba69ddb6795b5c1ef1120c5a00fd1a8dc3a717dd9d519",
+          "dweb:/ipfs/QmZMk8Yh2X3gPS51ckUVLEXjZUhMSEeGApnA53WtjvLb9h"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/token/ERC1155/utils/ERC1155Receiver.sol": {
+        "keccak256": "0x3dd5e1a66a56f30302108a1da97d677a42b1daa60e503696b2bcbbf3e4c95bcb",
+        "urls": [
+          "bzz-raw://0808de0ae4918c664643c885ca7fa6503e8ef2bd75609dfc85152c0128a3422d",
+          "dweb:/ipfs/QmNrhFC1XgBKuuxfahFeiwi1MCdu3FLNpHj2uStgmf4iJj"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/token/ERC721/IERC721Receiver.sol": {
+        "keccak256": "0xa82b58eca1ee256be466e536706850163d2ec7821945abd6b4778cfb3bee37da",
+        "urls": [
+          "bzz-raw://6e75cf83beb757b8855791088546b8337e9d4684e169400c20d44a515353b708",
+          "dweb:/ipfs/QmYvPafLfoquiDMEj7CKHtvbgHu7TJNPSVPSCjrtjV8HjV"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/token/ERC721/utils/ERC721Holder.sol": {
+        "keccak256": "0xe703814ee88fca440ac66fbfbbf3a5085d9028237145e6c3447c7ca44d1177ed",
+        "urls": [
+          "bzz-raw://2c09e9ee347c311074d0cce306cef98c1b9ab7d06ff360031c4c71214e1395ef",
+          "dweb:/ipfs/QmTE9VX4ejp2D5wimaPvzoAZefAMVNybCwdYJm2sEwfXni"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/utils/introspection/ERC165.sol": {
+        "keccak256": "0xd10975de010d89fd1c78dc5e8a9a7e7f496198085c151648f20cba166b32582b",
+        "urls": [
+          "bzz-raw://fb0048dee081f6fffa5f74afc3fb328483c2a30504e94a0ddd2a5114d731ec4d",
+          "dweb:/ipfs/QmZptt1nmYoA5SgjwnSgWqgUSDgm4q52Yos3xhnMv3MV43"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol": {
+        "keccak256": "0x447a5f3ddc18419d41ff92b3773fb86471b1db25773e07f877f548918a185bf1",
+        "urls": [
+          "bzz-raw://be161e54f24e5c6fae81a12db1a8ae87bc5ae1b0ddc805d82a1440a68455088f",
+          "dweb:/ipfs/QmP7C3CHdY9urF4dEMb9wmsp1wMxHF6nhA2yQE5SKiPAdy"
+        ],
+        "license": "MIT"
+      },
+      "lib/prb-proxy/src/interfaces/IPRBProxyPlugin.sol": {
+        "keccak256": "0x6e0ce4998cd104b2cde36cdd3e0e07fb200f606e82a98cb25b1302ac0d969714",
+        "urls": [
+          "bzz-raw://baeb01d83a07b81412341a9899d6048426b6aec72d06c88271bf7c261e2dea88",
+          "dweb:/ipfs/QmTkUVmRzpxuf8SvLpm2TKE2AcJ7KL7gVMKRYJ9apCLVM1"
+        ],
+        "license": "MIT"
+      },
+      "src/proxy/ERC165Plugin.sol": {
+        "keccak256": "0x7e96d1d31595b317fc0d76c60fbf6d440bab05f954676c244890dfdf5237566f",
+        "urls": [
+          "bzz-raw://977be34f45bd60e07bf999ad8aac6a247a28f94edd1794c4f7f49a91d8645086",
+          "dweb:/ipfs/QmcbADseXhYw2yNUSz6KCGJy6v9Xc1297Yk6P69otBem9D"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/proxy/ERC165Plugin.sol",
+    "id": 50720,
+    "exportedSymbols": {
+      "ERC1155Holder": [
+        33765
+      ],
+      "ERC165Plugin": [
+        50719
+      ],
+      "ERC721Holder": [
+        35965
+      ],
+      "IPRBProxyPlugin": [
+        40467
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:1096:116",
+    "nodes": [
+      {
+        "id": 50665,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:116",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".19"
+        ]
+      },
+      {
+        "id": 50667,
+        "nodeType": "ImportDirective",
+        "src": "58:91:116",
+        "nodes": [],
+        "absolutePath": "lib/openzeppelin-contracts/contracts/token/ERC1155/utils/ERC1155Holder.sol",
+        "file": "openzeppelin/contracts/token/ERC1155/utils/ERC1155Holder.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 50720,
+        "sourceUnit": 33766,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 50666,
+              "name": "ERC1155Holder",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 33765,
+              "src": "66:13:116",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 50669,
+        "nodeType": "ImportDirective",
+        "src": "150:88:116",
+        "nodes": [],
+        "absolutePath": "lib/openzeppelin-contracts/contracts/token/ERC721/utils/ERC721Holder.sol",
+        "file": "openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 50720,
+        "sourceUnit": 35966,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 50668,
+              "name": "ERC721Holder",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 35965,
+              "src": "158:12:116",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 50671,
+        "nodeType": "ImportDirective",
+        "src": "240:73:116",
+        "nodes": [],
+        "absolutePath": "lib/prb-proxy/src/interfaces/IPRBProxyPlugin.sol",
+        "file": "prb-proxy/interfaces/IPRBProxyPlugin.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 50720,
+        "sourceUnit": 40468,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 50670,
+              "name": "IPRBProxyPlugin",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 40467,
+              "src": "248:15:116",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 50719,
+        "nodeType": "ContractDefinition",
+        "src": "420:707:116",
+        "nodes": [
+          {
+            "id": 50718,
+            "nodeType": "FunctionDefinition",
+            "src": "847:278:116",
+            "nodes": [],
+            "body": {
+              "id": 50717,
+              "nodeType": "Block",
+              "src": "917:208:116",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 50691,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 50685,
+                      "name": "methods",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 50683,
+                      "src": "927:7:116",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_bytes4_$dyn_memory_ptr",
+                        "typeString": "bytes4[] memory"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "hexValue": "33",
+                          "id": 50689,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "950:1:116",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_3_by_1",
+                            "typeString": "int_const 3"
+                          },
+                          "value": "3"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_rational_3_by_1",
+                            "typeString": "int_const 3"
+                          }
+                        ],
+                        "id": 50688,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "937:12:116",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_objectcreation_pure$_t_uint256_$returns$_t_array$_t_bytes4_$dyn_memory_ptr_$",
+                          "typeString": "function (uint256) pure returns (bytes4[] memory)"
+                        },
+                        "typeName": {
+                          "baseType": {
+                            "id": 50686,
+                            "name": "bytes4",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "941:6:116",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bytes4",
+                              "typeString": "bytes4"
+                            }
+                          },
+                          "id": 50687,
+                          "nodeType": "ArrayTypeName",
+                          "src": "941:8:116",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_array$_t_bytes4_$dyn_storage_ptr",
+                            "typeString": "bytes4[]"
+                          }
+                        }
+                      },
+                      "id": 50690,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "937:15:116",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_bytes4_$dyn_memory_ptr",
+                        "typeString": "bytes4[] memory"
+                      }
+                    },
+                    "src": "927:25:116",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_bytes4_$dyn_memory_ptr",
+                      "typeString": "bytes4[] memory"
+                    }
+                  },
+                  "id": 50692,
+                  "nodeType": "ExpressionStatement",
+                  "src": "927:25:116"
+                },
+                {
+                  "expression": {
+                    "id": 50699,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "baseExpression": {
+                        "id": 50693,
+                        "name": "methods",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 50683,
+                        "src": "962:7:116",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_bytes4_$dyn_memory_ptr",
+                          "typeString": "bytes4[] memory"
+                        }
+                      },
+                      "id": 50695,
+                      "indexExpression": {
+                        "hexValue": "30",
+                        "id": 50694,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "970:1:116",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        },
+                        "value": "0"
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "962:10:116",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes4",
+                        "typeString": "bytes4"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "expression": {
+                        "expression": {
+                          "id": 50696,
+                          "name": "this",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -28,
+                          "src": "975:4:116",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_ERC165Plugin_$50719",
+                            "typeString": "contract ERC165Plugin"
+                          }
+                        },
+                        "id": 50697,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "980:17:116",
+                        "memberName": "onERC1155Received",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 33741,
+                        "src": "975:22:116",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$_t_uint256_$_t_bytes_memory_ptr_$returns$_t_bytes4_$",
+                          "typeString": "function (address,address,uint256,uint256,bytes memory) external returns (bytes4)"
+                        }
+                      },
+                      "id": 50698,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberLocation": "998:8:116",
+                      "memberName": "selector",
+                      "nodeType": "MemberAccess",
+                      "src": "975:31:116",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes4",
+                        "typeString": "bytes4"
+                      }
+                    },
+                    "src": "962:44:116",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "id": 50700,
+                  "nodeType": "ExpressionStatement",
+                  "src": "962:44:116"
+                },
+                {
+                  "expression": {
+                    "id": 50707,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "baseExpression": {
+                        "id": 50701,
+                        "name": "methods",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 50683,
+                        "src": "1016:7:116",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_bytes4_$dyn_memory_ptr",
+                          "typeString": "bytes4[] memory"
+                        }
+                      },
+                      "id": 50703,
+                      "indexExpression": {
+                        "hexValue": "31",
+                        "id": 50702,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1024:1:116",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1_by_1",
+                          "typeString": "int_const 1"
+                        },
+                        "value": "1"
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "1016:10:116",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes4",
+                        "typeString": "bytes4"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "expression": {
+                        "expression": {
+                          "id": 50704,
+                          "name": "this",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -28,
+                          "src": "1029:4:116",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_ERC165Plugin_$50719",
+                            "typeString": "contract ERC165Plugin"
+                          }
+                        },
+                        "id": 50705,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "1034:22:116",
+                        "memberName": "onERC1155BatchReceived",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 33764,
+                        "src": "1029:27:116",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_array$_t_uint256_$dyn_memory_ptr_$_t_array$_t_uint256_$dyn_memory_ptr_$_t_bytes_memory_ptr_$returns$_t_bytes4_$",
+                          "typeString": "function (address,address,uint256[] memory,uint256[] memory,bytes memory) external returns (bytes4)"
+                        }
+                      },
+                      "id": 50706,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberLocation": "1057:8:116",
+                      "memberName": "selector",
+                      "nodeType": "MemberAccess",
+                      "src": "1029:36:116",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes4",
+                        "typeString": "bytes4"
+                      }
+                    },
+                    "src": "1016:49:116",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "id": 50708,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1016:49:116"
+                },
+                {
+                  "expression": {
+                    "id": 50715,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "baseExpression": {
+                        "id": 50709,
+                        "name": "methods",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 50683,
+                        "src": "1075:7:116",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_bytes4_$dyn_memory_ptr",
+                          "typeString": "bytes4[] memory"
+                        }
+                      },
+                      "id": 50711,
+                      "indexExpression": {
+                        "hexValue": "32",
+                        "id": 50710,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1083:1:116",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_2_by_1",
+                          "typeString": "int_const 2"
+                        },
+                        "value": "2"
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "1075:10:116",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes4",
+                        "typeString": "bytes4"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "expression": {
+                        "expression": {
+                          "id": 50712,
+                          "name": "this",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -28,
+                          "src": "1088:4:116",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_ERC165Plugin_$50719",
+                            "typeString": "contract ERC165Plugin"
+                          }
+                        },
+                        "id": 50713,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "1093:16:116",
+                        "memberName": "onERC721Received",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 35964,
+                        "src": "1088:21:116",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$_t_bytes_memory_ptr_$returns$_t_bytes4_$",
+                          "typeString": "function (address,address,uint256,bytes memory) external returns (bytes4)"
+                        }
+                      },
+                      "id": 50714,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberLocation": "1110:8:116",
+                      "memberName": "selector",
+                      "nodeType": "MemberAccess",
+                      "src": "1088:30:116",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes4",
+                        "typeString": "bytes4"
+                      }
+                    },
+                    "src": "1075:43:116",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "id": 50716,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1075:43:116"
+                }
+              ]
+            },
+            "baseFunctions": [
+              40466
+            ],
+            "documentation": {
+              "id": 50679,
+              "nodeType": "StructuredDocumentation",
+              "src": "681:161:116",
+              "text": "@notice Returns the list of function signatures of the methods that enable ERC1155 and ERC721 support\n @return methods The list of function signatures"
+            },
+            "functionSelector": "6aeb4594",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getMethods",
+            "nameLocation": "856:10:116",
+            "parameters": {
+              "id": 50680,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "866:2:116"
+            },
+            "returnParameters": {
+              "id": 50684,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 50683,
+                  "mutability": "mutable",
+                  "name": "methods",
+                  "nameLocation": "908:7:116",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 50718,
+                  "src": "892:23:116",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_bytes4_$dyn_memory_ptr",
+                    "typeString": "bytes4[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 50681,
+                      "name": "bytes4",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "892:6:116",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes4",
+                        "typeString": "bytes4"
+                      }
+                    },
+                    "id": 50682,
+                    "nodeType": "ArrayTypeName",
+                    "src": "892:8:116",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_bytes4_$dyn_storage_ptr",
+                      "typeString": "bytes4[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "891:25:116"
+            },
+            "scope": 50719,
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 50673,
+              "name": "ERC1155Holder",
+              "nameLocations": [
+                "445:13:116"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 33765,
+              "src": "445:13:116"
+            },
+            "id": 50674,
+            "nodeType": "InheritanceSpecifier",
+            "src": "445:13:116"
+          },
+          {
+            "baseName": {
+              "id": 50675,
+              "name": "ERC721Holder",
+              "nameLocations": [
+                "460:12:116"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 35965,
+              "src": "460:12:116"
+            },
+            "id": 50676,
+            "nodeType": "InheritanceSpecifier",
+            "src": "460:12:116"
+          },
+          {
+            "baseName": {
+              "id": 50677,
+              "name": "IPRBProxyPlugin",
+              "nameLocations": [
+                "474:15:116"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 40467,
+              "src": "474:15:116"
+            },
+            "id": 50678,
+            "nodeType": "InheritanceSpecifier",
+            "src": "474:15:116"
+          }
+        ],
+        "canonicalName": "ERC165Plugin",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": {
+          "id": 50672,
+          "nodeType": "StructuredDocumentation",
+          "src": "315:105:116",
+          "text": "@title PRBProxyERCPlugin\n @notice Plugin that implements ERC1155 and ERC721 support for the proxy"
+        },
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          50719,
+          40467,
+          35965,
+          35938,
+          33765,
+          33799,
+          33714,
+          37491,
+          37503
+        ],
+        "name": "ERC165Plugin",
+        "nameLocation": "429:12:116",
+        "scope": 50720,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 116
+}

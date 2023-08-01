@@ -1,0 +1,2266 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "permit2",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "permit2()": "12261ee7"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"permit2\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"permit2()\":{\"notice\":\"Permit2\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/proxy/TransferAction.sol\":\"TransferAction\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/src/\",\"lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/\"]},\"sources\":{\"lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x00c839ff53d07d19db2e7cfa1e5133f9ee90a8d64b0e2e57f50446a2d1a3a0e0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3dac621d015a68a5251b1e5d41dda0faf252699bf6e8bcf46a958b29964d9dd1\",\"dweb:/ipfs/QmP9axjgZv4cezAhALoTemM62sdLtMDJ9MGTxECnNwHgSJ\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Permit.sol\":{\"keccak256\":\"0x35e258421ae206f3db37281cea70871b4c3553914734aa76139a41af60ac1abb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2ef94b6bc4ee356db612a1849c615f7dd4b15542d6c8584c86bb9243a7913cf0\",\"dweb:/ipfs/QmaxFj5NFpAjjitZtHPNS9PPtCuBATaRz9ktDDRCQCQ83y\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/extensions/draft-IERC20Permit.sol\":{\"keccak256\":\"0x6a8df18a4cf9ddce45d0b6609e90ad81c948475b1178ab40c35ea79bfd99a319\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b99013f9788f6de8a4208e0190e1132c102ef83f79215825e2f4dfa8fc01738d\",\"dweb:/ipfs/QmT25dXiwuszQYgbHFxJshdupZXTj2LtFCAaQqxPQwpyWC\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol\":{\"keccak256\":\"0x8a63ea9ec07788740e51046ca14c61f411aedb901e89749c9d55fa56ed43086a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3035ae3f172ed9e172e1ba4d83bdc70279f63be51ce9218c530132def66ff577\",\"dweb:/ipfs/QmTQ3zfC3YUNeY3KUVFiHgTWDuxfmcEMgpGC6HMoTpgZJL\"]},\"lib/openzeppelin-contracts/contracts/utils/Address.sol\":{\"keccak256\":\"0x2e53602b96c1bf97c731ed3e2a981b4f85e23a9410a5ebd36e549a4cc93340dc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://523f47b3ecc6d4e47b4b998d3356199988eef8a42a10dff5a3660d5f9e76cc71\",\"dweb:/ipfs/QmRLH8CNvDsuLzNCjsbpLM3RHD9he5ESXroYoDT3tpaTCA\"]},\"lib/permit2/src/interfaces/IEIP712.sol\":{\"keccak256\":\"0xea70db68ce450ad38dfbd490058595441144808eb95272ae9b89e3fbe6456954\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e8fad9ff319665acdc2f1295bb82db3e5b4d52babc0b58f147dbdbb9f322c6e5\",\"dweb:/ipfs/QmTbYJPcux8eJ3qGVYQh6TiwCA2FPu6HXTUg6QFTnX91Ks\"]},\"lib/permit2/src/interfaces/ISignatureTransfer.sol\":{\"keccak256\":\"0x6805563eaad92471fa1b3591a71d7020a93e59f1a4ac95398daf74927f5bd033\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://48cd13806cb8e82dcc38eb93423a372fbdd3b05364ecebb8bfd9cd29078dd90c\",\"dweb:/ipfs/QmeLyFVrzKRHcm6aaFFBCG5mFESCqWLp1KYT41H8XhzMCp\"]},\"src/proxy/TransferAction.sol\":{\"keccak256\":\"0x693a71e77a5ddf332f10b4c9fb39608188372e52fb6c51e6f7e70a2b561b8e4e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ba6c28108dedbf0b2dbf607b2237d5aabc3c92817f8adaa02638de8491814756\",\"dweb:/ipfs/QmcnVDM5Q7n1N1VegPNtXQSWFdjWn3EZh4DmuMpXP7U2Nt\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "permit2",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {
+          "permit2()": {
+            "notice": "Permit2"
+          }
+        },
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/=node_modules/@openzeppelin/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+        "forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/",
+        "forge-std/=lib/forge-std/src/",
+        "hardhat-deploy/=node_modules/hardhat-deploy/",
+        "hardhat/=node_modules/hardhat/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        "openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "permit2/=lib/permit2/src/",
+        "prb-proxy/=lib/prb-proxy/src/",
+        "prb-test/=lib/prb-proxy/lib/prb-test/src/",
+        "solmate/=lib/permit2/lib/solmate/src/",
+        "lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 100
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/proxy/TransferAction.sol": "TransferAction"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
+        "keccak256": "0x00c839ff53d07d19db2e7cfa1e5133f9ee90a8d64b0e2e57f50446a2d1a3a0e0",
+        "urls": [
+          "bzz-raw://3dac621d015a68a5251b1e5d41dda0faf252699bf6e8bcf46a958b29964d9dd1",
+          "dweb:/ipfs/QmP9axjgZv4cezAhALoTemM62sdLtMDJ9MGTxECnNwHgSJ"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Permit.sol": {
+        "keccak256": "0x35e258421ae206f3db37281cea70871b4c3553914734aa76139a41af60ac1abb",
+        "urls": [
+          "bzz-raw://2ef94b6bc4ee356db612a1849c615f7dd4b15542d6c8584c86bb9243a7913cf0",
+          "dweb:/ipfs/QmaxFj5NFpAjjitZtHPNS9PPtCuBATaRz9ktDDRCQCQ83y"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/draft-IERC20Permit.sol": {
+        "keccak256": "0x6a8df18a4cf9ddce45d0b6609e90ad81c948475b1178ab40c35ea79bfd99a319",
+        "urls": [
+          "bzz-raw://b99013f9788f6de8a4208e0190e1132c102ef83f79215825e2f4dfa8fc01738d",
+          "dweb:/ipfs/QmT25dXiwuszQYgbHFxJshdupZXTj2LtFCAaQqxPQwpyWC"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol": {
+        "keccak256": "0x8a63ea9ec07788740e51046ca14c61f411aedb901e89749c9d55fa56ed43086a",
+        "urls": [
+          "bzz-raw://3035ae3f172ed9e172e1ba4d83bdc70279f63be51ce9218c530132def66ff577",
+          "dweb:/ipfs/QmTQ3zfC3YUNeY3KUVFiHgTWDuxfmcEMgpGC6HMoTpgZJL"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/utils/Address.sol": {
+        "keccak256": "0x2e53602b96c1bf97c731ed3e2a981b4f85e23a9410a5ebd36e549a4cc93340dc",
+        "urls": [
+          "bzz-raw://523f47b3ecc6d4e47b4b998d3356199988eef8a42a10dff5a3660d5f9e76cc71",
+          "dweb:/ipfs/QmRLH8CNvDsuLzNCjsbpLM3RHD9he5ESXroYoDT3tpaTCA"
+        ],
+        "license": "MIT"
+      },
+      "lib/permit2/src/interfaces/IEIP712.sol": {
+        "keccak256": "0xea70db68ce450ad38dfbd490058595441144808eb95272ae9b89e3fbe6456954",
+        "urls": [
+          "bzz-raw://e8fad9ff319665acdc2f1295bb82db3e5b4d52babc0b58f147dbdbb9f322c6e5",
+          "dweb:/ipfs/QmTbYJPcux8eJ3qGVYQh6TiwCA2FPu6HXTUg6QFTnX91Ks"
+        ],
+        "license": "MIT"
+      },
+      "lib/permit2/src/interfaces/ISignatureTransfer.sol": {
+        "keccak256": "0x6805563eaad92471fa1b3591a71d7020a93e59f1a4ac95398daf74927f5bd033",
+        "urls": [
+          "bzz-raw://48cd13806cb8e82dcc38eb93423a372fbdd3b05364ecebb8bfd9cd29078dd90c",
+          "dweb:/ipfs/QmeLyFVrzKRHcm6aaFFBCG5mFESCqWLp1KYT41H8XhzMCp"
+        ],
+        "license": "MIT"
+      },
+      "src/proxy/TransferAction.sol": {
+        "keccak256": "0x693a71e77a5ddf332f10b4c9fb39608188372e52fb6c51e6f7e70a2b561b8e4e",
+        "urls": [
+          "bzz-raw://ba6c28108dedbf0b2dbf607b2237d5aabc3c92817f8adaa02638de8491814756",
+          "dweb:/ipfs/QmcnVDM5Q7n1N1VegPNtXQSWFdjWn3EZh4DmuMpXP7U2Nt"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/proxy/TransferAction.sol",
+    "id": 54852,
+    "exportedSymbols": {
+      "ApprovalType": [
+        54717
+      ],
+      "IERC20": [
+        34464
+      ],
+      "IERC20Permit": [
+        35405
+      ],
+      "ISignatureTransfer": [
+        39437
+      ],
+      "PermitParams": [
+        54733
+      ],
+      "SafeERC20": [
+        35920
+      ],
+      "TransferAction": [
+        54851
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:2705:123",
+    "nodes": [
+      {
+        "id": 54705,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:123",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".19"
+        ]
+      },
+      {
+        "id": 54707,
+        "nodeType": "ImportDirective",
+        "src": "58:69:123",
+        "nodes": [],
+        "absolutePath": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "file": "openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 54852,
+        "sourceUnit": 34465,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 54706,
+              "name": "IERC20",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 34464,
+              "src": "66:6:123",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 54709,
+        "nodeType": "ImportDirective",
+        "src": "128:98:123",
+        "nodes": [],
+        "absolutePath": "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/draft-IERC20Permit.sol",
+        "file": "openzeppelin/contracts/token/ERC20/extensions/draft-IERC20Permit.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 54852,
+        "sourceUnit": 35409,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 54708,
+              "name": "IERC20Permit",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 35405,
+              "src": "136:12:123",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 54711,
+        "nodeType": "ImportDirective",
+        "src": "227:81:123",
+        "nodes": [],
+        "absolutePath": "lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol",
+        "file": "openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 54852,
+        "sourceUnit": 35921,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 54710,
+              "name": "SafeERC20",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 35920,
+              "src": "235:9:123",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 54713,
+        "nodeType": "ImportDirective",
+        "src": "310:77:123",
+        "nodes": [],
+        "absolutePath": "lib/permit2/src/interfaces/ISignatureTransfer.sol",
+        "file": "permit2/interfaces/ISignatureTransfer.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 54852,
+        "sourceUnit": 39438,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 54712,
+              "name": "ISignatureTransfer",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 39437,
+              "src": "318:18:123",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 54717,
+        "nodeType": "EnumDefinition",
+        "src": "389:47:123",
+        "nodes": [],
+        "canonicalName": "ApprovalType",
+        "members": [
+          {
+            "id": 54714,
+            "name": "STANDARD",
+            "nameLocation": "409:8:123",
+            "nodeType": "EnumValue",
+            "src": "409:8:123"
+          },
+          {
+            "id": 54715,
+            "name": "PERMIT",
+            "nameLocation": "419:6:123",
+            "nodeType": "EnumValue",
+            "src": "419:6:123"
+          },
+          {
+            "id": 54716,
+            "name": "PERMIT2",
+            "nameLocation": "427:7:123",
+            "nodeType": "EnumValue",
+            "src": "427:7:123"
+          }
+        ],
+        "name": "ApprovalType",
+        "nameLocation": "394:12:123"
+      },
+      {
+        "id": 54733,
+        "nodeType": "StructDefinition",
+        "src": "438:166:123",
+        "nodes": [],
+        "canonicalName": "PermitParams",
+        "members": [
+          {
+            "constant": false,
+            "id": 54720,
+            "mutability": "mutable",
+            "name": "approvalType",
+            "nameLocation": "477:12:123",
+            "nodeType": "VariableDeclaration",
+            "scope": 54733,
+            "src": "464:25:123",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_enum$_ApprovalType_$54717",
+              "typeString": "enum ApprovalType"
+            },
+            "typeName": {
+              "id": 54719,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 54718,
+                "name": "ApprovalType",
+                "nameLocations": [
+                  "464:12:123"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 54717,
+                "src": "464:12:123"
+              },
+              "referencedDeclaration": 54717,
+              "src": "464:12:123",
+              "typeDescriptions": {
+                "typeIdentifier": "t_enum$_ApprovalType_$54717",
+                "typeString": "enum ApprovalType"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 54722,
+            "mutability": "mutable",
+            "name": "approvalAmount",
+            "nameLocation": "503:14:123",
+            "nodeType": "VariableDeclaration",
+            "scope": 54733,
+            "src": "495:22:123",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 54721,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "495:7:123",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 54724,
+            "mutability": "mutable",
+            "name": "nonce",
+            "nameLocation": "531:5:123",
+            "nodeType": "VariableDeclaration",
+            "scope": 54733,
+            "src": "523:13:123",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 54723,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "523:7:123",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 54726,
+            "mutability": "mutable",
+            "name": "deadline",
+            "nameLocation": "550:8:123",
+            "nodeType": "VariableDeclaration",
+            "scope": 54733,
+            "src": "542:16:123",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 54725,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "542:7:123",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 54728,
+            "mutability": "mutable",
+            "name": "v",
+            "nameLocation": "570:1:123",
+            "nodeType": "VariableDeclaration",
+            "scope": 54733,
+            "src": "564:7:123",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 54727,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "564:5:123",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 54730,
+            "mutability": "mutable",
+            "name": "r",
+            "nameLocation": "585:1:123",
+            "nodeType": "VariableDeclaration",
+            "scope": 54733,
+            "src": "577:9:123",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 54729,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "577:7:123",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 54732,
+            "mutability": "mutable",
+            "name": "s",
+            "nameLocation": "600:1:123",
+            "nodeType": "VariableDeclaration",
+            "scope": 54733,
+            "src": "592:9:123",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 54731,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "592:7:123",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "name": "PermitParams",
+        "nameLocation": "445:12:123",
+        "scope": 54852,
+        "visibility": "public"
+      },
+      {
+        "id": 54851,
+        "nodeType": "ContractDefinition",
+        "src": "606:2130:123",
+        "nodes": [
+          {
+            "id": 54737,
+            "nodeType": "UsingForDirective",
+            "src": "826:27:123",
+            "nodes": [],
+            "global": false,
+            "libraryName": {
+              "id": 54734,
+              "name": "SafeERC20",
+              "nameLocations": [
+                "832:9:123"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 35920,
+              "src": "832:9:123"
+            },
+            "typeName": {
+              "id": 54736,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 54735,
+                "name": "IERC20",
+                "nameLocations": [
+                  "846:6:123"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 34464,
+                "src": "846:6:123"
+              },
+              "referencedDeclaration": 34464,
+              "src": "846:6:123",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_IERC20_$34464",
+                "typeString": "contract IERC20"
+              }
+            }
+          },
+          {
+            "id": 54741,
+            "nodeType": "UsingForDirective",
+            "src": "858:33:123",
+            "nodes": [],
+            "global": false,
+            "libraryName": {
+              "id": 54738,
+              "name": "SafeERC20",
+              "nameLocations": [
+                "864:9:123"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 35920,
+              "src": "864:9:123"
+            },
+            "typeName": {
+              "id": 54740,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 54739,
+                "name": "IERC20Permit",
+                "nameLocations": [
+                  "878:12:123"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 35405,
+                "src": "878:12:123"
+              },
+              "referencedDeclaration": 35405,
+              "src": "878:12:123",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_IERC20Permit_$35405",
+                "typeString": "contract IERC20Permit"
+              }
+            }
+          },
+          {
+            "id": 54745,
+            "nodeType": "VariableDeclaration",
+            "src": "1101:76:123",
+            "nodes": [],
+            "constant": true,
+            "documentation": {
+              "id": 54742,
+              "nodeType": "StructuredDocumentation",
+              "src": "1077:19:123",
+              "text": "@notice Permit2"
+            },
+            "functionSelector": "12261ee7",
+            "mutability": "constant",
+            "name": "permit2",
+            "nameLocation": "1125:7:123",
+            "scope": 54851,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 54743,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "1101:7:123",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "hexValue": "307830303030303030303030323244343733303330463131366444454539463642343361433738424133",
+              "id": 54744,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "1135:42:123",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              },
+              "value": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 54850,
+            "nodeType": "FunctionDefinition",
+            "src": "1455:1279:123",
+            "nodes": [],
+            "body": {
+              "id": 54849,
+              "nodeType": "Block",
+              "src": "1586:1148:123",
+              "nodes": [],
+              "statements": [
+                {
+                  "condition": {
+                    "commonType": {
+                      "typeIdentifier": "t_enum$_ApprovalType_$54717",
+                      "typeString": "enum ApprovalType"
+                    },
+                    "id": 54764,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "expression": {
+                        "id": 54760,
+                        "name": "params",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 54757,
+                        "src": "1600:6:123",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_PermitParams_$54733_memory_ptr",
+                          "typeString": "struct PermitParams memory"
+                        }
+                      },
+                      "id": 54761,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1607:12:123",
+                      "memberName": "approvalType",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 54720,
+                      "src": "1600:19:123",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_ApprovalType_$54717",
+                        "typeString": "enum ApprovalType"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "expression": {
+                        "id": 54762,
+                        "name": "ApprovalType",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 54717,
+                        "src": "1623:12:123",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_ApprovalType_$54717_$",
+                          "typeString": "type(enum ApprovalType)"
+                        }
+                      },
+                      "id": 54763,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberLocation": "1636:7:123",
+                      "memberName": "PERMIT2",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 54716,
+                      "src": "1623:20:123",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_ApprovalType_$54717",
+                        "typeString": "enum ApprovalType"
+                      }
+                    },
+                    "src": "1600:43:123",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": {
+                    "condition": {
+                      "commonType": {
+                        "typeIdentifier": "t_enum$_ApprovalType_$54717",
+                        "typeString": "enum ApprovalType"
+                      },
+                      "id": 54808,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "leftExpression": {
+                        "expression": {
+                          "id": 54804,
+                          "name": "params",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 54757,
+                          "src": "2293:6:123",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_PermitParams_$54733_memory_ptr",
+                            "typeString": "struct PermitParams memory"
+                          }
+                        },
+                        "id": 54805,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "2300:12:123",
+                        "memberName": "approvalType",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 54720,
+                        "src": "2293:19:123",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_enum$_ApprovalType_$54717",
+                          "typeString": "enum ApprovalType"
+                        }
+                      },
+                      "nodeType": "BinaryOperation",
+                      "operator": "==",
+                      "rightExpression": {
+                        "expression": {
+                          "id": 54806,
+                          "name": "ApprovalType",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 54717,
+                          "src": "2316:12:123",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_enum$_ApprovalType_$54717_$",
+                            "typeString": "type(enum ApprovalType)"
+                          }
+                        },
+                        "id": 54807,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "memberLocation": "2329:6:123",
+                        "memberName": "PERMIT",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 54715,
+                        "src": "2316:19:123",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_enum$_ApprovalType_$54717",
+                          "typeString": "enum ApprovalType"
+                        }
+                      },
+                      "src": "2293:42:123",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "falseBody": {
+                      "id": 54846,
+                      "nodeType": "Block",
+                      "src": "2595:133:123",
+                      "statements": [
+                        {
+                          "expression": {
+                            "arguments": [
+                              {
+                                "id": 54841,
+                                "name": "from",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 54750,
+                                "src": "2700:4:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                }
+                              },
+                              {
+                                "id": 54842,
+                                "name": "to",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 54752,
+                                "src": "2706:2:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                }
+                              },
+                              {
+                                "id": 54843,
+                                "name": "amount",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 54754,
+                                "src": "2710:6:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                },
+                                {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                },
+                                {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              ],
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "id": 54838,
+                                    "name": "token",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 54748,
+                                    "src": "2676:5:123",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_address",
+                                      "typeString": "address"
+                                    }
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_address",
+                                      "typeString": "address"
+                                    }
+                                  ],
+                                  "id": 54837,
+                                  "name": "IERC20",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 34464,
+                                  "src": "2669:6:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_type$_t_contract$_IERC20_$34464_$",
+                                    "typeString": "type(contract IERC20)"
+                                  }
+                                },
+                                "id": 54839,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "typeConversion",
+                                "lValueRequested": false,
+                                "nameLocations": [],
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "2669:13:123",
+                                "tryCall": false,
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_contract$_IERC20_$34464",
+                                  "typeString": "contract IERC20"
+                                }
+                              },
+                              "id": 54840,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberLocation": "2683:16:123",
+                              "memberName": "safeTransferFrom",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 35604,
+                              "src": "2669:30:123",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_internal_nonpayable$_t_contract$_IERC20_$34464_$_t_address_$_t_address_$_t_uint256_$returns$__$attached_to$_t_contract$_IERC20_$34464_$",
+                                "typeString": "function (contract IERC20,address,address,uint256)"
+                              }
+                            },
+                            "id": 54844,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "nameLocations": [],
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "2669:48:123",
+                            "tryCall": false,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_tuple$__$",
+                              "typeString": "tuple()"
+                            }
+                          },
+                          "id": 54845,
+                          "nodeType": "ExpressionStatement",
+                          "src": "2669:48:123"
+                        }
+                      ]
+                    },
+                    "id": 54847,
+                    "nodeType": "IfStatement",
+                    "src": "2289:439:123",
+                    "trueBody": {
+                      "id": 54836,
+                      "nodeType": "Block",
+                      "src": "2337:252:123",
+                      "statements": [
+                        {
+                          "expression": {
+                            "arguments": [
+                              {
+                                "id": 54813,
+                                "name": "from",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 54750,
+                                "src": "2437:4:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                }
+                              },
+                              {
+                                "id": 54814,
+                                "name": "to",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 54752,
+                                "src": "2443:2:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                }
+                              },
+                              {
+                                "expression": {
+                                  "id": 54815,
+                                  "name": "params",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 54757,
+                                  "src": "2447:6:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_PermitParams_$54733_memory_ptr",
+                                    "typeString": "struct PermitParams memory"
+                                  }
+                                },
+                                "id": 54816,
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberLocation": "2454:14:123",
+                                "memberName": "approvalAmount",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 54722,
+                                "src": "2447:21:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              },
+                              {
+                                "expression": {
+                                  "id": 54817,
+                                  "name": "params",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 54757,
+                                  "src": "2470:6:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_PermitParams_$54733_memory_ptr",
+                                    "typeString": "struct PermitParams memory"
+                                  }
+                                },
+                                "id": 54818,
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberLocation": "2477:8:123",
+                                "memberName": "deadline",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 54726,
+                                "src": "2470:15:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              },
+                              {
+                                "expression": {
+                                  "id": 54819,
+                                  "name": "params",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 54757,
+                                  "src": "2487:6:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_PermitParams_$54733_memory_ptr",
+                                    "typeString": "struct PermitParams memory"
+                                  }
+                                },
+                                "id": 54820,
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberLocation": "2494:1:123",
+                                "memberName": "v",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 54728,
+                                "src": "2487:8:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint8",
+                                  "typeString": "uint8"
+                                }
+                              },
+                              {
+                                "expression": {
+                                  "id": 54821,
+                                  "name": "params",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 54757,
+                                  "src": "2497:6:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_PermitParams_$54733_memory_ptr",
+                                    "typeString": "struct PermitParams memory"
+                                  }
+                                },
+                                "id": 54822,
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberLocation": "2504:1:123",
+                                "memberName": "r",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 54730,
+                                "src": "2497:8:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_bytes32",
+                                  "typeString": "bytes32"
+                                }
+                              },
+                              {
+                                "expression": {
+                                  "id": 54823,
+                                  "name": "params",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 54757,
+                                  "src": "2507:6:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_PermitParams_$54733_memory_ptr",
+                                    "typeString": "struct PermitParams memory"
+                                  }
+                                },
+                                "id": 54824,
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberLocation": "2514:1:123",
+                                "memberName": "s",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 54732,
+                                "src": "2507:8:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_bytes32",
+                                  "typeString": "bytes32"
+                                }
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                },
+                                {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                },
+                                {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                },
+                                {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                },
+                                {
+                                  "typeIdentifier": "t_uint8",
+                                  "typeString": "uint8"
+                                },
+                                {
+                                  "typeIdentifier": "t_bytes32",
+                                  "typeString": "bytes32"
+                                },
+                                {
+                                  "typeIdentifier": "t_bytes32",
+                                  "typeString": "bytes32"
+                                }
+                              ],
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "id": 54810,
+                                    "name": "token",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 54748,
+                                    "src": "2419:5:123",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_address",
+                                      "typeString": "address"
+                                    }
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_address",
+                                      "typeString": "address"
+                                    }
+                                  ],
+                                  "id": 54809,
+                                  "name": "IERC20Permit",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 35405,
+                                  "src": "2406:12:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_type$_t_contract$_IERC20Permit_$35405_$",
+                                    "typeString": "type(contract IERC20Permit)"
+                                  }
+                                },
+                                "id": 54811,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "typeConversion",
+                                "lValueRequested": false,
+                                "nameLocations": [],
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "2406:19:123",
+                                "tryCall": false,
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_contract$_IERC20Permit_$35405",
+                                  "typeString": "contract IERC20Permit"
+                                }
+                              },
+                              "id": 54812,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberLocation": "2426:10:123",
+                              "memberName": "safePermit",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 35834,
+                              "src": "2406:30:123",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_internal_nonpayable$_t_contract$_IERC20Permit_$35405_$_t_address_$_t_address_$_t_uint256_$_t_uint256_$_t_uint8_$_t_bytes32_$_t_bytes32_$returns$__$attached_to$_t_contract$_IERC20Permit_$35405_$",
+                                "typeString": "function (contract IERC20Permit,address,address,uint256,uint256,uint8,bytes32,bytes32)"
+                              }
+                            },
+                            "id": 54825,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "nameLocations": [],
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "2406:110:123",
+                            "tryCall": false,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_tuple$__$",
+                              "typeString": "tuple()"
+                            }
+                          },
+                          "id": 54826,
+                          "nodeType": "ExpressionStatement",
+                          "src": "2406:110:123"
+                        },
+                        {
+                          "expression": {
+                            "arguments": [
+                              {
+                                "id": 54831,
+                                "name": "from",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 54750,
+                                "src": "2561:4:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                }
+                              },
+                              {
+                                "id": 54832,
+                                "name": "to",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 54752,
+                                "src": "2567:2:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                }
+                              },
+                              {
+                                "id": 54833,
+                                "name": "amount",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 54754,
+                                "src": "2571:6:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                },
+                                {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                },
+                                {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              ],
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "id": 54828,
+                                    "name": "token",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 54748,
+                                    "src": "2537:5:123",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_address",
+                                      "typeString": "address"
+                                    }
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_address",
+                                      "typeString": "address"
+                                    }
+                                  ],
+                                  "id": 54827,
+                                  "name": "IERC20",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 34464,
+                                  "src": "2530:6:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_type$_t_contract$_IERC20_$34464_$",
+                                    "typeString": "type(contract IERC20)"
+                                  }
+                                },
+                                "id": 54829,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "typeConversion",
+                                "lValueRequested": false,
+                                "nameLocations": [],
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "2530:13:123",
+                                "tryCall": false,
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_contract$_IERC20_$34464",
+                                  "typeString": "contract IERC20"
+                                }
+                              },
+                              "id": 54830,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberLocation": "2544:16:123",
+                              "memberName": "safeTransferFrom",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 35604,
+                              "src": "2530:30:123",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_internal_nonpayable$_t_contract$_IERC20_$34464_$_t_address_$_t_address_$_t_uint256_$returns$__$attached_to$_t_contract$_IERC20_$34464_$",
+                                "typeString": "function (contract IERC20,address,address,uint256)"
+                              }
+                            },
+                            "id": 54834,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "nameLocations": [],
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "2530:48:123",
+                            "tryCall": false,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_tuple$__$",
+                              "typeString": "tuple()"
+                            }
+                          },
+                          "id": 54835,
+                          "nodeType": "ExpressionStatement",
+                          "src": "2530:48:123"
+                        }
+                      ]
+                    }
+                  },
+                  "id": 54848,
+                  "nodeType": "IfStatement",
+                  "src": "1596:1132:123",
+                  "trueBody": {
+                    "id": 54803,
+                    "nodeType": "Block",
+                    "src": "1645:638:123",
+                    "statements": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "arguments": [
+                                {
+                                  "arguments": [
+                                    {
+                                      "id": 54773,
+                                      "name": "token",
+                                      "nodeType": "Identifier",
+                                      "overloadedDeclarations": [],
+                                      "referencedDeclaration": 54748,
+                                      "src": "1901:5:123",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_address",
+                                        "typeString": "address"
+                                      }
+                                    },
+                                    {
+                                      "expression": {
+                                        "id": 54774,
+                                        "name": "params",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 54757,
+                                        "src": "1916:6:123",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_struct$_PermitParams_$54733_memory_ptr",
+                                          "typeString": "struct PermitParams memory"
+                                        }
+                                      },
+                                      "id": 54775,
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "memberLocation": "1923:14:123",
+                                      "memberName": "approvalAmount",
+                                      "nodeType": "MemberAccess",
+                                      "referencedDeclaration": 54722,
+                                      "src": "1916:21:123",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                      }
+                                    }
+                                  ],
+                                  "expression": {
+                                    "argumentTypes": [
+                                      {
+                                        "typeIdentifier": "t_address",
+                                        "typeString": "address"
+                                      },
+                                      {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                      }
+                                    ],
+                                    "expression": {
+                                      "id": 54771,
+                                      "name": "ISignatureTransfer",
+                                      "nodeType": "Identifier",
+                                      "overloadedDeclarations": [],
+                                      "referencedDeclaration": 39437,
+                                      "src": "1856:18:123",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_type$_t_contract$_ISignatureTransfer_$39437_$",
+                                        "typeString": "type(contract ISignatureTransfer)"
+                                      }
+                                    },
+                                    "id": 54772,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": false,
+                                    "lValueRequested": false,
+                                    "memberLocation": "1875:16:123",
+                                    "memberName": "TokenPermissions",
+                                    "nodeType": "MemberAccess",
+                                    "referencedDeclaration": 39330,
+                                    "src": "1856:35:123",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_type$_t_struct$_TokenPermissions_$39330_storage_ptr_$",
+                                      "typeString": "type(struct ISignatureTransfer.TokenPermissions storage pointer)"
+                                    }
+                                  },
+                                  "id": 54776,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "kind": "structConstructorCall",
+                                  "lValueRequested": false,
+                                  "nameLocations": [
+                                    "1894:5:123",
+                                    "1908:6:123"
+                                  ],
+                                  "names": [
+                                    "token",
+                                    "amount"
+                                  ],
+                                  "nodeType": "FunctionCall",
+                                  "src": "1856:84:123",
+                                  "tryCall": false,
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_TokenPermissions_$39330_memory_ptr",
+                                    "typeString": "struct ISignatureTransfer.TokenPermissions memory"
+                                  }
+                                },
+                                {
+                                  "expression": {
+                                    "id": 54777,
+                                    "name": "params",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 54757,
+                                    "src": "1969:6:123",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_struct$_PermitParams_$54733_memory_ptr",
+                                      "typeString": "struct PermitParams memory"
+                                    }
+                                  },
+                                  "id": 54778,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "memberLocation": "1976:5:123",
+                                  "memberName": "nonce",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": 54724,
+                                  "src": "1969:12:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  }
+                                },
+                                {
+                                  "expression": {
+                                    "id": 54779,
+                                    "name": "params",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 54757,
+                                    "src": "2013:6:123",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_struct$_PermitParams_$54733_memory_ptr",
+                                      "typeString": "struct PermitParams memory"
+                                    }
+                                  },
+                                  "id": 54780,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "memberLocation": "2020:8:123",
+                                  "memberName": "deadline",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": 54726,
+                                  "src": "2013:15:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  }
+                                }
+                              ],
+                              "expression": {
+                                "argumentTypes": [
+                                  {
+                                    "typeIdentifier": "t_struct$_TokenPermissions_$39330_memory_ptr",
+                                    "typeString": "struct ISignatureTransfer.TokenPermissions memory"
+                                  },
+                                  {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  },
+                                  {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  }
+                                ],
+                                "expression": {
+                                  "id": 54769,
+                                  "name": "ISignatureTransfer",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 39437,
+                                  "src": "1785:18:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_type$_t_contract$_ISignatureTransfer_$39437_$",
+                                    "typeString": "type(contract ISignatureTransfer)"
+                                  }
+                                },
+                                "id": 54770,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberLocation": "1804:18:123",
+                                "memberName": "PermitTransferFrom",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 39338,
+                                "src": "1785:37:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_type$_t_struct$_PermitTransferFrom_$39338_storage_ptr_$",
+                                  "typeString": "type(struct ISignatureTransfer.PermitTransferFrom storage pointer)"
+                                }
+                              },
+                              "id": 54781,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "kind": "structConstructorCall",
+                              "lValueRequested": false,
+                              "nameLocations": [
+                                "1845:9:123",
+                                "1962:5:123",
+                                "2003:8:123"
+                              ],
+                              "names": [
+                                "permitted",
+                                "nonce",
+                                "deadline"
+                              ],
+                              "nodeType": "FunctionCall",
+                              "src": "1785:262:123",
+                              "tryCall": false,
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_PermitTransferFrom_$39338_memory_ptr",
+                                "typeString": "struct ISignatureTransfer.PermitTransferFrom memory"
+                              }
+                            },
+                            {
+                              "arguments": [
+                                {
+                                  "id": 54784,
+                                  "name": "to",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 54752,
+                                  "src": "2115:2:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_address",
+                                    "typeString": "address"
+                                  }
+                                },
+                                {
+                                  "id": 54785,
+                                  "name": "amount",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 54754,
+                                  "src": "2136:6:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  }
+                                }
+                              ],
+                              "expression": {
+                                "argumentTypes": [
+                                  {
+                                    "typeIdentifier": "t_address",
+                                    "typeString": "address"
+                                  },
+                                  {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  }
+                                ],
+                                "expression": {
+                                  "id": 54782,
+                                  "name": "ISignatureTransfer",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 39437,
+                                  "src": "2065:18:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_type$_t_contract$_ISignatureTransfer_$39437_$",
+                                    "typeString": "type(contract ISignatureTransfer)"
+                                  }
+                                },
+                                "id": 54783,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberLocation": "2084:24:123",
+                                "memberName": "SignatureTransferDetails",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 39343,
+                                "src": "2065:43:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_type$_t_struct$_SignatureTransferDetails_$39343_storage_ptr_$",
+                                  "typeString": "type(struct ISignatureTransfer.SignatureTransferDetails storage pointer)"
+                                }
+                              },
+                              "id": 54786,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "kind": "structConstructorCall",
+                              "lValueRequested": false,
+                              "nameLocations": [
+                                "2111:2:123",
+                                "2119:15:123"
+                              ],
+                              "names": [
+                                "to",
+                                "requestedAmount"
+                              ],
+                              "nodeType": "FunctionCall",
+                              "src": "2065:80:123",
+                              "tryCall": false,
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_SignatureTransferDetails_$39343_memory_ptr",
+                                "typeString": "struct ISignatureTransfer.SignatureTransferDetails memory"
+                              }
+                            },
+                            {
+                              "id": 54787,
+                              "name": "from",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 54750,
+                              "src": "2163:4:123",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              }
+                            },
+                            {
+                              "arguments": [
+                                {
+                                  "expression": {
+                                    "id": 54791,
+                                    "name": "params",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 54757,
+                                    "src": "2198:6:123",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_struct$_PermitParams_$54733_memory_ptr",
+                                      "typeString": "struct PermitParams memory"
+                                    }
+                                  },
+                                  "id": 54792,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "memberLocation": "2205:1:123",
+                                  "memberName": "r",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": 54730,
+                                  "src": "2198:8:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_bytes32",
+                                    "typeString": "bytes32"
+                                  }
+                                },
+                                {
+                                  "expression": {
+                                    "id": 54793,
+                                    "name": "params",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 54757,
+                                    "src": "2208:6:123",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_struct$_PermitParams_$54733_memory_ptr",
+                                      "typeString": "struct PermitParams memory"
+                                    }
+                                  },
+                                  "id": 54794,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "memberLocation": "2215:1:123",
+                                  "memberName": "s",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": 54732,
+                                  "src": "2208:8:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_bytes32",
+                                    "typeString": "bytes32"
+                                  }
+                                },
+                                {
+                                  "arguments": [
+                                    {
+                                      "expression": {
+                                        "id": 54797,
+                                        "name": "params",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 54757,
+                                        "src": "2225:6:123",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_struct$_PermitParams_$54733_memory_ptr",
+                                          "typeString": "struct PermitParams memory"
+                                        }
+                                      },
+                                      "id": 54798,
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "memberLocation": "2232:1:123",
+                                      "memberName": "v",
+                                      "nodeType": "MemberAccess",
+                                      "referencedDeclaration": 54728,
+                                      "src": "2225:8:123",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_uint8",
+                                        "typeString": "uint8"
+                                      }
+                                    }
+                                  ],
+                                  "expression": {
+                                    "argumentTypes": [
+                                      {
+                                        "typeIdentifier": "t_uint8",
+                                        "typeString": "uint8"
+                                      }
+                                    ],
+                                    "id": 54796,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": true,
+                                    "lValueRequested": false,
+                                    "nodeType": "ElementaryTypeNameExpression",
+                                    "src": "2218:6:123",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_type$_t_bytes1_$",
+                                      "typeString": "type(bytes1)"
+                                    },
+                                    "typeName": {
+                                      "id": 54795,
+                                      "name": "bytes1",
+                                      "nodeType": "ElementaryTypeName",
+                                      "src": "2218:6:123",
+                                      "typeDescriptions": {}
+                                    }
+                                  },
+                                  "id": 54799,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "kind": "typeConversion",
+                                  "lValueRequested": false,
+                                  "nameLocations": [],
+                                  "names": [],
+                                  "nodeType": "FunctionCall",
+                                  "src": "2218:16:123",
+                                  "tryCall": false,
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_bytes1",
+                                    "typeString": "bytes1"
+                                  }
+                                }
+                              ],
+                              "expression": {
+                                "argumentTypes": [
+                                  {
+                                    "typeIdentifier": "t_bytes32",
+                                    "typeString": "bytes32"
+                                  },
+                                  {
+                                    "typeIdentifier": "t_bytes32",
+                                    "typeString": "bytes32"
+                                  },
+                                  {
+                                    "typeIdentifier": "t_bytes1",
+                                    "typeString": "bytes1"
+                                  }
+                                ],
+                                "expression": {
+                                  "id": 54789,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": true,
+                                  "lValueRequested": false,
+                                  "nodeType": "ElementaryTypeNameExpression",
+                                  "src": "2185:5:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_type$_t_bytes_storage_ptr_$",
+                                    "typeString": "type(bytes storage pointer)"
+                                  },
+                                  "typeName": {
+                                    "id": 54788,
+                                    "name": "bytes",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "2185:5:123",
+                                    "typeDescriptions": {}
+                                  }
+                                },
+                                "id": 54790,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberLocation": "2191:6:123",
+                                "memberName": "concat",
+                                "nodeType": "MemberAccess",
+                                "src": "2185:12:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_function_bytesconcat_pure$__$returns$_t_bytes_memory_ptr_$",
+                                  "typeString": "function () pure returns (bytes memory)"
+                                }
+                              },
+                              "id": 54800,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "kind": "functionCall",
+                              "lValueRequested": false,
+                              "nameLocations": [],
+                              "names": [],
+                              "nodeType": "FunctionCall",
+                              "src": "2185:50:123",
+                              "tryCall": false,
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_bytes_memory_ptr",
+                                "typeString": "bytes memory"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_struct$_PermitTransferFrom_$39338_memory_ptr",
+                                "typeString": "struct ISignatureTransfer.PermitTransferFrom memory"
+                              },
+                              {
+                                "typeIdentifier": "t_struct$_SignatureTransferDetails_$39343_memory_ptr",
+                                "typeString": "struct ISignatureTransfer.SignatureTransferDetails memory"
+                              },
+                              {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              },
+                              {
+                                "typeIdentifier": "t_bytes_memory_ptr",
+                                "typeString": "bytes memory"
+                              }
+                            ],
+                            "expression": {
+                              "arguments": [
+                                {
+                                  "id": 54766,
+                                  "name": "permit2",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 54745,
+                                  "src": "1740:7:123",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_address",
+                                    "typeString": "address"
+                                  }
+                                }
+                              ],
+                              "expression": {
+                                "argumentTypes": [
+                                  {
+                                    "typeIdentifier": "t_address",
+                                    "typeString": "address"
+                                  }
+                                ],
+                                "id": 54765,
+                                "name": "ISignatureTransfer",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 39437,
+                                "src": "1721:18:123",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_type$_t_contract$_ISignatureTransfer_$39437_$",
+                                  "typeString": "type(contract ISignatureTransfer)"
+                                }
+                              },
+                              "id": 54767,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "kind": "typeConversion",
+                              "lValueRequested": false,
+                              "nameLocations": [],
+                              "names": [],
+                              "nodeType": "FunctionCall",
+                              "src": "1721:27:123",
+                              "tryCall": false,
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_ISignatureTransfer_$39437",
+                                "typeString": "contract ISignatureTransfer"
+                              }
+                            },
+                            "id": 54768,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberLocation": "1749:18:123",
+                            "memberName": "permitTransferFrom",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 39376,
+                            "src": "1721:46:123",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_external_nonpayable$_t_struct$_PermitTransferFrom_$39338_memory_ptr_$_t_struct$_SignatureTransferDetails_$39343_memory_ptr_$_t_address_$_t_bytes_memory_ptr_$returns$__$",
+                              "typeString": "function (struct ISignatureTransfer.PermitTransferFrom memory,struct ISignatureTransfer.SignatureTransferDetails memory,address,bytes memory) external"
+                            }
+                          },
+                          "id": 54801,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "nameLocations": [],
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "1721:551:123",
+                          "tryCall": false,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_tuple$__$",
+                            "typeString": "tuple()"
+                          }
+                        },
+                        "id": 54802,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1721:551:123"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "documentation": {
+              "id": 54746,
+              "nodeType": "StructuredDocumentation",
+              "src": "1364:86:123",
+              "text": "@notice Perform a permit2, a ERC20 permit transferFrom, or a standard transferFrom"
+            },
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "_transferFrom",
+            "nameLocation": "1464:13:123",
+            "parameters": {
+              "id": 54758,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 54748,
+                  "mutability": "mutable",
+                  "name": "token",
+                  "nameLocation": "1495:5:123",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 54850,
+                  "src": "1487:13:123",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 54747,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1487:7:123",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 54750,
+                  "mutability": "mutable",
+                  "name": "from",
+                  "nameLocation": "1510:4:123",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 54850,
+                  "src": "1502:12:123",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 54749,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1502:7:123",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 54752,
+                  "mutability": "mutable",
+                  "name": "to",
+                  "nameLocation": "1524:2:123",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 54850,
+                  "src": "1516:10:123",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 54751,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1516:7:123",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 54754,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nameLocation": "1536:6:123",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 54850,
+                  "src": "1528:14:123",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 54753,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1528:7:123",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 54757,
+                  "mutability": "mutable",
+                  "name": "params",
+                  "nameLocation": "1564:6:123",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 54850,
+                  "src": "1544:26:123",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_PermitParams_$54733_memory_ptr",
+                    "typeString": "struct PermitParams"
+                  },
+                  "typeName": {
+                    "id": 54756,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 54755,
+                      "name": "PermitParams",
+                      "nameLocations": [
+                        "1544:12:123"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 54733,
+                      "src": "1544:12:123"
+                    },
+                    "referencedDeclaration": 54733,
+                    "src": "1544:12:123",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_PermitParams_$54733_storage_ptr",
+                      "typeString": "struct PermitParams"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1477:99:123"
+            },
+            "returnParameters": {
+              "id": 54759,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1586:0:123"
+            },
+            "scope": 54851,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "internal"
+          }
+        ],
+        "abstract": true,
+        "baseContracts": [],
+        "canonicalName": "TransferAction",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          54851
+        ],
+        "name": "TransferAction",
+        "nameLocation": "624:14:123",
+        "scope": 54852,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 123
+}
