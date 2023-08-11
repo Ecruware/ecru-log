@@ -1,7 +1,7 @@
 {
   "core": {
     "CDM": {
-      "address": "0x05289C2f095E56fE4592e240e42e3CaA48fc6f08",
+      "address": "0x89B8f8a2206dBb4332cE2917C271F20C989213bF",
       "artifactName": "CDM",
       "constructorArguments": [
         "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
@@ -10,59 +10,59 @@
       ]
     },
     "Stablecoin": {
-      "address": "0x03Af2D5252E7b2a5297f023978330235C188D656",
+      "address": "0xB83edA683625A4c8eeCfa9e56D3377d94aa9647e",
       "artifactName": "Stablecoin",
       "constructorArguments": []
     },
     "Minter": {
-      "address": "0xF361a66f8478485E87a27b5903c4C47640555b12",
+      "address": "0x28746bC17a959796Fd92DF1f71Fc74dA2bd247b2",
       "artifactName": "Minter",
       "constructorArguments": [
-        "0x05289C2f095E56fE4592e240e42e3CaA48fc6f08",
-        "0x03Af2D5252E7b2a5297f023978330235C188D656",
+        "0x89B8f8a2206dBb4332cE2917C271F20C989213bF",
+        "0xB83edA683625A4c8eeCfa9e56D3377d94aa9647e",
         "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
         "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa"
       ]
     },
     "Flashlender": {
-      "address": "0xFb7F08982373EDa08fE4314595DCA63Fa37Fa548",
+      "address": "0xa78Ca7eAf46c66E975D239650D98AC22fe4f175b",
       "artifactName": "Flashlender",
       "constructorArguments": [
-        "0xF361a66f8478485E87a27b5903c4C47640555b12",
+        "0x28746bC17a959796Fd92DF1f71Fc74dA2bd247b2",
         "0"
       ]
     },
     "BufferProxyAdmin": {
-      "address": "0xB1bB91a01ac829a31e641Cd06f8552f69fb3b733",
+      "address": "0xDe7dB1846BA85Ab648cAE5d09b2be007e8D651B1",
       "artifactName": "ProxyAdmin",
       "constructorArguments": []
     },
     "BufferImplementation": {
-      "address": "0x34e5a2Bcdc85985f1692333981418A5c908B52bd",
+      "address": "0x0E73779ccBF636bb6B09f2A99C97d14178b1edC4",
       "artifactName": "Buffer",
       "constructorArguments": []
     },
     "Buffer": {
-      "address": "0x6DB0ffDC865166A4fb406d5b07D8E7Cc0f08Db5a",
+      "address": "0x2E2565dBa2e0D25c5d65DA55f2175bcA9DaAbe00",
       "artifactName": "Buffer",
       "constructorArguments": [
-        "0x34e5a2Bcdc85985f1692333981418A5c908B52bd",
-        "0xB1bB91a01ac829a31e641Cd06f8552f69fb3b733",
+        "0x0E73779ccBF636bb6B09f2A99C97d14178b1edC4",
+        "0xDe7dB1846BA85Ab648cAE5d09b2be007e8D651B1",
         "0x485cc95500000000000000000000000054a66bfed39dd3a51fca506d79818b3dcd07d6aa00000000000000000000000054a66bfed39dd3a51fca506d79818b3dcd07d6aa"
       ]
     },
     "MockOracle": {
-      "address": "0x76ACe4cf7085e73D7565c438f4f053D4a35e1B64",
+      "address": "0xe1aa50a2cc069DB3e50630B8b43C2beB5bCef448",
       "artifactName": "MockOracle",
       "constructorArguments": []
     },
     "CDPVaultUnwinderFactory": {
-      "address": "0x49F2905C08a2f40a499c71424F96F87412A3eA46",
+      "address": "0x837C9966f1CfEE1f048824e709f17FcD684B1D8A",
       "artifactName": "CDPVaultUnwinderFactory",
       "constructorArguments": []
     },
     "SwapAction": {
-      "address": "0x42092362dB64b4a4e5F9cc2EeCaF9E68B1a86Ce6",
+      "address": "0xe0d97d4e7621052e45C166B7c7f6C2fb94e14EFD",
       "artifactName": "SwapAction",
       "constructorArguments": [
         "0x1111111254EEB25477B68fb85Ed929f73A960582",
@@ -71,37 +71,37 @@
       ]
     },
     "ERC165Plugin": {
-      "address": "0x319261FdA50b7D7D2179485af0aD7c40EeE40561",
+      "address": "0x10F5F063c592F06CE2aca2B61B3Df4bE0c7c7968",
       "artifactName": "ERC165Plugin",
       "constructorArguments": []
     },
     "PositionAction20": {
-      "address": "0xf78cdcc3EAd30f1151181AB7933773A0B01791E5",
+      "address": "0x301D4eBdb0dA97b9a15DfC0150a4516832C2269C",
       "artifactName": "PositionAction20",
       "constructorArguments": [
-        "0xFb7F08982373EDa08fE4314595DCA63Fa37Fa548",
-        "0x42092362dB64b4a4e5F9cc2EeCaF9E68B1a86Ce6"
+        "0xa78Ca7eAf46c66E975D239650D98AC22fe4f175b",
+        "0xe0d97d4e7621052e45C166B7c7f6C2fb94e14EFD"
       ]
     },
     "PositionActionYV": {
-      "address": "0xA046C9123cC0f512442c8d02771110E50FBAE385",
+      "address": "0x187c6A1EEed9829D31081174d439BdD732ca7189",
       "artifactName": "PositionActionYV",
       "constructorArguments": [
-        "0xFb7F08982373EDa08fE4314595DCA63Fa37Fa548",
-        "0x42092362dB64b4a4e5F9cc2EeCaF9E68B1a86Ce6"
+        "0xa78Ca7eAf46c66E975D239650D98AC22fe4f175b",
+        "0xe0d97d4e7621052e45C166B7c7f6C2fb94e14EFD"
       ]
     },
     "CDPVault_TypeA_Deployer": {
-      "address": "0xe68191b7316bBcCAFE6A66DC32730661a1aF1E59",
+      "address": "0x0CA7a5865A1a515F0281408A978A46A6dA09cbbF",
       "artifactName": "CDPVault_TypeA_Deployer",
       "constructorArguments": []
     },
     "CDPVault_TypeA_Factory": {
-      "address": "0x914A973A7B48B96AE6518bbf8Cc47a21a20C92F2",
+      "address": "0x147b4296Ff4004Ef7e8f7C204950ebAd87E5119B",
       "artifactName": "CDPVault_TypeA_Factory",
       "constructorArguments": [
-        "0xe68191b7316bBcCAFE6A66DC32730661a1aF1E59",
-        "0x49F2905C08a2f40a499c71424F96F87412A3eA46",
+        "0x0CA7a5865A1a515F0281408A978A46A6dA09cbbF",
+        "0x837C9966f1CfEE1f048824e709f17FcD684B1D8A",
         "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
         "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa",
         "0x54A66bfeD39DD3a51fCA506d79818B3dCd07D6Aa"
@@ -110,13 +110,13 @@
   },
   "vaults": {
     "CDPVault_TypeA_WETH": {
-      "address": "0x296b89Ff59702beD24956B15FC121b0a368EbC02",
+      "address": "0x0C89C2a50b024Befd1c60C16C308D7b267EB6c1b",
       "artifactName": "CDPVault_TypeA",
       "constructorArguments": [
         [
-          "0x05289C2f095E56fE4592e240e42e3CaA48fc6f08",
-          "0x76ACe4cf7085e73D7565c438f4f053D4a35e1B64",
-          "0x6DB0ffDC865166A4fb406d5b07D8E7Cc0f08Db5a",
+          "0x89B8f8a2206dBb4332cE2917C271F20C989213bF",
+          "0xe1aa50a2cc069DB3e50630B8b43C2beB5bCef448",
+          "0x2E2565dBa2e0D25c5d65DA55f2175bcA9DaAbe00",
           "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
           "1000000000000000000",
           "1000000000000000",
@@ -149,13 +149,13 @@
       ]
     },
     "CDPVault_TypeA_USDC": {
-      "address": "0x6793943ecAF974d0Bb78ea37cbf9AD21c1953FE7",
+      "address": "0xf3674371515D15e622038A0FDe4E066Aa6943f77",
       "artifactName": "CDPVault_TypeA",
       "constructorArguments": [
         [
-          "0x05289C2f095E56fE4592e240e42e3CaA48fc6f08",
-          "0x76ACe4cf7085e73D7565c438f4f053D4a35e1B64",
-          "0x6DB0ffDC865166A4fb406d5b07D8E7Cc0f08Db5a",
+          "0x89B8f8a2206dBb4332cE2917C271F20C989213bF",
+          "0xe1aa50a2cc069DB3e50630B8b43C2beB5bCef448",
+          "0x2E2565dBa2e0D25c5d65DA55f2175bcA9DaAbe00",
           "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
           "1000000",
           "0",
@@ -188,13 +188,13 @@
       ]
     },
     "CDPVault_TypeA_DAI": {
-      "address": "0x9d11742d208e2e1ad6eD3D71e44251DA75227a78",
+      "address": "0x0FA1e1B213a550c4Ac7447994D6e769843F03d2C",
       "artifactName": "CDPVault_TypeA",
       "constructorArguments": [
         [
-          "0x05289C2f095E56fE4592e240e42e3CaA48fc6f08",
-          "0x76ACe4cf7085e73D7565c438f4f053D4a35e1B64",
-          "0x6DB0ffDC865166A4fb406d5b07D8E7Cc0f08Db5a",
+          "0x89B8f8a2206dBb4332cE2917C271F20C989213bF",
+          "0xe1aa50a2cc069DB3e50630B8b43C2beB5bCef448",
+          "0x2E2565dBa2e0D25c5d65DA55f2175bcA9DaAbe00",
           "0x6B175474E89094C44Da98b954EedeAC495271d0F",
           "1000000000000000000",
           "0",
@@ -227,13 +227,13 @@
       ]
     },
     "CDPVault_TypeA_CRV": {
-      "address": "0x8198B43d21970b220D491229fD5573DeDA3690b5",
+      "address": "0x0C25a2Bd2B12954519fa49F2a339986870F0941C",
       "artifactName": "CDPVault_TypeA",
       "constructorArguments": [
         [
-          "0x05289C2f095E56fE4592e240e42e3CaA48fc6f08",
-          "0x76ACe4cf7085e73D7565c438f4f053D4a35e1B64",
-          "0x6DB0ffDC865166A4fb406d5b07D8E7Cc0f08Db5a",
+          "0x89B8f8a2206dBb4332cE2917C271F20C989213bF",
+          "0xe1aa50a2cc069DB3e50630B8b43C2beB5bCef448",
+          "0x2E2565dBa2e0D25c5d65DA55f2175bcA9DaAbe00",
           "0xD533a949740bb3306d119CC777fa900bA034cd52",
           "1000000000000000000",
           "0",
@@ -266,13 +266,13 @@
       ]
     },
     "CDPVault_TypeA_yvDAI": {
-      "address": "0x876c6D16BBdc0e90Eed9ef85db63B932a3FcC56b",
+      "address": "0x2B2073eA301263c862647c7B6B2E1f8F17C40Cbf",
       "artifactName": "CDPVault_TypeA",
       "constructorArguments": [
         [
-          "0x05289C2f095E56fE4592e240e42e3CaA48fc6f08",
-          "0x76ACe4cf7085e73D7565c438f4f053D4a35e1B64",
-          "0x6DB0ffDC865166A4fb406d5b07D8E7Cc0f08Db5a",
+          "0x89B8f8a2206dBb4332cE2917C271F20C989213bF",
+          "0xe1aa50a2cc069DB3e50630B8b43C2beB5bCef448",
+          "0x2E2565dBa2e0D25c5d65DA55f2175bcA9DaAbe00",
           "0xdA816459F1AB5631232FE5e97a05BBBb94970c95",
           "1000000000000000000",
           "1000000000000000",
