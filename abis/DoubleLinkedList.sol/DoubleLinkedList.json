@@ -17,17 +17,17 @@
     }
   ],
   "bytecode": {
-    "object": "0x60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220867cb085d9523b33916eeea2bc2d6d7d1af4b23bfbd7d50b7eed8170a505cc6164736f6c63430008130033",
+    "object": "0x60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220a7256fa8c59e67ab15c08116a7f09ee6fe0ed8a4e2b53ac9a8d13097389f2e9b64736f6c63430008130033",
     "sourceMap": "248:4142:170:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;248:4142:170;;;;;;;;;;;;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220867cb085d9523b33916eeea2bc2d6d7d1af4b23bfbd7d50b7eed8170a505cc6164736f6c63430008130033",
+    "object": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220a7256fa8c59e67ab15c08116a7f09ee6fe0ed8a4e2b53ac9a8d13097389f2e9b64736f6c63430008130033",
     "sourceMap": "248:4142:170:-:0;;;;;;;;",
     "linkReferences": {}
   },
   "methodIdentifiers": {},
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"IdIsZero\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"ItemInList\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"ItemNotInList\",\"type\":\"error\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"title\":\"DoubleLinkedList\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Implements a double linked list where the head is defined as the null item's next pointer and the tail is defined as the null item's prev pointer\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/utils/DoubleLinkedList.sol\":\"DoubleLinkedList\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/src/\",\"lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/\"]},\"sources\":{\"src/utils/DoubleLinkedList.sol\":{\"keccak256\":\"0xb9ab1eb6864f624f7d652c58386335f104a450a75b6dd19179b9fa1ad8637691\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4a0d6e4ddf26a4af573bd782ffdb99801557ef16ad64372ef0486d0dd6b832cb\",\"dweb:/ipfs/QmcMgm9QS5qeLnVKLshEuFoyicuqLaJ5imphpfbPK3J7EC\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"IdIsZero\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"ItemInList\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"ItemNotInList\",\"type\":\"error\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"title\":\"DoubleLinkedList\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Implements a double linked list where the head is defined as the null item's next pointer and the tail is defined as the null item's prev pointer\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/utils/DoubleLinkedList.sol\":\"DoubleLinkedList\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":@prb/test/=lib/prb-proxy/lib/prb-test/src/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/\"]},\"sources\":{\"src/utils/DoubleLinkedList.sol\":{\"keccak256\":\"0xb9ab1eb6864f624f7d652c58386335f104a450a75b6dd19179b9fa1ad8637691\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4a0d6e4ddf26a4af573bd782ffdb99801557ef16ad64372ef0486d0dd6b832cb\",\"dweb:/ipfs/QmcMgm9QS5qeLnVKLshEuFoyicuqLaJ5imphpfbPK3J7EC\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.19+commit.7dd6d404"
@@ -65,6 +65,7 @@
     "settings": {
       "remappings": [
         "@openzeppelin/=node_modules/@openzeppelin/",
+        "@prb/test/=lib/prb-proxy/lib/prb-test/src/",
         "ds-test/=lib/forge-std/lib/ds-test/src/",
         "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
         "forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/",
@@ -78,8 +79,7 @@
         "permit2/=lib/permit2/src/",
         "prb-proxy/=lib/prb-proxy/src/",
         "prb-test/=lib/prb-proxy/lib/prb-test/src/",
-        "solmate/=lib/permit2/lib/solmate/src/",
-        "lib/prb-proxy:@prb/test/=lib/prb-proxy/lib/prb-test/src/"
+        "solmate/=lib/permit2/lib/solmate/"
       ],
       "optimizer": {
         "enabled": true,
