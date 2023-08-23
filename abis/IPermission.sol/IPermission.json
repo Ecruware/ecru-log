@@ -209,17 +209,17 @@
   },
   "ast": {
     "absolutePath": "src/interfaces/IPermission.sol",
-    "id": 49661,
+    "id": 49673,
     "exportedSymbols": {
       "IPermission": [
-        49660
+        49672
       ]
     },
     "nodeType": "SourceUnit",
     "src": "45:297:110",
     "nodes": [
       {
-        "id": 49634,
+        "id": 49646,
         "nodeType": "PragmaDirective",
         "src": "45:24:110",
         "nodes": [],
@@ -231,12 +231,12 @@
         ]
       },
       {
-        "id": 49660,
+        "id": 49672,
         "nodeType": "ContractDefinition",
         "src": "71:271:110",
         "nodes": [
           {
-            "id": 49643,
+            "id": 49655,
             "nodeType": "FunctionDefinition",
             "src": "100:83:110",
             "nodes": [],
@@ -247,17 +247,17 @@
             "name": "hasPermission",
             "nameLocation": "109:13:110",
             "parameters": {
-              "id": 49639,
+              "id": 49651,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49636,
+                  "id": 49648,
                   "mutability": "mutable",
                   "name": "owner",
                   "nameLocation": "131:5:110",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49643,
+                  "scope": 49655,
                   "src": "123:13:110",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -266,7 +266,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 49635,
+                    "id": 49647,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "123:7:110",
@@ -280,12 +280,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 49638,
+                  "id": 49650,
                   "mutability": "mutable",
                   "name": "caller",
                   "nameLocation": "146:6:110",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49643,
+                  "scope": 49655,
                   "src": "138:14:110",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -294,7 +294,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 49637,
+                    "id": 49649,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "138:7:110",
@@ -310,17 +310,17 @@
               "src": "122:31:110"
             },
             "returnParameters": {
-              "id": 49642,
+              "id": 49654,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49641,
+                  "id": 49653,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49643,
+                  "scope": 49655,
                   "src": "177:4:110",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -329,7 +329,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 49640,
+                    "id": 49652,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "177:4:110",
@@ -343,13 +343,13 @@
               ],
               "src": "176:6:110"
             },
-            "scope": 49660,
+            "scope": 49672,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 49650,
+            "id": 49662,
             "nodeType": "FunctionDefinition",
             "src": "189:65:110",
             "nodes": [],
@@ -360,17 +360,17 @@
             "name": "modifyPermission",
             "nameLocation": "198:16:110",
             "parameters": {
-              "id": 49648,
+              "id": 49660,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49645,
+                  "id": 49657,
                   "mutability": "mutable",
                   "name": "caller",
                   "nameLocation": "223:6:110",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49650,
+                  "scope": 49662,
                   "src": "215:14:110",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -379,7 +379,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 49644,
+                    "id": 49656,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "215:7:110",
@@ -393,12 +393,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 49647,
+                  "id": 49659,
                   "mutability": "mutable",
                   "name": "allowed",
                   "nameLocation": "236:7:110",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49650,
+                  "scope": 49662,
                   "src": "231:12:110",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -407,7 +407,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 49646,
+                    "id": 49658,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "231:4:110",
@@ -422,18 +422,18 @@
               "src": "214:30:110"
             },
             "returnParameters": {
-              "id": 49649,
+              "id": 49661,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "253:0:110"
             },
-            "scope": 49660,
+            "scope": 49672,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 49659,
+            "id": 49671,
             "nodeType": "FunctionDefinition",
             "src": "260:80:110",
             "nodes": [],
@@ -444,17 +444,17 @@
             "name": "modifyPermission",
             "nameLocation": "269:16:110",
             "parameters": {
-              "id": 49657,
+              "id": 49669,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49652,
+                  "id": 49664,
                   "mutability": "mutable",
                   "name": "owner",
                   "nameLocation": "294:5:110",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49659,
+                  "scope": 49671,
                   "src": "286:13:110",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -463,7 +463,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 49651,
+                    "id": 49663,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "286:7:110",
@@ -477,12 +477,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 49654,
+                  "id": 49666,
                   "mutability": "mutable",
                   "name": "caller",
                   "nameLocation": "309:6:110",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49659,
+                  "scope": 49671,
                   "src": "301:14:110",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -491,7 +491,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 49653,
+                    "id": 49665,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "301:7:110",
@@ -505,12 +505,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 49656,
+                  "id": 49668,
                   "mutability": "mutable",
                   "name": "allowed",
                   "nameLocation": "322:7:110",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49659,
+                  "scope": 49671,
                   "src": "317:12:110",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -519,7 +519,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 49655,
+                    "id": 49667,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "317:4:110",
@@ -534,12 +534,12 @@
               "src": "285:45:110"
             },
             "returnParameters": {
-              "id": 49658,
+              "id": 49670,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "339:0:110"
             },
-            "scope": 49660,
+            "scope": 49672,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -552,11 +552,11 @@
         "contractKind": "interface",
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          49660
+          49672
         ],
         "name": "IPermission",
         "nameLocation": "81:11:110",
-        "scope": 49661,
+        "scope": 49673,
         "usedErrors": []
       }
     ],

@@ -868,29 +868,29 @@
         47895
       ],
       "ICDM": [
-        48682
+        48694
       ],
       "ICreditFlashBorrower": [
-        49402
+        49414
       ],
       "IERC3156FlashBorrower": [
-        49353
+        49365
       ],
       "IFlashlender": [
-        49493
+        49505
       ],
       "IMinter": [
-        49601
+        49613
       ],
       "IStablecoin": [
-        49688
+        49700
       ],
       "ReentrancyGuard": [
         33673
       ],
       "wmul": [
-        131405,
-        131428
+        131417,
+        131440
       ]
     },
     "nodeType": "SourceUnit",
@@ -943,7 +943,7 @@
         "file": "./interfaces/ICDM.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 47896,
-        "sourceUnit": 48683,
+        "sourceUnit": 48695,
         "symbolAliases": [
           {
             "foreign": {
@@ -951,7 +951,7 @@
               "name": "ICDM",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 48682,
+              "referencedDeclaration": 48694,
               "src": "152:4:93",
               "typeDescriptions": {}
             },
@@ -969,7 +969,7 @@
         "file": "./interfaces/IStablecoin.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 47896,
-        "sourceUnit": 49689,
+        "sourceUnit": 49701,
         "symbolAliases": [
           {
             "foreign": {
@@ -977,7 +977,7 @@
               "name": "IStablecoin",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 49688,
+              "referencedDeclaration": 49700,
               "src": "196:11:93",
               "typeDescriptions": {}
             },
@@ -995,7 +995,7 @@
         "file": "./interfaces/IFlashlender.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 47896,
-        "sourceUnit": 49542,
+        "sourceUnit": 49554,
         "symbolAliases": [
           {
             "foreign": {
@@ -1003,7 +1003,7 @@
               "name": "IFlashlender",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 49493,
+              "referencedDeclaration": 49505,
               "src": "254:12:93",
               "typeDescriptions": {}
             },
@@ -1015,7 +1015,7 @@
               "name": "IERC3156FlashBorrower",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 49353,
+              "referencedDeclaration": 49365,
               "src": "268:21:93",
               "typeDescriptions": {}
             },
@@ -1027,7 +1027,7 @@
               "name": "ICreditFlashBorrower",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 49402,
+              "referencedDeclaration": 49414,
               "src": "291:20:93",
               "typeDescriptions": {}
             },
@@ -1045,7 +1045,7 @@
         "file": "./interfaces/IMinter.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 47896,
-        "sourceUnit": 49602,
+        "sourceUnit": 49614,
         "symbolAliases": [
           {
             "foreign": {
@@ -1053,7 +1053,7 @@
               "name": "IMinter",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 49601,
+              "referencedDeclaration": 49613,
               "src": "359:7:93",
               "typeDescriptions": {}
             },
@@ -1071,7 +1071,7 @@
         "file": "./utils/Math.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 47896,
-        "sourceUnit": 131480,
+        "sourceUnit": 131492,
         "symbolAliases": [
           {
             "foreign": {
@@ -1098,7 +1098,7 @@
             "src": "888:88:93",
             "nodes": [],
             "baseFunctions": [
-              49443
+              49455
             ],
             "constant": true,
             "functionSelector": "8237e538",
@@ -1183,7 +1183,7 @@
             "src": "982:100:93",
             "nodes": [],
             "baseFunctions": [
-              49448
+              49460
             ],
             "constant": true,
             "functionSelector": "0f13be2a",
@@ -1268,7 +1268,7 @@
             "src": "1122:25:93",
             "nodes": [],
             "baseFunctions": [
-              49426
+              49438
             ],
             "constant": false,
             "documentation": {
@@ -1285,7 +1285,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_ICDM_$48682",
+              "typeIdentifier": "t_contract$_ICDM_$48694",
               "typeString": "contract ICDM"
             },
             "typeName": {
@@ -1298,13 +1298,13 @@
                   "1122:4:93"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 48682,
+                "referencedDeclaration": 48694,
                 "src": "1122:4:93"
               },
-              "referencedDeclaration": 48682,
+              "referencedDeclaration": 48694,
               "src": "1122:4:93",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ICDM_$48682",
+                "typeIdentifier": "t_contract$_ICDM_$48694",
                 "typeString": "contract ICDM"
               }
             },
@@ -1316,7 +1316,7 @@
             "src": "1189:31:93",
             "nodes": [],
             "baseFunctions": [
-              49432
+              49444
             ],
             "constant": false,
             "documentation": {
@@ -1333,7 +1333,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IMinter_$49601",
+              "typeIdentifier": "t_contract$_IMinter_$49613",
               "typeString": "contract IMinter"
             },
             "typeName": {
@@ -1346,13 +1346,13 @@
                   "1189:7:93"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 49601,
+                "referencedDeclaration": 49613,
                 "src": "1189:7:93"
               },
-              "referencedDeclaration": 49601,
+              "referencedDeclaration": 49613,
               "src": "1189:7:93",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IMinter_$49601",
+                "typeIdentifier": "t_contract$_IMinter_$49613",
                 "typeString": "contract IMinter"
               }
             },
@@ -1364,7 +1364,7 @@
             "src": "1273:39:93",
             "nodes": [],
             "baseFunctions": [
-              49438
+              49450
             ],
             "constant": false,
             "documentation": {
@@ -1381,7 +1381,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IStablecoin_$49688",
+              "typeIdentifier": "t_contract$_IStablecoin_$49700",
               "typeString": "contract IStablecoin"
             },
             "typeName": {
@@ -1394,13 +1394,13 @@
                   "1273:11:93"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 49688,
+                "referencedDeclaration": 49700,
                 "src": "1273:11:93"
               },
-              "referencedDeclaration": 49688,
+              "referencedDeclaration": 49700,
               "src": "1273:11:93",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                "typeIdentifier": "t_contract$_IStablecoin_$49700",
                 "typeString": "contract IStablecoin"
               }
             },
@@ -1760,7 +1760,7 @@
                       "referencedDeclaration": 47561,
                       "src": "2382:6:93",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IMinter_$49601",
+                        "typeIdentifier": "t_contract$_IMinter_$49613",
                         "typeString": "contract IMinter"
                       }
                     },
@@ -1774,13 +1774,13 @@
                       "referencedDeclaration": 47597,
                       "src": "2391:7:93",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IMinter_$49601",
+                        "typeIdentifier": "t_contract$_IMinter_$49613",
                         "typeString": "contract IMinter"
                       }
                     },
                     "src": "2382:16:93",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IMinter_$49601",
+                      "typeIdentifier": "t_contract$_IMinter_$49613",
                       "typeString": "contract IMinter"
                     }
                   },
@@ -1805,7 +1805,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDM_$48682",
+                        "typeIdentifier": "t_contract$_ICDM_$48694",
                         "typeString": "contract ICDM"
                       },
                       "typeName": {
@@ -1818,13 +1818,13 @@
                             "2408:4:93"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 48682,
+                          "referencedDeclaration": 48694,
                           "src": "2408:4:93"
                         },
-                        "referencedDeclaration": 48682,
+                        "referencedDeclaration": 48694,
                         "src": "2408:4:93",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -1846,7 +1846,7 @@
                       "referencedDeclaration": 47557,
                       "src": "2420:3:93",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDM_$48682",
+                        "typeIdentifier": "t_contract$_ICDM_$48694",
                         "typeString": "contract ICDM"
                       }
                     },
@@ -1864,7 +1864,7 @@
                           "referencedDeclaration": 47597,
                           "src": "2426:7:93",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IMinter_$49601",
+                            "typeIdentifier": "t_contract$_IMinter_$49613",
                             "typeString": "contract IMinter"
                           }
                         },
@@ -1876,10 +1876,10 @@
                         "memberLocation": "2434:3:93",
                         "memberName": "cdm",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 49580,
+                        "referencedDeclaration": 49592,
                         "src": "2426:11:93",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_ICDM_$48682_$",
+                          "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_ICDM_$48694_$",
                           "typeString": "function () view external returns (contract ICDM)"
                         }
                       },
@@ -1895,13 +1895,13 @@
                       "src": "2426:13:93",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDM_$48682",
+                        "typeIdentifier": "t_contract$_ICDM_$48694",
                         "typeString": "contract ICDM"
                       }
                     },
                     "src": "2420:19:93",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDM_$48682",
+                      "typeIdentifier": "t_contract$_ICDM_$48694",
                       "typeString": "contract ICDM"
                     }
                   },
@@ -1925,7 +1925,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                        "typeIdentifier": "t_contract$_IStablecoin_$49700",
                         "typeString": "contract IStablecoin"
                       },
                       "typeName": {
@@ -1938,13 +1938,13 @@
                             "2449:11:93"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 49688,
+                          "referencedDeclaration": 49700,
                           "src": "2449:11:93"
                         },
-                        "referencedDeclaration": 49688,
+                        "referencedDeclaration": 49700,
                         "src": "2449:11:93",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                          "typeIdentifier": "t_contract$_IStablecoin_$49700",
                           "typeString": "contract IStablecoin"
                         }
                       },
@@ -1966,7 +1966,7 @@
                       "referencedDeclaration": 47565,
                       "src": "2475:10:93",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                        "typeIdentifier": "t_contract$_IStablecoin_$49700",
                         "typeString": "contract IStablecoin"
                       }
                     },
@@ -1984,7 +1984,7 @@
                           "referencedDeclaration": 47597,
                           "src": "2488:7:93",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IMinter_$49601",
+                            "typeIdentifier": "t_contract$_IMinter_$49613",
                             "typeString": "contract IMinter"
                           }
                         },
@@ -1996,10 +1996,10 @@
                         "memberLocation": "2496:10:93",
                         "memberName": "stablecoin",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 49586,
+                        "referencedDeclaration": 49598,
                         "src": "2488:18:93",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_IStablecoin_$49688_$",
+                          "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_IStablecoin_$49700_$",
                           "typeString": "function () view external returns (contract IStablecoin)"
                         }
                       },
@@ -2015,13 +2015,13 @@
                       "src": "2488:20:93",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                        "typeIdentifier": "t_contract$_IStablecoin_$49700",
                         "typeString": "contract IStablecoin"
                       }
                     },
                     "src": "2475:33:93",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                      "typeIdentifier": "t_contract$_IStablecoin_$49700",
                       "typeString": "contract IStablecoin"
                     }
                   },
@@ -2084,7 +2084,7 @@
                             "referencedDeclaration": 47597,
                             "src": "2585:7:93",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_IMinter_$49601",
+                              "typeIdentifier": "t_contract$_IMinter_$49613",
                               "typeString": "contract IMinter"
                             }
                           }
@@ -2092,7 +2092,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_IMinter_$49601",
+                              "typeIdentifier": "t_contract$_IMinter_$49613",
                               "typeString": "contract IMinter"
                             }
                           ],
@@ -2167,7 +2167,7 @@
                         "referencedDeclaration": 47608,
                         "src": "2555:4:93",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -2179,7 +2179,7 @@
                       "memberLocation": "2560:16:93",
                       "memberName": "modifyPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 49650,
+                      "referencedDeclaration": 49662,
                       "src": "2555:21:93",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_bool_$returns$__$",
@@ -2219,7 +2219,7 @@
                             "referencedDeclaration": 47597,
                             "src": "2638:7:93",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_IMinter_$49601",
+                              "typeIdentifier": "t_contract$_IMinter_$49613",
                               "typeString": "contract IMinter"
                             }
                           }
@@ -2227,7 +2227,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_IMinter_$49601",
+                              "typeIdentifier": "t_contract$_IMinter_$49613",
                               "typeString": "contract IMinter"
                             }
                           ],
@@ -2358,7 +2358,7 @@
                         "referencedDeclaration": 47617,
                         "src": "2610:11:93",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                          "typeIdentifier": "t_contract$_IStablecoin_$49700",
                           "typeString": "contract IStablecoin"
                         }
                       },
@@ -2420,7 +2420,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IMinter_$49601",
+                    "typeIdentifier": "t_contract$_IMinter_$49613",
                     "typeString": "contract IMinter"
                   },
                   "typeName": {
@@ -2433,13 +2433,13 @@
                         "2332:7:93"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 49601,
+                      "referencedDeclaration": 49613,
                       "src": "2332:7:93"
                     },
-                    "referencedDeclaration": 49601,
+                    "referencedDeclaration": 49613,
                     "src": "2332:7:93",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IMinter_$49601",
+                      "typeIdentifier": "t_contract$_IMinter_$49613",
                       "typeString": "contract IMinter"
                     }
                   },
@@ -2532,7 +2532,7 @@
                           "referencedDeclaration": 47565,
                           "src": "3241:10:93",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                            "typeIdentifier": "t_contract$_IStablecoin_$49700",
                             "typeString": "contract IStablecoin"
                           }
                         }
@@ -2540,7 +2540,7 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                            "typeIdentifier": "t_contract$_IStablecoin_$49700",
                             "typeString": "contract IStablecoin"
                           }
                         ],
@@ -2689,7 +2689,7 @@
                                 "referencedDeclaration": 47557,
                                 "src": "3274:3:93",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_ICDM_$48682",
+                                  "typeIdentifier": "t_contract$_ICDM_$48694",
                                   "typeString": "contract ICDM"
                                 }
                               },
@@ -2701,7 +2701,7 @@
                               "memberLocation": "3278:10:93",
                               "memberName": "creditLine",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 48672,
+                              "referencedDeclaration": 48684,
                               "src": "3274:14:93",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
@@ -2740,7 +2740,7 @@
               ]
             },
             "baseFunctions": [
-              49456
+              49468
             ],
             "documentation": {
               "id": 47654,
@@ -2880,7 +2880,7 @@
                           "referencedDeclaration": 47565,
                           "src": "3807:10:93",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                            "typeIdentifier": "t_contract$_IStablecoin_$49700",
                             "typeString": "contract IStablecoin"
                           }
                         }
@@ -2888,7 +2888,7 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                            "typeIdentifier": "t_contract$_IStablecoin_$49700",
                             "typeString": "contract IStablecoin"
                           }
                         ],
@@ -3016,10 +3016,10 @@
                       "name": "wmul",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        131405,
-                        131428
+                        131417,
+                        131440
                       ],
-                      "referencedDeclaration": 131405,
+                      "referencedDeclaration": 131417,
                       "src": "3878:4:93",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -3050,7 +3050,7 @@
               ]
             },
             "baseFunctions": [
-              49466
+              49478
             ],
             "documentation": {
               "id": 47682,
@@ -3217,7 +3217,7 @@
                           "referencedDeclaration": 47565,
                           "src": "4647:10:93",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                            "typeIdentifier": "t_contract$_IStablecoin_$49700",
                             "typeString": "contract IStablecoin"
                           }
                         }
@@ -3225,7 +3225,7 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                            "typeIdentifier": "t_contract$_IStablecoin_$49700",
                             "typeString": "contract IStablecoin"
                           }
                         ],
@@ -3386,10 +3386,10 @@
                       "name": "wmul",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        131405,
-                        131428
+                        131417,
+                        131440
                       ],
-                      "referencedDeclaration": 131405,
+                      "referencedDeclaration": 131417,
                       "src": "4726:4:93",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -3507,7 +3507,7 @@
                             "referencedDeclaration": 47712,
                             "src": "4820:8:93",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49353",
+                              "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49365",
                               "typeString": "contract IERC3156FlashBorrower"
                             }
                           }
@@ -3515,7 +3515,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49353",
+                              "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49365",
                               "typeString": "contract IERC3156FlashBorrower"
                             }
                           ],
@@ -3586,7 +3586,7 @@
                         "referencedDeclaration": 47561,
                         "src": "4800:6:93",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IMinter_$49601",
+                          "typeIdentifier": "t_contract$_IMinter_$49613",
                           "typeString": "contract IMinter"
                         }
                       },
@@ -3598,7 +3598,7 @@
                       "memberLocation": "4807:4:93",
                       "memberName": "exit",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 49600,
+                      "referencedDeclaration": 49612,
                       "src": "4800:11:93",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -3638,7 +3638,7 @@
                             "referencedDeclaration": 47712,
                             "src": "4872:8:93",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49353",
+                              "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49365",
                               "typeString": "contract IERC3156FlashBorrower"
                             }
                           }
@@ -3646,7 +3646,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49353",
+                              "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49365",
                               "typeString": "contract IERC3156FlashBorrower"
                             }
                           ],
@@ -3892,7 +3892,7 @@
                           "referencedDeclaration": 47712,
                           "src": "4917:8:93",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49353",
+                            "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49365",
                             "typeString": "contract IERC3156FlashBorrower"
                           }
                         },
@@ -3904,7 +3904,7 @@
                         "memberLocation": "4926:11:93",
                         "memberName": "onFlashLoan",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 49352,
+                        "referencedDeclaration": 49364,
                         "src": "4917:20:93",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$_t_uint256_$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -4000,7 +4000,7 @@
                             "referencedDeclaration": 47712,
                             "src": "5156:8:93",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49353",
+                              "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49365",
                               "typeString": "contract IERC3156FlashBorrower"
                             }
                           }
@@ -4008,7 +4008,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49353",
+                              "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49365",
                               "typeString": "contract IERC3156FlashBorrower"
                             }
                           ],
@@ -4140,7 +4140,7 @@
                         "referencedDeclaration": 47565,
                         "src": "5124:10:93",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                          "typeIdentifier": "t_contract$_IStablecoin_$49700",
                           "typeString": "contract IStablecoin"
                         }
                       },
@@ -4271,7 +4271,7 @@
                         "referencedDeclaration": 47561,
                         "src": "5198:6:93",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IMinter_$49601",
+                          "typeIdentifier": "t_contract$_IMinter_$49613",
                           "typeString": "contract IMinter"
                         }
                       },
@@ -4283,7 +4283,7 @@
                       "memberLocation": "5205:5:93",
                       "memberName": "enter",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 49593,
+                      "referencedDeclaration": 49605,
                       "src": "5198:12:93",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -4335,7 +4335,7 @@
               ]
             },
             "baseFunctions": [
-              49480
+              49492
             ],
             "documentation": {
               "id": 47709,
@@ -4388,7 +4388,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49353",
+                    "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49365",
                     "typeString": "contract IERC3156FlashBorrower"
                   },
                   "typeName": {
@@ -4401,13 +4401,13 @@
                         "4457:21:93"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 49353,
+                      "referencedDeclaration": 49365,
                       "src": "4457:21:93"
                     },
-                    "referencedDeclaration": 49353,
+                    "referencedDeclaration": 49365,
                     "src": "4457:21:93",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49353",
+                      "typeIdentifier": "t_contract$_IERC3156FlashBorrower_$49365",
                       "typeString": "contract IERC3156FlashBorrower"
                     }
                   },
@@ -4624,10 +4624,10 @@
                       "name": "wmul",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        131405,
-                        131428
+                        131417,
+                        131440
                       ],
-                      "referencedDeclaration": 131405,
+                      "referencedDeclaration": 131417,
                       "src": "5871:4:93",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -4802,7 +4802,7 @@
                             "referencedDeclaration": 47815,
                             "src": "5986:8:93",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49402",
+                              "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49414",
                               "typeString": "contract ICreditFlashBorrower"
                             }
                           }
@@ -4810,7 +4810,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49402",
+                              "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49414",
                               "typeString": "contract ICreditFlashBorrower"
                             }
                           ],
@@ -4885,7 +4885,7 @@
                         "referencedDeclaration": 47557,
                         "src": "5945:3:93",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -4897,7 +4897,7 @@
                       "memberLocation": "5949:13:93",
                       "memberName": "modifyBalance",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48681,
+                      "referencedDeclaration": 48693,
                       "src": "5945:17:93",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -4937,7 +4937,7 @@
                             "referencedDeclaration": 47815,
                             "src": "6044:8:93",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49402",
+                              "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49414",
                               "typeString": "contract ICreditFlashBorrower"
                             }
                           }
@@ -4945,7 +4945,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49402",
+                              "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49414",
                               "typeString": "contract ICreditFlashBorrower"
                             }
                           ],
@@ -5159,7 +5159,7 @@
                           "referencedDeclaration": 47815,
                           "src": "6082:8:93",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49402",
+                            "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49414",
                             "typeString": "contract ICreditFlashBorrower"
                           }
                         },
@@ -5171,7 +5171,7 @@
                         "memberLocation": "6091:17:93",
                         "memberName": "onCreditFlashLoan",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 49401,
+                        "referencedDeclaration": 49413,
                         "src": "6082:26:93",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$_t_uint256_$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -5267,7 +5267,7 @@
                             "referencedDeclaration": 47815,
                             "src": "6263:8:93",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49402",
+                              "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49414",
                               "typeString": "contract ICreditFlashBorrower"
                             }
                           }
@@ -5275,7 +5275,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49402",
+                              "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49414",
                               "typeString": "contract ICreditFlashBorrower"
                             }
                           ],
@@ -5407,7 +5407,7 @@
                         "referencedDeclaration": 47557,
                         "src": "6237:3:93",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -5419,7 +5419,7 @@
                       "memberLocation": "6241:13:93",
                       "memberName": "modifyBalance",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48681,
+                      "referencedDeclaration": 48693,
                       "src": "6237:17:93",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -5471,7 +5471,7 @@
               ]
             },
             "baseFunctions": [
-              49492
+              49504
             ],
             "documentation": {
               "id": 47812,
@@ -5524,7 +5524,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49402",
+                    "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49414",
                     "typeString": "contract ICreditFlashBorrower"
                   },
                   "typeName": {
@@ -5537,13 +5537,13 @@
                         "5712:20:93"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 49402,
+                      "referencedDeclaration": 49414,
                       "src": "5712:20:93"
                     },
-                    "referencedDeclaration": 49402,
+                    "referencedDeclaration": 49414,
                     "src": "5712:20:93",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49402",
+                      "typeIdentifier": "t_contract$_ICreditFlashBorrower_$49414",
                       "typeString": "contract ICreditFlashBorrower"
                     }
                   },
@@ -5656,7 +5656,7 @@
                 "646:12:93"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 49493,
+              "referencedDeclaration": 49505,
               "src": "646:12:93"
             },
             "id": 47541,
@@ -5692,9 +5692,9 @@
         "linearizedBaseContracts": [
           47895,
           33673,
-          49493,
-          49416,
-          49387
+          49505,
+          49428,
+          49399
         ],
         "name": "Flashlender",
         "nameLocation": "631:11:93",

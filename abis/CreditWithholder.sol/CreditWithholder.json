@@ -141,7 +141,7 @@
         47522
       ],
       "ICDM": [
-        48682
+        48694
       ]
     },
     "nodeType": "SourceUnit",
@@ -168,7 +168,7 @@
         "file": "./interfaces/ICDM.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 47523,
-        "sourceUnit": 48683,
+        "sourceUnit": 48695,
         "symbolAliases": [
           {
             "foreign": {
@@ -176,7 +176,7 @@
               "name": "ICDM",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 48682,
+              "referencedDeclaration": 48694,
               "src": "66:4:92",
               "typeDescriptions": {}
             },
@@ -252,7 +252,7 @@
                         "referencedDeclaration": 47499,
                         "src": "606:3:92",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -264,7 +264,7 @@
                       "memberLocation": "610:16:92",
                       "memberName": "modifyPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 49650,
+                      "referencedDeclaration": 49662,
                       "src": "606:20:92",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_bool_$returns$__$",
@@ -342,7 +342,7 @@
                         "referencedDeclaration": 47499,
                         "src": "649:3:92",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -354,7 +354,7 @@
                       "memberLocation": "653:16:92",
                       "memberName": "modifyPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 49650,
+                      "referencedDeclaration": 49662,
                       "src": "649:20:92",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_bool_$returns$__$",
@@ -404,7 +404,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ICDM_$48682",
+                    "typeIdentifier": "t_contract$_ICDM_$48694",
                     "typeString": "contract ICDM"
                   },
                   "typeName": {
@@ -417,13 +417,13 @@
                         "438:4:92"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 48682,
+                      "referencedDeclaration": 48694,
                       "src": "438:4:92"
                     },
-                    "referencedDeclaration": 48682,
+                    "referencedDeclaration": 48694,
                     "src": "438:4:92",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDM_$48682",
+                      "typeIdentifier": "t_contract$_ICDM_$48694",
                       "typeString": "contract ICDM"
                     }
                   },

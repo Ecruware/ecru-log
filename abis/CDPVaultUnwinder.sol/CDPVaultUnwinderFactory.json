@@ -423,22 +423,22 @@
         45354
       ],
       "ICDM": [
-        48682
+        48694
       ],
       "ICDPVault": [
-        48986
+        48998
       ],
       "ICDPVaultUnwinder": [
-        49158
+        49170
       ],
       "ICDPVaultUnwinderFactory": [
-        49174
+        49186
       ],
       "IERC20": [
         34464
       ],
       "IOracle": [
-        49618
+        49630
       ],
       "SafeERC20": [
         35920
@@ -447,15 +447,15 @@
         40977
       ],
       "min": [
-        131258,
-        131270
+        131270,
+        131282
       ],
       "wdiv": [
-        131452
+        131464
       ],
       "wmul": [
-        131405,
-        131428
+        131417,
+        131440
       ]
     },
     "nodeType": "SourceUnit",
@@ -534,7 +534,7 @@
         "file": "./interfaces/ICDPVaultUnwinderFactory.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 46506,
-        "sourceUnit": 49175,
+        "sourceUnit": 49187,
         "symbolAliases": [
           {
             "foreign": {
@@ -542,7 +542,7 @@
               "name": "ICDPVaultUnwinderFactory",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 49174,
+              "referencedDeclaration": 49186,
               "src": "219:24:89",
               "typeDescriptions": {}
             },
@@ -560,7 +560,7 @@
         "file": "./interfaces/ICDPVaultUnwinder.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 46506,
-        "sourceUnit": 49159,
+        "sourceUnit": 49171,
         "symbolAliases": [
           {
             "foreign": {
@@ -568,7 +568,7 @@
               "name": "ICDPVaultUnwinder",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 49158,
+              "referencedDeclaration": 49170,
               "src": "303:17:89",
               "typeDescriptions": {}
             },
@@ -586,7 +586,7 @@
         "file": "./interfaces/ICDPVault.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 46506,
-        "sourceUnit": 48987,
+        "sourceUnit": 48999,
         "symbolAliases": [
           {
             "foreign": {
@@ -594,7 +594,7 @@
               "name": "ICDPVault",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 48986,
+              "referencedDeclaration": 48998,
               "src": "373:9:89",
               "typeDescriptions": {}
             },
@@ -612,7 +612,7 @@
         "file": "./interfaces/ICDM.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 46506,
-        "sourceUnit": 48683,
+        "sourceUnit": 48695,
         "symbolAliases": [
           {
             "foreign": {
@@ -620,7 +620,7 @@
               "name": "ICDM",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 48682,
+              "referencedDeclaration": 48694,
               "src": "427:4:89",
               "typeDescriptions": {}
             },
@@ -638,7 +638,7 @@
         "file": "./interfaces/IOracle.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 46506,
-        "sourceUnit": 49619,
+        "sourceUnit": 49631,
         "symbolAliases": [
           {
             "foreign": {
@@ -646,7 +646,7 @@
               "name": "IOracle",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 49618,
+              "referencedDeclaration": 49630,
               "src": "471:7:89",
               "typeDescriptions": {}
             },
@@ -664,7 +664,7 @@
         "file": "./utils/Math.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 46506,
-        "sourceUnit": 131480,
+        "sourceUnit": 131492,
         "symbolAliases": [
           {
             "foreign": {
@@ -694,7 +694,7 @@
               "name": "wdiv",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 131452,
+              "referencedDeclaration": 131464,
               "src": "533:4:89",
               "typeDescriptions": {}
             },
@@ -785,7 +785,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_contract$_ICDPVault_$48986_$_t_contract$_ICDPVaultUnwinder_$49158_$",
+              "typeIdentifier": "t_mapping$_t_contract$_ICDPVault_$48998_$_t_contract$_ICDPVaultUnwinder_$49170_$",
               "typeString": "mapping(contract ICDPVault => contract ICDPVaultUnwinder)"
             },
             "typeName": {
@@ -802,20 +802,20 @@
                     "1158:9:89"
                   ],
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 48986,
+                  "referencedDeclaration": 48998,
                   "src": "1158:9:89"
                 },
-                "referencedDeclaration": 48986,
+                "referencedDeclaration": 48998,
                 "src": "1158:9:89",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                  "typeIdentifier": "t_contract$_ICDPVault_$48998",
                   "typeString": "contract ICDPVault"
                 }
               },
               "nodeType": "Mapping",
               "src": "1150:54:89",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_contract$_ICDPVault_$48986_$_t_contract$_ICDPVaultUnwinder_$49158_$",
+                "typeIdentifier": "t_mapping$_t_contract$_ICDPVault_$48998_$_t_contract$_ICDPVaultUnwinder_$49170_$",
                 "typeString": "mapping(contract ICDPVault => contract ICDPVaultUnwinder)"
               },
               "valueName": "unwinder",
@@ -830,13 +830,13 @@
                     "1177:17:89"
                   ],
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 49158,
+                  "referencedDeclaration": 49170,
                   "src": "1177:17:89"
                 },
-                "referencedDeclaration": 49158,
+                "referencedDeclaration": 49170,
                 "src": "1177:17:89",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                  "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                   "typeString": "contract ICDPVaultUnwinder"
                 }
               }
@@ -962,7 +962,7 @@
                 {
                   "condition": {
                     "commonType": {
-                      "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                      "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                       "typeString": "contract ICDPVaultUnwinder"
                     },
                     "id": 45200,
@@ -979,7 +979,7 @@
                         "referencedDeclaration": 45171,
                         "src": "2364:9:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_contract$_ICDPVault_$48986_$_t_contract$_ICDPVaultUnwinder_$49158_$",
+                          "typeIdentifier": "t_mapping$_t_contract$_ICDPVault_$48998_$_t_contract$_ICDPVaultUnwinder_$49170_$",
                           "typeString": "mapping(contract ICDPVault => contract ICDPVaultUnwinder)"
                         }
                       },
@@ -992,7 +992,7 @@
                         "referencedDeclaration": 45185,
                         "src": "2374:5:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                           "typeString": "contract ICDPVault"
                         }
                       },
@@ -1003,7 +1003,7 @@
                       "nodeType": "IndexAccess",
                       "src": "2364:16:89",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                        "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                         "typeString": "contract ICDPVaultUnwinder"
                       }
                     },
@@ -1084,10 +1084,10 @@
                         "name": "ICDPVaultUnwinder",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 49158,
+                        "referencedDeclaration": 49170,
                         "src": "2384:17:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_ICDPVaultUnwinder_$49158_$",
+                          "typeIdentifier": "t_type$_t_contract$_ICDPVaultUnwinder_$49170_$",
                           "typeString": "type(contract ICDPVaultUnwinder)"
                         }
                       },
@@ -1103,7 +1103,7 @@
                       "src": "2384:29:89",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                        "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                         "typeString": "contract ICDPVaultUnwinder"
                       }
                     },
@@ -1199,7 +1199,7 @@
                         "referencedDeclaration": 45185,
                         "src": "2522:5:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                           "typeString": "contract ICDPVault"
                         }
                       },
@@ -1211,7 +1211,7 @@
                       "memberLocation": "2528:6:89",
                       "memberName": "paused",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48985,
+                      "referencedDeclaration": 48997,
                       "src": "2522:12:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$__$returns$_t_bool_$",
@@ -1335,7 +1335,7 @@
                                     "referencedDeclaration": 45185,
                                     "src": "2572:5:89",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                                      "typeIdentifier": "t_contract$_ICDPVault_$48998",
                                       "typeString": "contract ICDPVault"
                                     }
                                   },
@@ -1347,7 +1347,7 @@
                                   "memberLocation": "2578:8:89",
                                   "memberName": "pausedAt",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 49625,
+                                  "referencedDeclaration": 49637,
                                   "src": "2572:14:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -1552,7 +1552,7 @@
                         "referencedDeclaration": 45185,
                         "src": "2759:5:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                           "typeString": "contract ICDPVault"
                         }
                       },
@@ -1564,7 +1564,7 @@
                       "memberLocation": "2765:5:89",
                       "memberName": "token",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48731,
+                      "referencedDeclaration": 48743,
                       "src": "2759:11:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_IERC20_$34464_$",
@@ -1607,7 +1607,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDM_$48682",
+                        "typeIdentifier": "t_contract$_ICDM_$48694",
                         "typeString": "contract ICDM"
                       },
                       "typeName": {
@@ -1620,13 +1620,13 @@
                             "2782:4:89"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 48682,
+                          "referencedDeclaration": 48694,
                           "src": "2782:4:89"
                         },
-                        "referencedDeclaration": 48682,
+                        "referencedDeclaration": 48694,
                         "src": "2782:4:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -1646,7 +1646,7 @@
                         "referencedDeclaration": 45185,
                         "src": "2793:5:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                           "typeString": "contract ICDPVault"
                         }
                       },
@@ -1658,10 +1658,10 @@
                       "memberLocation": "2799:3:89",
                       "memberName": "cdm",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48713,
+                      "referencedDeclaration": 48725,
                       "src": "2793:9:89",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_ICDM_$48682_$",
+                        "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_ICDM_$48694_$",
                         "typeString": "function () view external returns (contract ICDM)"
                       }
                     },
@@ -1677,7 +1677,7 @@
                     "src": "2793:11:89",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDM_$48682",
+                      "typeIdentifier": "t_contract$_ICDM_$48694",
                       "typeString": "contract ICDM"
                     }
                   },
@@ -1699,7 +1699,7 @@
                       "referencedDeclaration": 45189,
                       "src": "2814:8:89",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                        "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                         "typeString": "contract ICDPVaultUnwinder"
                       }
                     },
@@ -1717,7 +1717,7 @@
                               "referencedDeclaration": 45185,
                               "src": "2856:5:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                                "typeIdentifier": "t_contract$_ICDPVault_$48998",
                                 "typeString": "contract ICDPVault"
                               }
                             }
@@ -1725,7 +1725,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                                "typeIdentifier": "t_contract$_ICDPVault_$48998",
                                 "typeString": "contract ICDPVault"
                               }
                             ],
@@ -1733,10 +1733,10 @@
                             "name": "ICDPVault",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 48986,
+                            "referencedDeclaration": 48998,
                             "src": "2846:9:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_ICDPVault_$48986_$",
+                              "typeIdentifier": "t_type$_t_contract$_ICDPVault_$48998_$",
                               "typeString": "type(contract ICDPVault)"
                             }
                           },
@@ -1752,7 +1752,7 @@
                           "src": "2846:16:89",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                            "typeIdentifier": "t_contract$_ICDPVault_$48998",
                             "typeString": "contract ICDPVault"
                           }
                         },
@@ -1776,7 +1776,7 @@
                           "referencedDeclaration": 45238,
                           "src": "2871:3:89",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ICDM_$48682",
+                            "typeIdentifier": "t_contract$_ICDM_$48694",
                             "typeString": "contract ICDM"
                           }
                         }
@@ -1784,7 +1784,7 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                            "typeIdentifier": "t_contract$_ICDPVault_$48998",
                             "typeString": "contract ICDPVault"
                           },
                           {
@@ -1792,7 +1792,7 @@
                             "typeString": "contract IERC20"
                           },
                           {
-                            "typeIdentifier": "t_contract$_ICDM_$48682",
+                            "typeIdentifier": "t_contract$_ICDM_$48694",
                             "typeString": "contract ICDM"
                           }
                         ],
@@ -1804,7 +1804,7 @@
                         "nodeType": "NewExpression",
                         "src": "2825:20:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_function_creation_nonpayable$_t_contract$_ICDPVault_$48986_$_t_contract$_IERC20_$34464_$_t_contract$_ICDM_$48682_$returns$_t_contract$_CDPVaultUnwinder_$46505_$",
+                          "typeIdentifier": "t_function_creation_nonpayable$_t_contract$_ICDPVault_$48998_$_t_contract$_IERC20_$34464_$_t_contract$_ICDM_$48694_$returns$_t_contract$_CDPVaultUnwinder_$46505_$",
                           "typeString": "function (contract ICDPVault,contract IERC20,contract ICDM) returns (contract CDPVaultUnwinder)"
                         },
                         "typeName": {
@@ -1846,7 +1846,7 @@
                     },
                     "src": "2814:61:89",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                      "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                       "typeString": "contract ICDPVaultUnwinder"
                     }
                   },
@@ -1870,7 +1870,7 @@
                         "referencedDeclaration": 45171,
                         "src": "2885:9:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_contract$_ICDPVault_$48986_$_t_contract$_ICDPVaultUnwinder_$49158_$",
+                          "typeIdentifier": "t_mapping$_t_contract$_ICDPVault_$48998_$_t_contract$_ICDPVaultUnwinder_$49170_$",
                           "typeString": "mapping(contract ICDPVault => contract ICDPVaultUnwinder)"
                         }
                       },
@@ -1883,7 +1883,7 @@
                         "referencedDeclaration": 45185,
                         "src": "2895:5:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                           "typeString": "contract ICDPVault"
                         }
                       },
@@ -1894,7 +1894,7 @@
                       "nodeType": "IndexAccess",
                       "src": "2885:16:89",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                        "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                         "typeString": "contract ICDPVaultUnwinder"
                       }
                     },
@@ -1908,13 +1908,13 @@
                       "referencedDeclaration": 45189,
                       "src": "2904:8:89",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                        "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                         "typeString": "contract ICDPVaultUnwinder"
                       }
                     },
                     "src": "2885:27:89",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                      "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                       "typeString": "contract ICDPVaultUnwinder"
                     }
                   },
@@ -1935,7 +1935,7 @@
                             "referencedDeclaration": 45185,
                             "src": "3008:5:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                              "typeIdentifier": "t_contract$_ICDPVault_$48998",
                               "typeString": "contract ICDPVault"
                             }
                           }
@@ -1943,7 +1943,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                              "typeIdentifier": "t_contract$_ICDPVault_$48998",
                               "typeString": "contract ICDPVault"
                             }
                           ],
@@ -1992,7 +1992,7 @@
                             "referencedDeclaration": 45189,
                             "src": "3024:8:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                              "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                               "typeString": "contract ICDPVaultUnwinder"
                             }
                           }
@@ -2000,7 +2000,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                              "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                               "typeString": "contract ICDPVaultUnwinder"
                             }
                           ],
@@ -2051,7 +2051,7 @@
                                 "referencedDeclaration": 45185,
                                 "src": "3059:5:89",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                                  "typeIdentifier": "t_contract$_ICDPVault_$48998",
                                   "typeString": "contract ICDPVault"
                                 }
                               }
@@ -2059,7 +2059,7 @@
                             "expression": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                                  "typeIdentifier": "t_contract$_ICDPVault_$48998",
                                   "typeString": "contract ICDPVault"
                                 }
                               ],
@@ -2260,7 +2260,7 @@
                             "referencedDeclaration": 45185,
                             "src": "3118:5:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                              "typeIdentifier": "t_contract$_ICDPVault_$48998",
                               "typeString": "contract ICDPVault"
                             }
                           }
@@ -2268,7 +2268,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                              "typeIdentifier": "t_contract$_ICDPVault_$48998",
                               "typeString": "contract ICDPVault"
                             }
                           ],
@@ -2323,7 +2323,7 @@
                         "referencedDeclaration": 45238,
                         "src": "3097:3:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -2335,7 +2335,7 @@
                       "memberLocation": "3101:8:89",
                       "memberName": "accounts",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48649,
+                      "referencedDeclaration": 48661,
                       "src": "3097:12:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_int256_$_t_uint256_$",
@@ -2424,7 +2424,7 @@
                               "referencedDeclaration": 45185,
                               "src": "3178:5:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                                "typeIdentifier": "t_contract$_ICDPVault_$48998",
                                 "typeString": "contract ICDPVault"
                               }
                             }
@@ -2432,7 +2432,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                                "typeIdentifier": "t_contract$_ICDPVault_$48998",
                                 "typeString": "contract ICDPVault"
                               }
                             ],
@@ -2481,7 +2481,7 @@
                               "referencedDeclaration": 45189,
                               "src": "3194:8:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                                "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                                 "typeString": "contract ICDPVaultUnwinder"
                               }
                             }
@@ -2489,7 +2489,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                                "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                                 "typeString": "contract ICDPVaultUnwinder"
                               }
                             ],
@@ -2609,7 +2609,7 @@
                           "referencedDeclaration": 45238,
                           "src": "3152:3:89",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ICDM_$48682",
+                            "typeIdentifier": "t_contract$_ICDM_$48694",
                             "typeString": "contract ICDM"
                           }
                         },
@@ -2621,7 +2621,7 @@
                         "memberLocation": "3156:13:89",
                         "memberName": "modifyBalance",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 48681,
+                        "referencedDeclaration": 48693,
                         "src": "3152:17:89",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -2696,7 +2696,7 @@
                         "referencedDeclaration": 45185,
                         "src": "3259:5:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                           "typeString": "contract ICDPVault"
                         }
                       },
@@ -2708,7 +2708,7 @@
                       "memberLocation": "3265:16:89",
                       "memberName": "creditWithholder",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48741,
+                      "referencedDeclaration": 48753,
                       "src": "3259:22:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
@@ -2800,7 +2800,7 @@
                         "referencedDeclaration": 45238,
                         "src": "3329:3:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -2812,7 +2812,7 @@
                       "memberLocation": "3333:8:89",
                       "memberName": "accounts",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48649,
+                      "referencedDeclaration": 48661,
                       "src": "3329:12:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_int256_$_t_uint256_$",
@@ -2908,7 +2908,7 @@
                             "referencedDeclaration": 45189,
                             "src": "3422:8:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                              "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                               "typeString": "contract ICDPVaultUnwinder"
                             }
                           }
@@ -2916,7 +2916,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                              "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                               "typeString": "contract ICDPVaultUnwinder"
                             }
                           ],
@@ -3028,7 +3028,7 @@
                         "referencedDeclaration": 45238,
                         "src": "3369:3:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -3040,7 +3040,7 @@
                       "memberLocation": "3373:13:89",
                       "memberName": "modifyBalance",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48681,
+                      "referencedDeclaration": 48693,
                       "src": "3369:17:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -3080,7 +3080,7 @@
                             "referencedDeclaration": 45185,
                             "src": "3512:5:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                              "typeIdentifier": "t_contract$_ICDPVault_$48998",
                               "typeString": "contract ICDPVault"
                             }
                           }
@@ -3088,7 +3088,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                              "typeIdentifier": "t_contract$_ICDPVault_$48998",
                               "typeString": "contract ICDPVault"
                             }
                           ],
@@ -3137,7 +3137,7 @@
                             "referencedDeclaration": 45189,
                             "src": "3528:8:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                              "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                               "typeString": "contract ICDPVaultUnwinder"
                             }
                           }
@@ -3145,7 +3145,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                              "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                               "typeString": "contract ICDPVaultUnwinder"
                             }
                           ],
@@ -3230,7 +3230,7 @@
               ]
             },
             "baseFunctions": [
-              49173
+              49185
             ],
             "documentation": {
               "id": 45182,
@@ -3260,7 +3260,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                    "typeIdentifier": "t_contract$_ICDPVault_$48998",
                     "typeString": "contract ICDPVault"
                   },
                   "typeName": {
@@ -3273,13 +3273,13 @@
                         "2287:9:89"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 48986,
+                      "referencedDeclaration": 48998,
                       "src": "2287:9:89"
                     },
-                    "referencedDeclaration": 48986,
+                    "referencedDeclaration": 48998,
                     "src": "2287:9:89",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                      "typeIdentifier": "t_contract$_ICDPVault_$48998",
                       "typeString": "contract ICDPVault"
                     }
                   },
@@ -3304,7 +3304,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                    "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                     "typeString": "contract ICDPVaultUnwinder"
                   },
                   "typeName": {
@@ -3317,13 +3317,13 @@
                         "2322:17:89"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 49158,
+                      "referencedDeclaration": 49170,
                       "src": "2322:17:89"
                     },
-                    "referencedDeclaration": 49158,
+                    "referencedDeclaration": 49170,
                     "src": "2322:17:89",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49158",
+                      "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
                       "typeString": "contract ICDPVaultUnwinder"
                     }
                   },
@@ -3348,7 +3348,7 @@
                 "726:24:89"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 49174,
+              "referencedDeclaration": 49186,
               "src": "726:24:89"
             },
             "id": 45161,
@@ -3370,7 +3370,7 @@
         "fullyImplemented": true,
         "linearizedBaseContracts": [
           45354,
-          49174
+          49186
         ],
         "name": "CDPVaultUnwinderFactory",
         "nameLocation": "699:23:89",
@@ -3428,7 +3428,7 @@
             "src": "4124:47:89",
             "nodes": [],
             "baseFunctions": [
-              48999
+              49011
             ],
             "constant": true,
             "functionSelector": "c161cddd",
@@ -3477,7 +3477,7 @@
             "src": "4177:45:89",
             "nodes": [],
             "baseFunctions": [
-              49004
+              49016
             ],
             "constant": true,
             "functionSelector": "df65e2fb",
@@ -3526,7 +3526,7 @@
             "src": "4228:51:89",
             "nodes": [],
             "baseFunctions": [
-              49009
+              49021
             ],
             "constant": true,
             "functionSelector": "789ef10a",
@@ -3574,7 +3574,7 @@
             "src": "4285:51:89",
             "nodes": [],
             "baseFunctions": [
-              49014
+              49026
             ],
             "constant": true,
             "functionSelector": "70e40e44",
@@ -3622,7 +3622,7 @@
             "src": "4342:51:89",
             "nodes": [],
             "baseFunctions": [
-              49019
+              49031
             ],
             "constant": true,
             "functionSelector": "a271e525",
@@ -3671,7 +3671,7 @@
             "src": "4436:32:89",
             "nodes": [],
             "baseFunctions": [
-              49025
+              49037
             ],
             "constant": false,
             "documentation": {
@@ -3688,7 +3688,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_ICDPVault_$48986",
+              "typeIdentifier": "t_contract$_ICDPVault_$48998",
               "typeString": "contract ICDPVault"
             },
             "typeName": {
@@ -3701,13 +3701,13 @@
                   "4436:9:89"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 48986,
+                "referencedDeclaration": 48998,
                 "src": "4436:9:89"
               },
-              "referencedDeclaration": 48986,
+              "referencedDeclaration": 48998,
               "src": "4436:9:89",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                "typeIdentifier": "t_contract$_ICDPVault_$48998",
                 "typeString": "contract ICDPVault"
               }
             },
@@ -3719,7 +3719,7 @@
             "src": "4516:25:89",
             "nodes": [],
             "baseFunctions": [
-              49031
+              49043
             ],
             "constant": false,
             "documentation": {
@@ -3736,7 +3736,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_ICDM_$48682",
+              "typeIdentifier": "t_contract$_ICDM_$48694",
               "typeString": "contract ICDM"
             },
             "typeName": {
@@ -3749,13 +3749,13 @@
                   "4516:4:89"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 48682,
+                "referencedDeclaration": 48694,
                 "src": "4516:4:89"
               },
-              "referencedDeclaration": 48682,
+              "referencedDeclaration": 48694,
               "src": "4516:4:89",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ICDM_$48682",
+                "typeIdentifier": "t_contract$_ICDM_$48694",
                 "typeString": "contract ICDM"
               }
             },
@@ -3767,7 +3767,7 @@
             "src": "4586:29:89",
             "nodes": [],
             "baseFunctions": [
-              49037
+              49049
             ],
             "constant": false,
             "documentation": {
@@ -3815,7 +3815,7 @@
             "src": "4670:35:89",
             "nodes": [],
             "baseFunctions": [
-              49042
+              49054
             ],
             "constant": false,
             "documentation": {
@@ -3853,7 +3853,7 @@
             "src": "4771:34:89",
             "nodes": [],
             "baseFunctions": [
-              49047
+              49059
             ],
             "constant": false,
             "documentation": {
@@ -3891,7 +3891,7 @@
             "src": "4890:51:89",
             "nodes": [],
             "baseFunctions": [
-              49052
+              49064
             ],
             "constant": false,
             "documentation": {
@@ -3929,7 +3929,7 @@
             "src": "5016:39:89",
             "nodes": [],
             "baseFunctions": [
-              49057
+              49069
             ],
             "constant": false,
             "documentation": {
@@ -3967,7 +3967,7 @@
             "src": "5165:41:89",
             "nodes": [],
             "baseFunctions": [
-              49062
+              49074
             ],
             "constant": false,
             "documentation": {
@@ -4005,7 +4005,7 @@
             "src": "5463:30:89",
             "nodes": [],
             "baseFunctions": [
-              49067
+              49079
             ],
             "constant": false,
             "documentation": {
@@ -4043,7 +4043,7 @@
             "src": "5570:26:89",
             "nodes": [],
             "baseFunctions": [
-              49072
+              49084
             ],
             "constant": false,
             "documentation": {
@@ -4081,7 +4081,7 @@
             "src": "5651:24:89",
             "nodes": [],
             "baseFunctions": [
-              49077
+              49089
             ],
             "constant": false,
             "documentation": {
@@ -4119,7 +4119,7 @@
             "src": "5739:26:89",
             "nodes": [],
             "baseFunctions": [
-              49082
+              49094
             ],
             "constant": false,
             "documentation": {
@@ -4157,7 +4157,7 @@
             "src": "5860:77:89",
             "nodes": [],
             "baseFunctions": [
-              49089
+              49101
             ],
             "constant": false,
             "documentation": {
@@ -4218,7 +4218,7 @@
             "src": "6013:74:89",
             "nodes": [],
             "baseFunctions": [
-              49096
+              49108
             ],
             "constant": false,
             "documentation": {
@@ -4400,7 +4400,7 @@
             "src": "6406:22:89",
             "nodes": [],
             "baseFunctions": [
-              49107
+              49119
             ],
             "constant": false,
             "documentation": {
@@ -5574,7 +5574,7 @@
                       "referencedDeclaration": 45380,
                       "src": "8689:5:89",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                        "typeIdentifier": "t_contract$_ICDPVault_$48998",
                         "typeString": "contract ICDPVault"
                       }
                     },
@@ -5588,13 +5588,13 @@
                       "referencedDeclaration": 45535,
                       "src": "8697:6:89",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                        "typeIdentifier": "t_contract$_ICDPVault_$48998",
                         "typeString": "contract ICDPVault"
                       }
                     },
                     "src": "8689:14:89",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                      "typeIdentifier": "t_contract$_ICDPVault_$48998",
                       "typeString": "contract ICDPVault"
                     }
                   },
@@ -5617,7 +5617,7 @@
                       "referencedDeclaration": 45384,
                       "src": "8713:3:89",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDM_$48682",
+                        "typeIdentifier": "t_contract$_ICDM_$48694",
                         "typeString": "contract ICDM"
                       }
                     },
@@ -5631,13 +5631,13 @@
                       "referencedDeclaration": 45541,
                       "src": "8719:4:89",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDM_$48682",
+                        "typeIdentifier": "t_contract$_ICDM_$48694",
                         "typeString": "contract ICDM"
                       }
                     },
                     "src": "8713:10:89",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDM_$48682",
+                      "typeIdentifier": "t_contract$_ICDM_$48694",
                       "typeString": "contract ICDM"
                     }
                   },
@@ -5734,7 +5734,7 @@
                         "referencedDeclaration": 45535,
                         "src": "8779:6:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                           "typeString": "contract ICDPVault"
                         }
                       },
@@ -5746,7 +5746,7 @@
                       "memberLocation": "8786:10:89",
                       "memberName": "tokenScale",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48736,
+                      "referencedDeclaration": 48748,
                       "src": "8779:17:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -5895,7 +5895,7 @@
                         "referencedDeclaration": 45535,
                         "src": "8991:6:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                           "typeString": "contract ICDPVault"
                         }
                       },
@@ -5907,7 +5907,7 @@
                       "memberLocation": "8998:12:89",
                       "memberName": "getGlobalIRS",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 49556,
+                      "referencedDeclaration": 49568,
                       "src": "8991:19:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$__$returns$_t_int64_$_t_uint64_$_t_uint64_$_t_uint64_$_t_uint256_$",
@@ -6009,7 +6009,7 @@
                           "referencedDeclaration": 45535,
                           "src": "9107:6:89",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                            "typeIdentifier": "t_contract$_ICDPVault_$48998",
                             "typeString": "contract ICDPVault"
                           }
                         },
@@ -6021,7 +6021,7 @@
                         "memberLocation": "9114:11:89",
                         "memberName": "totalShares",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 48770,
+                        "referencedDeclaration": 48782,
                         "src": "9107:18:89",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -6112,7 +6112,7 @@
                               "referencedDeclaration": 45380,
                               "src": "9206:5:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                                "typeIdentifier": "t_contract$_ICDPVault_$48998",
                                 "typeString": "contract ICDPVault"
                               }
                             },
@@ -6124,7 +6124,7 @@
                             "memberLocation": "9212:15:89",
                             "memberName": "totalNormalDebt",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 48760,
+                            "referencedDeclaration": 48772,
                             "src": "9206:21:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -6175,10 +6175,10 @@
                         "name": "wmul",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [
-                          131405,
-                          131428
+                          131417,
+                          131440
                         ],
-                        "referencedDeclaration": 131405,
+                        "referencedDeclaration": 131417,
                         "src": "9201:4:89",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -6333,7 +6333,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                    "typeIdentifier": "t_contract$_ICDPVault_$48998",
                     "typeString": "contract ICDPVault"
                   },
                   "typeName": {
@@ -6346,13 +6346,13 @@
                         "8598:9:89"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 48986,
+                      "referencedDeclaration": 48998,
                       "src": "8598:9:89"
                     },
-                    "referencedDeclaration": 48986,
+                    "referencedDeclaration": 48998,
                     "src": "8598:9:89",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                      "typeIdentifier": "t_contract$_ICDPVault_$48998",
                       "typeString": "contract ICDPVault"
                     }
                   },
@@ -6407,7 +6407,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ICDM_$48682",
+                    "typeIdentifier": "t_contract$_ICDM_$48694",
                     "typeString": "contract ICDM"
                   },
                   "typeName": {
@@ -6420,13 +6420,13 @@
                         "8631:4:89"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 48682,
+                      "referencedDeclaration": 48694,
                       "src": "8631:4:89"
                     },
-                    "referencedDeclaration": 48682,
+                    "referencedDeclaration": 48694,
                     "src": "8631:4:89",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDM_$48682",
+                      "typeIdentifier": "t_contract$_ICDM_$48694",
                       "typeString": "contract ICDM"
                     }
                   },
@@ -6505,7 +6505,7 @@
                             "referencedDeclaration": 45380,
                             "src": "9551:5:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                              "typeIdentifier": "t_contract$_ICDPVault_$48998",
                               "typeString": "contract ICDPVault"
                             }
                           }
@@ -6513,7 +6513,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                              "typeIdentifier": "t_contract$_ICDPVault_$48998",
                               "typeString": "contract ICDPVault"
                             }
                           ],
@@ -6568,7 +6568,7 @@
                         "referencedDeclaration": 45384,
                         "src": "9530:3:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -6580,7 +6580,7 @@
                       "memberLocation": "9534:8:89",
                       "memberName": "accounts",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48649,
+                      "referencedDeclaration": 48661,
                       "src": "9530:12:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_int256_$_t_uint256_$",
@@ -6781,7 +6781,7 @@
                               "referencedDeclaration": 45384,
                               "src": "10022:3:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ICDM_$48682",
+                                "typeIdentifier": "t_contract$_ICDM_$48694",
                                 "typeString": "contract ICDM"
                               }
                             },
@@ -6793,7 +6793,7 @@
                             "memberLocation": "10026:13:89",
                             "memberName": "modifyBalance",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 48681,
+                            "referencedDeclaration": 48693,
                             "src": "10022:17:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -7027,7 +7027,7 @@
                                         "referencedDeclaration": 45380,
                                         "src": "9962:5:89",
                                         "typeDescriptions": {
-                                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                                           "typeString": "contract ICDPVault"
                                         }
                                       }
@@ -7035,7 +7035,7 @@
                                     "expression": {
                                       "argumentTypes": [
                                         {
-                                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                                           "typeString": "contract ICDPVault"
                                         }
                                       ],
@@ -7110,7 +7110,7 @@
                                     "referencedDeclaration": 45384,
                                     "src": "9924:3:89",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_ICDM_$48682",
+                                      "typeIdentifier": "t_contract$_ICDM_$48694",
                                       "typeString": "contract ICDM"
                                     }
                                   },
@@ -7122,7 +7122,7 @@
                                   "memberLocation": "9928:13:89",
                                   "memberName": "modifyBalance",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 48681,
+                                  "referencedDeclaration": 48693,
                                   "src": "9924:17:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -7278,7 +7278,7 @@
                                         "referencedDeclaration": 45380,
                                         "src": "9790:5:89",
                                         "typeDescriptions": {
-                                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                                           "typeString": "contract ICDPVault"
                                         }
                                       }
@@ -7286,7 +7286,7 @@
                                     "expression": {
                                       "argumentTypes": [
                                         {
-                                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                                           "typeString": "contract ICDPVault"
                                         }
                                       ],
@@ -7361,7 +7361,7 @@
                                     "referencedDeclaration": 45384,
                                     "src": "9752:3:89",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_ICDM_$48682",
+                                      "typeIdentifier": "t_contract$_ICDM_$48694",
                                       "typeString": "contract ICDM"
                                     }
                                   },
@@ -7373,7 +7373,7 @@
                                   "memberLocation": "9756:13:89",
                                   "memberName": "modifyBalance",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 48681,
+                                  "referencedDeclaration": 48693,
                                   "src": "9752:17:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -7523,7 +7523,7 @@
                                     "referencedDeclaration": 45384,
                                     "src": "9826:3:89",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_ICDM_$48682",
+                                      "typeIdentifier": "t_contract$_ICDM_$48694",
                                       "typeString": "contract ICDM"
                                     }
                                   },
@@ -7535,7 +7535,7 @@
                                   "memberLocation": "9830:13:89",
                                   "memberName": "modifyBalance",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 48681,
+                                  "referencedDeclaration": 48693,
                                   "src": "9826:17:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -8132,7 +8132,7 @@
                             "name": "wdiv",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 131452,
+                            "referencedDeclaration": 131464,
                             "src": "10817:4:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -8373,7 +8373,7 @@
                             "referencedDeclaration": 45380,
                             "src": "11149:5:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                              "typeIdentifier": "t_contract$_ICDPVault_$48998",
                               "typeString": "contract ICDPVault"
                             }
                           },
@@ -8385,7 +8385,7 @@
                           "memberLocation": "11155:13:89",
                           "memberName": "hasPermission",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 49643,
+                          "referencedDeclaration": 49655,
                           "src": "11149:19:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$_t_address_$_t_address_$returns$_t_bool_$",
@@ -8486,7 +8486,7 @@
                             "referencedDeclaration": 45380,
                             "src": "11300:5:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                              "typeIdentifier": "t_contract$_ICDPVault_$48998",
                               "typeString": "contract ICDPVault"
                             }
                           },
@@ -8498,7 +8498,7 @@
                           "memberLocation": "11306:13:89",
                           "memberName": "hasPermission",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 49643,
+                          "referencedDeclaration": 49655,
                           "src": "11300:19:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$_t_address_$_t_address_$returns$_t_bool_$",
@@ -8664,7 +8664,7 @@
                         "referencedDeclaration": 45380,
                         "src": "11455:5:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                           "typeString": "contract ICDPVault"
                         }
                       },
@@ -8676,7 +8676,7 @@
                       "memberLocation": "11461:9:89",
                       "memberName": "positions",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48822,
+                      "referencedDeclaration": 48834,
                       "src": "11455:15:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$_t_uint256_$",
@@ -9025,7 +9025,7 @@
                         "referencedDeclaration": 45380,
                         "src": "11738:5:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                           "typeString": "contract ICDPVault"
                         }
                       },
@@ -9037,7 +9037,7 @@
                       "memberLocation": "11744:14:89",
                       "memberName": "getPositionIRS",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 49567,
+                      "referencedDeclaration": 49579,
                       "src": "11738:20:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint64_$_t_uint64_$_t_uint128_$",
@@ -9198,10 +9198,10 @@
                         "name": "wmul",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [
-                          131405,
-                          131428
+                          131417,
+                          131440
                         ],
-                        "referencedDeclaration": 131405,
+                        "referencedDeclaration": 131417,
                         "src": "11853:4:89",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -9333,10 +9333,10 @@
                         "name": "wmul",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [
-                          131405,
-                          131428
+                          131417,
+                          131440
                         ],
-                        "referencedDeclaration": 131405,
+                        "referencedDeclaration": 131417,
                         "src": "11930:4:89",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -9596,10 +9596,10 @@
                           "name": "wmul",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [
-                            131405,
-                            131428
+                            131417,
+                            131440
                           ],
-                          "referencedDeclaration": 131405,
+                          "referencedDeclaration": 131417,
                           "src": "12111:4:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -9802,7 +9802,7 @@
               ]
             },
             "baseFunctions": [
-              49120
+              49132
             ],
             "functionSelector": "198d3069",
             "implemented": true,
@@ -9995,7 +9995,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IOracle_$49618",
+                        "typeIdentifier": "t_contract$_IOracle_$49630",
                         "typeString": "contract IOracle"
                       },
                       "typeName": {
@@ -10008,13 +10008,13 @@
                             "12536:7:89"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 49618,
+                          "referencedDeclaration": 49630,
                           "src": "12536:7:89"
                         },
-                        "referencedDeclaration": 49618,
+                        "referencedDeclaration": 49630,
                         "src": "12536:7:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IOracle_$49618",
+                          "typeIdentifier": "t_contract$_IOracle_$49630",
                           "typeString": "contract IOracle"
                         }
                       },
@@ -10034,7 +10034,7 @@
                         "referencedDeclaration": 45380,
                         "src": "12553:5:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                           "typeString": "contract ICDPVault"
                         }
                       },
@@ -10046,10 +10046,10 @@
                       "memberLocation": "12559:6:89",
                       "memberName": "oracle",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48719,
+                      "referencedDeclaration": 48731,
                       "src": "12553:12:89",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_IOracle_$49618_$",
+                        "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_IOracle_$49630_$",
                         "typeString": "function () view external returns (contract IOracle)"
                       }
                     },
@@ -10065,7 +10065,7 @@
                     "src": "12553:14:89",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IOracle_$49618",
+                      "typeIdentifier": "t_contract$_IOracle_$49630",
                       "typeString": "contract IOracle"
                     }
                   },
@@ -10095,7 +10095,7 @@
                               "referencedDeclaration": 45882,
                               "src": "12589:6:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_IOracle_$49618",
+                                "typeIdentifier": "t_contract$_IOracle_$49630",
                                 "typeString": "contract IOracle"
                               }
                             }
@@ -10103,7 +10103,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_IOracle_$49618",
+                                "typeIdentifier": "t_contract$_IOracle_$49630",
                                 "typeString": "contract IOracle"
                               }
                             ],
@@ -10255,10 +10255,10 @@
                                           "name": "wmul",
                                           "nodeType": "Identifier",
                                           "overloadedDeclarations": [
-                                            131405,
-                                            131428
+                                            131417,
+                                            131440
                                           ],
-                                          "referencedDeclaration": 131405,
+                                          "referencedDeclaration": 131417,
                                           "src": "12726:4:89",
                                           "typeDescriptions": {
                                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -10462,7 +10462,7 @@
                                   "referencedDeclaration": 45380,
                                   "src": "12632:5:89",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                                    "typeIdentifier": "t_contract$_ICDPVault_$48998",
                                     "typeString": "contract ICDPVault"
                                   }
                                 },
@@ -10474,10 +10474,10 @@
                                 "memberLocation": "12638:6:89",
                                 "memberName": "oracle",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 48719,
+                                "referencedDeclaration": 48731,
                                 "src": "12632:12:89",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_IOracle_$49618_$",
+                                  "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_IOracle_$49630_$",
                                   "typeString": "function () view external returns (contract IOracle)"
                                 }
                               },
@@ -10493,7 +10493,7 @@
                               "src": "12632:14:89",
                               "tryCall": false,
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_IOracle_$49618",
+                                "typeIdentifier": "t_contract$_IOracle_$49630",
                                 "typeString": "contract IOracle"
                               }
                             },
@@ -10505,7 +10505,7 @@
                             "memberLocation": "12647:4:89",
                             "memberName": "spot",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 49610,
+                            "referencedDeclaration": 49622,
                             "src": "12632:19:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$_t_uint256_$",
@@ -10957,7 +10957,7 @@
                           "name": "wdiv",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 131452,
+                          "referencedDeclaration": 131464,
                           "src": "13047:4:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -10996,10 +10996,10 @@
                       "name": "wmul",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        131405,
-                        131428
+                        131417,
+                        131440
                       ],
-                      "referencedDeclaration": 131405,
+                      "referencedDeclaration": 131417,
                       "src": "13030:4:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -12166,7 +12166,7 @@
               ]
             },
             "baseFunctions": [
-              49138
+              49150
             ],
             "functionSelector": "2e93be30",
             "implemented": true,
@@ -12821,7 +12821,7 @@
                       "name": "wdiv",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 131452,
+                      "referencedDeclaration": 131464,
                       "src": "14193:4:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -13034,7 +13034,7 @@
                           "name": "wdiv",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 131452,
+                          "referencedDeclaration": 131464,
                           "src": "14406:4:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -13466,7 +13466,7 @@
               ]
             },
             "baseFunctions": [
-              49141
+              49153
             ],
             "functionSelector": "6b64c769",
             "implemented": true,
@@ -14448,7 +14448,7 @@
               ]
             },
             "baseFunctions": [
-              49144
+              49156
             ],
             "functionSelector": "b793905d",
             "implemented": true,
@@ -15142,10 +15142,10 @@
                             "name": "min",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              131258,
-                              131270
+                              131270,
+                              131282
                             ],
-                            "referencedDeclaration": 131258,
+                            "referencedDeclaration": 131270,
                             "src": "16190:3:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -15241,10 +15241,10 @@
                             "name": "wmul",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              131405,
-                              131428
+                              131417,
+                              131440
                             ],
-                            "referencedDeclaration": 131405,
+                            "referencedDeclaration": 131417,
                             "src": "16303:4:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -15731,7 +15731,7 @@
                                           "name": "wdiv",
                                           "nodeType": "Identifier",
                                           "overloadedDeclarations": [],
-                                          "referencedDeclaration": 131452,
+                                          "referencedDeclaration": 131464,
                                           "src": "17315:4:89",
                                           "typeDescriptions": {
                                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -15884,7 +15884,7 @@
                                   "name": "wdiv",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 131452,
+                                  "referencedDeclaration": 131464,
                                   "src": "16510:4:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -16340,10 +16340,10 @@
                           "name": "wmul",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [
-                            131405,
-                            131428
+                            131417,
+                            131440
                           ],
-                          "referencedDeclaration": 131405,
+                          "referencedDeclaration": 131417,
                           "src": "17836:4:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -16562,7 +16562,7 @@
               ]
             },
             "baseFunctions": [
-              49157
+              49169
             ],
             "functionSelector": "3fa277ae",
             "implemented": true,
@@ -16975,7 +16975,7 @@
                         "referencedDeclaration": 45384,
                         "src": "18591:3:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -16987,7 +16987,7 @@
                       "memberLocation": "18595:8:89",
                       "memberName": "accounts",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48649,
+                      "referencedDeclaration": 48661,
                       "src": "18591:12:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_int256_$_t_uint256_$",
@@ -17482,7 +17482,7 @@
                         "referencedDeclaration": 45380,
                         "src": "18978:5:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDPVault_$48986",
+                          "typeIdentifier": "t_contract$_ICDPVault_$48998",
                           "typeString": "contract ICDPVault"
                         }
                       },
@@ -17494,7 +17494,7 @@
                       "memberLocation": "18984:6:89",
                       "memberName": "shares",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48777,
+                      "referencedDeclaration": 48789,
                       "src": "18978:12:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
@@ -18031,7 +18031,7 @@
                         "referencedDeclaration": 45384,
                         "src": "19299:3:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -18043,7 +18043,7 @@
                       "memberLocation": "19303:13:89",
                       "memberName": "modifyBalance",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48681,
+                      "referencedDeclaration": 48693,
                       "src": "19299:17:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -18174,7 +18174,7 @@
               ]
             },
             "baseFunctions": [
-              49127
+              49139
             ],
             "functionSelector": "adba9804",
             "implemented": true,
@@ -18266,7 +18266,7 @@
                 "3684:17:89"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 49158,
+              "referencedDeclaration": 49170,
               "src": "3684:17:89"
             },
             "id": 45357,
@@ -18286,7 +18286,7 @@
         "fullyImplemented": true,
         "linearizedBaseContracts": [
           46505,
-          49158
+          49170
         ],
         "name": "CDPVaultUnwinder",
         "nameLocation": "3664:16:89",

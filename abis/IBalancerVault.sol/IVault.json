@@ -614,35 +614,35 @@
   },
   "ast": {
     "absolutePath": "src/vendor/IBalancerVault.sol",
-    "id": 131871,
+    "id": 131883,
     "exportedSymbols": {
       "BatchSwapStep": [
-        131784
+        131796
       ],
       "FundManagement": [
-        131773
+        131785
       ],
       "IVault": [
-        131870
+        131882
       ],
       "JoinKind": [
-        131800
+        131812
       ],
       "JoinPoolRequest": [
-        131795
+        131807
       ],
       "SingleSwap": [
-        131764
+        131776
       ],
       "SwapKind": [
-        131750
+        131762
       ]
     },
     "nodeType": "SourceUnit",
     "src": "46:9225:175",
     "nodes": [
       {
-        "id": 131747,
+        "id": 131759,
         "nodeType": "PragmaDirective",
         "src": "46:24:175",
         "nodes": [],
@@ -654,21 +654,21 @@
         ]
       },
       {
-        "id": 131750,
+        "id": 131762,
         "nodeType": "EnumDefinition",
         "src": "72:37:175",
         "nodes": [],
         "canonicalName": "SwapKind",
         "members": [
           {
-            "id": 131748,
+            "id": 131760,
             "name": "GIVEN_IN",
             "nameLocation": "88:8:175",
             "nodeType": "EnumValue",
             "src": "88:8:175"
           },
           {
-            "id": 131749,
+            "id": 131761,
             "name": "GIVEN_OUT",
             "nameLocation": "98:9:175",
             "nodeType": "EnumValue",
@@ -679,7 +679,7 @@
         "nameLocation": "77:8:175"
       },
       {
-        "id": 131764,
+        "id": 131776,
         "nodeType": "StructDefinition",
         "src": "710:131:175",
         "nodes": [],
@@ -687,12 +687,12 @@
         "members": [
           {
             "constant": false,
-            "id": 131752,
+            "id": 131764,
             "mutability": "mutable",
             "name": "poolId",
             "nameLocation": "740:6:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131764,
+            "scope": 131776,
             "src": "732:14:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -701,7 +701,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 131751,
+              "id": 131763,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "732:7:175",
@@ -714,36 +714,36 @@
           },
           {
             "constant": false,
-            "id": 131755,
+            "id": 131767,
             "mutability": "mutable",
             "name": "kind",
             "nameLocation": "759:4:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131764,
+            "scope": 131776,
             "src": "750:13:175",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_enum$_SwapKind_$131750",
+              "typeIdentifier": "t_enum$_SwapKind_$131762",
               "typeString": "enum SwapKind"
             },
             "typeName": {
-              "id": 131754,
+              "id": 131766,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 131753,
+                "id": 131765,
                 "name": "SwapKind",
                 "nameLocations": [
                   "750:8:175"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 131750,
+                "referencedDeclaration": 131762,
                 "src": "750:8:175"
               },
-              "referencedDeclaration": 131750,
+              "referencedDeclaration": 131762,
               "src": "750:8:175",
               "typeDescriptions": {
-                "typeIdentifier": "t_enum$_SwapKind_$131750",
+                "typeIdentifier": "t_enum$_SwapKind_$131762",
                 "typeString": "enum SwapKind"
               }
             },
@@ -751,12 +751,12 @@
           },
           {
             "constant": false,
-            "id": 131757,
+            "id": 131769,
             "mutability": "mutable",
             "name": "assetIn",
             "nameLocation": "775:7:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131764,
+            "scope": 131776,
             "src": "767:15:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -765,7 +765,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 131756,
+              "id": 131768,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "767:7:175",
@@ -779,12 +779,12 @@
           },
           {
             "constant": false,
-            "id": 131759,
+            "id": 131771,
             "mutability": "mutable",
             "name": "assetOut",
             "nameLocation": "794:8:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131764,
+            "scope": 131776,
             "src": "786:16:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -793,7 +793,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 131758,
+              "id": 131770,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "786:7:175",
@@ -807,12 +807,12 @@
           },
           {
             "constant": false,
-            "id": 131761,
+            "id": 131773,
             "mutability": "mutable",
             "name": "amount",
             "nameLocation": "814:6:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131764,
+            "scope": 131776,
             "src": "806:14:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -821,7 +821,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 131760,
+              "id": 131772,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "806:7:175",
@@ -834,12 +834,12 @@
           },
           {
             "constant": false,
-            "id": 131763,
+            "id": 131775,
             "mutability": "mutable",
             "name": "userData",
             "nameLocation": "830:8:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131764,
+            "scope": 131776,
             "src": "824:14:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -848,7 +848,7 @@
               "typeString": "bytes"
             },
             "typeName": {
-              "id": 131762,
+              "id": 131774,
               "name": "bytes",
               "nodeType": "ElementaryTypeName",
               "src": "824:5:175",
@@ -862,11 +862,11 @@
         ],
         "name": "SingleSwap",
         "nameLocation": "717:10:175",
-        "scope": 131871,
+        "scope": 131883,
         "visibility": "public"
       },
       {
-        "id": 131773,
+        "id": 131785,
         "nodeType": "StructDefinition",
         "src": "1716:126:175",
         "nodes": [],
@@ -874,12 +874,12 @@
         "members": [
           {
             "constant": false,
-            "id": 131766,
+            "id": 131778,
             "mutability": "mutable",
             "name": "sender",
             "nameLocation": "1750:6:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131773,
+            "scope": 131785,
             "src": "1742:14:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -888,7 +888,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 131765,
+              "id": 131777,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "1742:7:175",
@@ -902,12 +902,12 @@
           },
           {
             "constant": false,
-            "id": 131768,
+            "id": 131780,
             "mutability": "mutable",
             "name": "fromInternalBalance",
             "nameLocation": "1765:19:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131773,
+            "scope": 131785,
             "src": "1760:24:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -916,7 +916,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 131767,
+              "id": 131779,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "1760:4:175",
@@ -929,12 +929,12 @@
           },
           {
             "constant": false,
-            "id": 131770,
+            "id": 131782,
             "mutability": "mutable",
             "name": "recipient",
             "nameLocation": "1804:9:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131773,
+            "scope": 131785,
             "src": "1788:25:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -943,7 +943,7 @@
               "typeString": "address payable"
             },
             "typeName": {
-              "id": 131769,
+              "id": 131781,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "1788:15:175",
@@ -957,12 +957,12 @@
           },
           {
             "constant": false,
-            "id": 131772,
+            "id": 131784,
             "mutability": "mutable",
             "name": "toInternalBalance",
             "nameLocation": "1822:17:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131773,
+            "scope": 131785,
             "src": "1817:22:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -971,7 +971,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 131771,
+              "id": 131783,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "1817:4:175",
@@ -985,11 +985,11 @@
         ],
         "name": "FundManagement",
         "nameLocation": "1723:14:175",
-        "scope": 131871,
+        "scope": 131883,
         "visibility": "public"
       },
       {
-        "id": 131784,
+        "id": 131796,
         "nodeType": "StructDefinition",
         "src": "2369:127:175",
         "nodes": [],
@@ -997,12 +997,12 @@
         "members": [
           {
             "constant": false,
-            "id": 131775,
+            "id": 131787,
             "mutability": "mutable",
             "name": "poolId",
             "nameLocation": "2402:6:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131784,
+            "scope": 131796,
             "src": "2394:14:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -1011,7 +1011,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 131774,
+              "id": 131786,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "2394:7:175",
@@ -1024,12 +1024,12 @@
           },
           {
             "constant": false,
-            "id": 131777,
+            "id": 131789,
             "mutability": "mutable",
             "name": "assetInIndex",
             "nameLocation": "2420:12:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131784,
+            "scope": 131796,
             "src": "2412:20:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -1038,7 +1038,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 131776,
+              "id": 131788,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "2412:7:175",
@@ -1051,12 +1051,12 @@
           },
           {
             "constant": false,
-            "id": 131779,
+            "id": 131791,
             "mutability": "mutable",
             "name": "assetOutIndex",
             "nameLocation": "2444:13:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131784,
+            "scope": 131796,
             "src": "2436:21:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -1065,7 +1065,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 131778,
+              "id": 131790,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "2436:7:175",
@@ -1078,12 +1078,12 @@
           },
           {
             "constant": false,
-            "id": 131781,
+            "id": 131793,
             "mutability": "mutable",
             "name": "amount",
             "nameLocation": "2469:6:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131784,
+            "scope": 131796,
             "src": "2461:14:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -1092,7 +1092,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 131780,
+              "id": 131792,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "2461:7:175",
@@ -1105,12 +1105,12 @@
           },
           {
             "constant": false,
-            "id": 131783,
+            "id": 131795,
             "mutability": "mutable",
             "name": "userData",
             "nameLocation": "2485:8:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131784,
+            "scope": 131796,
             "src": "2479:14:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -1119,7 +1119,7 @@
               "typeString": "bytes"
             },
             "typeName": {
-              "id": 131782,
+              "id": 131794,
               "name": "bytes",
               "nodeType": "ElementaryTypeName",
               "src": "2479:5:175",
@@ -1133,11 +1133,11 @@
         ],
         "name": "BatchSwapStep",
         "nameLocation": "2376:13:175",
-        "scope": 131871,
+        "scope": 131883,
         "visibility": "public"
       },
       {
-        "id": 131795,
+        "id": 131807,
         "nodeType": "StructDefinition",
         "src": "2556:118:175",
         "nodes": [],
@@ -1145,12 +1145,12 @@
         "members": [
           {
             "constant": false,
-            "id": 131787,
+            "id": 131799,
             "mutability": "mutable",
             "name": "assets",
             "nameLocation": "2593:6:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131795,
+            "scope": 131807,
             "src": "2583:16:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -1160,7 +1160,7 @@
             },
             "typeName": {
               "baseType": {
-                "id": 131785,
+                "id": 131797,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "2583:7:175",
@@ -1170,7 +1170,7 @@
                   "typeString": "address"
                 }
               },
-              "id": 131786,
+              "id": 131798,
               "nodeType": "ArrayTypeName",
               "src": "2583:9:175",
               "typeDescriptions": {
@@ -1182,12 +1182,12 @@
           },
           {
             "constant": false,
-            "id": 131790,
+            "id": 131802,
             "mutability": "mutable",
             "name": "maxAmountsIn",
             "nameLocation": "2613:12:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131795,
+            "scope": 131807,
             "src": "2603:22:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -1197,7 +1197,7 @@
             },
             "typeName": {
               "baseType": {
-                "id": 131788,
+                "id": 131800,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
                 "src": "2603:7:175",
@@ -1206,7 +1206,7 @@
                   "typeString": "uint256"
                 }
               },
-              "id": 131789,
+              "id": 131801,
               "nodeType": "ArrayTypeName",
               "src": "2603:9:175",
               "typeDescriptions": {
@@ -1218,12 +1218,12 @@
           },
           {
             "constant": false,
-            "id": 131792,
+            "id": 131804,
             "mutability": "mutable",
             "name": "userData",
             "nameLocation": "2635:8:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131795,
+            "scope": 131807,
             "src": "2629:14:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -1232,7 +1232,7 @@
               "typeString": "bytes"
             },
             "typeName": {
-              "id": 131791,
+              "id": 131803,
               "name": "bytes",
               "nodeType": "ElementaryTypeName",
               "src": "2629:5:175",
@@ -1245,12 +1245,12 @@
           },
           {
             "constant": false,
-            "id": 131794,
+            "id": 131806,
             "mutability": "mutable",
             "name": "fromInternalBalance",
             "nameLocation": "2652:19:175",
             "nodeType": "VariableDeclaration",
-            "scope": 131795,
+            "scope": 131807,
             "src": "2647:24:175",
             "stateVariable": false,
             "storageLocation": "default",
@@ -1259,7 +1259,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 131793,
+              "id": 131805,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "2647:4:175",
@@ -1273,39 +1273,39 @@
         ],
         "name": "JoinPoolRequest",
         "nameLocation": "2563:15:175",
-        "scope": 131871,
+        "scope": 131883,
         "visibility": "public"
       },
       {
-        "id": 131800,
+        "id": 131812,
         "nodeType": "EnumDefinition",
         "src": "2783:120:175",
         "nodes": [],
         "canonicalName": "JoinKind",
         "members": [
           {
-            "id": 131796,
+            "id": 131808,
             "name": "INIT",
             "nameLocation": "2801:4:175",
             "nodeType": "EnumValue",
             "src": "2801:4:175"
           },
           {
-            "id": 131797,
+            "id": 131809,
             "name": "EXACT_TOKENS_IN_FOR_BPT_OUT",
             "nameLocation": "2809:27:175",
             "nodeType": "EnumValue",
             "src": "2809:27:175"
           },
           {
-            "id": 131798,
+            "id": 131810,
             "name": "TOKEN_IN_FOR_EXACT_BPT_OUT",
             "nameLocation": "2840:26:175",
             "nodeType": "EnumValue",
             "src": "2840:26:175"
           },
           {
-            "id": 131799,
+            "id": 131811,
             "name": "ALL_TOKENS_IN_FOR_EXACT_BPT_OUT",
             "nameLocation": "2870:31:175",
             "nodeType": "EnumValue",
@@ -1316,17 +1316,17 @@
         "nameLocation": "2788:8:175"
       },
       {
-        "id": 131870,
+        "id": 131882,
         "nodeType": "ContractDefinition",
         "src": "2952:6318:175",
         "nodes": [
           {
-            "id": 131817,
+            "id": 131829,
             "nodeType": "FunctionDefinition",
             "src": "3552:161:175",
             "nodes": [],
             "documentation": {
-              "id": 131802,
+              "id": 131814,
               "nodeType": "StructuredDocumentation",
               "src": "2974:575:175",
               "text": " @dev Performs a swap with a single Pool.\n If the swap is 'given in' (the number of tokens to send to the Pool is known), it returns the amount of tokens\n taken from the Pool, which must be greater than or equal to `limit`.\n If the swap is 'given out' (the number of tokens to take from the Pool is known), it returns the amount of tokens\n sent to the Pool, which must be less than or equal to `limit`.\n Internal Balance usage and the recipient are determined by the `funds` struct.\n Emits a `Swap` event."
@@ -1338,41 +1338,41 @@
             "name": "swap",
             "nameLocation": "3561:4:175",
             "parameters": {
-              "id": 131813,
+              "id": 131825,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 131805,
+                  "id": 131817,
                   "mutability": "mutable",
                   "name": "singleSwap",
                   "nameLocation": "3589:10:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131817,
+                  "scope": 131829,
                   "src": "3571:28:175",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_SingleSwap_$131764_memory_ptr",
+                    "typeIdentifier": "t_struct$_SingleSwap_$131776_memory_ptr",
                     "typeString": "struct SingleSwap"
                   },
                   "typeName": {
-                    "id": 131804,
+                    "id": 131816,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 131803,
+                      "id": 131815,
                       "name": "SingleSwap",
                       "nameLocations": [
                         "3571:10:175"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 131764,
+                      "referencedDeclaration": 131776,
                       "src": "3571:10:175"
                     },
-                    "referencedDeclaration": 131764,
+                    "referencedDeclaration": 131776,
                     "src": "3571:10:175",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_SingleSwap_$131764_storage_ptr",
+                      "typeIdentifier": "t_struct$_SingleSwap_$131776_storage_ptr",
                       "typeString": "struct SingleSwap"
                     }
                   },
@@ -1380,36 +1380,36 @@
                 },
                 {
                   "constant": false,
-                  "id": 131808,
+                  "id": 131820,
                   "mutability": "mutable",
                   "name": "funds",
                   "nameLocation": "3627:5:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131817,
+                  "scope": 131829,
                   "src": "3605:27:175",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_FundManagement_$131773_memory_ptr",
+                    "typeIdentifier": "t_struct$_FundManagement_$131785_memory_ptr",
                     "typeString": "struct FundManagement"
                   },
                   "typeName": {
-                    "id": 131807,
+                    "id": 131819,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 131806,
+                      "id": 131818,
                       "name": "FundManagement",
                       "nameLocations": [
                         "3605:14:175"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 131773,
+                      "referencedDeclaration": 131785,
                       "src": "3605:14:175"
                     },
-                    "referencedDeclaration": 131773,
+                    "referencedDeclaration": 131785,
                     "src": "3605:14:175",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_FundManagement_$131773_storage_ptr",
+                      "typeIdentifier": "t_struct$_FundManagement_$131785_storage_ptr",
                       "typeString": "struct FundManagement"
                     }
                   },
@@ -1417,12 +1417,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 131810,
+                  "id": 131822,
                   "mutability": "mutable",
                   "name": "limit",
                   "nameLocation": "3646:5:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131817,
+                  "scope": 131829,
                   "src": "3638:13:175",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1431,7 +1431,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 131809,
+                    "id": 131821,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "3638:7:175",
@@ -1444,12 +1444,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 131812,
+                  "id": 131824,
                   "mutability": "mutable",
                   "name": "deadline",
                   "nameLocation": "3665:8:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131817,
+                  "scope": 131829,
                   "src": "3657:16:175",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1458,7 +1458,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 131811,
+                    "id": 131823,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "3657:7:175",
@@ -1473,17 +1473,17 @@
               "src": "3565:112:175"
             },
             "returnParameters": {
-              "id": 131816,
+              "id": 131828,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 131815,
+                  "id": 131827,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131817,
+                  "scope": 131829,
                   "src": "3704:7:175",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1492,7 +1492,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 131814,
+                    "id": 131826,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "3704:7:175",
@@ -1506,18 +1506,18 @@
               ],
               "src": "3703:9:175"
             },
-            "scope": 131870,
+            "scope": 131882,
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 131842,
+            "id": 131854,
             "nodeType": "FunctionDefinition",
             "src": "5618:231:175",
             "nodes": [],
             "documentation": {
-              "id": 131818,
+              "id": 131830,
               "nodeType": "StructuredDocumentation",
               "src": "3718:1897:175",
               "text": " @dev Performs a series of swaps with one or multiple Pools. In each individual swap, the caller determines either\n the amount of tokens sent to or received from the Pool, depending on the `kind` value.\n Returns an array with the net Vault asset balance deltas. Positive amounts represent tokens (or ETH) sent to the\n Vault, and negative amounts represent tokens (or ETH) sent by the Vault. Each delta corresponds to the asset at\n the same index in the `assets` array.\n Swaps are executed sequentially, in the order specified by the `swaps` array. Each array element describes a\n Pool, the token to be sent to this Pool, the token to receive from it, and an amount that is either `amountIn` or\n `amountOut` depending on the swap kind.\n Multihop swaps can be executed by passing an `amount` value of zero for a swap. This will cause the amount in/out\n of the previous swap to be used as the amount in for the current one. In a 'given in' swap, 'tokenIn' must equal\n the previous swap's `tokenOut`. For a 'given out' swap, `tokenOut` must equal the previous swap's `tokenIn`.\n The `assets` array contains the addresses of all assets involved in the swaps. These are either token addresses,\n or the IAsset sentinel value for ETH (the zero address). Each entry in the `swaps` array specifies tokens in and\n out by referencing an index in `assets`. Note that Pools never interact with ETH directly: it will be wrapped to\n or unwrapped from WETH by the Vault.\n Internal Balance usage, sender, and recipient are determined by the `funds` struct. \n The `limits` array specifies the minimum or maximum amount of each token the vault is allowed to transfer.\n `batchSwap` can be used to make a single swap, like `swap` does, but doing so requires more gas than the\n equivalent `swap` call.\n Emits `Swap` events."
@@ -1529,41 +1529,41 @@
             "name": "batchSwap",
             "nameLocation": "5627:9:175",
             "parameters": {
-              "id": 131837,
+              "id": 131849,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 131821,
+                  "id": 131833,
                   "mutability": "mutable",
                   "name": "kind",
                   "nameLocation": "5651:4:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131842,
+                  "scope": 131854,
                   "src": "5642:13:175",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_SwapKind_$131750",
+                    "typeIdentifier": "t_enum$_SwapKind_$131762",
                     "typeString": "enum SwapKind"
                   },
                   "typeName": {
-                    "id": 131820,
+                    "id": 131832,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 131819,
+                      "id": 131831,
                       "name": "SwapKind",
                       "nameLocations": [
                         "5642:8:175"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 131750,
+                      "referencedDeclaration": 131762,
                       "src": "5642:8:175"
                     },
-                    "referencedDeclaration": 131750,
+                    "referencedDeclaration": 131762,
                     "src": "5642:8:175",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_SwapKind_$131750",
+                      "typeIdentifier": "t_enum$_SwapKind_$131762",
                       "typeString": "enum SwapKind"
                     }
                   },
@@ -1571,45 +1571,45 @@
                 },
                 {
                   "constant": false,
-                  "id": 131825,
+                  "id": 131837,
                   "mutability": "mutable",
                   "name": "swaps",
                   "nameLocation": "5684:5:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131842,
+                  "scope": 131854,
                   "src": "5661:28:175",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_BatchSwapStep_$131784_memory_ptr_$dyn_memory_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_BatchSwapStep_$131796_memory_ptr_$dyn_memory_ptr",
                     "typeString": "struct BatchSwapStep[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 131823,
+                      "id": 131835,
                       "nodeType": "UserDefinedTypeName",
                       "pathNode": {
-                        "id": 131822,
+                        "id": 131834,
                         "name": "BatchSwapStep",
                         "nameLocations": [
                           "5661:13:175"
                         ],
                         "nodeType": "IdentifierPath",
-                        "referencedDeclaration": 131784,
+                        "referencedDeclaration": 131796,
                         "src": "5661:13:175"
                       },
-                      "referencedDeclaration": 131784,
+                      "referencedDeclaration": 131796,
                       "src": "5661:13:175",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_BatchSwapStep_$131784_storage_ptr",
+                        "typeIdentifier": "t_struct$_BatchSwapStep_$131796_storage_ptr",
                         "typeString": "struct BatchSwapStep"
                       }
                     },
-                    "id": 131824,
+                    "id": 131836,
                     "nodeType": "ArrayTypeName",
                     "src": "5661:15:175",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_BatchSwapStep_$131784_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_BatchSwapStep_$131796_storage_$dyn_storage_ptr",
                       "typeString": "struct BatchSwapStep[]"
                     }
                   },
@@ -1617,12 +1617,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 131828,
+                  "id": 131840,
                   "mutability": "mutable",
                   "name": "assets",
                   "nameLocation": "5712:6:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131842,
+                  "scope": 131854,
                   "src": "5695:23:175",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1632,7 +1632,7 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 131826,
+                      "id": 131838,
                       "name": "address",
                       "nodeType": "ElementaryTypeName",
                       "src": "5695:7:175",
@@ -1642,7 +1642,7 @@
                         "typeString": "address"
                       }
                     },
-                    "id": 131827,
+                    "id": 131839,
                     "nodeType": "ArrayTypeName",
                     "src": "5695:9:175",
                     "typeDescriptions": {
@@ -1654,36 +1654,36 @@
                 },
                 {
                   "constant": false,
-                  "id": 131831,
+                  "id": 131843,
                   "mutability": "mutable",
                   "name": "funds",
                   "nameLocation": "5746:5:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131842,
+                  "scope": 131854,
                   "src": "5724:27:175",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_FundManagement_$131773_memory_ptr",
+                    "typeIdentifier": "t_struct$_FundManagement_$131785_memory_ptr",
                     "typeString": "struct FundManagement"
                   },
                   "typeName": {
-                    "id": 131830,
+                    "id": 131842,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 131829,
+                      "id": 131841,
                       "name": "FundManagement",
                       "nameLocations": [
                         "5724:14:175"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 131773,
+                      "referencedDeclaration": 131785,
                       "src": "5724:14:175"
                     },
-                    "referencedDeclaration": 131773,
+                    "referencedDeclaration": 131785,
                     "src": "5724:14:175",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_FundManagement_$131773_storage_ptr",
+                      "typeIdentifier": "t_struct$_FundManagement_$131785_storage_ptr",
                       "typeString": "struct FundManagement"
                     }
                   },
@@ -1691,12 +1691,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 131834,
+                  "id": 131846,
                   "mutability": "mutable",
                   "name": "limits",
                   "nameLocation": "5773:6:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131842,
+                  "scope": 131854,
                   "src": "5757:22:175",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1706,7 +1706,7 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 131832,
+                      "id": 131844,
                       "name": "int256",
                       "nodeType": "ElementaryTypeName",
                       "src": "5757:6:175",
@@ -1715,7 +1715,7 @@
                         "typeString": "int256"
                       }
                     },
-                    "id": 131833,
+                    "id": 131845,
                     "nodeType": "ArrayTypeName",
                     "src": "5757:8:175",
                     "typeDescriptions": {
@@ -1727,12 +1727,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 131836,
+                  "id": 131848,
                   "mutability": "mutable",
                   "name": "deadline",
                   "nameLocation": "5793:8:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131842,
+                  "scope": 131854,
                   "src": "5785:16:175",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1741,7 +1741,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 131835,
+                    "id": 131847,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "5785:7:175",
@@ -1756,17 +1756,17 @@
               "src": "5636:169:175"
             },
             "returnParameters": {
-              "id": 131841,
+              "id": 131853,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 131840,
+                  "id": 131852,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131842,
+                  "scope": 131854,
                   "src": "5832:15:175",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1776,7 +1776,7 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 131838,
+                      "id": 131850,
                       "name": "int256",
                       "nodeType": "ElementaryTypeName",
                       "src": "5832:6:175",
@@ -1785,7 +1785,7 @@
                         "typeString": "int256"
                       }
                     },
-                    "id": 131839,
+                    "id": 131851,
                     "nodeType": "ArrayTypeName",
                     "src": "5832:8:175",
                     "typeDescriptions": {
@@ -1798,18 +1798,18 @@
               ],
               "src": "5831:17:175"
             },
-            "scope": 131870,
+            "scope": 131882,
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 131855,
+            "id": 131867,
             "nodeType": "FunctionDefinition",
             "src": "8132:148:175",
             "nodes": [],
             "documentation": {
-              "id": 131843,
+              "id": 131855,
               "nodeType": "StructuredDocumentation",
               "src": "5854:2273:175",
               "text": " @dev Called by users to join a Pool, which transfers tokens from `sender` into the Pool's balance. This will\n trigger custom Pool behavior, which will typically grant something in return to `recipient` - often tokenized\n Pool shares.\n If the caller is not `sender`, it must be an authorized relayer for them.\n The `assets` and `maxAmountsIn` arrays must have the same length, and each entry indicates the maximum amount\n to send for each asset. The amounts to send are decided by the Pool and not the Vault: it just enforces\n these maximums.\n If joining a Pool that holds WETH, it is possible to send ETH directly: the Vault will do the wrapping. To enable\n this mechanism, the IAsset sentinel value (the zero address) must be passed in the `assets` array instead of the\n WETH address. Note that it is not possible to combine ETH and WETH in the same join. Any excess ETH will be sent\n back to the caller (not the sender, which is important for relayers).\n `assets` must have the same length and order as the array returned by `getPoolTokens`. This prevents issues when\n interacting with Pools that register and deregister tokens frequently. If sending ETH however, the array must be\n sorted *before* replacing the WETH address with the ETH sentinel value (the zero address), which means the final\n `assets` array might not be sorted. Pools with no registered tokens cannot be joined.\n If `fromInternalBalance` is true, the caller's Internal Balance will be preferred: ERC20 transfers will only\n be made for the difference between the requested amount and Internal Balance (if any). Note that ETH cannot be\n withdrawn from Internal Balance: attempting to do so will trigger a revert.\n This causes the Vault to call the `IBasePool.onJoinPool` hook on the Pool's contract, where Pools implement\n their own custom logic. This typically requires additional information from the user (such as the expected number\n of Pool shares). This can be encoded in the `userData` argument, which is ignored by the Vault and passed\n directly to the Pool's contract, as is `recipient`.\n Emits a `PoolBalanceChanged` event."
@@ -1821,17 +1821,17 @@
             "name": "joinPool",
             "nameLocation": "8141:8:175",
             "parameters": {
-              "id": 131853,
+              "id": 131865,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 131845,
+                  "id": 131857,
                   "mutability": "mutable",
                   "name": "poolId",
                   "nameLocation": "8165:6:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131855,
+                  "scope": 131867,
                   "src": "8157:14:175",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1840,7 +1840,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 131844,
+                    "id": 131856,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "8157:7:175",
@@ -1853,12 +1853,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 131847,
+                  "id": 131859,
                   "mutability": "mutable",
                   "name": "sender",
                   "nameLocation": "8187:6:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131855,
+                  "scope": 131867,
                   "src": "8179:14:175",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1867,7 +1867,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 131846,
+                    "id": 131858,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "8179:7:175",
@@ -1881,12 +1881,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 131849,
+                  "id": 131861,
                   "mutability": "mutable",
                   "name": "recipient",
                   "nameLocation": "8209:9:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131855,
+                  "scope": 131867,
                   "src": "8201:17:175",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1895,7 +1895,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 131848,
+                    "id": 131860,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "8201:7:175",
@@ -1909,36 +1909,36 @@
                 },
                 {
                   "constant": false,
-                  "id": 131852,
+                  "id": 131864,
                   "mutability": "mutable",
                   "name": "request",
                   "nameLocation": "8249:7:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131855,
+                  "scope": 131867,
                   "src": "8226:30:175",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_JoinPoolRequest_$131795_memory_ptr",
+                    "typeIdentifier": "t_struct$_JoinPoolRequest_$131807_memory_ptr",
                     "typeString": "struct JoinPoolRequest"
                   },
                   "typeName": {
-                    "id": 131851,
+                    "id": 131863,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 131850,
+                      "id": 131862,
                       "name": "JoinPoolRequest",
                       "nameLocations": [
                         "8226:15:175"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 131795,
+                      "referencedDeclaration": 131807,
                       "src": "8226:15:175"
                     },
-                    "referencedDeclaration": 131795,
+                    "referencedDeclaration": 131807,
                     "src": "8226:15:175",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_JoinPoolRequest_$131795_storage_ptr",
+                      "typeIdentifier": "t_struct$_JoinPoolRequest_$131807_storage_ptr",
                       "typeString": "struct JoinPoolRequest"
                     }
                   },
@@ -1948,23 +1948,23 @@
               "src": "8149:113:175"
             },
             "returnParameters": {
-              "id": 131854,
+              "id": 131866,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "8279:0:175"
             },
-            "scope": 131870,
+            "scope": 131882,
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 131869,
+            "id": 131881,
             "nodeType": "FunctionDefinition",
             "src": "9104:163:175",
             "nodes": [],
             "documentation": {
-              "id": 131856,
+              "id": 131868,
               "nodeType": "StructuredDocumentation",
               "src": "8284:815:175",
               "text": " @dev Returns a Pool's registered tokens, the total balance for each, and the latest block when *any* of\n the tokens' `balances` changed.\n The order of the `tokens` array is the same order that will be used in `joinPool`, `exitPool`, as well as in all\n Pool hooks (where applicable). Calls to `registerTokens` and `deregisterTokens` may change this order.\n If a Pool only registers tokens once, and these are sorted in ascending order, they will be stored in the same\n order as passed to `registerTokens`.\n Total balances include both tokens held by the Vault and those withdrawn by the Pool's Asset Managers. These are\n the amounts used by joins, exits and swaps. For a detailed breakdown of token balances, use `getPoolTokenInfo`\n instead."
@@ -1976,17 +1976,17 @@
             "name": "getPoolTokens",
             "nameLocation": "9113:13:175",
             "parameters": {
-              "id": 131859,
+              "id": 131871,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 131858,
+                  "id": 131870,
                   "mutability": "mutable",
                   "name": "poolId",
                   "nameLocation": "9135:6:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131869,
+                  "scope": 131881,
                   "src": "9127:14:175",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1995,7 +1995,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 131857,
+                    "id": 131869,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "9127:7:175",
@@ -2010,17 +2010,17 @@
               "src": "9126:16:175"
             },
             "returnParameters": {
-              "id": 131868,
+              "id": 131880,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 131862,
+                  "id": 131874,
                   "mutability": "mutable",
                   "name": "tokens",
                   "nameLocation": "9190:6:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131869,
+                  "scope": 131881,
                   "src": "9173:23:175",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -2030,7 +2030,7 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 131860,
+                      "id": 131872,
                       "name": "address",
                       "nodeType": "ElementaryTypeName",
                       "src": "9173:7:175",
@@ -2040,7 +2040,7 @@
                         "typeString": "address"
                       }
                     },
-                    "id": 131861,
+                    "id": 131873,
                     "nodeType": "ArrayTypeName",
                     "src": "9173:9:175",
                     "typeDescriptions": {
@@ -2052,12 +2052,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 131865,
+                  "id": 131877,
                   "mutability": "mutable",
                   "name": "balances",
                   "nameLocation": "9221:8:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131869,
+                  "scope": 131881,
                   "src": "9204:25:175",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -2067,7 +2067,7 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 131863,
+                      "id": 131875,
                       "name": "uint256",
                       "nodeType": "ElementaryTypeName",
                       "src": "9204:7:175",
@@ -2076,7 +2076,7 @@
                         "typeString": "uint256"
                       }
                     },
-                    "id": 131864,
+                    "id": 131876,
                     "nodeType": "ArrayTypeName",
                     "src": "9204:9:175",
                     "typeDescriptions": {
@@ -2088,12 +2088,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 131867,
+                  "id": 131879,
                   "mutability": "mutable",
                   "name": "lastChangeBlock",
                   "nameLocation": "9245:15:175",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131869,
+                  "scope": 131881,
                   "src": "9237:23:175",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2102,7 +2102,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 131866,
+                    "id": 131878,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "9237:7:175",
@@ -2116,7 +2116,7 @@
               ],
               "src": "9165:101:175"
             },
-            "scope": 131870,
+            "scope": 131882,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -2128,18 +2128,18 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 131801,
+          "id": 131813,
           "nodeType": "StructuredDocumentation",
           "src": "2905:47:175",
           "text": "@dev Entry point for all Balancer V2 swaps."
         },
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          131870
+          131882
         ],
         "name": "IVault",
         "nameLocation": "2962:6:175",
-        "scope": 131871,
+        "scope": 131883,
         "usedErrors": []
       }
     ],

@@ -252,23 +252,23 @@
   },
   "ast": {
     "absolutePath": "src/interfaces/IMinter.sol",
-    "id": 49602,
+    "id": 49614,
     "exportedSymbols": {
       "ICDM": [
-        48682
+        48694
       ],
       "IMinter": [
-        49601
+        49613
       ],
       "IStablecoin": [
-        49688
+        49700
       ]
     },
     "nodeType": "SourceUnit",
     "src": "45:361:107",
     "nodes": [
       {
-        "id": 49570,
+        "id": 49582,
         "nodeType": "PragmaDirective",
         "src": "45:24:107",
         "nodes": [],
@@ -280,23 +280,23 @@
         ]
       },
       {
-        "id": 49572,
+        "id": 49584,
         "nodeType": "ImportDirective",
         "src": "71:32:107",
         "nodes": [],
         "absolutePath": "src/interfaces/ICDM.sol",
         "file": "./ICDM.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 49602,
-        "sourceUnit": 48683,
+        "scope": 49614,
+        "sourceUnit": 48695,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 49571,
+              "id": 49583,
               "name": "ICDM",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 48682,
+              "referencedDeclaration": 48694,
               "src": "79:4:107",
               "typeDescriptions": {}
             },
@@ -306,23 +306,23 @@
         "unitAlias": ""
       },
       {
-        "id": 49574,
+        "id": 49586,
         "nodeType": "ImportDirective",
         "src": "104:46:107",
         "nodes": [],
         "absolutePath": "src/interfaces/IStablecoin.sol",
         "file": "./IStablecoin.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 49602,
-        "sourceUnit": 49689,
+        "scope": 49614,
+        "sourceUnit": 49701,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 49573,
+              "id": 49585,
               "name": "IStablecoin",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 49688,
+              "referencedDeclaration": 49700,
               "src": "112:11:107",
               "typeDescriptions": {}
             },
@@ -332,12 +332,12 @@
         "unitAlias": ""
       },
       {
-        "id": 49601,
+        "id": 49613,
         "nodeType": "ContractDefinition",
         "src": "152:253:107",
         "nodes": [
           {
-            "id": 49580,
+            "id": 49592,
             "nodeType": "FunctionDefinition",
             "src": "176:44:107",
             "nodes": [],
@@ -348,47 +348,47 @@
             "name": "cdm",
             "nameLocation": "185:3:107",
             "parameters": {
-              "id": 49575,
+              "id": 49587,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "188:2:107"
             },
             "returnParameters": {
-              "id": 49579,
+              "id": 49591,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49578,
+                  "id": 49590,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49580,
+                  "scope": 49592,
                   "src": "214:4:107",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ICDM_$48682",
+                    "typeIdentifier": "t_contract$_ICDM_$48694",
                     "typeString": "contract ICDM"
                   },
                   "typeName": {
-                    "id": 49577,
+                    "id": 49589,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 49576,
+                      "id": 49588,
                       "name": "ICDM",
                       "nameLocations": [
                         "214:4:107"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 48682,
+                      "referencedDeclaration": 48694,
                       "src": "214:4:107"
                     },
-                    "referencedDeclaration": 48682,
+                    "referencedDeclaration": 48694,
                     "src": "214:4:107",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDM_$48682",
+                      "typeIdentifier": "t_contract$_ICDM_$48694",
                       "typeString": "contract ICDM"
                     }
                   },
@@ -397,13 +397,13 @@
               ],
               "src": "213:6:107"
             },
-            "scope": 49601,
+            "scope": 49613,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 49586,
+            "id": 49598,
             "nodeType": "FunctionDefinition",
             "src": "226:58:107",
             "nodes": [],
@@ -414,47 +414,47 @@
             "name": "stablecoin",
             "nameLocation": "235:10:107",
             "parameters": {
-              "id": 49581,
+              "id": 49593,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "245:2:107"
             },
             "returnParameters": {
-              "id": 49585,
+              "id": 49597,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49584,
+                  "id": 49596,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49586,
+                  "scope": 49598,
                   "src": "271:11:107",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                    "typeIdentifier": "t_contract$_IStablecoin_$49700",
                     "typeString": "contract IStablecoin"
                   },
                   "typeName": {
-                    "id": 49583,
+                    "id": 49595,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 49582,
+                      "id": 49594,
                       "name": "IStablecoin",
                       "nameLocations": [
                         "271:11:107"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 49688,
+                      "referencedDeclaration": 49700,
                       "src": "271:11:107"
                     },
-                    "referencedDeclaration": 49688,
+                    "referencedDeclaration": 49700,
                     "src": "271:11:107",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IStablecoin_$49688",
+                      "typeIdentifier": "t_contract$_IStablecoin_$49700",
                       "typeString": "contract IStablecoin"
                     }
                   },
@@ -463,13 +463,13 @@
               ],
               "src": "270:13:107"
             },
-            "scope": 49601,
+            "scope": 49613,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 49593,
+            "id": 49605,
             "nodeType": "FunctionDefinition",
             "src": "290:54:107",
             "nodes": [],
@@ -480,17 +480,17 @@
             "name": "enter",
             "nameLocation": "299:5:107",
             "parameters": {
-              "id": 49591,
+              "id": 49603,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49588,
+                  "id": 49600,
                   "mutability": "mutable",
                   "name": "user",
                   "nameLocation": "313:4:107",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49593,
+                  "scope": 49605,
                   "src": "305:12:107",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -499,7 +499,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 49587,
+                    "id": 49599,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "305:7:107",
@@ -513,12 +513,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 49590,
+                  "id": 49602,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "327:6:107",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49593,
+                  "scope": 49605,
                   "src": "319:14:107",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -527,7 +527,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 49589,
+                    "id": 49601,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "319:7:107",
@@ -542,18 +542,18 @@
               "src": "304:30:107"
             },
             "returnParameters": {
-              "id": 49592,
+              "id": 49604,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "343:0:107"
             },
-            "scope": 49601,
+            "scope": 49613,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 49600,
+            "id": 49612,
             "nodeType": "FunctionDefinition",
             "src": "350:53:107",
             "nodes": [],
@@ -564,17 +564,17 @@
             "name": "exit",
             "nameLocation": "359:4:107",
             "parameters": {
-              "id": 49598,
+              "id": 49610,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49595,
+                  "id": 49607,
                   "mutability": "mutable",
                   "name": "user",
                   "nameLocation": "372:4:107",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49600,
+                  "scope": 49612,
                   "src": "364:12:107",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -583,7 +583,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 49594,
+                    "id": 49606,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "364:7:107",
@@ -597,12 +597,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 49597,
+                  "id": 49609,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "386:6:107",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49600,
+                  "scope": 49612,
                   "src": "378:14:107",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -611,7 +611,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 49596,
+                    "id": 49608,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "378:7:107",
@@ -626,12 +626,12 @@
               "src": "363:30:107"
             },
             "returnParameters": {
-              "id": 49599,
+              "id": 49611,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "402:0:107"
             },
-            "scope": 49601,
+            "scope": 49613,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -644,11 +644,11 @@
         "contractKind": "interface",
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          49601
+          49613
         ],
         "name": "IMinter",
         "nameLocation": "162:7:107",
-        "scope": 49602,
+        "scope": 49614,
         "usedErrors": []
       }
     ],

@@ -451,13 +451,13 @@
   },
   "ast": {
     "absolutePath": "src/proxy/ERC165Plugin.sol",
-    "id": 50720,
+    "id": 50732,
     "exportedSymbols": {
       "ERC1155Holder": [
         33765
       ],
       "ERC165Plugin": [
-        50719
+        50731
       ],
       "ERC721Holder": [
         35965
@@ -470,7 +470,7 @@
     "src": "32:1096:116",
     "nodes": [
       {
-        "id": 50665,
+        "id": 50677,
         "nodeType": "PragmaDirective",
         "src": "32:24:116",
         "nodes": [],
@@ -482,19 +482,19 @@
         ]
       },
       {
-        "id": 50667,
+        "id": 50679,
         "nodeType": "ImportDirective",
         "src": "58:91:116",
         "nodes": [],
         "absolutePath": "lib/openzeppelin-contracts/contracts/token/ERC1155/utils/ERC1155Holder.sol",
         "file": "openzeppelin/contracts/token/ERC1155/utils/ERC1155Holder.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 50720,
+        "scope": 50732,
         "sourceUnit": 33766,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 50666,
+              "id": 50678,
               "name": "ERC1155Holder",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
@@ -508,19 +508,19 @@
         "unitAlias": ""
       },
       {
-        "id": 50669,
+        "id": 50681,
         "nodeType": "ImportDirective",
         "src": "150:88:116",
         "nodes": [],
         "absolutePath": "lib/openzeppelin-contracts/contracts/token/ERC721/utils/ERC721Holder.sol",
         "file": "openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 50720,
+        "scope": 50732,
         "sourceUnit": 35966,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 50668,
+              "id": 50680,
               "name": "ERC721Holder",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
@@ -534,19 +534,19 @@
         "unitAlias": ""
       },
       {
-        "id": 50671,
+        "id": 50683,
         "nodeType": "ImportDirective",
         "src": "240:73:116",
         "nodes": [],
         "absolutePath": "lib/prb-proxy/src/interfaces/IPRBProxyPlugin.sol",
         "file": "prb-proxy/interfaces/IPRBProxyPlugin.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 50720,
+        "scope": 50732,
         "sourceUnit": 40468,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 50670,
+              "id": 50682,
               "name": "IPRBProxyPlugin",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
@@ -560,34 +560,34 @@
         "unitAlias": ""
       },
       {
-        "id": 50719,
+        "id": 50731,
         "nodeType": "ContractDefinition",
         "src": "420:707:116",
         "nodes": [
           {
-            "id": 50718,
+            "id": 50730,
             "nodeType": "FunctionDefinition",
             "src": "847:278:116",
             "nodes": [],
             "body": {
-              "id": 50717,
+              "id": 50729,
               "nodeType": "Block",
               "src": "917:208:116",
               "nodes": [],
               "statements": [
                 {
                   "expression": {
-                    "id": 50691,
+                    "id": 50703,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 50685,
+                      "id": 50697,
                       "name": "methods",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 50683,
+                      "referencedDeclaration": 50695,
                       "src": "927:7:116",
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_bytes4_$dyn_memory_ptr",
@@ -600,7 +600,7 @@
                       "arguments": [
                         {
                           "hexValue": "33",
-                          "id": 50689,
+                          "id": 50701,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -622,7 +622,7 @@
                             "typeString": "int_const 3"
                           }
                         ],
-                        "id": 50688,
+                        "id": 50700,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -635,7 +635,7 @@
                         },
                         "typeName": {
                           "baseType": {
-                            "id": 50686,
+                            "id": 50698,
                             "name": "bytes4",
                             "nodeType": "ElementaryTypeName",
                             "src": "941:6:116",
@@ -644,7 +644,7 @@
                               "typeString": "bytes4"
                             }
                           },
-                          "id": 50687,
+                          "id": 50699,
                           "nodeType": "ArrayTypeName",
                           "src": "941:8:116",
                           "typeDescriptions": {
@@ -653,7 +653,7 @@
                           }
                         }
                       },
-                      "id": 50690,
+                      "id": 50702,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -675,34 +675,34 @@
                       "typeString": "bytes4[] memory"
                     }
                   },
-                  "id": 50692,
+                  "id": 50704,
                   "nodeType": "ExpressionStatement",
                   "src": "927:25:116"
                 },
                 {
                   "expression": {
-                    "id": 50699,
+                    "id": 50711,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "baseExpression": {
-                        "id": 50693,
+                        "id": 50705,
                         "name": "methods",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50683,
+                        "referencedDeclaration": 50695,
                         "src": "962:7:116",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_bytes4_$dyn_memory_ptr",
                           "typeString": "bytes4[] memory"
                         }
                       },
-                      "id": 50695,
+                      "id": 50707,
                       "indexExpression": {
                         "hexValue": "30",
-                        "id": 50694,
+                        "id": 50706,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -732,18 +732,18 @@
                     "rightHandSide": {
                       "expression": {
                         "expression": {
-                          "id": 50696,
+                          "id": 50708,
                           "name": "this",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": -28,
                           "src": "975:4:116",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC165Plugin_$50719",
+                            "typeIdentifier": "t_contract$_ERC165Plugin_$50731",
                             "typeString": "contract ERC165Plugin"
                           }
                         },
-                        "id": 50697,
+                        "id": 50709,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -758,7 +758,7 @@
                           "typeString": "function (address,address,uint256,uint256,bytes memory) external returns (bytes4)"
                         }
                       },
-                      "id": 50698,
+                      "id": 50710,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -778,34 +778,34 @@
                       "typeString": "bytes4"
                     }
                   },
-                  "id": 50700,
+                  "id": 50712,
                   "nodeType": "ExpressionStatement",
                   "src": "962:44:116"
                 },
                 {
                   "expression": {
-                    "id": 50707,
+                    "id": 50719,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "baseExpression": {
-                        "id": 50701,
+                        "id": 50713,
                         "name": "methods",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50683,
+                        "referencedDeclaration": 50695,
                         "src": "1016:7:116",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_bytes4_$dyn_memory_ptr",
                           "typeString": "bytes4[] memory"
                         }
                       },
-                      "id": 50703,
+                      "id": 50715,
                       "indexExpression": {
                         "hexValue": "31",
-                        "id": 50702,
+                        "id": 50714,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -835,18 +835,18 @@
                     "rightHandSide": {
                       "expression": {
                         "expression": {
-                          "id": 50704,
+                          "id": 50716,
                           "name": "this",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": -28,
                           "src": "1029:4:116",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC165Plugin_$50719",
+                            "typeIdentifier": "t_contract$_ERC165Plugin_$50731",
                             "typeString": "contract ERC165Plugin"
                           }
                         },
-                        "id": 50705,
+                        "id": 50717,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -861,7 +861,7 @@
                           "typeString": "function (address,address,uint256[] memory,uint256[] memory,bytes memory) external returns (bytes4)"
                         }
                       },
-                      "id": 50706,
+                      "id": 50718,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -881,34 +881,34 @@
                       "typeString": "bytes4"
                     }
                   },
-                  "id": 50708,
+                  "id": 50720,
                   "nodeType": "ExpressionStatement",
                   "src": "1016:49:116"
                 },
                 {
                   "expression": {
-                    "id": 50715,
+                    "id": 50727,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "baseExpression": {
-                        "id": 50709,
+                        "id": 50721,
                         "name": "methods",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50683,
+                        "referencedDeclaration": 50695,
                         "src": "1075:7:116",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_bytes4_$dyn_memory_ptr",
                           "typeString": "bytes4[] memory"
                         }
                       },
-                      "id": 50711,
+                      "id": 50723,
                       "indexExpression": {
                         "hexValue": "32",
-                        "id": 50710,
+                        "id": 50722,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -938,18 +938,18 @@
                     "rightHandSide": {
                       "expression": {
                         "expression": {
-                          "id": 50712,
+                          "id": 50724,
                           "name": "this",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": -28,
                           "src": "1088:4:116",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC165Plugin_$50719",
+                            "typeIdentifier": "t_contract$_ERC165Plugin_$50731",
                             "typeString": "contract ERC165Plugin"
                           }
                         },
-                        "id": 50713,
+                        "id": 50725,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -964,7 +964,7 @@
                           "typeString": "function (address,address,uint256,bytes memory) external returns (bytes4)"
                         }
                       },
-                      "id": 50714,
+                      "id": 50726,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -984,7 +984,7 @@
                       "typeString": "bytes4"
                     }
                   },
-                  "id": 50716,
+                  "id": 50728,
                   "nodeType": "ExpressionStatement",
                   "src": "1075:43:116"
                 }
@@ -994,7 +994,7 @@
               40466
             ],
             "documentation": {
-              "id": 50679,
+              "id": 50691,
               "nodeType": "StructuredDocumentation",
               "src": "681:161:116",
               "text": "@notice Returns the list of function signatures of the methods that enable ERC1155 and ERC721 support\n @return methods The list of function signatures"
@@ -1006,23 +1006,23 @@
             "name": "getMethods",
             "nameLocation": "856:10:116",
             "parameters": {
-              "id": 50680,
+              "id": 50692,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "866:2:116"
             },
             "returnParameters": {
-              "id": 50684,
+              "id": 50696,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50683,
+                  "id": 50695,
                   "mutability": "mutable",
                   "name": "methods",
                   "nameLocation": "908:7:116",
                   "nodeType": "VariableDeclaration",
-                  "scope": 50718,
+                  "scope": 50730,
                   "src": "892:23:116",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1032,7 +1032,7 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 50681,
+                      "id": 50693,
                       "name": "bytes4",
                       "nodeType": "ElementaryTypeName",
                       "src": "892:6:116",
@@ -1041,7 +1041,7 @@
                         "typeString": "bytes4"
                       }
                     },
-                    "id": 50682,
+                    "id": 50694,
                     "nodeType": "ArrayTypeName",
                     "src": "892:8:116",
                     "typeDescriptions": {
@@ -1054,7 +1054,7 @@
               ],
               "src": "891:25:116"
             },
-            "scope": 50719,
+            "scope": 50731,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "external"
@@ -1064,7 +1064,7 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 50673,
+              "id": 50685,
               "name": "ERC1155Holder",
               "nameLocations": [
                 "445:13:116"
@@ -1073,13 +1073,13 @@
               "referencedDeclaration": 33765,
               "src": "445:13:116"
             },
-            "id": 50674,
+            "id": 50686,
             "nodeType": "InheritanceSpecifier",
             "src": "445:13:116"
           },
           {
             "baseName": {
-              "id": 50675,
+              "id": 50687,
               "name": "ERC721Holder",
               "nameLocations": [
                 "460:12:116"
@@ -1088,13 +1088,13 @@
               "referencedDeclaration": 35965,
               "src": "460:12:116"
             },
-            "id": 50676,
+            "id": 50688,
             "nodeType": "InheritanceSpecifier",
             "src": "460:12:116"
           },
           {
             "baseName": {
-              "id": 50677,
+              "id": 50689,
               "name": "IPRBProxyPlugin",
               "nameLocations": [
                 "474:15:116"
@@ -1103,7 +1103,7 @@
               "referencedDeclaration": 40467,
               "src": "474:15:116"
             },
-            "id": 50678,
+            "id": 50690,
             "nodeType": "InheritanceSpecifier",
             "src": "474:15:116"
           }
@@ -1112,14 +1112,14 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {
-          "id": 50672,
+          "id": 50684,
           "nodeType": "StructuredDocumentation",
           "src": "315:105:116",
           "text": "@title PRBProxyERCPlugin\n @notice Plugin that implements ERC1155 and ERC721 support for the proxy"
         },
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          50719,
+          50731,
           40467,
           35965,
           35938,
@@ -1131,7 +1131,7 @@
         ],
         "name": "ERC165Plugin",
         "nameLocation": "429:12:116",
-        "scope": 50720,
+        "scope": 50732,
         "usedErrors": []
       }
     ],

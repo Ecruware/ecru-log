@@ -928,17 +928,17 @@
         40760
       ],
       "IBuffer": [
-        48624
+        48636
       ],
       "ICDM": [
-        48682
+        48694
       ],
       "Initializable": [
         30296
       ],
       "min": [
-        131258,
-        131270
+        131270,
+        131282
       ]
     },
     "nodeType": "SourceUnit",
@@ -1017,7 +1017,7 @@
         "file": "./interfaces/ICDM.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 40937,
-        "sourceUnit": 48683,
+        "sourceUnit": 48695,
         "symbolAliases": [
           {
             "foreign": {
@@ -1025,7 +1025,7 @@
               "name": "ICDM",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 48682,
+              "referencedDeclaration": 48694,
               "src": "276:4:86",
               "typeDescriptions": {}
             },
@@ -1043,7 +1043,7 @@
         "file": "./interfaces/IBuffer.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 40937,
-        "sourceUnit": 48625,
+        "sourceUnit": 48637,
         "symbolAliases": [
           {
             "foreign": {
@@ -1051,7 +1051,7 @@
               "name": "IBuffer",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 48624,
+              "referencedDeclaration": 48636,
               "src": "320:7:86",
               "typeDescriptions": {}
             },
@@ -1069,7 +1069,7 @@
         "file": "./utils/Math.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 40937,
-        "sourceUnit": 131480,
+        "sourceUnit": 131492,
         "symbolAliases": [
           {
             "foreign": {
@@ -1258,7 +1258,7 @@
             "src": "935:25:86",
             "nodes": [],
             "baseFunctions": [
-              48609
+              48621
             ],
             "constant": false,
             "documentation": {
@@ -1275,7 +1275,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_ICDM_$48682",
+              "typeIdentifier": "t_contract$_ICDM_$48694",
               "typeString": "contract ICDM"
             },
             "typeName": {
@@ -1288,13 +1288,13 @@
                   "935:4:86"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 48682,
+                "referencedDeclaration": 48694,
                 "src": "935:4:86"
               },
-              "referencedDeclaration": 48682,
+              "referencedDeclaration": 48694,
               "src": "935:4:86",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ICDM_$48682",
+                "typeIdentifier": "t_contract$_ICDM_$48694",
                 "typeString": "contract ICDM"
               }
             },
@@ -1468,7 +1468,7 @@
                       "referencedDeclaration": 40776,
                       "src": "1977:3:86",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDM_$48682",
+                        "typeIdentifier": "t_contract$_ICDM_$48694",
                         "typeString": "contract ICDM"
                       }
                     },
@@ -1482,13 +1482,13 @@
                       "referencedDeclaration": 40792,
                       "src": "1983:4:86",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ICDM_$48682",
+                        "typeIdentifier": "t_contract$_ICDM_$48694",
                         "typeString": "contract ICDM"
                       }
                     },
                     "src": "1977:10:86",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDM_$48682",
+                      "typeIdentifier": "t_contract$_ICDM_$48694",
                       "typeString": "contract ICDM"
                     }
                   },
@@ -1542,7 +1542,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ICDM_$48682",
+                    "typeIdentifier": "t_contract$_ICDM_$48694",
                     "typeString": "contract ICDM"
                   },
                   "typeName": {
@@ -1555,13 +1555,13 @@
                         "1944:4:86"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 48682,
+                      "referencedDeclaration": 48694,
                       "src": "1944:4:86"
                     },
-                    "referencedDeclaration": 48682,
+                    "referencedDeclaration": 48694,
                     "src": "1944:4:86",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDM_$48682",
+                      "typeIdentifier": "t_contract$_ICDM_$48694",
                       "typeString": "contract ICDM"
                     }
                   },
@@ -2124,7 +2124,7 @@
                         "referencedDeclaration": 40776,
                         "src": "3133:3:86",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -2136,7 +2136,7 @@
                       "memberLocation": "3137:13:86",
                       "memberName": "modifyBalance",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48681,
+                      "referencedDeclaration": 48693,
                       "src": "3133:17:86",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -2166,7 +2166,7 @@
               ]
             },
             "baseFunctions": [
-              48616
+              48628
             ],
             "documentation": {
               "id": 40827,
@@ -2493,7 +2493,7 @@
                             "referencedDeclaration": 40776,
                             "src": "3665:3:86",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ICDM_$48682",
+                              "typeIdentifier": "t_contract$_ICDM_$48694",
                               "typeString": "contract ICDM"
                             }
                           },
@@ -2505,7 +2505,7 @@
                           "memberLocation": "3669:10:86",
                           "memberName": "globalDebt",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 48635,
+                          "referencedDeclaration": 48647,
                           "src": "3665:14:86",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -2540,7 +2540,7 @@
                             "referencedDeclaration": 40776,
                             "src": "3683:3:86",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ICDM_$48682",
+                              "typeIdentifier": "t_contract$_ICDM_$48694",
                               "typeString": "contract ICDM"
                             }
                           },
@@ -2552,7 +2552,7 @@
                           "memberLocation": "3687:17:86",
                           "memberName": "globalDebtCeiling",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 48640,
+                          "referencedDeclaration": 48652,
                           "src": "3683:21:86",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -2701,7 +2701,7 @@
                         "referencedDeclaration": 40776,
                         "src": "3738:3:86",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -2713,7 +2713,7 @@
                       "memberLocation": "3742:10:86",
                       "memberName": "creditLine",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48672,
+                      "referencedDeclaration": 48684,
                       "src": "3738:14:86",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
@@ -2804,10 +2804,10 @@
                             "name": "min",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              131258,
-                              131270
+                              131270,
+                              131282
                             ],
-                            "referencedDeclaration": 131258,
+                            "referencedDeclaration": 131270,
                             "src": "3793:3:86",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -2975,10 +2975,10 @@
                         "name": "min",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [
-                          131258,
-                          131270
+                          131270,
+                          131282
                         ],
-                        "referencedDeclaration": 131258,
+                        "referencedDeclaration": 131270,
                         "src": "3789:3:86",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -3134,7 +3134,7 @@
                         "referencedDeclaration": 40776,
                         "src": "3898:3:86",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48682",
+                          "typeIdentifier": "t_contract$_ICDM_$48694",
                           "typeString": "contract ICDM"
                         }
                       },
@@ -3146,7 +3146,7 @@
                       "memberLocation": "3902:13:86",
                       "memberName": "modifyBalance",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 48681,
+                      "referencedDeclaration": 48693,
                       "src": "3898:17:86",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -3261,7 +3261,7 @@
               ]
             },
             "baseFunctions": [
-              48623
+              48635
             ],
             "documentation": {
               "id": 40860,
@@ -3359,7 +3359,7 @@
                 "670:7:86"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 48624,
+              "referencedDeclaration": 48636,
               "src": "670:7:86"
             },
             "id": 40768,
@@ -3415,7 +3415,7 @@
           29738,
           30758,
           30296,
-          48624
+          48636
         ],
         "name": "Buffer",
         "nameLocation": "660:6:86",

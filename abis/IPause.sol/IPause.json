@@ -133,17 +133,17 @@
   },
   "ast": {
     "absolutePath": "src/interfaces/IPause.sol",
-    "id": 49633,
+    "id": 49645,
     "exportedSymbols": {
       "IPause": [
-        49632
+        49644
       ]
     },
     "nodeType": "SourceUnit",
     "src": "45:170:109",
     "nodes": [
       {
-        "id": 49620,
+        "id": 49632,
         "nodeType": "PragmaDirective",
         "src": "45:24:109",
         "nodes": [],
@@ -155,12 +155,12 @@
         ]
       },
       {
-        "id": 49632,
+        "id": 49644,
         "nodeType": "ContractDefinition",
         "src": "71:144:109",
         "nodes": [
           {
-            "id": 49625,
+            "id": 49637,
             "nodeType": "FunctionDefinition",
             "src": "95:52:109",
             "nodes": [],
@@ -171,23 +171,23 @@
             "name": "pausedAt",
             "nameLocation": "104:8:109",
             "parameters": {
-              "id": 49621,
+              "id": 49633,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "112:2:109"
             },
             "returnParameters": {
-              "id": 49624,
+              "id": 49636,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49623,
+                  "id": 49635,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49625,
+                  "scope": 49637,
                   "src": "138:7:109",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -196,7 +196,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 49622,
+                    "id": 49634,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "138:7:109",
@@ -210,13 +210,13 @@
               ],
               "src": "137:9:109"
             },
-            "scope": 49632,
+            "scope": 49644,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 49628,
+            "id": 49640,
             "nodeType": "FunctionDefinition",
             "src": "153:26:109",
             "nodes": [],
@@ -227,24 +227,24 @@
             "name": "pause",
             "nameLocation": "162:5:109",
             "parameters": {
-              "id": 49626,
+              "id": 49638,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "167:2:109"
             },
             "returnParameters": {
-              "id": 49627,
+              "id": 49639,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "178:0:109"
             },
-            "scope": 49632,
+            "scope": 49644,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 49631,
+            "id": 49643,
             "nodeType": "FunctionDefinition",
             "src": "185:28:109",
             "nodes": [],
@@ -255,18 +255,18 @@
             "name": "unpause",
             "nameLocation": "194:7:109",
             "parameters": {
-              "id": 49629,
+              "id": 49641,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "201:2:109"
             },
             "returnParameters": {
-              "id": 49630,
+              "id": 49642,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "212:0:109"
             },
-            "scope": 49632,
+            "scope": 49644,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -279,11 +279,11 @@
         "contractKind": "interface",
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          49632
+          49644
         ],
         "name": "IPause",
         "nameLocation": "81:6:109",
-        "scope": 49633,
+        "scope": 49645,
         "usedErrors": []
       }
     ],

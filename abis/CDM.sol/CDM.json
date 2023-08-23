@@ -1535,13 +1535,13 @@
         40953
       ],
       "ICDM": [
-        48682
+        48694
       ],
       "Permission": [
-        131698
+        131710
       ],
       "abs": [
-        131246
+        131258
       ],
       "getCredit": [
         40977
@@ -1553,11 +1553,11 @@
         40997
       ],
       "min": [
-        131258,
-        131270
+        131270,
+        131282
       ],
       "toInt256": [
-        131213
+        131225
       ]
     },
     "nodeType": "SourceUnit",
@@ -1610,7 +1610,7 @@
         "file": "./interfaces/ICDM.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 41426,
-        "sourceUnit": 48683,
+        "sourceUnit": 48695,
         "symbolAliases": [
           {
             "foreign": {
@@ -1618,7 +1618,7 @@
               "name": "ICDM",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 48682,
+              "referencedDeclaration": 48694,
               "src": "146:4:87",
               "typeDescriptions": {}
             },
@@ -1636,7 +1636,7 @@
         "file": "./utils/Permission.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 41426,
-        "sourceUnit": 131699,
+        "sourceUnit": 131711,
         "symbolAliases": [
           {
             "foreign": {
@@ -1644,7 +1644,7 @@
               "name": "Permission",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 131698,
+              "referencedDeclaration": 131710,
               "src": "191:10:87",
               "typeDescriptions": {}
             },
@@ -1662,7 +1662,7 @@
         "file": "./utils/Math.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 41426,
-        "sourceUnit": 131480,
+        "sourceUnit": 131492,
         "symbolAliases": [
           {
             "foreign": {
@@ -1670,7 +1670,7 @@
               "name": "toInt256",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 131213,
+              "referencedDeclaration": 131225,
               "src": "242:8:87",
               "typeDescriptions": {}
             },
@@ -1693,7 +1693,7 @@
               "name": "abs",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 131246,
+              "referencedDeclaration": 131258,
               "src": "257:3:87",
               "typeDescriptions": {}
             },
@@ -2818,7 +2818,7 @@
             "src": "1292:25:87",
             "nodes": [],
             "baseFunctions": [
-              48635
+              48647
             ],
             "constant": false,
             "documentation": {
@@ -2856,7 +2856,7 @@
             "src": "1427:32:87",
             "nodes": [],
             "baseFunctions": [
-              48640
+              48652
             ],
             "constant": false,
             "documentation": {
@@ -2961,7 +2961,7 @@
             "src": "1673:43:87",
             "nodes": [],
             "baseFunctions": [
-              48649
+              48661
             ],
             "constant": false,
             "documentation": {
@@ -4177,7 +4177,7 @@
               ]
             },
             "baseFunctions": [
-              48656
+              48668
             ],
             "documentation": {
               "id": 41116,
@@ -4763,7 +4763,7 @@
               ]
             },
             "baseFunctions": [
-              48665
+              48677
             ],
             "documentation": {
               "id": 41159,
@@ -5109,7 +5109,7 @@
               ]
             },
             "baseFunctions": [
-              48672
+              48684
             ],
             "documentation": {
               "id": 41208,
@@ -5276,7 +5276,7 @@
                         "name": "hasPermission",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 131697,
+                        "referencedDeclaration": 131709,
                         "src": "5823:13:87",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_address_$_t_address_$returns$_t_bool_$",
@@ -5705,7 +5705,7 @@
                         "name": "toInt256",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 131213,
+                        "referencedDeclaration": 131225,
                         "src": "6155:8:87",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$returns$_t_int256_$",
@@ -5801,7 +5801,7 @@
                         "name": "toInt256",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 131213,
+                        "referencedDeclaration": 131225,
                         "src": "6201:8:87",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$returns$_t_int256_$",
@@ -5927,7 +5927,7 @@
                           "name": "toInt256",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 131213,
+                          "referencedDeclaration": 131225,
                           "src": "6257:8:87",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$returns$_t_int256_$",
@@ -6646,10 +6646,10 @@
                                         "name": "min",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [
-                                          131258,
-                                          131270
+                                          131270,
+                                          131282
                                         ],
-                                        "referencedDeclaration": 131270,
+                                        "referencedDeclaration": 131282,
                                         "src": "6719:3:87",
                                         "typeDescriptions": {
                                           "typeIdentifier": "t_function_internal_pure$_t_int256_$_t_int256_$returns$_t_int256_$",
@@ -6684,7 +6684,7 @@
                                     "name": "abs",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 131246,
+                                    "referencedDeclaration": 131258,
                                     "src": "6715:3:87",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_function_internal_pure$_t_int256_$returns$_t_uint256_$",
@@ -6763,10 +6763,10 @@
                                       "name": "min",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [
-                                        131258,
-                                        131270
+                                        131270,
+                                        131282
                                       ],
-                                      "referencedDeclaration": 131270,
+                                      "referencedDeclaration": 131282,
                                       "src": "6753:3:87",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_function_internal_pure$_t_int256_$_t_int256_$returns$_t_int256_$",
@@ -6801,7 +6801,7 @@
                                   "name": "abs",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 131246,
+                                  "referencedDeclaration": 131258,
                                   "src": "6749:3:87",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_pure$_t_int256_$returns$_t_uint256_$",
@@ -7090,10 +7090,10 @@
                                         "name": "min",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [
-                                          131258,
-                                          131270
+                                          131270,
+                                          131282
                                         ],
-                                        "referencedDeclaration": 131270,
+                                        "referencedDeclaration": 131282,
                                         "src": "6902:3:87",
                                         "typeDescriptions": {
                                           "typeIdentifier": "t_function_internal_pure$_t_int256_$_t_int256_$returns$_t_int256_$",
@@ -7128,7 +7128,7 @@
                                     "name": "abs",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 131246,
+                                    "referencedDeclaration": 131258,
                                     "src": "6898:3:87",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_function_internal_pure$_t_int256_$returns$_t_uint256_$",
@@ -7207,10 +7207,10 @@
                                       "name": "min",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [
-                                        131258,
-                                        131270
+                                        131270,
+                                        131282
                                       ],
-                                      "referencedDeclaration": 131270,
+                                      "referencedDeclaration": 131282,
                                       "src": "6934:3:87",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_function_internal_pure$_t_int256_$_t_int256_$returns$_t_int256_$",
@@ -7245,7 +7245,7 @@
                                   "name": "abs",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 131246,
+                                  "referencedDeclaration": 131258,
                                   "src": "6930:3:87",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_pure$_t_int256_$returns$_t_uint256_$",
@@ -7763,7 +7763,7 @@
               ]
             },
             "baseFunctions": [
-              48681
+              48693
             ],
             "documentation": {
               "id": 41231,
@@ -7889,7 +7889,7 @@
                 "968:10:87"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 131698,
+              "referencedDeclaration": 131710,
               "src": "968:10:87"
             },
             "id": 41033,
@@ -7919,7 +7919,7 @@
                 "995:4:87"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 48682,
+              "referencedDeclaration": 48694,
               "src": "995:4:87"
             },
             "id": 41037,
@@ -7939,14 +7939,14 @@
         "fullyImplemented": true,
         "linearizedBaseContracts": [
           41425,
-          48682,
+          48694,
           32230,
           37491,
           37503,
           32428,
           36317,
-          131698,
-          49660
+          131710,
+          49672
         ],
         "name": "CDM",
         "nameLocation": "961:3:87",
@@ -7957,8 +7957,8 @@
           41086,
           41088,
           41090,
-          131175,
-          131567
+          131187,
+          131579
         ]
       }
     ],

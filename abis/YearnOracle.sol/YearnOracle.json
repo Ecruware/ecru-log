@@ -491,7 +491,7 @@
           "length": 32
         }
       ],
-      "50341": [
+      "50353": [
         {
           "start": 709,
           "length": 32
@@ -501,7 +501,7 @@
           "length": 32
         }
       ],
-      "50345": [
+      "50357": [
         {
           "start": 922,
           "length": 32
@@ -515,7 +515,7 @@
           "length": 32
         }
       ],
-      "50348": [
+      "50360": [
         {
           "start": 870,
           "length": 32
@@ -525,7 +525,7 @@
           "length": 32
         }
       ],
-      "50351": [
+      "50363": [
         {
           "start": 309,
           "length": 32
@@ -535,7 +535,7 @@
           "length": 32
         }
       ],
-      "50354": [
+      "50366": [
         {
           "start": 657,
           "length": 32
@@ -1332,7 +1332,7 @@
   },
   "ast": {
     "absolutePath": "src/oracle/YearnOracle.sol",
-    "id": 50613,
+    "id": 50625,
     "exportedSymbols": {
       "AccessControlUpgradeable": [
         29665
@@ -1341,32 +1341,32 @@
         35369
       ],
       "IOracle": [
-        49618
+        49630
       ],
       "IYVault": [
-        131980
+        131992
       ],
       "IYearnLensOracle": [
-        131991
+        132003
       ],
       "MANAGER_ROLE": [
-        50322
+        50334
       ],
       "UUPSUpgradeable": [
         30432
       ],
       "WAD": [
-        131190
+        131202
       ],
       "YearnOracle": [
-        50612
+        50624
       ]
     },
     "nodeType": "SourceUnit",
     "src": "32:6921:114",
     "nodes": [
       {
-        "id": 50303,
+        "id": 50315,
         "nodeType": "PragmaDirective",
         "src": "32:24:114",
         "nodes": [],
@@ -1378,19 +1378,19 @@
         ]
       },
       {
-        "id": 50305,
+        "id": 50317,
         "nodeType": "ImportDirective",
         "src": "58:84:114",
         "nodes": [],
         "absolutePath": "lib/openzeppelin-contracts/contracts/interfaces/IERC20Metadata.sol",
         "file": "openzeppelin/contracts/interfaces/IERC20Metadata.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 50613,
+        "scope": 50625,
         "sourceUnit": 32573,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 50304,
+              "id": 50316,
               "name": "IERC20Metadata",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
@@ -1404,19 +1404,19 @@
         "unitAlias": ""
       },
       {
-        "id": 50307,
+        "id": 50319,
         "nodeType": "ImportDirective",
         "src": "143:99:114",
         "nodes": [],
         "absolutePath": "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/UUPSUpgradeable.sol",
         "file": "openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 50613,
+        "scope": 50625,
         "sourceUnit": 30433,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 50306,
+              "id": 50318,
               "name": "UUPSUpgradeable",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
@@ -1430,19 +1430,19 @@
         "unitAlias": ""
       },
       {
-        "id": 50309,
+        "id": 50321,
         "nodeType": "ImportDirective",
         "src": "243:112:114",
         "nodes": [],
         "absolutePath": "lib/openzeppelin-contracts-upgradeable/contracts/access/AccessControlUpgradeable.sol",
         "file": "openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 50613,
+        "scope": 50625,
         "sourceUnit": 29666,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 50308,
+              "id": 50320,
               "name": "AccessControlUpgradeable",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
@@ -1456,23 +1456,23 @@
         "unitAlias": ""
       },
       {
-        "id": 50311,
+        "id": 50323,
         "nodeType": "ImportDirective",
         "src": "357:50:114",
         "nodes": [],
         "absolutePath": "src/interfaces/IOracle.sol",
         "file": "../interfaces/IOracle.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 50613,
-        "sourceUnit": 49619,
+        "scope": 50625,
+        "sourceUnit": 49631,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 50310,
+              "id": 50322,
               "name": "IOracle",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 49618,
+              "referencedDeclaration": 49630,
               "src": "365:7:114",
               "typeDescriptions": {}
             },
@@ -1482,23 +1482,23 @@
         "unitAlias": ""
       },
       {
-        "id": 50313,
+        "id": 50325,
         "nodeType": "ImportDirective",
         "src": "409:46:114",
         "nodes": [],
         "absolutePath": "src/vendor/IYVault.sol",
         "file": "../vendor/IYVault.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 50613,
-        "sourceUnit": 131981,
+        "scope": 50625,
+        "sourceUnit": 131993,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 50312,
+              "id": 50324,
               "name": "IYVault",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 131980,
+              "referencedDeclaration": 131992,
               "src": "417:7:114",
               "typeDescriptions": {}
             },
@@ -1508,23 +1508,23 @@
         "unitAlias": ""
       },
       {
-        "id": 50315,
+        "id": 50327,
         "nodeType": "ImportDirective",
         "src": "456:64:114",
         "nodes": [],
         "absolutePath": "src/vendor/IYearnLensOracle.sol",
         "file": "../vendor/IYearnLensOracle.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 50613,
-        "sourceUnit": 131992,
+        "scope": 50625,
+        "sourceUnit": 132004,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 50314,
+              "id": 50326,
               "name": "IYearnLensOracle",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 131991,
+              "referencedDeclaration": 132003,
               "src": "464:16:114",
               "typeDescriptions": {}
             },
@@ -1534,23 +1534,23 @@
         "unitAlias": ""
       },
       {
-        "id": 50317,
+        "id": 50329,
         "nodeType": "ImportDirective",
         "src": "521:38:114",
         "nodes": [],
         "absolutePath": "src/utils/Math.sol",
         "file": "../utils/Math.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 50613,
-        "sourceUnit": 131480,
+        "scope": 50625,
+        "sourceUnit": 131492,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 50316,
+              "id": 50328,
               "name": "WAD",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 131190,
+              "referencedDeclaration": 131202,
               "src": "529:3:114",
               "typeDescriptions": {}
             },
@@ -1560,7 +1560,7 @@
         "unitAlias": ""
       },
       {
-        "id": 50322,
+        "id": 50334,
         "nodeType": "VariableDeclaration",
         "src": "584:57:114",
         "nodes": [],
@@ -1568,7 +1568,7 @@
         "mutability": "constant",
         "name": "MANAGER_ROLE",
         "nameLocation": "601:12:114",
-        "scope": 50613,
+        "scope": 50625,
         "stateVariable": false,
         "storageLocation": "default",
         "typeDescriptions": {
@@ -1576,7 +1576,7 @@
           "typeString": "bytes32"
         },
         "typeName": {
-          "id": 50318,
+          "id": 50330,
           "name": "bytes32",
           "nodeType": "ElementaryTypeName",
           "src": "584:7:114",
@@ -1589,7 +1589,7 @@
           "arguments": [
             {
               "hexValue": "4d414e414745525f524f4c45",
-              "id": 50320,
+              "id": 50332,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -1611,7 +1611,7 @@
                 "typeString": "literal_string \"MANAGER_ROLE\""
               }
             ],
-            "id": 50319,
+            "id": 50331,
             "name": "keccak256",
             "nodeType": "Identifier",
             "overloadedDeclarations": [],
@@ -1622,7 +1622,7 @@
               "typeString": "function (bytes memory) pure returns (bytes32)"
             }
           },
-          "id": 50321,
+          "id": 50333,
           "isConstant": false,
           "isLValue": false,
           "isPure": true,
@@ -1641,18 +1641,18 @@
         "visibility": "internal"
       },
       {
-        "id": 50612,
+        "id": 50624,
         "nodeType": "ContractDefinition",
         "src": "703:6249:114",
         "nodes": [
           {
-            "id": 50333,
+            "id": 50345,
             "nodeType": "VariableDeclaration",
             "src": "1009:45:114",
             "nodes": [],
             "constant": true,
             "documentation": {
-              "id": 50330,
+              "id": 50342,
               "nodeType": "StructuredDocumentation",
               "src": "965:39:114",
               "text": "@notice Yearn vault v1 scale factor"
@@ -1660,7 +1660,7 @@
             "mutability": "constant",
             "name": "yearnV1Scale",
             "nameLocation": "1035:12:114",
-            "scope": 50612,
+            "scope": 50624,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1668,7 +1668,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 50331,
+              "id": 50343,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "1009:7:114",
@@ -1679,7 +1679,7 @@
             },
             "value": {
               "hexValue": "31653138",
-              "id": 50332,
+              "id": 50344,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -1696,13 +1696,13 @@
             "visibility": "internal"
           },
           {
-            "id": 50337,
+            "id": 50349,
             "nodeType": "VariableDeclaration",
             "src": "1108:43:114",
             "nodes": [],
             "constant": true,
             "documentation": {
-              "id": 50334,
+              "id": 50346,
               "nodeType": "StructuredDocumentation",
               "src": "1060:43:114",
               "text": "@notice Scale factor for WAD conversion"
@@ -1710,7 +1710,7 @@
             "mutability": "constant",
             "name": "toWADScale",
             "nameLocation": "1134:10:114",
-            "scope": 50612,
+            "scope": 50624,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1718,7 +1718,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 50335,
+              "id": 50347,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "1108:7:114",
@@ -1729,7 +1729,7 @@
             },
             "value": {
               "hexValue": "31653132",
-              "id": 50336,
+              "id": 50348,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -1746,13 +1746,13 @@
             "visibility": "internal"
           },
           {
-            "id": 50341,
+            "id": 50353,
             "nodeType": "VariableDeclaration",
             "src": "1206:40:114",
             "nodes": [],
             "constant": false,
             "documentation": {
-              "id": 50338,
+              "id": 50350,
               "nodeType": "StructuredDocumentation",
               "src": "1158:43:114",
               "text": "@notice Underlying asset oracle address"
@@ -1761,43 +1761,43 @@
             "mutability": "immutable",
             "name": "oracle",
             "nameLocation": "1240:6:114",
-            "scope": 50612,
+            "scope": 50624,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IYearnLensOracle_$131991",
+              "typeIdentifier": "t_contract$_IYearnLensOracle_$132003",
               "typeString": "contract IYearnLensOracle"
             },
             "typeName": {
-              "id": 50340,
+              "id": 50352,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 50339,
+                "id": 50351,
                 "name": "IYearnLensOracle",
                 "nameLocations": [
                   "1206:16:114"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 131991,
+                "referencedDeclaration": 132003,
                 "src": "1206:16:114"
               },
-              "referencedDeclaration": 131991,
+              "referencedDeclaration": 132003,
               "src": "1206:16:114",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IYearnLensOracle_$131991",
+                "typeIdentifier": "t_contract$_IYearnLensOracle_$132003",
                 "typeString": "contract IYearnLensOracle"
               }
             },
             "visibility": "public"
           },
           {
-            "id": 50345,
+            "id": 50357,
             "nodeType": "VariableDeclaration",
             "src": "1288:30:114",
             "nodes": [],
             "constant": false,
             "documentation": {
-              "id": 50342,
+              "id": 50354,
               "nodeType": "StructuredDocumentation",
               "src": "1252:31:114",
               "text": "@notice Yearn vault address"
@@ -1806,43 +1806,43 @@
             "mutability": "immutable",
             "name": "vault",
             "nameLocation": "1313:5:114",
-            "scope": 50612,
+            "scope": 50624,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IYVault_$131980",
+              "typeIdentifier": "t_contract$_IYVault_$131992",
               "typeString": "contract IYVault"
             },
             "typeName": {
-              "id": 50344,
+              "id": 50356,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 50343,
+                "id": 50355,
                 "name": "IYVault",
                 "nameLocations": [
                   "1288:7:114"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 131980,
+                "referencedDeclaration": 131992,
                 "src": "1288:7:114"
               },
-              "referencedDeclaration": 131980,
+              "referencedDeclaration": 131992,
               "src": "1288:7:114",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IYVault_$131980",
+                "typeIdentifier": "t_contract$_IYVault_$131992",
                 "typeString": "contract IYVault"
               }
             },
             "visibility": "public"
           },
           {
-            "id": 50348,
+            "id": 50360,
             "nodeType": "VariableDeclaration",
             "src": "1360:42:114",
             "nodes": [],
             "constant": false,
             "documentation": {
-              "id": 50346,
+              "id": 50358,
               "nodeType": "StructuredDocumentation",
               "src": "1324:31:114",
               "text": "@notice Vault token address"
@@ -1851,7 +1851,7 @@
             "mutability": "immutable",
             "name": "vaultTokenAddress",
             "nameLocation": "1385:17:114",
-            "scope": 50612,
+            "scope": 50624,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1859,7 +1859,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 50347,
+              "id": 50359,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "1360:7:114",
@@ -1872,13 +1872,13 @@
             "visibility": "public"
           },
           {
-            "id": 50351,
+            "id": 50363,
             "nodeType": "VariableDeclaration",
             "src": "1481:31:114",
             "nodes": [],
             "constant": false,
             "documentation": {
-              "id": 50349,
+              "id": 50361,
               "nodeType": "StructuredDocumentation",
               "src": "1408:68:114",
               "text": "@notice Yearn vault type, true for v1 Vaults, false for v2 or v3"
@@ -1887,7 +1887,7 @@
             "mutability": "immutable",
             "name": "isV1Vault",
             "nameLocation": "1503:9:114",
-            "scope": 50612,
+            "scope": 50624,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1895,7 +1895,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 50350,
+              "id": 50362,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "1481:4:114",
@@ -1907,13 +1907,13 @@
             "visibility": "public"
           },
           {
-            "id": 50354,
+            "id": 50366,
             "nodeType": "VariableDeclaration",
             "src": "1559:40:114",
             "nodes": [],
             "constant": false,
             "documentation": {
-              "id": 50352,
+              "id": 50364,
               "nodeType": "StructuredDocumentation",
               "src": "1518:36:114",
               "text": "@notice Vault token scale factor"
@@ -1922,7 +1922,7 @@
             "mutability": "immutable",
             "name": "vaultTokenScale",
             "nameLocation": "1584:15:114",
-            "scope": 50612,
+            "scope": 50624,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1930,7 +1930,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 50353,
+              "id": 50365,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "1559:7:114",
@@ -1942,7 +1942,7 @@
             "visibility": "public"
           },
           {
-            "id": 50358,
+            "id": 50370,
             "nodeType": "VariableDeclaration",
             "src": "1787:25:114",
             "nodes": [],
@@ -1950,7 +1950,7 @@
             "mutability": "mutable",
             "name": "__gap",
             "nameLocation": "1807:5:114",
-            "scope": 50612,
+            "scope": 50624,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1959,7 +1959,7 @@
             },
             "typeName": {
               "baseType": {
-                "id": 50355,
+                "id": 50367,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
                 "src": "1787:7:114",
@@ -1968,10 +1968,10 @@
                   "typeString": "uint256"
                 }
               },
-              "id": 50357,
+              "id": 50369,
               "length": {
                 "hexValue": "3530",
-                "id": 50356,
+                "id": 50368,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -1995,7 +1995,7 @@
             "visibility": "private"
           },
           {
-            "id": 50360,
+            "id": 50372,
             "nodeType": "ErrorDefinition",
             "src": "1998:50:114",
             "nodes": [],
@@ -2003,14 +2003,14 @@
             "name": "YearnOracle__authorizeUpgrade_validStatus",
             "nameLocation": "2004:41:114",
             "parameters": {
-              "id": 50359,
+              "id": 50371,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2045:2:114"
             }
           },
           {
-            "id": 50362,
+            "id": 50374,
             "nodeType": "ErrorDefinition",
             "src": "2053:39:114",
             "nodes": [],
@@ -2018,14 +2018,14 @@
             "name": "YearnOracle__spot_invalidValue",
             "nameLocation": "2059:30:114",
             "parameters": {
-              "id": 50361,
+              "id": 50373,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2089:2:114"
             }
           },
           {
-            "id": 50364,
+            "id": 50376,
             "nodeType": "ErrorDefinition",
             "src": "2097:49:114",
             "nodes": [],
@@ -2033,122 +2033,122 @@
             "name": "YearnOracle__isV1Vault_invalidYearnVault",
             "nameLocation": "2103:40:114",
             "parameters": {
-              "id": 50363,
+              "id": 50375,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2143:2:114"
             }
           },
           {
-            "id": 50411,
+            "id": 50423,
             "nodeType": "FunctionDefinition",
             "src": "2534:317:114",
             "nodes": [],
             "body": {
-              "id": 50410,
+              "id": 50422,
               "nodeType": "Block",
               "src": "2605:246:114",
               "nodes": [],
               "statements": [
                 {
                   "expression": {
-                    "id": 50378,
+                    "id": 50390,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 50376,
+                      "id": 50388,
                       "name": "oracle",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 50341,
+                      "referencedDeclaration": 50353,
                       "src": "2615:6:114",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IYearnLensOracle_$131991",
+                        "typeIdentifier": "t_contract$_IYearnLensOracle_$132003",
                         "typeString": "contract IYearnLensOracle"
                       }
                     },
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 50377,
+                      "id": 50389,
                       "name": "oracle_",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 50368,
+                      "referencedDeclaration": 50380,
                       "src": "2624:7:114",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IYearnLensOracle_$131991",
+                        "typeIdentifier": "t_contract$_IYearnLensOracle_$132003",
                         "typeString": "contract IYearnLensOracle"
                       }
                     },
                     "src": "2615:16:114",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IYearnLensOracle_$131991",
+                      "typeIdentifier": "t_contract$_IYearnLensOracle_$132003",
                       "typeString": "contract IYearnLensOracle"
                     }
                   },
-                  "id": 50379,
+                  "id": 50391,
                   "nodeType": "ExpressionStatement",
                   "src": "2615:16:114"
                 },
                 {
                   "expression": {
-                    "id": 50382,
+                    "id": 50394,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 50380,
+                      "id": 50392,
                       "name": "vault",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 50345,
+                      "referencedDeclaration": 50357,
                       "src": "2641:5:114",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IYVault_$131980",
+                        "typeIdentifier": "t_contract$_IYVault_$131992",
                         "typeString": "contract IYVault"
                       }
                     },
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 50381,
+                      "id": 50393,
                       "name": "yearnVault_",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 50371,
+                      "referencedDeclaration": 50383,
                       "src": "2649:11:114",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IYVault_$131980",
+                        "typeIdentifier": "t_contract$_IYVault_$131992",
                         "typeString": "contract IYVault"
                       }
                     },
                     "src": "2641:19:114",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IYVault_$131980",
+                      "typeIdentifier": "t_contract$_IYVault_$131992",
                       "typeString": "contract IYVault"
                     }
                   },
-                  "id": 50383,
+                  "id": 50395,
                   "nodeType": "ExpressionStatement",
                   "src": "2641:19:114"
                 },
                 {
                   "expression": {
-                    "id": 50388,
+                    "id": 50400,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 50384,
+                      "id": 50396,
                       "name": "vaultTokenAddress",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 50348,
+                      "referencedDeclaration": 50360,
                       "src": "2670:17:114",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -2162,18 +2162,18 @@
                       "expression": {
                         "argumentTypes": [],
                         "expression": {
-                          "id": 50385,
+                          "id": 50397,
                           "name": "vault",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 50345,
+                          "referencedDeclaration": 50357,
                           "src": "2690:5:114",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IYVault_$131980",
+                            "typeIdentifier": "t_contract$_IYVault_$131992",
                             "typeString": "contract IYVault"
                           }
                         },
-                        "id": 50386,
+                        "id": 50398,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2181,14 +2181,14 @@
                         "memberLocation": "2696:5:114",
                         "memberName": "token",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 131939,
+                        "referencedDeclaration": 131951,
                         "src": "2690:11:114",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
                           "typeString": "function () view external returns (address)"
                         }
                       },
-                      "id": 50387,
+                      "id": 50399,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2210,23 +2210,23 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 50389,
+                  "id": 50401,
                   "nodeType": "ExpressionStatement",
                   "src": "2670:33:114"
                 },
                 {
                   "expression": {
-                    "id": 50393,
+                    "id": 50405,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 50390,
+                      "id": 50402,
                       "name": "isV1Vault",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 50351,
+                      "referencedDeclaration": 50363,
                       "src": "2713:9:114",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -2239,18 +2239,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 50391,
+                        "id": 50403,
                         "name": "_isV1Vault",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50611,
+                        "referencedDeclaration": 50623,
                         "src": "2725:10:114",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
                           "typeString": "function () view returns (bool)"
                         }
                       },
-                      "id": 50392,
+                      "id": 50404,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2272,23 +2272,23 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 50394,
+                  "id": 50406,
                   "nodeType": "ExpressionStatement",
                   "src": "2713:24:114"
                 },
                 {
                   "expression": {
-                    "id": 50408,
+                    "id": 50420,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 50395,
+                      "id": 50407,
                       "name": "vaultTokenScale",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 50354,
+                      "referencedDeclaration": 50366,
                       "src": "2747:15:114",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -2301,11 +2301,11 @@
                       "condition": {
                         "components": [
                           {
-                            "id": 50396,
+                            "id": 50408,
                             "name": "isV1Vault",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 50351,
+                            "referencedDeclaration": 50363,
                             "src": "2766:9:114",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bool",
@@ -2313,7 +2313,7 @@
                             }
                           }
                         ],
-                        "id": 50397,
+                        "id": 50409,
                         "isConstant": false,
                         "isInlineArray": false,
                         "isLValue": false,
@@ -2331,14 +2331,14 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 50406,
+                        "id": 50418,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "hexValue": "3130",
-                          "id": 50399,
+                          "id": 50411,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -2363,11 +2363,11 @@
                                 "expression": {
                                   "arguments": [
                                     {
-                                      "id": 50401,
+                                      "id": 50413,
                                       "name": "vaultTokenAddress",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 50348,
+                                      "referencedDeclaration": 50360,
                                       "src": "2814:17:114",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_address",
@@ -2382,7 +2382,7 @@
                                         "typeString": "address"
                                       }
                                     ],
-                                    "id": 50400,
+                                    "id": 50412,
                                     "name": "IERC20Metadata",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
@@ -2393,7 +2393,7 @@
                                       "typeString": "type(contract IERC20Metadata)"
                                     }
                                   },
-                                  "id": 50402,
+                                  "id": 50414,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": false,
@@ -2409,7 +2409,7 @@
                                     "typeString": "contract IERC20Metadata"
                                   }
                                 },
-                                "id": 50403,
+                                "id": 50415,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -2424,7 +2424,7 @@
                                   "typeString": "function () view external returns (uint8)"
                                 }
                               },
-                              "id": 50404,
+                              "id": 50416,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -2441,7 +2441,7 @@
                               }
                             }
                           ],
-                          "id": 50405,
+                          "id": 50417,
                           "isConstant": false,
                           "isInlineArray": false,
                           "isLValue": false,
@@ -2460,7 +2460,7 @@
                           "typeString": "uint256"
                         }
                       },
-                      "id": 50407,
+                      "id": 50419,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2468,11 +2468,11 @@
                       "nodeType": "Conditional",
                       "src": "2765:79:114",
                       "trueExpression": {
-                        "id": 50398,
+                        "id": 50410,
                         "name": "yearnV1Scale",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50333,
+                        "referencedDeclaration": 50345,
                         "src": "2779:12:114",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -2490,14 +2490,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 50409,
+                  "id": 50421,
                   "nodeType": "ExpressionStatement",
                   "src": "2747:97:114"
                 }
               ]
             },
             "documentation": {
-              "id": 50365,
+              "id": 50377,
               "nodeType": "StructuredDocumentation",
               "src": "2335:194:114",
               "text": "@custom:oz-upgrades-unsafe-allow constructor\n @param oracle_ Yearn underlying asset oracle address\n @dev Reverts if `yearnVault_` is not a valid yearn vault or invalid decimals"
@@ -2506,10 +2506,10 @@
             "kind": "constructor",
             "modifiers": [
               {
-                "id": 50374,
+                "id": 50386,
                 "kind": "modifierInvocation",
                 "modifierName": {
-                  "id": 50373,
+                  "id": 50385,
                   "name": "initializer",
                   "nameLocations": [
                     "2593:11:114"
@@ -2525,41 +2525,41 @@
             "name": "",
             "nameLocation": "-1:-1:-1",
             "parameters": {
-              "id": 50372,
+              "id": 50384,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50368,
+                  "id": 50380,
                   "mutability": "mutable",
                   "name": "oracle_",
                   "nameLocation": "2563:7:114",
                   "nodeType": "VariableDeclaration",
-                  "scope": 50411,
+                  "scope": 50423,
                   "src": "2546:24:114",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IYearnLensOracle_$131991",
+                    "typeIdentifier": "t_contract$_IYearnLensOracle_$132003",
                     "typeString": "contract IYearnLensOracle"
                   },
                   "typeName": {
-                    "id": 50367,
+                    "id": 50379,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 50366,
+                      "id": 50378,
                       "name": "IYearnLensOracle",
                       "nameLocations": [
                         "2546:16:114"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 131991,
+                      "referencedDeclaration": 132003,
                       "src": "2546:16:114"
                     },
-                    "referencedDeclaration": 131991,
+                    "referencedDeclaration": 132003,
                     "src": "2546:16:114",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IYearnLensOracle_$131991",
+                      "typeIdentifier": "t_contract$_IYearnLensOracle_$132003",
                       "typeString": "contract IYearnLensOracle"
                     }
                   },
@@ -2567,36 +2567,36 @@
                 },
                 {
                   "constant": false,
-                  "id": 50371,
+                  "id": 50383,
                   "mutability": "mutable",
                   "name": "yearnVault_",
                   "nameLocation": "2580:11:114",
                   "nodeType": "VariableDeclaration",
-                  "scope": 50411,
+                  "scope": 50423,
                   "src": "2572:19:114",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IYVault_$131980",
+                    "typeIdentifier": "t_contract$_IYVault_$131992",
                     "typeString": "contract IYVault"
                   },
                   "typeName": {
-                    "id": 50370,
+                    "id": 50382,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 50369,
+                      "id": 50381,
                       "name": "IYVault",
                       "nameLocations": [
                         "2572:7:114"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 131980,
+                      "referencedDeclaration": 131992,
                       "src": "2572:7:114"
                     },
-                    "referencedDeclaration": 131980,
+                    "referencedDeclaration": 131992,
                     "src": "2572:7:114",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IYVault_$131980",
+                      "typeIdentifier": "t_contract$_IYVault_$131992",
                       "typeString": "contract IYVault"
                     }
                   },
@@ -2606,23 +2606,23 @@
               "src": "2545:47:114"
             },
             "returnParameters": {
-              "id": 50375,
+              "id": 50387,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2605:0:114"
             },
-            "scope": 50612,
+            "scope": 50624,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
-            "id": 50435,
+            "id": 50447,
             "nodeType": "FunctionDefinition",
             "src": "3226:282:114",
             "nodes": [],
             "body": {
-              "id": 50434,
+              "id": 50446,
               "nodeType": "Block",
               "src": "3299:209:114",
               "nodes": [],
@@ -2632,7 +2632,7 @@
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 50421,
+                      "id": 50433,
                       "name": "__AccessControl_init",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -2643,7 +2643,7 @@
                         "typeString": "function ()"
                       }
                     },
-                    "id": 50422,
+                    "id": 50434,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2659,7 +2659,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 50423,
+                  "id": 50435,
                   "nodeType": "ExpressionStatement",
                   "src": "3341:22:114"
                 },
@@ -2667,7 +2667,7 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 50425,
+                        "id": 50437,
                         "name": "DEFAULT_ADMIN_ROLE",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -2679,11 +2679,11 @@
                         }
                       },
                       {
-                        "id": 50426,
+                        "id": 50438,
                         "name": "admin",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50414,
+                        "referencedDeclaration": 50426,
                         "src": "3426:5:114",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -2702,7 +2702,7 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 50424,
+                      "id": 50436,
                       "name": "_grantRole",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -2713,7 +2713,7 @@
                         "typeString": "function (bytes32,address)"
                       }
                     },
-                    "id": 50427,
+                    "id": 50439,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2729,7 +2729,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 50428,
+                  "id": 50440,
                   "nodeType": "ExpressionStatement",
                   "src": "3395:37:114"
                 },
@@ -2737,11 +2737,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 50430,
+                        "id": 50442,
                         "name": "MANAGER_ROLE",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50322,
+                        "referencedDeclaration": 50334,
                         "src": "3479:12:114",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -2749,11 +2749,11 @@
                         }
                       },
                       {
-                        "id": 50431,
+                        "id": 50443,
                         "name": "manager",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50416,
+                        "referencedDeclaration": 50428,
                         "src": "3493:7:114",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -2772,7 +2772,7 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 50429,
+                      "id": 50441,
                       "name": "_grantRole",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -2783,7 +2783,7 @@
                         "typeString": "function (bytes32,address)"
                       }
                     },
-                    "id": 50432,
+                    "id": 50444,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2799,14 +2799,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 50433,
+                  "id": 50445,
                   "nodeType": "ExpressionStatement",
                   "src": "3468:33:114"
                 }
               ]
             },
             "documentation": {
-              "id": 50412,
+              "id": 50424,
               "nodeType": "StructuredDocumentation",
               "src": "3040:181:114",
               "text": "@notice Initialize method called by the proxy contract\n @param admin The address of the admin\n @param manager The address of the manager who can authorize upgrades"
@@ -2816,10 +2816,10 @@
             "kind": "function",
             "modifiers": [
               {
-                "id": 50419,
+                "id": 50431,
                 "kind": "modifierInvocation",
                 "modifierName": {
-                  "id": 50418,
+                  "id": 50430,
                   "name": "initializer",
                   "nameLocations": [
                     "3287:11:114"
@@ -2835,17 +2835,17 @@
             "name": "initialize",
             "nameLocation": "3235:10:114",
             "parameters": {
-              "id": 50417,
+              "id": 50429,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50414,
+                  "id": 50426,
                   "mutability": "mutable",
                   "name": "admin",
                   "nameLocation": "3254:5:114",
                   "nodeType": "VariableDeclaration",
-                  "scope": 50435,
+                  "scope": 50447,
                   "src": "3246:13:114",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2854,7 +2854,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 50413,
+                    "id": 50425,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "3246:7:114",
@@ -2868,12 +2868,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 50416,
+                  "id": 50428,
                   "mutability": "mutable",
                   "name": "manager",
                   "nameLocation": "3269:7:114",
                   "nodeType": "VariableDeclaration",
-                  "scope": 50435,
+                  "scope": 50447,
                   "src": "3261:15:114",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2882,7 +2882,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 50415,
+                    "id": 50427,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "3261:7:114",
@@ -2898,23 +2898,23 @@
               "src": "3245:32:114"
             },
             "returnParameters": {
-              "id": 50420,
+              "id": 50432,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "3299:0:114"
             },
-            "scope": 50612,
+            "scope": 50624,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 50452,
+            "id": 50464,
             "nodeType": "FunctionDefinition",
             "src": "3708:187:114",
             "nodes": [],
             "body": {
-              "id": 50451,
+              "id": 50463,
               "nodeType": "Block",
               "src": "3811:84:114",
               "nodes": [],
@@ -2924,18 +2924,18 @@
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 50445,
+                      "id": 50457,
                       "name": "_getStatus",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 50534,
+                      "referencedDeclaration": 50546,
                       "src": "3824:10:114",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
                         "typeString": "function () view returns (bool)"
                       }
                     },
-                    "id": 50446,
+                    "id": 50458,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2951,7 +2951,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 50450,
+                  "id": 50462,
                   "nodeType": "IfStatement",
                   "src": "3821:67:114",
                   "trueBody": {
@@ -2959,18 +2959,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 50447,
+                        "id": 50459,
                         "name": "YearnOracle__authorizeUpgrade_validStatus",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50360,
+                        "referencedDeclaration": 50372,
                         "src": "3845:41:114",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_error_pure$__$returns$__$",
                           "typeString": "function () pure"
                         }
                       },
-                      "id": 50448,
+                      "id": 50460,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2986,7 +2986,7 @@
                         "typeString": "tuple()"
                       }
                     },
-                    "id": 50449,
+                    "id": 50461,
                     "nodeType": "RevertStatement",
                     "src": "3838:50:114"
                   }
@@ -2997,7 +2997,7 @@
               30426
             ],
             "documentation": {
-              "id": 50436,
+              "id": 50448,
               "nodeType": "StructuredDocumentation",
               "src": "3514:189:114",
               "text": "@notice Authorizes an upgrade\n @param /*implementation*/ The address of the new implementation\n @dev reverts if the caller is not a manager or if the status check succeeds"
@@ -3008,11 +3008,11 @@
               {
                 "arguments": [
                   {
-                    "id": 50442,
+                    "id": 50454,
                     "name": "MANAGER_ROLE",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 50322,
+                    "referencedDeclaration": 50334,
                     "src": "3798:12:114",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
@@ -3020,10 +3020,10 @@
                     }
                   }
                 ],
-                "id": 50443,
+                "id": 50455,
                 "kind": "modifierInvocation",
                 "modifierName": {
-                  "id": 50441,
+                  "id": 50453,
                   "name": "onlyRole",
                   "nameLocations": [
                     "3789:8:114"
@@ -3039,23 +3039,23 @@
             "name": "_authorizeUpgrade",
             "nameLocation": "3717:17:114",
             "overrides": {
-              "id": 50440,
+              "id": 50452,
               "nodeType": "OverrideSpecifier",
               "overrides": [],
               "src": "3772:8:114"
             },
             "parameters": {
-              "id": 50439,
+              "id": 50451,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50438,
+                  "id": 50450,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 50452,
+                  "scope": 50464,
                   "src": "3735:7:114",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3064,7 +3064,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 50437,
+                    "id": 50449,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "3735:7:114",
@@ -3080,40 +3080,40 @@
               "src": "3734:28:114"
             },
             "returnParameters": {
-              "id": 50444,
+              "id": 50456,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "3811:0:114"
             },
-            "scope": 50612,
+            "scope": 50624,
             "stateMutability": "nonpayable",
             "virtual": true,
             "visibility": "internal"
           },
           {
-            "id": 50474,
+            "id": 50486,
             "nodeType": "FunctionDefinition",
             "src": "4226:190:114",
             "nodes": [],
             "body": {
-              "id": 50473,
+              "id": 50485,
               "nodeType": "Block",
               "src": "4314:102:114",
               "nodes": [],
               "statements": [
                 {
                   "expression": {
-                    "id": 50464,
+                    "id": 50476,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 50461,
+                      "id": 50473,
                       "name": "price",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 50459,
+                      "referencedDeclaration": 50471,
                       "src": "4324:5:114",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -3126,18 +3126,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 50462,
+                        "id": 50474,
                         "name": "_computeSpot",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50522,
+                        "referencedDeclaration": 50534,
                         "src": "4331:12:114",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$__$returns$_t_uint256_$",
                           "typeString": "function () view returns (uint256)"
                         }
                       },
-                      "id": 50463,
+                      "id": 50475,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3159,7 +3159,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 50465,
+                  "id": 50477,
                   "nodeType": "ExpressionStatement",
                   "src": "4324:21:114"
                 },
@@ -3169,17 +3169,17 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 50468,
+                    "id": 50480,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
-                      "id": 50466,
+                      "id": 50478,
                       "name": "price",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 50459,
+                      "referencedDeclaration": 50471,
                       "src": "4358:5:114",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -3190,7 +3190,7 @@
                     "operator": "==",
                     "rightExpression": {
                       "hexValue": "30",
-                      "id": 50467,
+                      "id": 50479,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -3210,7 +3210,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 50472,
+                  "id": 50484,
                   "nodeType": "IfStatement",
                   "src": "4355:54:114",
                   "trueBody": {
@@ -3218,18 +3218,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 50469,
+                        "id": 50481,
                         "name": "YearnOracle__spot_invalidValue",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50362,
+                        "referencedDeclaration": 50374,
                         "src": "4377:30:114",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_error_pure$__$returns$__$",
                           "typeString": "function () pure"
                         }
                       },
-                      "id": 50470,
+                      "id": 50482,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3245,7 +3245,7 @@
                         "typeString": "tuple()"
                       }
                     },
-                    "id": 50471,
+                    "id": 50483,
                     "nodeType": "RevertStatement",
                     "src": "4370:39:114"
                   }
@@ -3253,10 +3253,10 @@
               ]
             },
             "baseFunctions": [
-              49610
+              49622
             ],
             "documentation": {
-              "id": 50453,
+              "id": 50465,
               "nodeType": "StructuredDocumentation",
               "src": "4080:141:114",
               "text": "@notice Returns the latest price for the Yearn Vault [WAD]\n @param /*token*/ Token address\n @return price Asset price [WAD]"
@@ -3268,23 +3268,23 @@
             "name": "spot",
             "nameLocation": "4235:4:114",
             "overrides": {
-              "id": 50457,
+              "id": 50469,
               "nodeType": "OverrideSpecifier",
               "overrides": [],
               "src": "4281:8:114"
             },
             "parameters": {
-              "id": 50456,
+              "id": 50468,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50455,
+                  "id": 50467,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 50474,
+                  "scope": 50486,
                   "src": "4240:7:114",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3293,7 +3293,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 50454,
+                    "id": 50466,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "4240:7:114",
@@ -3309,17 +3309,17 @@
               "src": "4239:19:114"
             },
             "returnParameters": {
-              "id": 50460,
+              "id": 50472,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50459,
+                  "id": 50471,
                   "mutability": "mutable",
                   "name": "price",
                   "nameLocation": "4307:5:114",
                   "nodeType": "VariableDeclaration",
-                  "scope": 50474,
+                  "scope": 50486,
                   "src": "4299:13:114",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3328,7 +3328,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 50458,
+                    "id": 50470,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "4299:7:114",
@@ -3342,18 +3342,18 @@
               ],
               "src": "4298:15:114"
             },
-            "scope": 50612,
+            "scope": 50624,
             "stateMutability": "view",
             "virtual": true,
             "visibility": "external"
           },
           {
-            "id": 50487,
+            "id": 50499,
             "nodeType": "FunctionDefinition",
             "src": "4594:124:114",
             "nodes": [],
             "body": {
-              "id": 50486,
+              "id": 50498,
               "nodeType": "Block",
               "src": "4682:36:114",
               "nodes": [],
@@ -3363,18 +3363,18 @@
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 50483,
+                      "id": 50495,
                       "name": "_getStatus",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 50534,
+                      "referencedDeclaration": 50546,
                       "src": "4699:10:114",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
                         "typeString": "function () view returns (bool)"
                       }
                     },
-                    "id": 50484,
+                    "id": 50496,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3390,18 +3390,18 @@
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 50482,
-                  "id": 50485,
+                  "functionReturnParameters": 50494,
+                  "id": 50497,
                   "nodeType": "Return",
                   "src": "4692:19:114"
                 }
               ]
             },
             "baseFunctions": [
-              49617
+              49629
             ],
             "documentation": {
-              "id": 50475,
+              "id": 50487,
               "nodeType": "StructuredDocumentation",
               "src": "4422:167:114",
               "text": "@notice Returns the status of the oracle\n @param /*token*/ Token address, ignored for this oracle\n @dev The status is valid if the price is validated"
@@ -3413,23 +3413,23 @@
             "name": "getStatus",
             "nameLocation": "4603:9:114",
             "overrides": {
-              "id": 50479,
+              "id": 50491,
               "nodeType": "OverrideSpecifier",
               "overrides": [],
               "src": "4639:8:114"
             },
             "parameters": {
-              "id": 50478,
+              "id": 50490,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50477,
+                  "id": 50489,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 50487,
+                  "scope": 50499,
                   "src": "4613:7:114",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3438,7 +3438,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 50476,
+                    "id": 50488,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "4613:7:114",
@@ -3454,17 +3454,17 @@
               "src": "4612:19:114"
             },
             "returnParameters": {
-              "id": 50482,
+              "id": 50494,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50481,
+                  "id": 50493,
                   "mutability": "mutable",
                   "name": "status",
                   "nameLocation": "4675:6:114",
                   "nodeType": "VariableDeclaration",
-                  "scope": 50487,
+                  "scope": 50499,
                   "src": "4670:11:114",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3473,7 +3473,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 50480,
+                    "id": 50492,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "4670:4:114",
@@ -3487,18 +3487,18 @@
               ],
               "src": "4669:13:114"
             },
-            "scope": 50612,
+            "scope": 50624,
             "stateMutability": "view",
             "virtual": true,
             "visibility": "public"
           },
           {
-            "id": 50522,
+            "id": 50534,
             "nodeType": "FunctionDefinition",
             "src": "4908:334:114",
             "nodes": [],
             "body": {
-              "id": 50521,
+              "id": 50533,
               "nodeType": "Block",
               "src": "4970:272:114",
               "nodes": [],
@@ -3507,23 +3507,23 @@
                   "clauses": [
                     {
                       "block": {
-                        "id": 50516,
+                        "id": 50528,
                         "nodeType": "Block",
                         "src": "5073:153:114",
                         "statements": [
                           {
                             "assignments": [
-                              50501
+                              50513
                             ],
                             "declarations": [
                               {
                                 "constant": false,
-                                "id": 50501,
+                                "id": 50513,
                                 "mutability": "mutable",
                                 "name": "sharePrice",
                                 "nameLocation": "5095:10:114",
                                 "nodeType": "VariableDeclaration",
-                                "scope": 50516,
+                                "scope": 50528,
                                 "src": "5087:18:114",
                                 "stateVariable": false,
                                 "storageLocation": "default",
@@ -3532,7 +3532,7 @@
                                   "typeString": "uint256"
                                 },
                                 "typeName": {
-                                  "id": 50500,
+                                  "id": 50512,
                                   "name": "uint256",
                                   "nodeType": "ElementaryTypeName",
                                   "src": "5087:7:114",
@@ -3544,23 +3544,23 @@
                                 "visibility": "internal"
                               }
                             ],
-                            "id": 50504,
+                            "id": 50516,
                             "initialValue": {
                               "arguments": [],
                               "expression": {
                                 "argumentTypes": [],
-                                "id": 50502,
+                                "id": 50514,
                                 "name": "_getPricePerShare",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 50575,
+                                "referencedDeclaration": 50587,
                                 "src": "5108:17:114",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_view$__$returns$_t_uint256_$",
                                   "typeString": "function () view returns (uint256)"
                                 }
                               },
-                              "id": 50503,
+                              "id": 50515,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -3581,17 +3581,17 @@
                           },
                           {
                             "expression": {
-                              "id": 50514,
+                              "id": 50526,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
                               "lValueRequested": false,
                               "leftHandSide": {
-                                "id": 50505,
+                                "id": 50517,
                                 "name": "price",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 50491,
+                                "referencedDeclaration": 50503,
                                 "src": "5141:5:114",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -3605,7 +3605,7 @@
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
                                 },
-                                "id": 50513,
+                                "id": 50525,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -3617,7 +3617,7 @@
                                         "typeIdentifier": "t_uint256",
                                         "typeString": "uint256"
                                       },
-                                      "id": 50510,
+                                      "id": 50522,
                                       "isConstant": false,
                                       "isLValue": false,
                                       "isPure": false,
@@ -3627,17 +3627,17 @@
                                           "typeIdentifier": "t_uint256",
                                           "typeString": "uint256"
                                         },
-                                        "id": 50508,
+                                        "id": 50520,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftExpression": {
-                                          "id": 50506,
+                                          "id": 50518,
                                           "name": "underlyingTokenPrice",
                                           "nodeType": "Identifier",
                                           "overloadedDeclarations": [],
-                                          "referencedDeclaration": 50498,
+                                          "referencedDeclaration": 50510,
                                           "src": "5150:20:114",
                                           "typeDescriptions": {
                                             "typeIdentifier": "t_uint256",
@@ -3647,11 +3647,11 @@
                                         "nodeType": "BinaryOperation",
                                         "operator": "*",
                                         "rightExpression": {
-                                          "id": 50507,
+                                          "id": 50519,
                                           "name": "sharePrice",
                                           "nodeType": "Identifier",
                                           "overloadedDeclarations": [],
-                                          "referencedDeclaration": 50501,
+                                          "referencedDeclaration": 50513,
                                           "src": "5173:10:114",
                                           "typeDescriptions": {
                                             "typeIdentifier": "t_uint256",
@@ -3667,11 +3667,11 @@
                                       "nodeType": "BinaryOperation",
                                       "operator": "*",
                                       "rightExpression": {
-                                        "id": 50509,
+                                        "id": 50521,
                                         "name": "toWADScale",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 50337,
+                                        "referencedDeclaration": 50349,
                                         "src": "5186:10:114",
                                         "typeDescriptions": {
                                           "typeIdentifier": "t_uint256",
@@ -3685,7 +3685,7 @@
                                       }
                                     }
                                   ],
-                                  "id": 50511,
+                                  "id": 50523,
                                   "isConstant": false,
                                   "isInlineArray": false,
                                   "isLValue": false,
@@ -3701,11 +3701,11 @@
                                 "nodeType": "BinaryOperation",
                                 "operator": "/",
                                 "rightExpression": {
-                                  "id": 50512,
+                                  "id": 50524,
                                   "name": "vaultTokenScale",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 50354,
+                                  "referencedDeclaration": 50366,
                                   "src": "5200:15:114",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
@@ -3724,27 +3724,27 @@
                                 "typeString": "uint256"
                               }
                             },
-                            "id": 50515,
+                            "id": 50527,
                             "nodeType": "ExpressionStatement",
                             "src": "5141:74:114"
                           }
                         ]
                       },
                       "errorName": "",
-                      "id": 50517,
+                      "id": 50529,
                       "nodeType": "TryCatchClause",
                       "parameters": {
-                        "id": 50499,
+                        "id": 50511,
                         "nodeType": "ParameterList",
                         "parameters": [
                           {
                             "constant": false,
-                            "id": 50498,
+                            "id": 50510,
                             "mutability": "mutable",
                             "name": "underlyingTokenPrice",
                             "nameLocation": "5051:20:114",
                             "nodeType": "VariableDeclaration",
-                            "scope": 50517,
+                            "scope": 50529,
                             "src": "5043:28:114",
                             "stateVariable": false,
                             "storageLocation": "default",
@@ -3753,7 +3753,7 @@
                               "typeString": "uint256"
                             },
                             "typeName": {
-                              "id": 50497,
+                              "id": 50509,
                               "name": "uint256",
                               "nodeType": "ElementaryTypeName",
                               "src": "5043:7:114",
@@ -3771,13 +3771,13 @@
                     },
                     {
                       "block": {
-                        "id": 50518,
+                        "id": 50530,
                         "nodeType": "Block",
                         "src": "5233:3:114",
                         "statements": []
                       },
                       "errorName": "",
-                      "id": 50519,
+                      "id": 50531,
                       "nodeType": "TryCatchClause",
                       "src": "5227:9:114"
                     }
@@ -3785,11 +3785,11 @@
                   "externalCall": {
                     "arguments": [
                       {
-                        "id": 50495,
+                        "id": 50507,
                         "name": "vaultTokenAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50348,
+                        "referencedDeclaration": 50360,
                         "src": "5015:17:114",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -3805,18 +3805,18 @@
                         }
                       ],
                       "expression": {
-                        "id": 50493,
+                        "id": 50505,
                         "name": "oracle",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50341,
+                        "referencedDeclaration": 50353,
                         "src": "4984:6:114",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IYearnLensOracle_$131991",
+                          "typeIdentifier": "t_contract$_IYearnLensOracle_$132003",
                           "typeString": "contract IYearnLensOracle"
                         }
                       },
-                      "id": 50494,
+                      "id": 50506,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3824,14 +3824,14 @@
                       "memberLocation": "4991:23:114",
                       "memberName": "getPriceUsdcRecommended",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 131990,
+                      "referencedDeclaration": 132002,
                       "src": "4984:30:114",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
                         "typeString": "function (address) view external returns (uint256)"
                       }
                     },
-                    "id": 50496,
+                    "id": 50508,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3847,14 +3847,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 50520,
+                  "id": 50532,
                   "nodeType": "TryStatement",
                   "src": "4980:256:114"
                 }
               ]
             },
             "documentation": {
-              "id": 50488,
+              "id": 50500,
               "nodeType": "StructuredDocumentation",
               "src": "4724:179:114",
               "text": "@notice Computes the latest spot price for the Yearn Vault [WAD]\n @return price Asset price [WAD]\n @dev returns 0 if the price is not valid or cannot be computed"
@@ -3865,23 +3865,23 @@
             "name": "_computeSpot",
             "nameLocation": "4917:12:114",
             "parameters": {
-              "id": 50489,
+              "id": 50501,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "4929:2:114"
             },
             "returnParameters": {
-              "id": 50492,
+              "id": 50504,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50491,
+                  "id": 50503,
                   "mutability": "mutable",
                   "name": "price",
                   "nameLocation": "4963:5:114",
                   "nodeType": "VariableDeclaration",
-                  "scope": 50522,
+                  "scope": 50534,
                   "src": "4955:13:114",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3890,7 +3890,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 50490,
+                    "id": 50502,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "4955:7:114",
@@ -3904,18 +3904,18 @@
               ],
               "src": "4954:15:114"
             },
-            "scope": 50612,
+            "scope": 50624,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
           },
           {
-            "id": 50534,
+            "id": 50546,
             "nodeType": "FunctionDefinition",
             "src": "5407:99:114",
             "nodes": [],
             "body": {
-              "id": 50533,
+              "id": 50545,
               "nodeType": "Block",
               "src": "5463:43:114",
               "nodes": [],
@@ -3926,7 +3926,7 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 50531,
+                    "id": 50543,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3935,18 +3935,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 50528,
+                        "id": 50540,
                         "name": "_computeSpot",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50522,
+                        "referencedDeclaration": 50534,
                         "src": "5480:12:114",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$__$returns$_t_uint256_$",
                           "typeString": "function () view returns (uint256)"
                         }
                       },
-                      "id": 50529,
+                      "id": 50541,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3966,7 +3966,7 @@
                     "operator": "!=",
                     "rightExpression": {
                       "hexValue": "30",
-                      "id": 50530,
+                      "id": 50542,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -3986,15 +3986,15 @@
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 50527,
-                  "id": 50532,
+                  "functionReturnParameters": 50539,
+                  "id": 50544,
                   "nodeType": "Return",
                   "src": "5473:26:114"
                 }
               ]
             },
             "documentation": {
-              "id": 50523,
+              "id": 50535,
               "nodeType": "StructuredDocumentation",
               "src": "5248:154:114",
               "text": "@notice Returns the status of the oracle\n @return status Whether the oracle is valid\n @dev The status is valid if the price is validated"
@@ -4005,23 +4005,23 @@
             "name": "_getStatus",
             "nameLocation": "5416:10:114",
             "parameters": {
-              "id": 50524,
+              "id": 50536,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "5426:2:114"
             },
             "returnParameters": {
-              "id": 50527,
+              "id": 50539,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50526,
+                  "id": 50538,
                   "mutability": "mutable",
                   "name": "status",
                   "nameLocation": "5456:6:114",
                   "nodeType": "VariableDeclaration",
-                  "scope": 50534,
+                  "scope": 50546,
                   "src": "5451:11:114",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4030,7 +4030,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 50525,
+                    "id": 50537,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "5451:4:114",
@@ -4044,29 +4044,29 @@
               ],
               "src": "5450:13:114"
             },
-            "scope": 50612,
+            "scope": 50624,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "private"
           },
           {
-            "id": 50575,
+            "id": 50587,
             "nodeType": "FunctionDefinition",
             "src": "5882:432:114",
             "nodes": [],
             "body": {
-              "id": 50574,
+              "id": 50586,
               "nodeType": "Block",
               "src": "5956:358:114",
               "nodes": [],
               "statements": [
                 {
                   "condition": {
-                    "id": 50540,
+                    "id": 50552,
                     "name": "isV1Vault",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 50351,
+                    "referencedDeclaration": 50363,
                     "src": "5969:9:114",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
@@ -4074,7 +4074,7 @@
                     }
                   },
                   "falseBody": {
-                    "id": 50572,
+                    "id": 50584,
                     "nodeType": "Block",
                     "src": "6152:156:114",
                     "statements": [
@@ -4082,23 +4082,23 @@
                         "clauses": [
                           {
                             "block": {
-                              "id": 50567,
+                              "id": 50579,
                               "nodeType": "Block",
                               "src": "6225:63:114",
                               "statements": [
                                 {
                                   "expression": {
-                                    "id": 50565,
+                                    "id": 50577,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
                                     "lValueRequested": false,
                                     "leftHandSide": {
-                                      "id": 50563,
+                                      "id": 50575,
                                       "name": "pricePerShare",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 50538,
+                                      "referencedDeclaration": 50550,
                                       "src": "6243:13:114",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_uint256",
@@ -4108,11 +4108,11 @@
                                     "nodeType": "Assignment",
                                     "operator": "=",
                                     "rightHandSide": {
-                                      "id": 50564,
+                                      "id": 50576,
                                       "name": "pricePerShare_",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 50561,
+                                      "referencedDeclaration": 50573,
                                       "src": "6259:14:114",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_uint256",
@@ -4125,27 +4125,27 @@
                                       "typeString": "uint256"
                                     }
                                   },
-                                  "id": 50566,
+                                  "id": 50578,
                                   "nodeType": "ExpressionStatement",
                                   "src": "6243:30:114"
                                 }
                               ]
                             },
                             "errorName": "",
-                            "id": 50568,
+                            "id": 50580,
                             "nodeType": "TryCatchClause",
                             "parameters": {
-                              "id": 50562,
+                              "id": 50574,
                               "nodeType": "ParameterList",
                               "parameters": [
                                 {
                                   "constant": false,
-                                  "id": 50561,
+                                  "id": 50573,
                                   "mutability": "mutable",
                                   "name": "pricePerShare_",
                                   "nameLocation": "6209:14:114",
                                   "nodeType": "VariableDeclaration",
-                                  "scope": 50568,
+                                  "scope": 50580,
                                   "src": "6201:22:114",
                                   "stateVariable": false,
                                   "storageLocation": "default",
@@ -4154,7 +4154,7 @@
                                     "typeString": "uint256"
                                   },
                                   "typeName": {
-                                    "id": 50560,
+                                    "id": 50572,
                                     "name": "uint256",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "6201:7:114",
@@ -4172,13 +4172,13 @@
                           },
                           {
                             "block": {
-                              "id": 50569,
+                              "id": 50581,
                               "nodeType": "Block",
                               "src": "6295:3:114",
                               "statements": []
                             },
                             "errorName": "",
-                            "id": 50570,
+                            "id": 50582,
                             "nodeType": "TryCatchClause",
                             "src": "6289:9:114"
                           }
@@ -4188,18 +4188,18 @@
                           "expression": {
                             "argumentTypes": [],
                             "expression": {
-                              "id": 50557,
+                              "id": 50569,
                               "name": "vault",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 50345,
+                              "referencedDeclaration": 50357,
                               "src": "6170:5:114",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_IYVault_$131980",
+                                "typeIdentifier": "t_contract$_IYVault_$131992",
                                 "typeString": "contract IYVault"
                               }
                             },
-                            "id": 50558,
+                            "id": 50570,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -4207,14 +4207,14 @@
                             "memberLocation": "6176:13:114",
                             "memberName": "pricePerShare",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 131949,
+                            "referencedDeclaration": 131961,
                             "src": "6170:19:114",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
                               "typeString": "function () view external returns (uint256)"
                             }
                           },
-                          "id": 50559,
+                          "id": 50571,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -4230,17 +4230,17 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 50571,
+                        "id": 50583,
                         "nodeType": "TryStatement",
                         "src": "6166:132:114"
                       }
                     ]
                   },
-                  "id": 50573,
+                  "id": 50585,
                   "nodeType": "IfStatement",
                   "src": "5966:342:114",
                   "trueBody": {
-                    "id": 50556,
+                    "id": 50568,
                     "nodeType": "Block",
                     "src": "5979:167:114",
                     "statements": [
@@ -4248,23 +4248,23 @@
                         "clauses": [
                           {
                             "block": {
-                              "id": 50551,
+                              "id": 50563,
                               "nodeType": "Block",
                               "src": "6059:63:114",
                               "statements": [
                                 {
                                   "expression": {
-                                    "id": 50549,
+                                    "id": 50561,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
                                     "lValueRequested": false,
                                     "leftHandSide": {
-                                      "id": 50547,
+                                      "id": 50559,
                                       "name": "pricePerShare",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 50538,
+                                      "referencedDeclaration": 50550,
                                       "src": "6077:13:114",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_uint256",
@@ -4274,11 +4274,11 @@
                                     "nodeType": "Assignment",
                                     "operator": "=",
                                     "rightHandSide": {
-                                      "id": 50548,
+                                      "id": 50560,
                                       "name": "pricePerShare_",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 50545,
+                                      "referencedDeclaration": 50557,
                                       "src": "6093:14:114",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_uint256",
@@ -4291,27 +4291,27 @@
                                       "typeString": "uint256"
                                     }
                                   },
-                                  "id": 50550,
+                                  "id": 50562,
                                   "nodeType": "ExpressionStatement",
                                   "src": "6077:30:114"
                                 }
                               ]
                             },
                             "errorName": "",
-                            "id": 50552,
+                            "id": 50564,
                             "nodeType": "TryCatchClause",
                             "parameters": {
-                              "id": 50546,
+                              "id": 50558,
                               "nodeType": "ParameterList",
                               "parameters": [
                                 {
                                   "constant": false,
-                                  "id": 50545,
+                                  "id": 50557,
                                   "mutability": "mutable",
                                   "name": "pricePerShare_",
                                   "nameLocation": "6043:14:114",
                                   "nodeType": "VariableDeclaration",
-                                  "scope": 50552,
+                                  "scope": 50564,
                                   "src": "6035:22:114",
                                   "stateVariable": false,
                                   "storageLocation": "default",
@@ -4320,7 +4320,7 @@
                                     "typeString": "uint256"
                                   },
                                   "typeName": {
-                                    "id": 50544,
+                                    "id": 50556,
                                     "name": "uint256",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "6035:7:114",
@@ -4338,13 +4338,13 @@
                           },
                           {
                             "block": {
-                              "id": 50553,
+                              "id": 50565,
                               "nodeType": "Block",
                               "src": "6129:3:114",
                               "statements": []
                             },
                             "errorName": "",
-                            "id": 50554,
+                            "id": 50566,
                             "nodeType": "TryCatchClause",
                             "src": "6123:9:114"
                           }
@@ -4354,18 +4354,18 @@
                           "expression": {
                             "argumentTypes": [],
                             "expression": {
-                              "id": 50541,
+                              "id": 50553,
                               "name": "vault",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 50345,
+                              "referencedDeclaration": 50357,
                               "src": "5997:5:114",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_IYVault_$131980",
+                                "typeIdentifier": "t_contract$_IYVault_$131992",
                                 "typeString": "contract IYVault"
                               }
                             },
-                            "id": 50542,
+                            "id": 50554,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -4373,14 +4373,14 @@
                             "memberLocation": "6003:20:114",
                             "memberName": "getPricePerFullShare",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 131944,
+                            "referencedDeclaration": 131956,
                             "src": "5997:26:114",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
                               "typeString": "function () view external returns (uint256)"
                             }
                           },
-                          "id": 50543,
+                          "id": 50555,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -4396,7 +4396,7 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 50555,
+                        "id": 50567,
                         "nodeType": "TryStatement",
                         "src": "5993:139:114"
                       }
@@ -4406,7 +4406,7 @@
               ]
             },
             "documentation": {
-              "id": 50535,
+              "id": 50547,
               "nodeType": "StructuredDocumentation",
               "src": "5691:186:114",
               "text": "@notice Return the share price from a yearn vault based on the type\n @return pricePerShare share price of the vault\n @dev returns 0 if the share price cannot be fetched"
@@ -4417,23 +4417,23 @@
             "name": "_getPricePerShare",
             "nameLocation": "5891:17:114",
             "parameters": {
-              "id": 50536,
+              "id": 50548,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "5908:2:114"
             },
             "returnParameters": {
-              "id": 50539,
+              "id": 50551,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50538,
+                  "id": 50550,
                   "mutability": "mutable",
                   "name": "pricePerShare",
                   "nameLocation": "5941:13:114",
                   "nodeType": "VariableDeclaration",
-                  "scope": 50575,
+                  "scope": 50587,
                   "src": "5933:21:114",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4442,7 +4442,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 50537,
+                    "id": 50549,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "5933:7:114",
@@ -4456,18 +4456,18 @@
               ],
               "src": "5932:23:114"
             },
-            "scope": 50612,
+            "scope": 50624,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "private"
           },
           {
-            "id": 50611,
+            "id": 50623,
             "nodeType": "FunctionDefinition",
             "src": "6511:439:114",
             "nodes": [],
             "body": {
-              "id": 50610,
+              "id": 50622,
               "nodeType": "Block",
               "src": "6572:378:114",
               "nodes": [],
@@ -4476,23 +4476,23 @@
                   "clauses": [
                     {
                       "block": {
-                        "id": 50591,
+                        "id": 50603,
                         "nodeType": "Block",
                         "src": "6651:42:114",
                         "statements": [
                           {
                             "expression": {
-                              "id": 50589,
+                              "id": 50601,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
                               "lValueRequested": false,
                               "leftHandSide": {
-                                "id": 50587,
+                                "id": 50599,
                                 "name": "isV1Vault_",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 50579,
+                                "referencedDeclaration": 50591,
                                 "src": "6665:10:114",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_bool",
@@ -4503,7 +4503,7 @@
                               "operator": "=",
                               "rightHandSide": {
                                 "hexValue": "74727565",
-                                "id": 50588,
+                                "id": 50600,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": true,
@@ -4523,27 +4523,27 @@
                                 "typeString": "bool"
                               }
                             },
-                            "id": 50590,
+                            "id": 50602,
                             "nodeType": "ExpressionStatement",
                             "src": "6665:17:114"
                           }
                         ]
                       },
                       "errorName": "",
-                      "id": 50592,
+                      "id": 50604,
                       "nodeType": "TryCatchClause",
                       "parameters": {
-                        "id": 50586,
+                        "id": 50598,
                         "nodeType": "ParameterList",
                         "parameters": [
                           {
                             "constant": false,
-                            "id": 50585,
+                            "id": 50597,
                             "mutability": "mutable",
                             "name": "",
                             "nameLocation": "-1:-1:-1",
                             "nodeType": "VariableDeclaration",
-                            "scope": 50592,
+                            "scope": 50604,
                             "src": "6624:7:114",
                             "stateVariable": false,
                             "storageLocation": "default",
@@ -4552,7 +4552,7 @@
                               "typeString": "uint256"
                             },
                             "typeName": {
-                              "id": 50584,
+                              "id": 50596,
                               "name": "uint256",
                               "nodeType": "ElementaryTypeName",
                               "src": "6624:7:114",
@@ -4570,7 +4570,7 @@
                     },
                     {
                       "block": {
-                        "id": 50607,
+                        "id": 50619,
                         "nodeType": "Block",
                         "src": "6700:244:114",
                         "statements": [
@@ -4578,26 +4578,26 @@
                             "clauses": [
                               {
                                 "block": {
-                                  "id": 50599,
+                                  "id": 50611,
                                   "nodeType": "Block",
                                   "src": "6776:69:114",
                                   "statements": []
                                 },
                                 "errorName": "",
-                                "id": 50600,
+                                "id": 50612,
                                 "nodeType": "TryCatchClause",
                                 "parameters": {
-                                  "id": 50598,
+                                  "id": 50610,
                                   "nodeType": "ParameterList",
                                   "parameters": [
                                     {
                                       "constant": false,
-                                      "id": 50597,
+                                      "id": 50609,
                                       "mutability": "mutable",
                                       "name": "",
                                       "nameLocation": "-1:-1:-1",
                                       "nodeType": "VariableDeclaration",
-                                      "scope": 50600,
+                                      "scope": 50612,
                                       "src": "6749:7:114",
                                       "stateVariable": false,
                                       "storageLocation": "default",
@@ -4606,7 +4606,7 @@
                                         "typeString": "uint256"
                                       },
                                       "typeName": {
-                                        "id": 50596,
+                                        "id": 50608,
                                         "name": "uint256",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "6749:7:114",
@@ -4624,7 +4624,7 @@
                               },
                               {
                                 "block": {
-                                  "id": 50604,
+                                  "id": 50616,
                                   "nodeType": "Block",
                                   "src": "6852:82:114",
                                   "statements": [
@@ -4633,18 +4633,18 @@
                                         "arguments": [],
                                         "expression": {
                                           "argumentTypes": [],
-                                          "id": 50601,
+                                          "id": 50613,
                                           "name": "YearnOracle__isV1Vault_invalidYearnVault",
                                           "nodeType": "Identifier",
                                           "overloadedDeclarations": [],
-                                          "referencedDeclaration": 50364,
+                                          "referencedDeclaration": 50376,
                                           "src": "6877:40:114",
                                           "typeDescriptions": {
                                             "typeIdentifier": "t_function_error_pure$__$returns$__$",
                                             "typeString": "function () pure"
                                           }
                                         },
-                                        "id": 50602,
+                                        "id": 50614,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -4660,14 +4660,14 @@
                                           "typeString": "tuple()"
                                         }
                                       },
-                                      "id": 50603,
+                                      "id": 50615,
                                       "nodeType": "RevertStatement",
                                       "src": "6870:49:114"
                                     }
                                   ]
                                 },
                                 "errorName": "",
-                                "id": 50605,
+                                "id": 50617,
                                 "nodeType": "TryCatchClause",
                                 "src": "6846:88:114"
                               }
@@ -4677,18 +4677,18 @@
                               "expression": {
                                 "argumentTypes": [],
                                 "expression": {
-                                  "id": 50593,
+                                  "id": 50605,
                                   "name": "vault",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 50345,
+                                  "referencedDeclaration": 50357,
                                   "src": "6718:5:114",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_contract$_IYVault_$131980",
+                                    "typeIdentifier": "t_contract$_IYVault_$131992",
                                     "typeString": "contract IYVault"
                                   }
                                 },
-                                "id": 50594,
+                                "id": 50606,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -4696,14 +4696,14 @@
                                 "memberLocation": "6724:13:114",
                                 "memberName": "pricePerShare",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 131949,
+                                "referencedDeclaration": 131961,
                                 "src": "6718:19:114",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
                                   "typeString": "function () view external returns (uint256)"
                                 }
                               },
-                              "id": 50595,
+                              "id": 50607,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -4719,14 +4719,14 @@
                                 "typeString": "uint256"
                               }
                             },
-                            "id": 50606,
+                            "id": 50618,
                             "nodeType": "TryStatement",
                             "src": "6714:220:114"
                           }
                         ]
                       },
                       "errorName": "",
-                      "id": 50608,
+                      "id": 50620,
                       "nodeType": "TryCatchClause",
                       "src": "6694:250:114"
                     }
@@ -4736,18 +4736,18 @@
                     "expression": {
                       "argumentTypes": [],
                       "expression": {
-                        "id": 50581,
+                        "id": 50593,
                         "name": "vault",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 50345,
+                        "referencedDeclaration": 50357,
                         "src": "6586:5:114",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IYVault_$131980",
+                          "typeIdentifier": "t_contract$_IYVault_$131992",
                           "typeString": "contract IYVault"
                         }
                       },
-                      "id": 50582,
+                      "id": 50594,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -4755,14 +4755,14 @@
                       "memberLocation": "6592:20:114",
                       "memberName": "getPricePerFullShare",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 131944,
+                      "referencedDeclaration": 131956,
                       "src": "6586:26:114",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
                         "typeString": "function () view external returns (uint256)"
                       }
                     },
-                    "id": 50583,
+                    "id": 50595,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -4778,14 +4778,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 50609,
+                  "id": 50621,
                   "nodeType": "TryStatement",
                   "src": "6582:362:114"
                 }
               ]
             },
             "documentation": {
-              "id": 50576,
+              "id": 50588,
               "nodeType": "StructuredDocumentation",
               "src": "6320:186:114",
               "text": "@notice Return if the Vault is a V1 Vault or not\n @return isV1Vault_ returns `true` if the vault is a V1 vault\n @dev Reverts if `yearnVault_` is not a valid yearn vault"
@@ -4796,23 +4796,23 @@
             "name": "_isV1Vault",
             "nameLocation": "6520:10:114",
             "parameters": {
-              "id": 50577,
+              "id": 50589,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "6530:2:114"
             },
             "returnParameters": {
-              "id": 50580,
+              "id": 50592,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50579,
+                  "id": 50591,
                   "mutability": "mutable",
                   "name": "isV1Vault_",
                   "nameLocation": "6560:10:114",
                   "nodeType": "VariableDeclaration",
-                  "scope": 50611,
+                  "scope": 50623,
                   "src": "6555:15:114",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4821,7 +4821,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 50578,
+                    "id": 50590,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "6555:4:114",
@@ -4835,7 +4835,7 @@
               ],
               "src": "6554:17:114"
             },
-            "scope": 50612,
+            "scope": 50624,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "private"
@@ -4845,22 +4845,22 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 50324,
+              "id": 50336,
               "name": "IOracle",
               "nameLocations": [
                 "727:7:114"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 49618,
+              "referencedDeclaration": 49630,
               "src": "727:7:114"
             },
-            "id": 50325,
+            "id": 50337,
             "nodeType": "InheritanceSpecifier",
             "src": "727:7:114"
           },
           {
             "baseName": {
-              "id": 50326,
+              "id": 50338,
               "name": "AccessControlUpgradeable",
               "nameLocations": [
                 "736:24:114"
@@ -4869,13 +4869,13 @@
               "referencedDeclaration": 29665,
               "src": "736:24:114"
             },
-            "id": 50327,
+            "id": 50339,
             "nodeType": "InheritanceSpecifier",
             "src": "736:24:114"
           },
           {
             "baseName": {
-              "id": 50328,
+              "id": 50340,
               "name": "UUPSUpgradeable",
               "nameLocations": [
                 "762:15:114"
@@ -4884,7 +4884,7 @@
               "referencedDeclaration": 30432,
               "src": "762:15:114"
             },
-            "id": 50329,
+            "id": 50341,
             "nodeType": "InheritanceSpecifier",
             "src": "762:15:114"
           }
@@ -4893,14 +4893,14 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {
-          "id": 50323,
+          "id": 50335,
           "nodeType": "StructuredDocumentation",
           "src": "644:59:114",
           "text": "@title YearnOracle\n @notice Oracle for yearn vaults"
         },
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          50612,
+          50624,
           30432,
           30117,
           29748,
@@ -4910,15 +4910,15 @@
           29738,
           30758,
           30296,
-          49618
+          49630
         ],
         "name": "YearnOracle",
         "nameLocation": "712:11:114",
-        "scope": 50613,
+        "scope": 50625,
         "usedErrors": [
-          50360,
-          50362,
-          50364
+          50372,
+          50374,
+          50376
         ]
       }
     ],

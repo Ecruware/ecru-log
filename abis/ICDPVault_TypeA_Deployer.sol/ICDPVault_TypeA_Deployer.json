@@ -105,17 +105,17 @@
   },
   "ast": {
     "absolutePath": "src/interfaces/ICDPVault_TypeA_Deployer.sol",
-    "id": 49216,
+    "id": 49228,
     "exportedSymbols": {
       "ICDPVault_TypeA_Deployer": [
-        49215
+        49227
       ]
     },
     "nodeType": "SourceUnit",
     "src": "45:114:103",
     "nodes": [
       {
-        "id": 49209,
+        "id": 49221,
         "nodeType": "PragmaDirective",
         "src": "45:24:103",
         "nodes": [],
@@ -127,12 +127,12 @@
         ]
       },
       {
-        "id": 49215,
+        "id": 49227,
         "nodeType": "ContractDefinition",
         "src": "71:88:103",
         "nodes": [
           {
-            "id": 49214,
+            "id": 49226,
             "nodeType": "FunctionDefinition",
             "src": "112:45:103",
             "nodes": [],
@@ -143,23 +143,23 @@
             "name": "deploy",
             "nameLocation": "121:6:103",
             "parameters": {
-              "id": 49210,
+              "id": 49222,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "127:2:103"
             },
             "returnParameters": {
-              "id": 49213,
+              "id": 49225,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49212,
+                  "id": 49224,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49214,
+                  "scope": 49226,
                   "src": "148:7:103",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -168,7 +168,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 49211,
+                    "id": 49223,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "148:7:103",
@@ -183,7 +183,7 @@
               ],
               "src": "147:9:103"
             },
-            "scope": 49215,
+            "scope": 49227,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -196,11 +196,11 @@
         "contractKind": "interface",
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          49215
+          49227
         ],
         "name": "ICDPVault_TypeA_Deployer",
         "nameLocation": "81:24:103",
-        "scope": 49216,
+        "scope": 49228,
         "usedErrors": []
       }
     ],

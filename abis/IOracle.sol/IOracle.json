@@ -156,17 +156,17 @@
   },
   "ast": {
     "absolutePath": "src/interfaces/IOracle.sol",
-    "id": 49619,
+    "id": 49631,
     "exportedSymbols": {
       "IOracle": [
-        49618
+        49630
       ]
     },
     "nodeType": "SourceUnit",
     "src": "45:177:108",
     "nodes": [
       {
-        "id": 49603,
+        "id": 49615,
         "nodeType": "PragmaDirective",
         "src": "45:24:108",
         "nodes": [],
@@ -178,12 +178,12 @@
         ]
       },
       {
-        "id": 49618,
+        "id": 49630,
         "nodeType": "ContractDefinition",
         "src": "71:150:108",
         "nodes": [
           {
-            "id": 49610,
+            "id": 49622,
             "nodeType": "FunctionDefinition",
             "src": "95:56:108",
             "nodes": [],
@@ -194,17 +194,17 @@
             "name": "spot",
             "nameLocation": "104:4:108",
             "parameters": {
-              "id": 49606,
+              "id": 49618,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49605,
+                  "id": 49617,
                   "mutability": "mutable",
                   "name": "token",
                   "nameLocation": "117:5:108",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49610,
+                  "scope": 49622,
                   "src": "109:13:108",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -213,7 +213,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 49604,
+                    "id": 49616,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "109:7:108",
@@ -229,17 +229,17 @@
               "src": "108:15:108"
             },
             "returnParameters": {
-              "id": 49609,
+              "id": 49621,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49608,
+                  "id": 49620,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49610,
+                  "scope": 49622,
                   "src": "142:7:108",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -248,7 +248,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 49607,
+                    "id": 49619,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "142:7:108",
@@ -262,13 +262,13 @@
               ],
               "src": "141:9:108"
             },
-            "scope": 49618,
+            "scope": 49630,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 49617,
+            "id": 49629,
             "nodeType": "FunctionDefinition",
             "src": "156:63:108",
             "nodes": [],
@@ -279,17 +279,17 @@
             "name": "getStatus",
             "nameLocation": "165:9:108",
             "parameters": {
-              "id": 49613,
+              "id": 49625,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49612,
+                  "id": 49624,
                   "mutability": "mutable",
                   "name": "token",
                   "nameLocation": "183:5:108",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49617,
+                  "scope": 49629,
                   "src": "175:13:108",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -298,7 +298,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 49611,
+                    "id": 49623,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "175:7:108",
@@ -314,17 +314,17 @@
               "src": "174:15:108"
             },
             "returnParameters": {
-              "id": 49616,
+              "id": 49628,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49615,
+                  "id": 49627,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49617,
+                  "scope": 49629,
                   "src": "213:4:108",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -333,7 +333,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 49614,
+                    "id": 49626,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "213:4:108",
@@ -347,7 +347,7 @@
               ],
               "src": "212:6:108"
             },
-            "scope": 49618,
+            "scope": 49630,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -360,11 +360,11 @@
         "contractKind": "interface",
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          49618
+          49630
         ],
         "name": "IOracle",
         "nameLocation": "81:7:108",
-        "scope": 49619,
+        "scope": 49631,
         "usedErrors": []
       }
     ],
