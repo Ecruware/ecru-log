@@ -1,0 +1,266 @@
+{
+  "core": {
+    "CDM": {
+      "address": "0xCc926ECEf207D981a2db05Ab93B7A41c6c0a2536",
+      "artifactName": "CDM",
+      "constructorArguments": [
+        "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+        "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+        "0x6e5A2C14D02EB17982a41eC682eE7513355eD337"
+      ]
+    },
+    "Stablecoin": {
+      "address": "0xb424E76Fa7089832116762297641A008b7bC31D1",
+      "artifactName": "Stablecoin",
+      "constructorArguments": []
+    },
+    "Minter": {
+      "address": "0x18Ac4E3250375183a29CDea4FEEdf378b46B297c",
+      "artifactName": "Minter",
+      "constructorArguments": [
+        "0xCc926ECEf207D981a2db05Ab93B7A41c6c0a2536",
+        "0xb424E76Fa7089832116762297641A008b7bC31D1",
+        "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+        "0x6e5A2C14D02EB17982a41eC682eE7513355eD337"
+      ]
+    },
+    "Flashlender": {
+      "address": "0x919a795f0981C0116E6A100f8850B7855872F332",
+      "artifactName": "Flashlender",
+      "constructorArguments": [
+        "0x18Ac4E3250375183a29CDea4FEEdf378b46B297c",
+        "0"
+      ]
+    },
+    "BufferProxyAdmin": {
+      "address": "0x6e222eaA804Fe7A676E51c8F2F552a7616f5d4A2",
+      "artifactName": "ProxyAdmin",
+      "constructorArguments": []
+    },
+    "BufferImplementation": {
+      "address": "0x78E83298BE573D1fE6D2c2334bA1db61238eB59c",
+      "artifactName": "Buffer",
+      "constructorArguments": []
+    },
+    "Buffer": {
+      "address": "0xFD39AD051042dfE2FD3e0E9F9Be0d9163772C7C3",
+      "artifactName": "Buffer",
+      "constructorArguments": [
+        "0x78E83298BE573D1fE6D2c2334bA1db61238eB59c",
+        "0x6e222eaA804Fe7A676E51c8F2F552a7616f5d4A2",
+        "0x485cc9550000000000000000000000006e5a2c14d02eb17982a41ec682ee7513355ed3370000000000000000000000006e5a2c14d02eb17982a41ec682ee7513355ed337"
+      ]
+    },
+    "MockOracle": {
+      "address": "0x6E65f1CC302209521010F304C7aC96eE2dcd7f44",
+      "artifactName": "MockOracle",
+      "constructorArguments": []
+    },
+    "SwapAction": {
+      "address": "0xeA81458d7A1336FBb876Fd2b08c41421f9839091",
+      "artifactName": "SwapAction",
+      "constructorArguments": [
+        "0x1111111254EEB25477B68fb85Ed929f73A960582",
+        "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+        "0xE592427A0AEce92De3Edee1F18E0157C05861564"
+      ]
+    },
+    "JoinAction": {
+      "address": "0x9238Cd31B4f13889f50df1058d93A1cF38D6f22d",
+      "artifactName": "JoinAction",
+      "constructorArguments": [
+        "0xBA12222222228d8Ba445958a75a0704d566BF2C8"
+      ]
+    },
+    "ERC165Plugin": {
+      "address": "0xf651a1D4f4349dBDa43369d3a2fA51b41bda335d",
+      "artifactName": "ERC165Plugin",
+      "constructorArguments": []
+    },
+    "PositionAction20": {
+      "address": "0x5179a9e5fe7F5553cbA17a2c0F8a58669721394b",
+      "artifactName": "PositionAction20",
+      "constructorArguments": [
+        "0x919a795f0981C0116E6A100f8850B7855872F332",
+        "0xeA81458d7A1336FBb876Fd2b08c41421f9839091",
+        "0x9238Cd31B4f13889f50df1058d93A1cF38D6f22d"
+      ]
+    },
+    "PositionActionYV": {
+      "address": "0x826A1aD989F886D3Ff5Fc2f9BB6795278637d950",
+      "artifactName": "PositionActionYV",
+      "constructorArguments": [
+        "0x919a795f0981C0116E6A100f8850B7855872F332",
+        "0xeA81458d7A1336FBb876Fd2b08c41421f9839091",
+        "0x9238Cd31B4f13889f50df1058d93A1cF38D6f22d"
+      ]
+    },
+    "PositionAction4626": {
+      "address": "0xBbe999E23115c19c8253C919d4643E44DcDd300a",
+      "artifactName": "PositionAction4626",
+      "constructorArguments": [
+        "0x919a795f0981C0116E6A100f8850B7855872F332",
+        "0xeA81458d7A1336FBb876Fd2b08c41421f9839091",
+        "0x9238Cd31B4f13889f50df1058d93A1cF38D6f22d"
+      ]
+    },
+    "CDPVault_TypeA_Deployer": {
+      "address": "0x125B2b7A45B4432731cf980D395C7b941035944E",
+      "artifactName": "CDPVault_TypeA_Deployer",
+      "constructorArguments": []
+    },
+    "CDPVault_TypeA_Factory": {
+      "address": "0x3300851600FbF9708bb173Fb6fe76705465bAa69",
+      "artifactName": "CDPVault_TypeA_Factory",
+      "constructorArguments": [
+        "0x125B2b7A45B4432731cf980D395C7b941035944E",
+        "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+        "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+        "0x6e5A2C14D02EB17982a41eC682eE7513355eD337"
+      ]
+    },
+    "Aura wstETH-WETH XXXX Deposit Vault": {
+      "address": "0xc53D00Ec8186451f5e44D51467F08896e1776e5f",
+      "artifactName": "AuraVault",
+      "constructorArguments": [
+        "0x2a14db8d09db0542f6a371c0cb308a768227d67d",
+        "0x93d199263632a4ef4bb438f1feb99e57b4b5f0bd",
+        "0x6E65f1CC302209521010F304C7aC96eE2dcd7f44",
+        100,
+        100,
+        "Aura wstETH-WETH XXXX Deposit Vault",
+        "xxxxAurawstETH-WETH-vault"
+      ]
+    },
+    "Aura wstETH-rETH-sfrxETH XXXX Deposit Vault": {
+      "address": "0x159080A69dB5aB5C28Fd8c68E46B1cF0b1c08Ea3",
+      "artifactName": "AuraVault",
+      "constructorArguments": [
+        "0x032b676d5d55e8ecbae88ebee0aa10fb5f72f6cb",
+        "0x42ed016f826165c2e5976fe5bc3df540c5ad0af7",
+        "0x6E65f1CC302209521010F304C7aC96eE2dcd7f44",
+        100,
+        100,
+        "Aura wstETH-rETH-sfrxETH XXXX Deposit Vault",
+        "xxxxAurawstETH-rETH-sfrxETH-vault"
+      ]
+    }
+  },
+  "vaults": {
+    "CDPVault_TypeA_WSTETH-WETH": {
+      "address": "0xb9B0D9955f9123CE363162E5F047Fb65633Dd23F",
+      "artifactName": "CDPVault_TypeA",
+      "constructorArguments": [
+        [
+          "0xCc926ECEf207D981a2db05Ab93B7A41c6c0a2536",
+          "0x6E65f1CC302209521010F304C7aC96eE2dcd7f44",
+          "0xFD39AD051042dfE2FD3e0E9F9Be0d9163772C7C3",
+          "0xc53D00Ec8186451f5e44D51467F08896e1776e5f",
+          "1000000000000000000",
+          "10000000000000000",
+          "0",
+          "0",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000"
+        ],
+        [
+          "990000000000000000",
+          "980000000000000000",
+          "1300000000000000000"
+        ],
+        [
+          "1000000000000000000",
+          "1000000000000000000",
+          "1250000000000000000",
+          "0",
+          "1000000000626221517",
+          "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+          "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+          "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+          "0x6e5A2C14D02EB17982a41eC682eE7513355eD337"
+        ],
+        "5000000000000000000000000"
+      ]
+    },
+    "CDPVault_TypeA_WSTETH-RETH-SFRXETH": {
+      "address": "0x803237D6Ad87329cb063CC3bE195ED14e4b15c36",
+      "artifactName": "CDPVault_TypeA",
+      "constructorArguments": [
+        [
+          "0xCc926ECEf207D981a2db05Ab93B7A41c6c0a2536",
+          "0x6E65f1CC302209521010F304C7aC96eE2dcd7f44",
+          "0xFD39AD051042dfE2FD3e0E9F9Be0d9163772C7C3",
+          "0x159080A69dB5aB5C28Fd8c68E46B1cF0b1c08Ea3",
+          "1000000000000000000",
+          "10000000000000000",
+          "0",
+          "0",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000"
+        ],
+        [
+          "990000000000000000",
+          "980000000000000000",
+          "1300000000000000000"
+        ],
+        [
+          "1000000000000000000",
+          "1000000000000000000",
+          "1250000000000000000",
+          "0",
+          "1000000000626221517",
+          "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+          "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+          "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+          "0x6e5A2C14D02EB17982a41eC682eE7513355eD337"
+        ],
+        "5000000000000000000000000"
+      ]
+    },
+    "CDPVault_TypeA_USDC": {
+      "address": "0x347D766e4c6772550007eEe6117216FFc57f4C51",
+      "artifactName": "CDPVault_TypeA",
+      "constructorArguments": [
+        [
+          "0xCc926ECEf207D981a2db05Ab93B7A41c6c0a2536",
+          "0x6E65f1CC302209521010F304C7aC96eE2dcd7f44",
+          "0xFD39AD051042dfE2FD3e0E9F9Be0d9163772C7C3",
+          "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "1000000",
+          "10000000000000000",
+          "0",
+          "800000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000",
+          "1000000000000000000"
+        ],
+        [
+          "990000000000000000",
+          "980000000000000000",
+          "1100000000000000000"
+        ],
+        [
+          "1000000000000000000000",
+          "1000000000000000000000",
+          "1050000000000000000",
+          "0",
+          "1000000000157721789",
+          "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+          "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+          "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+          "0x6e5A2C14D02EB17982a41eC682eE7513355eD337",
+          "0x6e5A2C14D02EB17982a41eC682eE7513355eD337"
+        ],
+        "10000000000000000000000000"
+      ]
+    }
+  }
+}
