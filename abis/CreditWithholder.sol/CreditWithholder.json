@@ -24,12 +24,12 @@
   ],
   "bytecode": {
     "object": "0x608060405234801561001057600080fd5b506040516101ad3803806101ad83398101604081905261002f91610113565b60405163d9c70f5760e01b81526001600160a01b0382811660048301526001602483015284169063d9c70f5790604401600060405180830381600087803b15801561007957600080fd5b505af115801561008d573d6000803e3d6000fd5b505060405163d9c70f5760e01b81526001600160a01b038581166004830152600160248301528616925063d9c70f579150604401600060405180830381600087803b1580156100db57600080fd5b505af11580156100ef573d6000803e3d6000fd5b50505050505050610160565b6001600160a01b038116811461011057600080fd5b50565b60008060006060848603121561012857600080fd5b8351610133816100fb565b6020850151909350610144816100fb565b6040850151909250610155816100fb565b809150509250925092565b603f8061016e6000396000f3fe6080604052600080fdfea2646970667358221220a2177fc2a03647acc3a41b3f4839574298d9c05e26150426d3264883a45c5f2264736f6c63430008130033",
-    "sourceMap": "394:307:92:-:0;;;426:273;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;606:33;;-1:-1:-1;;;606:33:92;;-1:-1:-1;;;;;898:32:181;;;606:33:92;;;880:51:181;634:4:92;947:18:181;;;940:50;606:20:92;;;;;853:18:181;;606:33:92;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;649:43:92;;-1:-1:-1;;;649:43:92;;-1:-1:-1;;;;;898:32:181;;;649:43:92;;;880:51:181;687:4:92;947:18:181;;;940:50;649:20:92;;;-1:-1:-1;649:20:92;;-1:-1:-1;853:18:181;;649:43:92;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;426:273;;;394:307;;14:137:181;-1:-1:-1;;;;;95:31:181;;85:42;;75:70;;141:1;138;131:12;75:70;14:137;:::o;156:551::-;258:6;266;274;327:2;315:9;306:7;302:23;298:32;295:52;;;343:1;340;333:12;295:52;375:9;369:16;394:37;425:5;394:37;:::i;:::-;500:2;485:18;;479:25;450:5;;-1:-1:-1;513:39:181;479:25;513:39;:::i;:::-;623:2;608:18;;602:25;571:7;;-1:-1:-1;636:39:181;602:25;636:39;:::i;:::-;694:7;684:17;;;156:551;;;;;:::o;712:284::-;394:307:92;;;;;;",
+    "sourceMap": "394:307:94:-:0;;;426:273;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;606:33;;-1:-1:-1;;;606:33:94;;-1:-1:-1;;;;;898:32:188;;;606:33:94;;;880:51:188;634:4:94;947:18:188;;;940:50;606:20:94;;;;;853:18:188;;606:33:94;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;649:43:94;;-1:-1:-1;;;649:43:94;;-1:-1:-1;;;;;898:32:188;;;649:43:94;;;880:51:188;687:4:94;947:18:188;;;940:50;649:20:94;;;-1:-1:-1;649:20:94;;-1:-1:-1;853:18:188;;649:43:94;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;426:273;;;394:307;;14:137:188;-1:-1:-1;;;;;95:31:188;;85:42;;75:70;;141:1;138;131:12;75:70;14:137;:::o;156:551::-;258:6;266;274;327:2;315:9;306:7;302:23;298:32;295:52;;;343:1;340;333:12;295:52;375:9;369:16;394:37;425:5;394:37;:::i;:::-;500:2;485:18;;479:25;450:5;;-1:-1:-1;513:39:188;479:25;513:39;:::i;:::-;623:2;608:18;;602:25;571:7;;-1:-1:-1;636:39:188;602:25;636:39;:::i;:::-;694:7;684:17;;;156:551;;;;;:::o;712:284::-;394:307:94;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
     "object": "0x6080604052600080fdfea2646970667358221220a2177fc2a03647acc3a41b3f4839574298d9c05e26150426d3264883a45c5f2264736f6c63430008130033",
-    "sourceMap": "394:307:92:-:0;;;;;",
+    "sourceMap": "394:307:94:-:0;;;;;",
     "linkReferences": {}
   },
   "methodIdentifiers": {},
@@ -135,22 +135,22 @@
   },
   "ast": {
     "absolutePath": "src/CreditWithholder.sol",
-    "id": 47523,
+    "id": 48050,
     "exportedSymbols": {
       "CreditWithholder": [
-        47522
+        48049
       ],
       "ICDM": [
-        48694
+        49221
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:670:92",
+    "src": "32:670:94",
     "nodes": [
       {
-        "id": 47493,
+        "id": 48020,
         "nodeType": "PragmaDirective",
-        "src": "32:24:92",
+        "src": "32:24:94",
         "nodes": [],
         "literals": [
           "solidity",
@@ -160,24 +160,24 @@
         ]
       },
       {
-        "id": 47495,
+        "id": 48022,
         "nodeType": "ImportDirective",
-        "src": "58:43:92",
+        "src": "58:43:94",
         "nodes": [],
         "absolutePath": "src/interfaces/ICDM.sol",
         "file": "./interfaces/ICDM.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 47523,
-        "sourceUnit": 48695,
+        "scope": 48050,
+        "sourceUnit": 49222,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 47494,
+              "id": 48021,
               "name": "ICDM",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 48694,
-              "src": "66:4:92",
+              "referencedDeclaration": 49221,
+              "src": "66:4:94",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -186,31 +186,31 @@
         "unitAlias": ""
       },
       {
-        "id": 47522,
+        "id": 48049,
         "nodeType": "ContractDefinition",
-        "src": "394:307:92",
+        "src": "394:307:94",
         "nodes": [
           {
-            "id": 47521,
+            "id": 48048,
             "nodeType": "FunctionDefinition",
-            "src": "426:273:92",
+            "src": "426:273:94",
             "nodes": [],
             "body": {
-              "id": 47520,
+              "id": 48047,
               "nodeType": "Block",
-              "src": "488:211:92",
+              "src": "488:211:94",
               "nodes": [],
               "statements": [
                 {
                   "expression": {
                     "arguments": [
                       {
-                        "id": 47509,
+                        "id": 48036,
                         "name": "vault",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 47503,
-                        "src": "627:5:92",
+                        "referencedDeclaration": 48030,
+                        "src": "627:5:94",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -218,14 +218,14 @@
                       },
                       {
                         "hexValue": "74727565",
-                        "id": 47510,
+                        "id": 48037,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "bool",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "634:4:92",
+                        "src": "634:4:94",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -245,33 +245,33 @@
                         }
                       ],
                       "expression": {
-                        "id": 47506,
+                        "id": 48033,
                         "name": "cdm",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 47499,
-                        "src": "606:3:92",
+                        "referencedDeclaration": 48026,
+                        "src": "606:3:94",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48694",
+                          "typeIdentifier": "t_contract$_ICDM_$49221",
                           "typeString": "contract ICDM"
                         }
                       },
-                      "id": 47508,
+                      "id": 48035,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "610:16:92",
+                      "memberLocation": "610:16:94",
                       "memberName": "modifyPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 49662,
-                      "src": "606:20:92",
+                      "referencedDeclaration": 50269,
+                      "src": "606:20:94",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_bool_$returns$__$",
                         "typeString": "function (address,bool) external"
                       }
                     },
-                    "id": 47511,
+                    "id": 48038,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -280,27 +280,27 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "606:33:92",
+                    "src": "606:33:94",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 47512,
+                  "id": 48039,
                   "nodeType": "ExpressionStatement",
-                  "src": "606:33:92"
+                  "src": "606:33:94"
                 },
                 {
                   "expression": {
                     "arguments": [
                       {
-                        "id": 47516,
+                        "id": 48043,
                         "name": "unwinderFactory",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 47501,
-                        "src": "670:15:92",
+                        "referencedDeclaration": 48028,
+                        "src": "670:15:94",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -308,14 +308,14 @@
                       },
                       {
                         "hexValue": "74727565",
-                        "id": 47517,
+                        "id": 48044,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "bool",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "687:4:92",
+                        "src": "687:4:94",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -335,33 +335,33 @@
                         }
                       ],
                       "expression": {
-                        "id": 47513,
+                        "id": 48040,
                         "name": "cdm",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 47499,
-                        "src": "649:3:92",
+                        "referencedDeclaration": 48026,
+                        "src": "649:3:94",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ICDM_$48694",
+                          "typeIdentifier": "t_contract$_ICDM_$49221",
                           "typeString": "contract ICDM"
                         }
                       },
-                      "id": 47515,
+                      "id": 48042,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "653:16:92",
+                      "memberLocation": "653:16:94",
                       "memberName": "modifyPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 49662,
-                      "src": "649:20:92",
+                      "referencedDeclaration": 50269,
+                      "src": "649:20:94",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_bool_$returns$__$",
                         "typeString": "function (address,bool) external"
                       }
                     },
-                    "id": 47518,
+                    "id": 48045,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -370,16 +370,16 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "649:43:92",
+                    "src": "649:43:94",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 47519,
+                  "id": 48046,
                   "nodeType": "ExpressionStatement",
-                  "src": "649:43:92"
+                  "src": "649:43:94"
                 }
               ]
             },
@@ -389,41 +389,41 @@
             "name": "",
             "nameLocation": "-1:-1:-1",
             "parameters": {
-              "id": 47504,
+              "id": 48031,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 47499,
+                  "id": 48026,
                   "mutability": "mutable",
                   "name": "cdm",
-                  "nameLocation": "443:3:92",
+                  "nameLocation": "443:3:94",
                   "nodeType": "VariableDeclaration",
-                  "scope": 47521,
-                  "src": "438:8:92",
+                  "scope": 48048,
+                  "src": "438:8:94",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ICDM_$48694",
+                    "typeIdentifier": "t_contract$_ICDM_$49221",
                     "typeString": "contract ICDM"
                   },
                   "typeName": {
-                    "id": 47498,
+                    "id": 48025,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 47497,
+                      "id": 48024,
                       "name": "ICDM",
                       "nameLocations": [
-                        "438:4:92"
+                        "438:4:94"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 48694,
-                      "src": "438:4:92"
+                      "referencedDeclaration": 49221,
+                      "src": "438:4:94"
                     },
-                    "referencedDeclaration": 48694,
-                    "src": "438:4:92",
+                    "referencedDeclaration": 49221,
+                    "src": "438:4:94",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDM_$48694",
+                      "typeIdentifier": "t_contract$_ICDM_$49221",
                       "typeString": "contract ICDM"
                     }
                   },
@@ -431,13 +431,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 47501,
+                  "id": 48028,
                   "mutability": "mutable",
                   "name": "unwinderFactory",
-                  "nameLocation": "456:15:92",
+                  "nameLocation": "456:15:94",
                   "nodeType": "VariableDeclaration",
-                  "scope": 47521,
-                  "src": "448:23:92",
+                  "scope": 48048,
+                  "src": "448:23:94",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -445,10 +445,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 47500,
+                    "id": 48027,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "448:7:92",
+                    "src": "448:7:94",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -459,13 +459,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 47503,
+                  "id": 48030,
                   "mutability": "mutable",
                   "name": "vault",
-                  "nameLocation": "481:5:92",
+                  "nameLocation": "481:5:94",
                   "nodeType": "VariableDeclaration",
-                  "scope": 47521,
-                  "src": "473:13:92",
+                  "scope": 48048,
+                  "src": "473:13:94",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -473,10 +473,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 47502,
+                    "id": 48029,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "473:7:92",
+                    "src": "473:7:94",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -486,15 +486,15 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "437:50:92"
+              "src": "437:50:94"
             },
             "returnParameters": {
-              "id": 47505,
+              "id": 48032,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "488:0:92"
+              "src": "488:0:94"
             },
-            "scope": 47522,
+            "scope": 48049,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
@@ -506,22 +506,22 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {
-          "id": 47496,
+          "id": 48023,
           "nodeType": "StructuredDocumentation",
-          "src": "103:291:92",
+          "src": "103:291:94",
           "text": "@title CreditWithholder\n @notice Credit account for the vault. Used for:\n - temp. withholding an estimated amount of credit for epochs for which the exact credit claim hasn't been fixed yet\n - temp. storing the fixed credit claim for epochs until the (un)delegators withdraw it"
         },
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          47522
+          48049
         ],
         "name": "CreditWithholder",
-        "nameLocation": "403:16:92",
-        "scope": 47523,
+        "nameLocation": "403:16:94",
+        "scope": 48050,
         "usedErrors": []
       }
     ],
     "license": "MIT"
   },
-  "id": 92
+  "id": 94
 }

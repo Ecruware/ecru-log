@@ -27,7 +27,7 @@
   "methodIdentifiers": {
     "deploy()": "775c300c"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"deploy\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/ICDPVault_TypeA_Deployer.sol\":\"ICDPVault_TypeA_Deployer\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":@prb/test/=lib/prb-proxy/lib/prb-test/src/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/\"]},\"sources\":{\"src/interfaces/ICDPVault_TypeA_Deployer.sol\":{\"keccak256\":\"0x8245ec611a017f4e12fd4a0b077bad26f11fbc6ed648724a746398398a1692f0\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://35c624fc1f5ecf6f7027ed98859b41f36b89109a8adaf740c93668f97958b66b\",\"dweb:/ipfs/QmPupkyJYaVSbVGPHPj4H5LZgJXtKqX7NgN7bCwwWZ7Tyj\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"deploy\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/ICDPVault_Deployer.sol\":\"ICDPVault_Deployer\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":@prb/test/=lib/prb-proxy/lib/prb-test/src/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/\"]},\"sources\":{\"src/interfaces/ICDPVault_Deployer.sol\":{\"keccak256\":\"0xec43e73593b1c691da85967d506f84a4e17dfcc46b904aa163c695ec0dfff464\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://e3207dedf3b31f8e2a89e54e622a93b0a720a1ffbf8f3cd8b9ec4ddbfc9025e2\",\"dweb:/ipfs/QmRPys9WUxo8iMqqYU3r7uTh57jX9Fth7dVBx2h6LaifAB\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.19+commit.7dd6d404"
@@ -87,16 +87,16 @@
         "bytecodeHash": "ipfs"
       },
       "compilationTarget": {
-        "src/interfaces/ICDPVault_TypeA_Deployer.sol": "ICDPVault_TypeA_Deployer"
+        "src/interfaces/ICDPVault_Deployer.sol": "ICDPVault_Deployer"
       },
       "libraries": {}
     },
     "sources": {
-      "src/interfaces/ICDPVault_TypeA_Deployer.sol": {
-        "keccak256": "0x8245ec611a017f4e12fd4a0b077bad26f11fbc6ed648724a746398398a1692f0",
+      "src/interfaces/ICDPVault_Deployer.sol": {
+        "keccak256": "0xec43e73593b1c691da85967d506f84a4e17dfcc46b904aa163c695ec0dfff464",
         "urls": [
-          "bzz-raw://35c624fc1f5ecf6f7027ed98859b41f36b89109a8adaf740c93668f97958b66b",
-          "dweb:/ipfs/QmPupkyJYaVSbVGPHPj4H5LZgJXtKqX7NgN7bCwwWZ7Tyj"
+          "bzz-raw://e3207dedf3b31f8e2a89e54e622a93b0a720a1ffbf8f3cd8b9ec4ddbfc9025e2",
+          "dweb:/ipfs/QmRPys9WUxo8iMqqYU3r7uTh57jX9Fth7dVBx2h6LaifAB"
         ],
         "license": "GPL-2.0-or-later"
       }
@@ -104,20 +104,20 @@
     "version": 1
   },
   "ast": {
-    "absolutePath": "src/interfaces/ICDPVault_TypeA_Deployer.sol",
-    "id": 49228,
+    "absolutePath": "src/interfaces/ICDPVault_Deployer.sol",
+    "id": 49646,
     "exportedSymbols": {
-      "ICDPVault_TypeA_Deployer": [
-        49227
+      "ICDPVault_Deployer": [
+        49645
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "45:114:103",
+    "src": "45:108:104",
     "nodes": [
       {
-        "id": 49221,
+        "id": 49639,
         "nodeType": "PragmaDirective",
-        "src": "45:24:103",
+        "src": "45:24:104",
         "nodes": [],
         "literals": [
           "solidity",
@@ -127,40 +127,40 @@
         ]
       },
       {
-        "id": 49227,
+        "id": 49645,
         "nodeType": "ContractDefinition",
-        "src": "71:88:103",
+        "src": "71:82:104",
         "nodes": [
           {
-            "id": 49226,
+            "id": 49644,
             "nodeType": "FunctionDefinition",
-            "src": "112:45:103",
+            "src": "106:45:104",
             "nodes": [],
             "functionSelector": "775c300c",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "deploy",
-            "nameLocation": "121:6:103",
+            "nameLocation": "115:6:104",
             "parameters": {
-              "id": 49222,
+              "id": 49640,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "127:2:103"
+              "src": "121:2:104"
             },
             "returnParameters": {
-              "id": 49225,
+              "id": 49643,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49224,
+                  "id": 49642,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49226,
-                  "src": "148:7:103",
+                  "scope": 49644,
+                  "src": "142:7:104",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -168,10 +168,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 49223,
+                    "id": 49641,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "148:7:103",
+                    "src": "142:7:104",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -181,9 +181,9 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "147:9:103"
+              "src": "141:9:104"
             },
-            "scope": 49227,
+            "scope": 49645,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -191,20 +191,20 @@
         ],
         "abstract": false,
         "baseContracts": [],
-        "canonicalName": "ICDPVault_TypeA_Deployer",
+        "canonicalName": "ICDPVault_Deployer",
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          49227
+          49645
         ],
-        "name": "ICDPVault_TypeA_Deployer",
-        "nameLocation": "81:24:103",
-        "scope": 49228,
+        "name": "ICDPVault_Deployer",
+        "nameLocation": "81:18:104",
+        "scope": 49646,
         "usedErrors": []
       }
     ],
     "license": "GPL-2.0-or-later"
   },
-  "id": 103
+  "id": 104
 }

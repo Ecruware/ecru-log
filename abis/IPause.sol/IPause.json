@@ -133,19 +133,19 @@
   },
   "ast": {
     "absolutePath": "src/interfaces/IPause.sol",
-    "id": 49645,
+    "id": 50252,
     "exportedSymbols": {
       "IPause": [
-        49644
+        50251
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "45:170:109",
+    "src": "45:170:114",
     "nodes": [
       {
-        "id": 49632,
+        "id": 50239,
         "nodeType": "PragmaDirective",
-        "src": "45:24:109",
+        "src": "45:24:114",
         "nodes": [],
         "literals": [
           "solidity",
@@ -155,40 +155,40 @@
         ]
       },
       {
-        "id": 49644,
+        "id": 50251,
         "nodeType": "ContractDefinition",
-        "src": "71:144:109",
+        "src": "71:144:114",
         "nodes": [
           {
-            "id": 49637,
+            "id": 50244,
             "nodeType": "FunctionDefinition",
-            "src": "95:52:109",
+            "src": "95:52:114",
             "nodes": [],
             "functionSelector": "2e55d0f2",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "pausedAt",
-            "nameLocation": "104:8:109",
+            "nameLocation": "104:8:114",
             "parameters": {
-              "id": 49633,
+              "id": 50240,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "112:2:109"
+              "src": "112:2:114"
             },
             "returnParameters": {
-              "id": 49636,
+              "id": 50243,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49635,
+                  "id": 50242,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49637,
-                  "src": "138:7:109",
+                  "scope": 50244,
+                  "src": "138:7:114",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -196,10 +196,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 49634,
+                    "id": 50241,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "138:7:109",
+                    "src": "138:7:114",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -208,65 +208,65 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "137:9:109"
+              "src": "137:9:114"
             },
-            "scope": 49644,
+            "scope": 50251,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 49640,
+            "id": 50247,
             "nodeType": "FunctionDefinition",
-            "src": "153:26:109",
+            "src": "153:26:114",
             "nodes": [],
             "functionSelector": "8456cb59",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "pause",
-            "nameLocation": "162:5:109",
+            "nameLocation": "162:5:114",
             "parameters": {
-              "id": 49638,
+              "id": 50245,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "167:2:109"
+              "src": "167:2:114"
             },
             "returnParameters": {
-              "id": 49639,
+              "id": 50246,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "178:0:109"
+              "src": "178:0:114"
             },
-            "scope": 49644,
+            "scope": 50251,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 49643,
+            "id": 50250,
             "nodeType": "FunctionDefinition",
-            "src": "185:28:109",
+            "src": "185:28:114",
             "nodes": [],
             "functionSelector": "3f4ba83a",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "unpause",
-            "nameLocation": "194:7:109",
+            "nameLocation": "194:7:114",
             "parameters": {
-              "id": 49641,
+              "id": 50248,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "201:2:109"
+              "src": "201:2:114"
             },
             "returnParameters": {
-              "id": 49642,
+              "id": 50249,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "212:0:109"
+              "src": "212:0:114"
             },
-            "scope": 49644,
+            "scope": 50251,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -279,15 +279,15 @@
         "contractKind": "interface",
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          49644
+          50251
         ],
         "name": "IPause",
-        "nameLocation": "81:6:109",
-        "scope": 49645,
+        "nameLocation": "81:6:114",
+        "scope": 50252,
         "usedErrors": []
       }
     ],
     "license": "GPL-2.0-or-later"
   },
-  "id": 109
+  "id": 114
 }

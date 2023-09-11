@@ -187,63 +187,12 @@
       "inputs": [
         {
           "internalType": "uint256",
-          "name": "claimForEpoch",
-          "type": "uint256"
-        }
-      ],
-      "name": "claimUndelegatedCredit",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "creditAmount",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
           "name": "limitPriceTick",
           "type": "uint256"
         }
       ],
       "name": "createLimitOrder",
       "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "creditWithholder",
-      "outputs": [
-        {
-          "internalType": "address",
-          "name": "",
-          "type": "address"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
-          "name": "creditAmount",
-          "type": "uint256"
-        }
-      ],
-      "name": "delegateCredit",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "sharesAmount",
-          "type": "uint256"
-        }
-      ],
       "stateMutability": "nonpayable",
       "type": "function"
     },
@@ -269,45 +218,6 @@
         }
       ],
       "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
-          "name": "epoch",
-          "type": "uint256"
-        }
-      ],
-      "name": "epochs",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint128",
-          "name": "",
-          "type": "uint128"
-        },
-        {
-          "internalType": "uint128",
-          "name": "",
-          "type": "uint128"
-        }
-      ],
-      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -757,49 +667,6 @@
       "type": "function"
     },
     {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "owner",
-          "type": "address"
-        }
-      ],
-      "name": "shares",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
-          "name": "epoch",
-          "type": "uint256"
-        },
-        {
-          "internalType": "address",
-          "name": "delegator",
-          "type": "address"
-        }
-      ],
-      "name": "sharesQueuedByEpoch",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
       "inputs": [],
       "name": "spotPrice",
       "outputs": [
@@ -853,19 +720,6 @@
     },
     {
       "inputs": [],
-      "name": "totalCreditClaimable",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
       "name": "totalNormalDebt",
       "outputs": [
         {
@@ -875,58 +729,6 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "totalShares",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
-          "name": "shareAmount",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256[]",
-          "name": "prevQueuedEpochs",
-          "type": "uint256[]"
-        }
-      ],
-      "name": "undelegateCredit",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "creditAmount",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "epoch",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "claimableAtEpoch",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "fixableUntilEpoch",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -1031,12 +833,8 @@
     "cancelLimitOrder()": "2202ce8c",
     "cash(address)": "b6dc16f6",
     "cdm()": "e2dfb317",
-    "claimUndelegatedCredit(uint256)": "2b2368a2",
     "createLimitOrder(uint256)": "2906f94e",
-    "creditWithholder()": "bf404a41",
-    "delegateCredit(uint256)": "93f9eb35",
     "deposit(address,uint256)": "47e7ef24",
-    "epochs(uint256)": "c6b61e4c",
     "exchange(uint256,uint256)": "d4b7eac3",
     "getLimitOrder(uint256,uint256)": "2af8992b",
     "getPriceTick(uint256)": "51f813ec",
@@ -1060,22 +858,17 @@
     "renounceRole(bytes32,address)": "36568abe",
     "revokeRole(bytes32,address)": "d547741f",
     "setParameter(bytes32,uint256)": "723507be",
-    "shares(address)": "ce7c2ac2",
-    "sharesQueuedByEpoch(uint256,address)": "14815a6d",
     "spotPrice()": "398482d8",
     "token()": "fc0c546a",
     "tokenScale()": "342c02b1",
     "totalAccruedFees()": "ba95534c",
-    "totalCreditClaimable()": "5fe83c7b",
     "totalNormalDebt()": "842c311e",
-    "totalShares()": "3a98ef39",
-    "undelegateCredit(uint256,uint256[])": "6e5e741e",
     "unpause()": "3f4ba83a",
     "vaultConfig()": "7cc34bb4",
     "virtualIRS(address)": "8051ba75",
     "withdraw(address,uint256)": "f3fef3a3"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"previousAdminRole\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"newAdminRole\",\"type\":\"bytes32\"}],\"name\":\"RoleAdminChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"}],\"name\":\"RoleGranted\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"}],\"name\":\"RoleRevoked\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"priceTick\",\"type\":\"uint256\"}],\"name\":\"activeLimitPriceTicks\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"limitPriceTick\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nextLimitPriceTick\",\"type\":\"uint256\"}],\"name\":\"addLimitPriceTick\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"buffer\",\"outputs\":[{\"internalType\":\"contract IBuffer\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"priceTick\",\"type\":\"uint256\"}],\"name\":\"calculateRebateFactorForPriceTick\",\"outputs\":[{\"internalType\":\"uint64\",\"name\":\"\",\"type\":\"uint64\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"cancelLimitOrder\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"cash\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"cdm\",\"outputs\":[{\"internalType\":\"contract ICDM\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"claimForEpoch\",\"type\":\"uint256\"}],\"name\":\"claimUndelegatedCredit\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"creditAmount\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"limitPriceTick\",\"type\":\"uint256\"}],\"name\":\"createLimitOrder\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"creditWithholder\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"creditAmount\",\"type\":\"uint256\"}],\"name\":\"delegateCredit\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"sharesAmount\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"deposit\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"epoch\",\"type\":\"uint256\"}],\"name\":\"epochs\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"uint128\",\"name\":\"\",\"type\":\"uint128\"},{\"internalType\":\"uint128\",\"name\":\"\",\"type\":\"uint128\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"upperLimitPriceTick\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"creditToExchange\",\"type\":\"uint256\"}],\"name\":\"exchange\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"creditExchanged\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"collateralExchanged\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"priceTick\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"index\",\"type\":\"uint256\"}],\"name\":\"getLimitOrder\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"limitOrderId\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"index\",\"type\":\"uint256\"}],\"name\":\"getPriceTick\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"priceTick\",\"type\":\"uint256\"},{\"internalType\":\"bool\",\"name\":\"isActive\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"}],\"name\":\"getRoleAdmin\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"grantRole\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"caller\",\"type\":\"address\"}],\"name\":\"hasPermission\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"hasRole\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"limitOrderFloor\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"limitOrderId\",\"type\":\"uint256\"}],\"name\":\"limitOrders\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address[]\",\"name\":\"owners\",\"type\":\"address[]\"},{\"internalType\":\"uint256[]\",\"name\":\"repayAmounts\",\"type\":\"uint256[]\"}],\"name\":\"liquidatePositions\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"liquidationConfig\",\"outputs\":[{\"internalType\":\"uint64\",\"name\":\"\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"\",\"type\":\"uint64\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"collateralizer\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"creditor\",\"type\":\"address\"},{\"internalType\":\"int256\",\"name\":\"deltaCollateral\",\"type\":\"int256\"},{\"internalType\":\"int256\",\"name\":\"deltaNormalDebt\",\"type\":\"int256\"}],\"name\":\"modifyCollateralAndDebt\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"caller\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"allowed\",\"type\":\"bool\"}],\"name\":\"modifyPermission\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"caller\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"allowed\",\"type\":\"bool\"}],\"name\":\"modifyPermission\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"oracle\",\"outputs\":[{\"internalType\":\"contract IOracle\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pause\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pausedAt\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"positions\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"collateral\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"normalDebt\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"protocolFee\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"limitPriceTick\",\"type\":\"uint256\"}],\"name\":\"removeLimitPriceTick\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"renounceRole\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"revokeRole\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"parameter\",\"type\":\"bytes32\"},{\"internalType\":\"uint256\",\"name\":\"data\",\"type\":\"uint256\"}],\"name\":\"setParameter\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"shares\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"epoch\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"delegator\",\"type\":\"address\"}],\"name\":\"sharesQueuedByEpoch\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"spotPrice\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"token\",\"outputs\":[{\"internalType\":\"contract IERC20\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"tokenScale\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalAccruedFees\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalCreditClaimable\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalNormalDebt\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalShares\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"shareAmount\",\"type\":\"uint256\"},{\"internalType\":\"uint256[]\",\"name\":\"prevQueuedEpochs\",\"type\":\"uint256[]\"}],\"name\":\"undelegateCredit\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"creditAmount\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"epoch\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"claimableAtEpoch\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"fixableUntilEpoch\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"unpause\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"vaultConfig\",\"outputs\":[{\"internalType\":\"uint128\",\"name\":\"debtFloor\",\"type\":\"uint128\"},{\"internalType\":\"uint64\",\"name\":\"liquidationRatio\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"globalLiquidationRatio\",\"type\":\"uint64\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"position\",\"type\":\"address\"}],\"name\":\"virtualIRS\",\"outputs\":[{\"internalType\":\"uint64\",\"name\":\"rateAccumulator\",\"type\":\"uint64\"},{\"internalType\":\"uint256\",\"name\":\"positionAccruedRebate\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"globalAccruedRebate\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"withdraw\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"events\":{\"RoleAdminChanged(bytes32,bytes32,bytes32)\":{\"details\":\"Emitted when `newAdminRole` is set as ``role``'s admin role, replacing `previousAdminRole` `DEFAULT_ADMIN_ROLE` is the starting admin for all roles, despite {RoleAdminChanged} not being emitted signaling this. _Available since v3.1._\"},\"RoleGranted(bytes32,address,address)\":{\"details\":\"Emitted when `account` is granted `role`. `sender` is the account that originated the contract call, an admin role bearer except when using {AccessControl-_setupRole}.\"},\"RoleRevoked(bytes32,address,address)\":{\"details\":\"Emitted when `account` is revoked `role`. `sender` is the account that originated the contract call:   - if using `revokeRole`, it is the admin role bearer   - if using `renounceRole`, it is the role bearer (i.e. `account`)\"}},\"kind\":\"dev\",\"methods\":{\"getRoleAdmin(bytes32)\":{\"details\":\"Returns the admin role that controls `role`. See {grantRole} and {revokeRole}. To change a role's admin, use {AccessControl-_setRoleAdmin}.\"},\"grantRole(bytes32,address)\":{\"details\":\"Grants `role` to `account`. If `account` had not been already granted `role`, emits a {RoleGranted} event. Requirements: - the caller must have ``role``'s admin role.\"},\"hasRole(bytes32,address)\":{\"details\":\"Returns `true` if `account` has been granted `role`.\"},\"renounceRole(bytes32,address)\":{\"details\":\"Revokes `role` from the calling account. Roles are often managed via {grantRole} and {revokeRole}: this function's purpose is to provide a mechanism for accounts to lose their privileges if they are compromised (such as when a trusted device is misplaced). If the calling account had been granted `role`, emits a {RoleRevoked} event. Requirements: - the caller must be `account`.\"},\"revokeRole(bytes32,address)\":{\"details\":\"Revokes `role` from `account`. If `account` had been granted `role`, emits a {RoleRevoked} event. Requirements: - the caller must have ``role``'s admin role.\"}},\"title\":\"ICDPVault_TypeA\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Interface for the CDPVault_TypeA\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/ICDPVault_TypeA.sol\":\"ICDPVault_TypeA\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":@prb/test/=lib/prb-proxy/lib/prb-test/src/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/\"]},\"sources\":{\"lib/openzeppelin-contracts/contracts/access/IAccessControl.sol\":{\"keccak256\":\"0x59ce320a585d7e1f163cd70390a0ef2ff9cec832e2aa544293a00692465a7a57\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bb2c137c343ef0c4c7ce7b18c1d108afdc9d315a04e48307288d2d05adcbde3a\",\"dweb:/ipfs/QmUxhrAQM3MM3FF5j7AtcXLXguWCJBHJ14BRdVtuoQc8Fh\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x00c839ff53d07d19db2e7cfa1e5133f9ee90a8d64b0e2e57f50446a2d1a3a0e0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3dac621d015a68a5251b1e5d41dda0faf252699bf6e8bcf46a958b29964d9dd1\",\"dweb:/ipfs/QmP9axjgZv4cezAhALoTemM62sdLtMDJ9MGTxECnNwHgSJ\"]},\"src/interfaces/IBuffer.sol\":{\"keccak256\":\"0xca68bc0b0ad51d45574138eaab1d2597f95bae6b925206e4640dba7e8a7a766f\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://f18316a82aecd4fbd85b697c4a6f447025ccea9648353d5d5f71c0adbfeffeff\",\"dweb:/ipfs/Qmf5TvffBBLh6w4phbNknX7zwBrDHY4VUQqoKTexSHKpyY\"]},\"src/interfaces/ICDM.sol\":{\"keccak256\":\"0x5a501346e83a397a842bc6a74de7c717df5adc9885efec3cc5493119808d67a9\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://94ead2b55fb26eb76ce383d3983e289ab41065446796a66780c8b4ae8162e973\",\"dweb:/ipfs/QmZwRkzXKppqnaUoUkzMxMT9D1c2JDy8ttNjYjQ1eYAD63\"]},\"src/interfaces/ICDPVault.sol\":{\"keccak256\":\"0x7ce3b81164802c14566697092c69fb355d9c31ab846dfc8d90edd5d6a6eb68e3\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://343c84ea42c9846dc3907a6ca2d4c55df6e0cbaea7a83ed2c7458174560a86d6\",\"dweb:/ipfs/QmWcAoAFQYL7YzeFnd5t4HMHxEZHiFirsNHJGL7FoBCkF6\"]},\"src/interfaces/ICDPVault_TypeA.sol\":{\"keccak256\":\"0x67e73a065253428bf75f8541da4b1530e4bae6c57ffb17520aba4a48aa132b5b\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://94911a895e5a455a2eb23eea973a36c847f27dd1a3ee7a34470bc226751f0aa6\",\"dweb:/ipfs/Qmcv7WBZnEnm6zjYBGZFikYeyjnMyPb65XEA8cBUkXZ9BR\"]},\"src/interfaces/IInterestRateModel.sol\":{\"keccak256\":\"0x5f94dae8fa9cd5fdedf8f2a889518070379acb5edaf0b2462cea8ae26fd65055\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://cf9b13a14ef5668a3907434e656a514d6f62ff1da38db17ae0a513a1e93c6599\",\"dweb:/ipfs/QmZ6ZuBnJWGpJVgQmJ124GbQsZL1oj6BctW8QZMthYwFKA\"]},\"src/interfaces/IOracle.sol\":{\"keccak256\":\"0x9269d961b833e8efa72ba58b324fcae69d7d6200034aab32f16c8a6ea45fd417\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://fa1ab8fd4ba70144d9bc48e61cdb5f85cc250760a3c4850369b328c98a6d73da\",\"dweb:/ipfs/QmQqBe67B94u3vwLZBM4DBYgK5piBKXaYEaiAkRM81wGFF\"]},\"src/interfaces/IPause.sol\":{\"keccak256\":\"0xc14fe3637170b61ac24b0a87174f8cb0bfdafb48985c038e0e9c893ced15dc4d\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://8afd830df77edefb6b9817c08639661750f10d79a5f317c41dd720499feb43ec\",\"dweb:/ipfs/QmPBCyJgodRXqQ5XGAoRggDRg5XCfDMX9i32SRo34qTbix\"]},\"src/interfaces/IPermission.sol\":{\"keccak256\":\"0xd9cf3a29c16e192f2f265396870cb93cf91c91bbe62cb9a1ed343c32b4052f48\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://48e25c7560455ffda43cbfb37ee47ed4da9c6bd38e46bcfd5fe4e982d5c34eaf\",\"dweb:/ipfs/Qmco16L9EdpXGFJXn7mdgkCpKErYRB4HFUzYB5m5yUnZcz\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"previousAdminRole\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"newAdminRole\",\"type\":\"bytes32\"}],\"name\":\"RoleAdminChanged\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"}],\"name\":\"RoleGranted\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"}],\"name\":\"RoleRevoked\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"priceTick\",\"type\":\"uint256\"}],\"name\":\"activeLimitPriceTicks\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"limitPriceTick\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nextLimitPriceTick\",\"type\":\"uint256\"}],\"name\":\"addLimitPriceTick\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"buffer\",\"outputs\":[{\"internalType\":\"contract IBuffer\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"priceTick\",\"type\":\"uint256\"}],\"name\":\"calculateRebateFactorForPriceTick\",\"outputs\":[{\"internalType\":\"uint64\",\"name\":\"\",\"type\":\"uint64\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"cancelLimitOrder\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"cash\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"cdm\",\"outputs\":[{\"internalType\":\"contract ICDM\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"limitPriceTick\",\"type\":\"uint256\"}],\"name\":\"createLimitOrder\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"deposit\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"upperLimitPriceTick\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"creditToExchange\",\"type\":\"uint256\"}],\"name\":\"exchange\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"creditExchanged\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"collateralExchanged\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"priceTick\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"index\",\"type\":\"uint256\"}],\"name\":\"getLimitOrder\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"limitOrderId\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"index\",\"type\":\"uint256\"}],\"name\":\"getPriceTick\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"priceTick\",\"type\":\"uint256\"},{\"internalType\":\"bool\",\"name\":\"isActive\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"}],\"name\":\"getRoleAdmin\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"grantRole\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"caller\",\"type\":\"address\"}],\"name\":\"hasPermission\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"hasRole\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"limitOrderFloor\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"limitOrderId\",\"type\":\"uint256\"}],\"name\":\"limitOrders\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address[]\",\"name\":\"owners\",\"type\":\"address[]\"},{\"internalType\":\"uint256[]\",\"name\":\"repayAmounts\",\"type\":\"uint256[]\"}],\"name\":\"liquidatePositions\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"liquidationConfig\",\"outputs\":[{\"internalType\":\"uint64\",\"name\":\"\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"\",\"type\":\"uint64\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"collateralizer\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"creditor\",\"type\":\"address\"},{\"internalType\":\"int256\",\"name\":\"deltaCollateral\",\"type\":\"int256\"},{\"internalType\":\"int256\",\"name\":\"deltaNormalDebt\",\"type\":\"int256\"}],\"name\":\"modifyCollateralAndDebt\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"caller\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"allowed\",\"type\":\"bool\"}],\"name\":\"modifyPermission\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"caller\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"allowed\",\"type\":\"bool\"}],\"name\":\"modifyPermission\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"oracle\",\"outputs\":[{\"internalType\":\"contract IOracle\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pause\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pausedAt\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"positions\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"collateral\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"normalDebt\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"protocolFee\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"limitPriceTick\",\"type\":\"uint256\"}],\"name\":\"removeLimitPriceTick\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"renounceRole\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"role\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"revokeRole\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"parameter\",\"type\":\"bytes32\"},{\"internalType\":\"uint256\",\"name\":\"data\",\"type\":\"uint256\"}],\"name\":\"setParameter\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"spotPrice\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"token\",\"outputs\":[{\"internalType\":\"contract IERC20\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"tokenScale\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalAccruedFees\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalNormalDebt\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"unpause\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"vaultConfig\",\"outputs\":[{\"internalType\":\"uint128\",\"name\":\"debtFloor\",\"type\":\"uint128\"},{\"internalType\":\"uint64\",\"name\":\"liquidationRatio\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"globalLiquidationRatio\",\"type\":\"uint64\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"position\",\"type\":\"address\"}],\"name\":\"virtualIRS\",\"outputs\":[{\"internalType\":\"uint64\",\"name\":\"rateAccumulator\",\"type\":\"uint64\"},{\"internalType\":\"uint256\",\"name\":\"positionAccruedRebate\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"globalAccruedRebate\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"withdraw\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"events\":{\"RoleAdminChanged(bytes32,bytes32,bytes32)\":{\"details\":\"Emitted when `newAdminRole` is set as ``role``'s admin role, replacing `previousAdminRole` `DEFAULT_ADMIN_ROLE` is the starting admin for all roles, despite {RoleAdminChanged} not being emitted signaling this. _Available since v3.1._\"},\"RoleGranted(bytes32,address,address)\":{\"details\":\"Emitted when `account` is granted `role`. `sender` is the account that originated the contract call, an admin role bearer except when using {AccessControl-_setupRole}.\"},\"RoleRevoked(bytes32,address,address)\":{\"details\":\"Emitted when `account` is revoked `role`. `sender` is the account that originated the contract call:   - if using `revokeRole`, it is the admin role bearer   - if using `renounceRole`, it is the role bearer (i.e. `account`)\"}},\"kind\":\"dev\",\"methods\":{\"getRoleAdmin(bytes32)\":{\"details\":\"Returns the admin role that controls `role`. See {grantRole} and {revokeRole}. To change a role's admin, use {AccessControl-_setRoleAdmin}.\"},\"grantRole(bytes32,address)\":{\"details\":\"Grants `role` to `account`. If `account` had not been already granted `role`, emits a {RoleGranted} event. Requirements: - the caller must have ``role``'s admin role.\"},\"hasRole(bytes32,address)\":{\"details\":\"Returns `true` if `account` has been granted `role`.\"},\"renounceRole(bytes32,address)\":{\"details\":\"Revokes `role` from the calling account. Roles are often managed via {grantRole} and {revokeRole}: this function's purpose is to provide a mechanism for accounts to lose their privileges if they are compromised (such as when a trusted device is misplaced). If the calling account had been granted `role`, emits a {RoleRevoked} event. Requirements: - the caller must be `account`.\"},\"revokeRole(bytes32,address)\":{\"details\":\"Revokes `role` from `account`. If `account` had been granted `role`, emits a {RoleRevoked} event. Requirements: - the caller must have ``role``'s admin role.\"}},\"title\":\"ICDPVault_TypeA\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Interface for the CDPVault_TypeA\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/ICDPVault_TypeA.sol\":\"ICDPVault_TypeA\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":@prb/test/=lib/prb-proxy/lib/prb-test/src/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/\"]},\"sources\":{\"lib/openzeppelin-contracts/contracts/access/IAccessControl.sol\":{\"keccak256\":\"0x59ce320a585d7e1f163cd70390a0ef2ff9cec832e2aa544293a00692465a7a57\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bb2c137c343ef0c4c7ce7b18c1d108afdc9d315a04e48307288d2d05adcbde3a\",\"dweb:/ipfs/QmUxhrAQM3MM3FF5j7AtcXLXguWCJBHJ14BRdVtuoQc8Fh\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x00c839ff53d07d19db2e7cfa1e5133f9ee90a8d64b0e2e57f50446a2d1a3a0e0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3dac621d015a68a5251b1e5d41dda0faf252699bf6e8bcf46a958b29964d9dd1\",\"dweb:/ipfs/QmP9axjgZv4cezAhALoTemM62sdLtMDJ9MGTxECnNwHgSJ\"]},\"src/interfaces/IBuffer.sol\":{\"keccak256\":\"0xca68bc0b0ad51d45574138eaab1d2597f95bae6b925206e4640dba7e8a7a766f\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://f18316a82aecd4fbd85b697c4a6f447025ccea9648353d5d5f71c0adbfeffeff\",\"dweb:/ipfs/Qmf5TvffBBLh6w4phbNknX7zwBrDHY4VUQqoKTexSHKpyY\"]},\"src/interfaces/ICDM.sol\":{\"keccak256\":\"0x5a501346e83a397a842bc6a74de7c717df5adc9885efec3cc5493119808d67a9\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://94ead2b55fb26eb76ce383d3983e289ab41065446796a66780c8b4ae8162e973\",\"dweb:/ipfs/QmZwRkzXKppqnaUoUkzMxMT9D1c2JDy8ttNjYjQ1eYAD63\"]},\"src/interfaces/ICDPVault.sol\":{\"keccak256\":\"0x5de8dfcabf0b00266443fc6c1b57a76c36b3c064380445095967d3695abf646d\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://34978ad2c84abcfe46aa6b20532d24cd1e9260782ea520b4b2ae3b87dcd8502f\",\"dweb:/ipfs/QmXPPQYYPApEgumbwuJr5391X3eSiv6hyQuR3UEMH9oUpE\"]},\"src/interfaces/ICDPVault_TypeA.sol\":{\"keccak256\":\"0x67e73a065253428bf75f8541da4b1530e4bae6c57ffb17520aba4a48aa132b5b\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://94911a895e5a455a2eb23eea973a36c847f27dd1a3ee7a34470bc226751f0aa6\",\"dweb:/ipfs/Qmcv7WBZnEnm6zjYBGZFikYeyjnMyPb65XEA8cBUkXZ9BR\"]},\"src/interfaces/IInterestRateModel.sol\":{\"keccak256\":\"0x5f94dae8fa9cd5fdedf8f2a889518070379acb5edaf0b2462cea8ae26fd65055\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://cf9b13a14ef5668a3907434e656a514d6f62ff1da38db17ae0a513a1e93c6599\",\"dweb:/ipfs/QmZ6ZuBnJWGpJVgQmJ124GbQsZL1oj6BctW8QZMthYwFKA\"]},\"src/interfaces/IOracle.sol\":{\"keccak256\":\"0x9269d961b833e8efa72ba58b324fcae69d7d6200034aab32f16c8a6ea45fd417\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://fa1ab8fd4ba70144d9bc48e61cdb5f85cc250760a3c4850369b328c98a6d73da\",\"dweb:/ipfs/QmQqBe67B94u3vwLZBM4DBYgK5piBKXaYEaiAkRM81wGFF\"]},\"src/interfaces/IPause.sol\":{\"keccak256\":\"0xc14fe3637170b61ac24b0a87174f8cb0bfdafb48985c038e0e9c893ced15dc4d\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://8afd830df77edefb6b9817c08639661750f10d79a5f317c41dd720499feb43ec\",\"dweb:/ipfs/QmPBCyJgodRXqQ5XGAoRggDRg5XCfDMX9i32SRo34qTbix\"]},\"src/interfaces/IPermission.sol\":{\"keccak256\":\"0xd9cf3a29c16e192f2f265396870cb93cf91c91bbe62cb9a1ed343c32b4052f48\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://48e25c7560455ffda43cbfb37ee47ed4da9c6bd38e46bcfd5fe4e982d5c34eaf\",\"dweb:/ipfs/Qmco16L9EdpXGFJXn7mdgkCpKErYRB4HFUzYB5m5yUnZcz\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.19+commit.7dd6d404"
@@ -1268,25 +1061,6 @@
           "inputs": [
             {
               "internalType": "uint256",
-              "name": "claimForEpoch",
-              "type": "uint256"
-            }
-          ],
-          "stateMutability": "nonpayable",
-          "type": "function",
-          "name": "claimUndelegatedCredit",
-          "outputs": [
-            {
-              "internalType": "uint256",
-              "name": "creditAmount",
-              "type": "uint256"
-            }
-          ]
-        },
-        {
-          "inputs": [
-            {
-              "internalType": "uint256",
               "name": "limitPriceTick",
               "type": "uint256"
             }
@@ -1294,38 +1068,6 @@
           "stateMutability": "nonpayable",
           "type": "function",
           "name": "createLimitOrder"
-        },
-        {
-          "inputs": [],
-          "stateMutability": "view",
-          "type": "function",
-          "name": "creditWithholder",
-          "outputs": [
-            {
-              "internalType": "address",
-              "name": "",
-              "type": "address"
-            }
-          ]
-        },
-        {
-          "inputs": [
-            {
-              "internalType": "uint256",
-              "name": "creditAmount",
-              "type": "uint256"
-            }
-          ],
-          "stateMutability": "nonpayable",
-          "type": "function",
-          "name": "delegateCredit",
-          "outputs": [
-            {
-              "internalType": "uint256",
-              "name": "sharesAmount",
-              "type": "uint256"
-            }
-          ]
         },
         {
           "inputs": [
@@ -1348,45 +1090,6 @@
               "internalType": "uint256",
               "name": "",
               "type": "uint256"
-            }
-          ]
-        },
-        {
-          "inputs": [
-            {
-              "internalType": "uint256",
-              "name": "epoch",
-              "type": "uint256"
-            }
-          ],
-          "stateMutability": "view",
-          "type": "function",
-          "name": "epochs",
-          "outputs": [
-            {
-              "internalType": "uint256",
-              "name": "",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint128",
-              "name": "",
-              "type": "uint128"
-            },
-            {
-              "internalType": "uint128",
-              "name": "",
-              "type": "uint128"
             }
           ]
         },
@@ -1827,49 +1530,6 @@
           "name": "setParameter"
         },
         {
-          "inputs": [
-            {
-              "internalType": "address",
-              "name": "owner",
-              "type": "address"
-            }
-          ],
-          "stateMutability": "view",
-          "type": "function",
-          "name": "shares",
-          "outputs": [
-            {
-              "internalType": "uint256",
-              "name": "",
-              "type": "uint256"
-            }
-          ]
-        },
-        {
-          "inputs": [
-            {
-              "internalType": "uint256",
-              "name": "epoch",
-              "type": "uint256"
-            },
-            {
-              "internalType": "address",
-              "name": "delegator",
-              "type": "address"
-            }
-          ],
-          "stateMutability": "view",
-          "type": "function",
-          "name": "sharesQueuedByEpoch",
-          "outputs": [
-            {
-              "internalType": "uint256",
-              "name": "",
-              "type": "uint256"
-            }
-          ]
-        },
-        {
           "inputs": [],
           "stateMutability": "nonpayable",
           "type": "function",
@@ -1925,76 +1585,11 @@
           "inputs": [],
           "stateMutability": "view",
           "type": "function",
-          "name": "totalCreditClaimable",
-          "outputs": [
-            {
-              "internalType": "uint256",
-              "name": "",
-              "type": "uint256"
-            }
-          ]
-        },
-        {
-          "inputs": [],
-          "stateMutability": "view",
-          "type": "function",
           "name": "totalNormalDebt",
           "outputs": [
             {
               "internalType": "uint256",
               "name": "",
-              "type": "uint256"
-            }
-          ]
-        },
-        {
-          "inputs": [],
-          "stateMutability": "view",
-          "type": "function",
-          "name": "totalShares",
-          "outputs": [
-            {
-              "internalType": "uint256",
-              "name": "",
-              "type": "uint256"
-            }
-          ]
-        },
-        {
-          "inputs": [
-            {
-              "internalType": "uint256",
-              "name": "shareAmount",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256[]",
-              "name": "prevQueuedEpochs",
-              "type": "uint256[]"
-            }
-          ],
-          "stateMutability": "nonpayable",
-          "type": "function",
-          "name": "undelegateCredit",
-          "outputs": [
-            {
-              "internalType": "uint256",
-              "name": "creditAmount",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "epoch",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "claimableAtEpoch",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "fixableUntilEpoch",
               "type": "uint256"
             }
           ]
@@ -2174,10 +1769,10 @@
         "license": "GPL-2.0-or-later"
       },
       "src/interfaces/ICDPVault.sol": {
-        "keccak256": "0x7ce3b81164802c14566697092c69fb355d9c31ab846dfc8d90edd5d6a6eb68e3",
+        "keccak256": "0x5de8dfcabf0b00266443fc6c1b57a76c36b3c064380445095967d3695abf646d",
         "urls": [
-          "bzz-raw://343c84ea42c9846dc3907a6ca2d4c55df6e0cbaea7a83ed2c7458174560a86d6",
-          "dweb:/ipfs/QmWcAoAFQYL7YzeFnd5t4HMHxEZHiFirsNHJGL7FoBCkF6"
+          "bzz-raw://34978ad2c84abcfe46aa6b20532d24cd1e9260782ea520b4b2ae3b87dcd8502f",
+          "dweb:/ipfs/QmXPPQYYPApEgumbwuJr5391X3eSiv6hyQuR3UEMH9oUpE"
         ],
         "license": "GPL-2.0-or-later"
       },
@@ -2226,22 +1821,22 @@
   },
   "ast": {
     "absolutePath": "src/interfaces/ICDPVault_TypeA.sol",
-    "id": 49220,
+    "id": 49763,
     "exportedSymbols": {
       "ICDPVaultBase": [
-        48987
+        49438
       ],
       "ICDPVault_TypeA": [
-        49219
+        49762
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "45:446:102",
+    "src": "45:446:106",
     "nodes": [
       {
-        "id": 49188,
+        "id": 49731,
         "nodeType": "PragmaDirective",
-        "src": "45:24:102",
+        "src": "45:24:106",
         "nodes": [],
         "literals": [
           "solidity",
@@ -2251,24 +1846,24 @@
         ]
       },
       {
-        "id": 49190,
+        "id": 49733,
         "nodeType": "ImportDirective",
-        "src": "71:46:102",
+        "src": "71:46:106",
         "nodes": [],
         "absolutePath": "src/interfaces/ICDPVault.sol",
         "file": "./ICDPVault.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 49220,
-        "sourceUnit": 48999,
+        "scope": 49763,
+        "sourceUnit": 49450,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 49189,
+              "id": 49732,
               "name": "ICDPVaultBase",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 48987,
-              "src": "79:13:102",
+              "referencedDeclaration": 49438,
+              "src": "79:13:106",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -2277,34 +1872,34 @@
         "unitAlias": ""
       },
       {
-        "id": 49219,
+        "id": 49762,
         "nodeType": "ContractDefinition",
-        "src": "191:299:102",
+        "src": "191:299:106",
         "nodes": [
           {
-            "id": 49200,
+            "id": 49743,
             "nodeType": "FunctionDefinition",
-            "src": "241:64:102",
+            "src": "241:64:106",
             "nodes": [],
             "functionSelector": "723507be",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "setParameter",
-            "nameLocation": "250:12:102",
+            "nameLocation": "250:12:106",
             "parameters": {
-              "id": 49198,
+              "id": 49741,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49195,
+                  "id": 49738,
                   "mutability": "mutable",
                   "name": "parameter",
-                  "nameLocation": "271:9:102",
+                  "nameLocation": "271:9:106",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49200,
-                  "src": "263:17:102",
+                  "scope": 49743,
+                  "src": "263:17:106",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2312,10 +1907,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 49194,
+                    "id": 49737,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "263:7:102",
+                    "src": "263:7:106",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2325,13 +1920,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 49197,
+                  "id": 49740,
                   "mutability": "mutable",
                   "name": "data",
-                  "nameLocation": "290:4:102",
+                  "nameLocation": "290:4:106",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49200,
-                  "src": "282:12:102",
+                  "scope": 49743,
+                  "src": "282:12:106",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2339,10 +1934,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 49196,
+                    "id": 49739,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "282:7:102",
+                    "src": "282:7:106",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2351,49 +1946,49 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "262:33:102"
+              "src": "262:33:106"
             },
             "returnParameters": {
-              "id": 49199,
+              "id": 49742,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "304:0:102"
+              "src": "304:0:106"
             },
-            "scope": 49219,
+            "scope": 49762,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 49209,
+            "id": 49752,
             "nodeType": "FunctionDefinition",
-            "src": "311:76:102",
+            "src": "311:76:106",
             "nodes": [],
             "functionSelector": "1c580ad5",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "liquidationConfig",
-            "nameLocation": "320:17:102",
+            "nameLocation": "320:17:106",
             "parameters": {
-              "id": 49201,
+              "id": 49744,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "337:2:102"
+              "src": "337:2:106"
             },
             "returnParameters": {
-              "id": 49208,
+              "id": 49751,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49203,
+                  "id": 49746,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49209,
-                  "src": "363:6:102",
+                  "scope": 49752,
+                  "src": "363:6:106",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2401,10 +1996,10 @@
                     "typeString": "uint64"
                   },
                   "typeName": {
-                    "id": 49202,
+                    "id": 49745,
                     "name": "uint64",
                     "nodeType": "ElementaryTypeName",
-                    "src": "363:6:102",
+                    "src": "363:6:106",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint64",
                       "typeString": "uint64"
@@ -2414,13 +2009,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 49205,
+                  "id": 49748,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49209,
-                  "src": "371:6:102",
+                  "scope": 49752,
+                  "src": "371:6:106",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2428,10 +2023,10 @@
                     "typeString": "uint64"
                   },
                   "typeName": {
-                    "id": 49204,
+                    "id": 49747,
                     "name": "uint64",
                     "nodeType": "ElementaryTypeName",
-                    "src": "371:6:102",
+                    "src": "371:6:106",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint64",
                       "typeString": "uint64"
@@ -2441,13 +2036,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 49207,
+                  "id": 49750,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49209,
-                  "src": "379:6:102",
+                  "scope": 49752,
+                  "src": "379:6:106",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2455,10 +2050,10 @@
                     "typeString": "uint64"
                   },
                   "typeName": {
-                    "id": 49206,
+                    "id": 49749,
                     "name": "uint64",
                     "nodeType": "ElementaryTypeName",
-                    "src": "379:6:102",
+                    "src": "379:6:106",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint64",
                       "typeString": "uint64"
@@ -2467,37 +2062,37 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "362:24:102"
+              "src": "362:24:106"
             },
-            "scope": 49219,
+            "scope": 49762,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 49218,
+            "id": 49761,
             "nodeType": "FunctionDefinition",
-            "src": "393:95:102",
+            "src": "393:95:106",
             "nodes": [],
             "functionSelector": "df10f687",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "liquidatePositions",
-            "nameLocation": "402:18:102",
+            "nameLocation": "402:18:106",
             "parameters": {
-              "id": 49216,
+              "id": 49759,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49212,
+                  "id": 49755,
                   "mutability": "mutable",
                   "name": "owners",
-                  "nameLocation": "440:6:102",
+                  "nameLocation": "440:6:106",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49218,
-                  "src": "421:25:102",
+                  "scope": 49761,
+                  "src": "421:25:106",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -2506,19 +2101,19 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 49210,
+                      "id": 49753,
                       "name": "address",
                       "nodeType": "ElementaryTypeName",
-                      "src": "421:7:102",
+                      "src": "421:7:106",
                       "stateMutability": "nonpayable",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "id": 49211,
+                    "id": 49754,
                     "nodeType": "ArrayTypeName",
-                    "src": "421:9:102",
+                    "src": "421:9:106",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
                       "typeString": "address[]"
@@ -2528,13 +2123,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 49215,
+                  "id": 49758,
                   "mutability": "mutable",
                   "name": "repayAmounts",
-                  "nameLocation": "465:12:102",
+                  "nameLocation": "465:12:106",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49218,
-                  "src": "448:29:102",
+                  "scope": 49761,
+                  "src": "448:29:106",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -2543,18 +2138,18 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 49213,
+                      "id": 49756,
                       "name": "uint256",
                       "nodeType": "ElementaryTypeName",
-                      "src": "448:7:102",
+                      "src": "448:7:106",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "id": 49214,
+                    "id": 49757,
                     "nodeType": "ArrayTypeName",
-                    "src": "448:9:102",
+                    "src": "448:9:106",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                       "typeString": "uint256[]"
@@ -2563,15 +2158,15 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "420:58:102"
+              "src": "420:58:106"
             },
             "returnParameters": {
-              "id": 49217,
+              "id": 49760,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "487:0:102"
+              "src": "487:0:106"
             },
-            "scope": 49219,
+            "scope": 49762,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -2581,44 +2176,44 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 49192,
+              "id": 49735,
               "name": "ICDPVaultBase",
               "nameLocations": [
-                "220:13:102"
+                "220:13:106"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 48987,
-              "src": "220:13:102"
+              "referencedDeclaration": 49438,
+              "src": "220:13:106"
             },
-            "id": 49193,
+            "id": 49736,
             "nodeType": "InheritanceSpecifier",
-            "src": "220:13:102"
+            "src": "220:13:106"
           }
         ],
         "canonicalName": "ICDPVault_TypeA",
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 49191,
+          "id": 49734,
           "nodeType": "StructuredDocumentation",
-          "src": "119:72:102",
+          "src": "119:72:106",
           "text": "@title ICDPVault_TypeA\n @notice Interface for the CDPVault_TypeA"
         },
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          49219,
-          48987,
-          49672,
-          49644,
+          49762,
+          49438,
+          50279,
+          50251,
           32428
         ],
         "name": "ICDPVault_TypeA",
-        "nameLocation": "201:15:102",
-        "scope": 49220,
+        "nameLocation": "201:15:106",
+        "scope": 49763,
         "usedErrors": []
       }
     ],
     "license": "GPL-2.0-or-later"
   },
-  "id": 102
+  "id": 106
 }

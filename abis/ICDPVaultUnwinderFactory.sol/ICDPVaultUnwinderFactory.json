@@ -3,7 +3,7 @@
     {
       "inputs": [
         {
-          "internalType": "contract ICDPVault",
+          "internalType": "contract ICDPVault_TypeB",
           "name": "vault",
           "type": "address"
         }
@@ -33,7 +33,7 @@
   "methodIdentifiers": {
     "deployVaultUnwinder(address)": "7cce53ea"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract ICDPVault\",\"name\":\"vault\",\"type\":\"address\"}],\"name\":\"deployVaultUnwinder\",\"outputs\":[{\"internalType\":\"contract ICDPVaultUnwinder\",\"name\":\"unwinder\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/ICDPVaultUnwinderFactory.sol\":\"ICDPVaultUnwinderFactory\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":@prb/test/=lib/prb-proxy/lib/prb-test/src/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/\"]},\"sources\":{\"lib/openzeppelin-contracts/contracts/access/IAccessControl.sol\":{\"keccak256\":\"0x59ce320a585d7e1f163cd70390a0ef2ff9cec832e2aa544293a00692465a7a57\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bb2c137c343ef0c4c7ce7b18c1d108afdc9d315a04e48307288d2d05adcbde3a\",\"dweb:/ipfs/QmUxhrAQM3MM3FF5j7AtcXLXguWCJBHJ14BRdVtuoQc8Fh\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x00c839ff53d07d19db2e7cfa1e5133f9ee90a8d64b0e2e57f50446a2d1a3a0e0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3dac621d015a68a5251b1e5d41dda0faf252699bf6e8bcf46a958b29964d9dd1\",\"dweb:/ipfs/QmP9axjgZv4cezAhALoTemM62sdLtMDJ9MGTxECnNwHgSJ\"]},\"src/interfaces/IBuffer.sol\":{\"keccak256\":\"0xca68bc0b0ad51d45574138eaab1d2597f95bae6b925206e4640dba7e8a7a766f\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://f18316a82aecd4fbd85b697c4a6f447025ccea9648353d5d5f71c0adbfeffeff\",\"dweb:/ipfs/Qmf5TvffBBLh6w4phbNknX7zwBrDHY4VUQqoKTexSHKpyY\"]},\"src/interfaces/ICDM.sol\":{\"keccak256\":\"0x5a501346e83a397a842bc6a74de7c717df5adc9885efec3cc5493119808d67a9\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://94ead2b55fb26eb76ce383d3983e289ab41065446796a66780c8b4ae8162e973\",\"dweb:/ipfs/QmZwRkzXKppqnaUoUkzMxMT9D1c2JDy8ttNjYjQ1eYAD63\"]},\"src/interfaces/ICDPVault.sol\":{\"keccak256\":\"0x7ce3b81164802c14566697092c69fb355d9c31ab846dfc8d90edd5d6a6eb68e3\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://343c84ea42c9846dc3907a6ca2d4c55df6e0cbaea7a83ed2c7458174560a86d6\",\"dweb:/ipfs/QmWcAoAFQYL7YzeFnd5t4HMHxEZHiFirsNHJGL7FoBCkF6\"]},\"src/interfaces/ICDPVaultUnwinder.sol\":{\"keccak256\":\"0xee2dea30abed58162d42d07743d3f8ff7dd8252209aea03da1ab5a607314aa44\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://50320d8556dbddffdade0864a979d54d0e151aa8e4b16e9c52b063f12f74960b\",\"dweb:/ipfs/QmWoTMziinsen1xvNrFeMvs4JFhnmRe7KwQPfqM8gvwQEo\"]},\"src/interfaces/ICDPVaultUnwinderFactory.sol\":{\"keccak256\":\"0x9337fb28737168458569f20ebaefe622225142f9f832b1ddb7b6554eb254cf84\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://baa96f469395cd1237b1e5b1e09d49b074cb7d5aeaae567cb0d671c47dfdc49b\",\"dweb:/ipfs/QmUS6y2epYZXNByM8QJcShPHoSLcHzowN6aemr9xskyrRp\"]},\"src/interfaces/IInterestRateModel.sol\":{\"keccak256\":\"0x5f94dae8fa9cd5fdedf8f2a889518070379acb5edaf0b2462cea8ae26fd65055\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://cf9b13a14ef5668a3907434e656a514d6f62ff1da38db17ae0a513a1e93c6599\",\"dweb:/ipfs/QmZ6ZuBnJWGpJVgQmJ124GbQsZL1oj6BctW8QZMthYwFKA\"]},\"src/interfaces/IOracle.sol\":{\"keccak256\":\"0x9269d961b833e8efa72ba58b324fcae69d7d6200034aab32f16c8a6ea45fd417\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://fa1ab8fd4ba70144d9bc48e61cdb5f85cc250760a3c4850369b328c98a6d73da\",\"dweb:/ipfs/QmQqBe67B94u3vwLZBM4DBYgK5piBKXaYEaiAkRM81wGFF\"]},\"src/interfaces/IPause.sol\":{\"keccak256\":\"0xc14fe3637170b61ac24b0a87174f8cb0bfdafb48985c038e0e9c893ced15dc4d\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://8afd830df77edefb6b9817c08639661750f10d79a5f317c41dd720499feb43ec\",\"dweb:/ipfs/QmPBCyJgodRXqQ5XGAoRggDRg5XCfDMX9i32SRo34qTbix\"]},\"src/interfaces/IPermission.sol\":{\"keccak256\":\"0xd9cf3a29c16e192f2f265396870cb93cf91c91bbe62cb9a1ed343c32b4052f48\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://48e25c7560455ffda43cbfb37ee47ed4da9c6bd38e46bcfd5fe4e982d5c34eaf\",\"dweb:/ipfs/Qmco16L9EdpXGFJXn7mdgkCpKErYRB4HFUzYB5m5yUnZcz\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract ICDPVault_TypeB\",\"name\":\"vault\",\"type\":\"address\"}],\"name\":\"deployVaultUnwinder\",\"outputs\":[{\"internalType\":\"contract ICDPVaultUnwinder\",\"name\":\"unwinder\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/ICDPVaultUnwinderFactory.sol\":\"ICDPVaultUnwinderFactory\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":@prb/test/=lib/prb-proxy/lib/prb-test/src/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/\",\":forge-std/=lib/forge-std/src/\",\":hardhat-deploy/=node_modules/hardhat-deploy/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":permit2/=lib/permit2/src/\",\":prb-proxy/=lib/prb-proxy/src/\",\":prb-test/=lib/prb-proxy/lib/prb-test/src/\",\":solmate/=lib/permit2/lib/solmate/\"]},\"sources\":{\"lib/openzeppelin-contracts/contracts/access/IAccessControl.sol\":{\"keccak256\":\"0x59ce320a585d7e1f163cd70390a0ef2ff9cec832e2aa544293a00692465a7a57\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bb2c137c343ef0c4c7ce7b18c1d108afdc9d315a04e48307288d2d05adcbde3a\",\"dweb:/ipfs/QmUxhrAQM3MM3FF5j7AtcXLXguWCJBHJ14BRdVtuoQc8Fh\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x00c839ff53d07d19db2e7cfa1e5133f9ee90a8d64b0e2e57f50446a2d1a3a0e0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3dac621d015a68a5251b1e5d41dda0faf252699bf6e8bcf46a958b29964d9dd1\",\"dweb:/ipfs/QmP9axjgZv4cezAhALoTemM62sdLtMDJ9MGTxECnNwHgSJ\"]},\"src/interfaces/IBuffer.sol\":{\"keccak256\":\"0xca68bc0b0ad51d45574138eaab1d2597f95bae6b925206e4640dba7e8a7a766f\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://f18316a82aecd4fbd85b697c4a6f447025ccea9648353d5d5f71c0adbfeffeff\",\"dweb:/ipfs/Qmf5TvffBBLh6w4phbNknX7zwBrDHY4VUQqoKTexSHKpyY\"]},\"src/interfaces/ICDM.sol\":{\"keccak256\":\"0x5a501346e83a397a842bc6a74de7c717df5adc9885efec3cc5493119808d67a9\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://94ead2b55fb26eb76ce383d3983e289ab41065446796a66780c8b4ae8162e973\",\"dweb:/ipfs/QmZwRkzXKppqnaUoUkzMxMT9D1c2JDy8ttNjYjQ1eYAD63\"]},\"src/interfaces/ICDPVault.sol\":{\"keccak256\":\"0x5de8dfcabf0b00266443fc6c1b57a76c36b3c064380445095967d3695abf646d\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://34978ad2c84abcfe46aa6b20532d24cd1e9260782ea520b4b2ae3b87dcd8502f\",\"dweb:/ipfs/QmXPPQYYPApEgumbwuJr5391X3eSiv6hyQuR3UEMH9oUpE\"]},\"src/interfaces/ICDPVaultUnwinder.sol\":{\"keccak256\":\"0x85f550b4a6c9b87a5cd7c0b01deead7f328ef68f2d2b0fc67c7c1b00a922d085\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://3f7007f6374a9b880fa7d5016486c7ae0219933223152179b0a9666ea0d49bdc\",\"dweb:/ipfs/Qmbic5bjGCdgW4Tqow5smqNQsCcyARHH5h3kZQ1tbHbBZV\"]},\"src/interfaces/ICDPVaultUnwinderFactory.sol\":{\"keccak256\":\"0x1c2493eac9da5b153959a126ae801a3e7aa92074d650ffa1f0868e289f5a4299\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://1ddb405593568d4e08305974d7e69b873863d1813cac548481157fd65d0e21bc\",\"dweb:/ipfs/QmRKCPYgb2H5ZhH2i5N5v2sefUFaP5MWXekf865ayrfgWY\"]},\"src/interfaces/ICDPVault_TypeA.sol\":{\"keccak256\":\"0x67e73a065253428bf75f8541da4b1530e4bae6c57ffb17520aba4a48aa132b5b\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://94911a895e5a455a2eb23eea973a36c847f27dd1a3ee7a34470bc226751f0aa6\",\"dweb:/ipfs/Qmcv7WBZnEnm6zjYBGZFikYeyjnMyPb65XEA8cBUkXZ9BR\"]},\"src/interfaces/ICDPVault_TypeB.sol\":{\"keccak256\":\"0x44779558536965863533f5fbee70d5bd9a390173d4334ab6f306dcd2e7cbdec4\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://359ff7f4beaa08802ea728f5402857ccd59d172784b858685412f13b29380c06\",\"dweb:/ipfs/QmRxcsYSQyA533Ba4FjqYChTyRwkQfrmndFhqUmAJPFRyY\"]},\"src/interfaces/IInterestRateModel.sol\":{\"keccak256\":\"0x5f94dae8fa9cd5fdedf8f2a889518070379acb5edaf0b2462cea8ae26fd65055\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://cf9b13a14ef5668a3907434e656a514d6f62ff1da38db17ae0a513a1e93c6599\",\"dweb:/ipfs/QmZ6ZuBnJWGpJVgQmJ124GbQsZL1oj6BctW8QZMthYwFKA\"]},\"src/interfaces/IOracle.sol\":{\"keccak256\":\"0x9269d961b833e8efa72ba58b324fcae69d7d6200034aab32f16c8a6ea45fd417\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://fa1ab8fd4ba70144d9bc48e61cdb5f85cc250760a3c4850369b328c98a6d73da\",\"dweb:/ipfs/QmQqBe67B94u3vwLZBM4DBYgK5piBKXaYEaiAkRM81wGFF\"]},\"src/interfaces/IPause.sol\":{\"keccak256\":\"0xc14fe3637170b61ac24b0a87174f8cb0bfdafb48985c038e0e9c893ced15dc4d\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://8afd830df77edefb6b9817c08639661750f10d79a5f317c41dd720499feb43ec\",\"dweb:/ipfs/QmPBCyJgodRXqQ5XGAoRggDRg5XCfDMX9i32SRo34qTbix\"]},\"src/interfaces/IPermission.sol\":{\"keccak256\":\"0xd9cf3a29c16e192f2f265396870cb93cf91c91bbe62cb9a1ed343c32b4052f48\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://48e25c7560455ffda43cbfb37ee47ed4da9c6bd38e46bcfd5fe4e982d5c34eaf\",\"dweb:/ipfs/Qmco16L9EdpXGFJXn7mdgkCpKErYRB4HFUzYB5m5yUnZcz\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.19+commit.7dd6d404"
@@ -44,7 +44,7 @@
         {
           "inputs": [
             {
-              "internalType": "contract ICDPVault",
+              "internalType": "contract ICDPVault_TypeB",
               "name": "vault",
               "type": "address"
             }
@@ -137,26 +137,42 @@
         "license": "GPL-2.0-or-later"
       },
       "src/interfaces/ICDPVault.sol": {
-        "keccak256": "0x7ce3b81164802c14566697092c69fb355d9c31ab846dfc8d90edd5d6a6eb68e3",
+        "keccak256": "0x5de8dfcabf0b00266443fc6c1b57a76c36b3c064380445095967d3695abf646d",
         "urls": [
-          "bzz-raw://343c84ea42c9846dc3907a6ca2d4c55df6e0cbaea7a83ed2c7458174560a86d6",
-          "dweb:/ipfs/QmWcAoAFQYL7YzeFnd5t4HMHxEZHiFirsNHJGL7FoBCkF6"
+          "bzz-raw://34978ad2c84abcfe46aa6b20532d24cd1e9260782ea520b4b2ae3b87dcd8502f",
+          "dweb:/ipfs/QmXPPQYYPApEgumbwuJr5391X3eSiv6hyQuR3UEMH9oUpE"
         ],
         "license": "GPL-2.0-or-later"
       },
       "src/interfaces/ICDPVaultUnwinder.sol": {
-        "keccak256": "0xee2dea30abed58162d42d07743d3f8ff7dd8252209aea03da1ab5a607314aa44",
+        "keccak256": "0x85f550b4a6c9b87a5cd7c0b01deead7f328ef68f2d2b0fc67c7c1b00a922d085",
         "urls": [
-          "bzz-raw://50320d8556dbddffdade0864a979d54d0e151aa8e4b16e9c52b063f12f74960b",
-          "dweb:/ipfs/QmWoTMziinsen1xvNrFeMvs4JFhnmRe7KwQPfqM8gvwQEo"
+          "bzz-raw://3f7007f6374a9b880fa7d5016486c7ae0219933223152179b0a9666ea0d49bdc",
+          "dweb:/ipfs/Qmbic5bjGCdgW4Tqow5smqNQsCcyARHH5h3kZQ1tbHbBZV"
         ],
         "license": "GPL-2.0-or-later"
       },
       "src/interfaces/ICDPVaultUnwinderFactory.sol": {
-        "keccak256": "0x9337fb28737168458569f20ebaefe622225142f9f832b1ddb7b6554eb254cf84",
+        "keccak256": "0x1c2493eac9da5b153959a126ae801a3e7aa92074d650ffa1f0868e289f5a4299",
         "urls": [
-          "bzz-raw://baa96f469395cd1237b1e5b1e09d49b074cb7d5aeaae567cb0d671c47dfdc49b",
-          "dweb:/ipfs/QmUS6y2epYZXNByM8QJcShPHoSLcHzowN6aemr9xskyrRp"
+          "bzz-raw://1ddb405593568d4e08305974d7e69b873863d1813cac548481157fd65d0e21bc",
+          "dweb:/ipfs/QmRKCPYgb2H5ZhH2i5N5v2sefUFaP5MWXekf865ayrfgWY"
+        ],
+        "license": "GPL-2.0-or-later"
+      },
+      "src/interfaces/ICDPVault_TypeA.sol": {
+        "keccak256": "0x67e73a065253428bf75f8541da4b1530e4bae6c57ffb17520aba4a48aa132b5b",
+        "urls": [
+          "bzz-raw://94911a895e5a455a2eb23eea973a36c847f27dd1a3ee7a34470bc226751f0aa6",
+          "dweb:/ipfs/Qmcv7WBZnEnm6zjYBGZFikYeyjnMyPb65XEA8cBUkXZ9BR"
+        ],
+        "license": "GPL-2.0-or-later"
+      },
+      "src/interfaces/ICDPVault_TypeB.sol": {
+        "keccak256": "0x44779558536965863533f5fbee70d5bd9a390173d4334ab6f306dcd2e7cbdec4",
+        "urls": [
+          "bzz-raw://359ff7f4beaa08802ea728f5402857ccd59d172784b858685412f13b29380c06",
+          "dweb:/ipfs/QmRxcsYSQyA533Ba4FjqYChTyRwkQfrmndFhqUmAJPFRyY"
         ],
         "license": "GPL-2.0-or-later"
       },
@@ -197,25 +213,25 @@
   },
   "ast": {
     "absolutePath": "src/interfaces/ICDPVaultUnwinderFactory.sol",
-    "id": 49187,
+    "id": 49638,
     "exportedSymbols": {
-      "ICDPVault": [
-        48998
-      ],
       "ICDPVaultUnwinder": [
-        49170
+        49621
       ],
       "ICDPVaultUnwinderFactory": [
-        49186
+        49637
+      ],
+      "ICDPVault_TypeB": [
+        49903
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "45:265:101",
+    "src": "45:283:103",
     "nodes": [
       {
-        "id": 49172,
+        "id": 49623,
         "nodeType": "PragmaDirective",
-        "src": "45:24:101",
+        "src": "45:24:103",
         "nodes": [],
         "literals": [
           "solidity",
@@ -225,24 +241,24 @@
         ]
       },
       {
-        "id": 49174,
+        "id": 49625,
         "nodeType": "ImportDirective",
-        "src": "71:42:101",
+        "src": "71:54:103",
         "nodes": [],
-        "absolutePath": "src/interfaces/ICDPVault.sol",
-        "file": "./ICDPVault.sol",
+        "absolutePath": "src/interfaces/ICDPVault_TypeB.sol",
+        "file": "./ICDPVault_TypeB.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 49187,
-        "sourceUnit": 48999,
+        "scope": 49638,
+        "sourceUnit": 49904,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 49173,
-              "name": "ICDPVault",
+              "id": 49624,
+              "name": "ICDPVault_TypeB",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 48998,
-              "src": "79:9:101",
+              "referencedDeclaration": 49903,
+              "src": "79:15:103",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -251,24 +267,24 @@
         "unitAlias": ""
       },
       {
-        "id": 49176,
+        "id": 49627,
         "nodeType": "ImportDirective",
-        "src": "114:58:101",
+        "src": "126:58:103",
         "nodes": [],
         "absolutePath": "src/interfaces/ICDPVaultUnwinder.sol",
         "file": "./ICDPVaultUnwinder.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 49187,
-        "sourceUnit": 49171,
+        "scope": 49638,
+        "sourceUnit": 49622,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 49175,
+              "id": 49626,
               "name": "ICDPVaultUnwinder",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 49170,
-              "src": "122:17:101",
+              "referencedDeclaration": 49621,
+              "src": "134:17:103",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -277,110 +293,110 @@
         "unitAlias": ""
       },
       {
-        "id": 49186,
+        "id": 49637,
         "nodeType": "ContractDefinition",
-        "src": "174:136:101",
+        "src": "186:142:103",
         "nodes": [
           {
-            "id": 49185,
+            "id": 49636,
             "nodeType": "FunctionDefinition",
-            "src": "216:92:101",
+            "src": "228:98:103",
             "nodes": [],
             "functionSelector": "7cce53ea",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "deployVaultUnwinder",
-            "nameLocation": "225:19:101",
+            "nameLocation": "237:19:103",
             "parameters": {
-              "id": 49180,
+              "id": 49631,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49179,
+                  "id": 49630,
                   "mutability": "mutable",
                   "name": "vault",
-                  "nameLocation": "255:5:101",
+                  "nameLocation": "273:5:103",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49185,
-                  "src": "245:15:101",
+                  "scope": 49636,
+                  "src": "257:21:103",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ICDPVault_$48998",
-                    "typeString": "contract ICDPVault"
+                    "typeIdentifier": "t_contract$_ICDPVault_TypeB_$49903",
+                    "typeString": "contract ICDPVault_TypeB"
                   },
                   "typeName": {
-                    "id": 49178,
+                    "id": 49629,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 49177,
-                      "name": "ICDPVault",
+                      "id": 49628,
+                      "name": "ICDPVault_TypeB",
                       "nameLocations": [
-                        "245:9:101"
+                        "257:15:103"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 48998,
-                      "src": "245:9:101"
+                      "referencedDeclaration": 49903,
+                      "src": "257:15:103"
                     },
-                    "referencedDeclaration": 48998,
-                    "src": "245:9:101",
+                    "referencedDeclaration": 49903,
+                    "src": "257:15:103",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDPVault_$48998",
-                      "typeString": "contract ICDPVault"
+                      "typeIdentifier": "t_contract$_ICDPVault_TypeB_$49903",
+                      "typeString": "contract ICDPVault_TypeB"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "244:17:101"
+              "src": "256:23:103"
             },
             "returnParameters": {
-              "id": 49184,
+              "id": 49635,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49183,
+                  "id": 49634,
                   "mutability": "mutable",
                   "name": "unwinder",
-                  "nameLocation": "298:8:101",
+                  "nameLocation": "316:8:103",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49185,
-                  "src": "280:26:101",
+                  "scope": 49636,
+                  "src": "298:26:103",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
+                    "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49621",
                     "typeString": "contract ICDPVaultUnwinder"
                   },
                   "typeName": {
-                    "id": 49182,
+                    "id": 49633,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 49181,
+                      "id": 49632,
                       "name": "ICDPVaultUnwinder",
                       "nameLocations": [
-                        "280:17:101"
+                        "298:17:103"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 49170,
-                      "src": "280:17:101"
+                      "referencedDeclaration": 49621,
+                      "src": "298:17:103"
                     },
-                    "referencedDeclaration": 49170,
-                    "src": "280:17:101",
+                    "referencedDeclaration": 49621,
+                    "src": "298:17:103",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49170",
+                      "typeIdentifier": "t_contract$_ICDPVaultUnwinder_$49621",
                       "typeString": "contract ICDPVaultUnwinder"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "279:28:101"
+              "src": "297:28:103"
             },
-            "scope": 49186,
+            "scope": 49637,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -393,15 +409,15 @@
         "contractKind": "interface",
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          49186
+          49637
         ],
         "name": "ICDPVaultUnwinderFactory",
-        "nameLocation": "184:24:101",
-        "scope": 49187,
+        "nameLocation": "196:24:103",
+        "scope": 49638,
         "usedErrors": []
       }
     ],
     "license": "GPL-2.0-or-later"
   },
-  "id": 101
+  "id": 103
 }

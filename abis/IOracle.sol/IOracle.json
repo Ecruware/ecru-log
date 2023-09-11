@@ -156,19 +156,19 @@
   },
   "ast": {
     "absolutePath": "src/interfaces/IOracle.sol",
-    "id": 49631,
+    "id": 50238,
     "exportedSymbols": {
       "IOracle": [
-        49630
+        50237
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "45:177:108",
+    "src": "45:177:113",
     "nodes": [
       {
-        "id": 49615,
+        "id": 50222,
         "nodeType": "PragmaDirective",
-        "src": "45:24:108",
+        "src": "45:24:113",
         "nodes": [],
         "literals": [
           "solidity",
@@ -178,34 +178,34 @@
         ]
       },
       {
-        "id": 49630,
+        "id": 50237,
         "nodeType": "ContractDefinition",
-        "src": "71:150:108",
+        "src": "71:150:113",
         "nodes": [
           {
-            "id": 49622,
+            "id": 50229,
             "nodeType": "FunctionDefinition",
-            "src": "95:56:108",
+            "src": "95:56:113",
             "nodes": [],
             "functionSelector": "2cbf04c1",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "spot",
-            "nameLocation": "104:4:108",
+            "nameLocation": "104:4:113",
             "parameters": {
-              "id": 49618,
+              "id": 50225,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49617,
+                  "id": 50224,
                   "mutability": "mutable",
                   "name": "token",
-                  "nameLocation": "117:5:108",
+                  "nameLocation": "117:5:113",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49622,
-                  "src": "109:13:108",
+                  "scope": 50229,
+                  "src": "109:13:113",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -213,10 +213,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 49616,
+                    "id": 50223,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "109:7:108",
+                    "src": "109:7:113",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -226,21 +226,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "108:15:108"
+              "src": "108:15:113"
             },
             "returnParameters": {
-              "id": 49621,
+              "id": 50228,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49620,
+                  "id": 50227,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49622,
-                  "src": "142:7:108",
+                  "scope": 50229,
+                  "src": "142:7:113",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -248,10 +248,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 49619,
+                    "id": 50226,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "142:7:108",
+                    "src": "142:7:113",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -260,37 +260,37 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "141:9:108"
+              "src": "141:9:113"
             },
-            "scope": 49630,
+            "scope": 50237,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 49629,
+            "id": 50236,
             "nodeType": "FunctionDefinition",
-            "src": "156:63:108",
+            "src": "156:63:113",
             "nodes": [],
             "functionSelector": "30ccebb5",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getStatus",
-            "nameLocation": "165:9:108",
+            "nameLocation": "165:9:113",
             "parameters": {
-              "id": 49625,
+              "id": 50232,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49624,
+                  "id": 50231,
                   "mutability": "mutable",
                   "name": "token",
-                  "nameLocation": "183:5:108",
+                  "nameLocation": "183:5:113",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49629,
-                  "src": "175:13:108",
+                  "scope": 50236,
+                  "src": "175:13:113",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -298,10 +298,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 49623,
+                    "id": 50230,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "175:7:108",
+                    "src": "175:7:113",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -311,21 +311,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "174:15:108"
+              "src": "174:15:113"
             },
             "returnParameters": {
-              "id": 49628,
+              "id": 50235,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 49627,
+                  "id": 50234,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 49629,
-                  "src": "213:4:108",
+                  "scope": 50236,
+                  "src": "213:4:113",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -333,10 +333,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 49626,
+                    "id": 50233,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "213:4:108",
+                    "src": "213:4:113",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -345,9 +345,9 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "212:6:108"
+              "src": "212:6:113"
             },
-            "scope": 49630,
+            "scope": 50237,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -360,15 +360,15 @@
         "contractKind": "interface",
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          49630
+          50237
         ],
         "name": "IOracle",
-        "nameLocation": "81:7:108",
-        "scope": 49631,
+        "nameLocation": "81:7:113",
+        "scope": 50238,
         "usedErrors": []
       }
     ],
     "license": "GPL-2.0-or-later"
   },
-  "id": 108
+  "id": 113
 }

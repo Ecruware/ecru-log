@@ -105,19 +105,19 @@
   },
   "ast": {
     "absolutePath": "src/vendor/ICurvePool.sol",
-    "id": 131892,
+    "id": 129766,
     "exportedSymbols": {
       "ICurvePool": [
-        131891
+        129765
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:183:176",
+    "src": "32:183:183",
     "nodes": [
       {
-        "id": 131884,
+        "id": 129758,
         "nodeType": "PragmaDirective",
-        "src": "32:24:176",
+        "src": "32:24:183",
         "nodes": [],
         "literals": [
           "solidity",
@@ -127,40 +127,40 @@
         ]
       },
       {
-        "id": 131891,
+        "id": 129765,
         "nodeType": "ContractDefinition",
-        "src": "124:90:176",
+        "src": "124:90:183",
         "nodes": [
           {
-            "id": 131890,
+            "id": 129764,
             "nodeType": "FunctionDefinition",
-            "src": "151:61:176",
+            "src": "151:61:183",
             "nodes": [],
             "functionSelector": "bb7b8b80",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "get_virtual_price",
-            "nameLocation": "160:17:176",
+            "nameLocation": "160:17:183",
             "parameters": {
-              "id": 131886,
+              "id": 129760,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "177:2:176"
+              "src": "177:2:183"
             },
             "returnParameters": {
-              "id": 131889,
+              "id": 129763,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 131888,
+                  "id": 129762,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 131890,
-                  "src": "203:7:176",
+                  "scope": 129764,
+                  "src": "203:7:183",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -168,10 +168,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 131887,
+                    "id": 129761,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "203:7:176",
+                    "src": "203:7:183",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -180,9 +180,9 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "202:9:176"
+              "src": "202:9:183"
             },
-            "scope": 131891,
+            "scope": 129765,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -194,22 +194,22 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 131885,
+          "id": 129759,
           "nodeType": "StructuredDocumentation",
-          "src": "58:66:176",
+          "src": "58:66:183",
           "text": "@notice Lightweight interface used to interrogate Curve pools"
         },
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          131891
+          129765
         ],
         "name": "ICurvePool",
-        "nameLocation": "134:10:176",
-        "scope": 131892,
+        "nameLocation": "134:10:183",
+        "scope": 129766,
         "usedErrors": []
       }
     ],
     "license": "MIT"
   },
-  "id": 176
+  "id": 183
 }
