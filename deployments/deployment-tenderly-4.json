@@ -66,7 +66,7 @@
       ]
     },
     "JoinAction": {
-      "address": "0xA5c19752E27ee3E4D34393A71Dc94788cD17eA04",
+      "address": "0x86acca20c8a5D93A488391C9782d307ec0Ac19Ed",
       "artifactName": "JoinAction",
       "constructorArguments": [
         "0xBA12222222228d8Ba445958a75a0704d566BF2C8"
@@ -78,30 +78,30 @@
       "constructorArguments": []
     },
     "PositionAction20": {
-      "address": "0xbc358D009881F56e46bf963C2E5a99D945CdF68b",
+      "address": "0x59cB9E2d54fe31de2516F850d65a08D1260EB8DE",
       "artifactName": "PositionAction20",
       "constructorArguments": [
         "0x98456a080324220A9013F73f52402999D06747c6",
         "0x13064ED924F06fd8Ff4882b39350981c032092e7",
-        "0xA5c19752E27ee3E4D34393A71Dc94788cD17eA04"
+        "0x86acca20c8a5D93A488391C9782d307ec0Ac19Ed"
       ]
     },
     "PositionActionYV": {
-      "address": "0xab51d2dA554AA0762843933e0Fa5c4b16d2F57Db",
+      "address": "0x9F855653A51AD0d8cBc87C02ef80dDA96762C6b9",
       "artifactName": "PositionActionYV",
       "constructorArguments": [
         "0x98456a080324220A9013F73f52402999D06747c6",
         "0x13064ED924F06fd8Ff4882b39350981c032092e7",
-        "0xA5c19752E27ee3E4D34393A71Dc94788cD17eA04"
+        "0x86acca20c8a5D93A488391C9782d307ec0Ac19Ed"
       ]
     },
     "PositionAction4626": {
-      "address": "0x782140DDE2cC3BD38A1ce030f00bdD05560fbF81",
+      "address": "0xa95409E10B45A15c822081d1fB46E7fe33d44Fa7",
       "artifactName": "PositionAction4626",
       "constructorArguments": [
         "0x98456a080324220A9013F73f52402999D06747c6",
         "0x13064ED924F06fd8Ff4882b39350981c032092e7",
-        "0xA5c19752E27ee3E4D34393A71Dc94788cD17eA04"
+        "0x86acca20c8a5D93A488391C9782d307ec0Ac19Ed"
       ]
     },
     "CDPVault_TypeA_Deployer": {
