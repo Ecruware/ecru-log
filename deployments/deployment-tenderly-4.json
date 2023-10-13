@@ -57,16 +57,16 @@
       "constructorArguments": []
     },
     "SwapAction": {
-      "address": "0xA1A52e5087d3FB87196a69Fc7161fd461560f887",
+      "address": "0x0E410cE667416ECe3240c6b132e7BD45bda55d85",
       "artifactName": "SwapAction",
       "constructorArguments": [
         "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
         "0xE592427A0AEce92De3Edee1F18E0157C05861564"
       ]
     },
-    "JoinAction": {
-      "address": "0x73338292d3d4B2719f8409E0a185AaF658B73D90",
-      "artifactName": "JoinAction",
+    "PoolAction": {
+      "address": "0xf35De49788EDC4Fc739DdC60B77066E596a93aDB",
+      "artifactName": "PoolAction",
       "constructorArguments": [
         "0xBA12222222228d8Ba445958a75a0704d566BF2C8"
       ]
@@ -77,30 +77,30 @@
       "constructorArguments": []
     },
     "PositionAction20": {
-      "address": "0x2e0056F4aa3A9476A3F5570102E0C24D6B6644B5",
+      "address": "0x3Afd4f06581E05aCbf349e03D081b26B5740f534",
       "artifactName": "PositionAction20",
       "constructorArguments": [
         "0x98456a080324220A9013F73f52402999D06747c6",
-        "0xA1A52e5087d3FB87196a69Fc7161fd461560f887",
-        "0x73338292d3d4B2719f8409E0a185AaF658B73D90"
+        "0x0E410cE667416ECe3240c6b132e7BD45bda55d85",
+        "0xf35De49788EDC4Fc739DdC60B77066E596a93aDB"
       ]
     },
     "PositionActionYV": {
-      "address": "0x1473Cd66CF30b2DCf450a3004582e5ce1A32b019",
+      "address": "0x5A0D6DC9D2607E3719fb1Db495718A9699F103ee",
       "artifactName": "PositionActionYV",
       "constructorArguments": [
         "0x98456a080324220A9013F73f52402999D06747c6",
-        "0xA1A52e5087d3FB87196a69Fc7161fd461560f887",
-        "0x73338292d3d4B2719f8409E0a185AaF658B73D90"
+        "0x0E410cE667416ECe3240c6b132e7BD45bda55d85",
+        "0xf35De49788EDC4Fc739DdC60B77066E596a93aDB"
       ]
     },
     "PositionAction4626": {
-      "address": "0x45CE4CC7F1D4c5a5C1C364b4481D6b940632de31",
+      "address": "0x1cA02ea24dCC68B533ced82c275ba7AC4607AB96",
       "artifactName": "PositionAction4626",
       "constructorArguments": [
         "0x98456a080324220A9013F73f52402999D06747c6",
-        "0xA1A52e5087d3FB87196a69Fc7161fd461560f887",
-        "0x73338292d3d4B2719f8409E0a185AaF658B73D90"
+        "0x0E410cE667416ECe3240c6b132e7BD45bda55d85",
+        "0xf35De49788EDC4Fc739DdC60B77066E596a93aDB"
       ]
     },
     "CDPVault_TypeA_Deployer": {
