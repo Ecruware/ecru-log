@@ -117,19 +117,19 @@
   },
   "ast": {
     "absolutePath": "src/vendor/IYearnLensOracle.sol",
-    "id": 135127,
+    "id": 136587,
     "exportedSymbols": {
       "IYearnLensOracle": [
-        135126
+        136586
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:355:191",
+    "src": "32:355:192",
     "nodes": [
       {
-        "id": 135117,
+        "id": 136577,
         "nodeType": "PragmaDirective",
-        "src": "32:23:191",
+        "src": "32:23:192",
         "nodes": [],
         "literals": [
           "solidity",
@@ -139,34 +139,34 @@
         ]
       },
       {
-        "id": 135126,
+        "id": 136586,
         "nodeType": "ContractDefinition",
-        "src": "240:146:191",
+        "src": "240:146:192",
         "nodes": [
           {
-            "id": 135125,
+            "id": 136585,
             "nodeType": "FunctionDefinition",
-            "src": "273:111:191",
+            "src": "273:111:192",
             "nodes": [],
             "functionSelector": "482ba306",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getPriceUsdcRecommended",
-            "nameLocation": "282:23:191",
+            "nameLocation": "282:23:192",
             "parameters": {
-              "id": 135121,
+              "id": 136581,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 135120,
+                  "id": 136580,
                   "mutability": "mutable",
                   "name": "tokenAddress",
-                  "nameLocation": "314:12:191",
+                  "nameLocation": "314:12:192",
                   "nodeType": "VariableDeclaration",
-                  "scope": 135125,
-                  "src": "306:20:191",
+                  "scope": 136585,
+                  "src": "306:20:192",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -174,10 +174,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 135119,
+                    "id": 136579,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "306:7:191",
+                    "src": "306:7:192",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -187,21 +187,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "305:22:191"
+              "src": "305:22:192"
             },
             "returnParameters": {
-              "id": 135124,
+              "id": 136584,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 135123,
+                  "id": 136583,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 135125,
-                  "src": "375:7:191",
+                  "scope": 136585,
+                  "src": "375:7:192",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -209,10 +209,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 135122,
+                    "id": 136582,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "375:7:191",
+                    "src": "375:7:192",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -221,9 +221,9 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "374:9:191"
+              "src": "374:9:192"
             },
-            "scope": 135126,
+            "scope": 136586,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -235,22 +235,22 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 135118,
+          "id": 136578,
           "nodeType": "StructuredDocumentation",
-          "src": "57:183:191",
+          "src": "57:183:192",
           "text": "@notice Copied from:\n https://github.com/yearn/yearn-lens/blob/68096999c0fd369ced2527f9475afddc52459805/contracts/Oracle/Calculations/YearnVaults.sol#L55\n at commit a67d8fa"
         },
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          135126
+          136586
         ],
         "name": "IYearnLensOracle",
-        "nameLocation": "250:16:191",
-        "scope": 135127,
+        "nameLocation": "250:16:192",
+        "scope": 136587,
         "usedErrors": []
       }
     ],
     "license": "MIT"
   },
-  "id": 191
+  "id": 192
 }

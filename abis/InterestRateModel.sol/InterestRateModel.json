@@ -377,20 +377,20 @@
         48879
       ],
       "WAD": [
-        133410
+        134750
       ],
       "add": [
-        133535
+        134875
       ],
       "wdiv": [
-        133672
+        135012
       ],
       "wmul": [
-        133625,
-        133648
+        134965,
+        134988
       ],
       "wpow": [
-        133699
+        135039
       ]
     },
     "nodeType": "SourceUnit",
@@ -417,7 +417,7 @@
         "file": "./utils/Math.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 48880,
-        "sourceUnit": 133700,
+        "sourceUnit": 135040,
         "symbolAliases": [
           {
             "foreign": {
@@ -425,7 +425,7 @@
               "name": "WAD",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133410,
+              "referencedDeclaration": 134750,
               "src": "66:3:96",
               "typeDescriptions": {}
             },
@@ -437,7 +437,7 @@
               "name": "add",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133535,
+              "referencedDeclaration": 134875,
               "src": "71:3:96",
               "typeDescriptions": {}
             },
@@ -460,7 +460,7 @@
               "name": "wdiv",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133672,
+              "referencedDeclaration": 135012,
               "src": "82:4:96",
               "typeDescriptions": {}
             },
@@ -472,7 +472,7 @@
               "name": "wpow",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133699,
+              "referencedDeclaration": 135039,
               "src": "88:4:96",
               "typeDescriptions": {}
             },
@@ -1278,7 +1278,7 @@
                                 "name": "WAD",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 133410,
+                                "referencedDeclaration": 134750,
                                 "src": "3163:3:96",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -2411,7 +2411,7 @@
                                   "name": "WAD",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 133410,
+                                  "referencedDeclaration": 134750,
                                   "src": "4698:3:96",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
@@ -2999,7 +2999,7 @@
                                       "name": "WAD",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 133410,
+                                      "referencedDeclaration": 134750,
                                       "src": "5637:3:96",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_uint256",
@@ -3026,7 +3026,7 @@
                                     "name": "wpow",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 133699,
+                                    "referencedDeclaration": 135039,
                                     "src": "5570:4:96",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -3065,10 +3065,10 @@
                                 "name": "wmul",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [
-                                  133625,
-                                  133648
+                                  134965,
+                                  134988
                                 ],
-                                "referencedDeclaration": 133625,
+                                "referencedDeclaration": 134965,
                                 "src": "5505:4:96",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -3983,10 +3983,10 @@
                                   "name": "wmul",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [
-                                    133625,
-                                    133648
+                                    134965,
+                                    134988
                                   ],
-                                  "referencedDeclaration": 133625,
+                                  "referencedDeclaration": 134965,
                                   "src": "6863:4:96",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -4037,10 +4037,10 @@
                               "name": "wmul",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [
-                                133625,
-                                133648
+                                134965,
+                                134988
                               ],
-                              "referencedDeclaration": 133625,
+                              "referencedDeclaration": 134965,
                               "src": "6845:4:96",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -4359,7 +4359,7 @@
                       "name": "add",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 133535,
+                      "referencedDeclaration": 134875,
                       "src": "8207:3:96",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_int256_$returns$_t_uint256_$",
@@ -4680,10 +4680,10 @@
                                       "name": "wmul",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [
-                                        133625,
-                                        133648
+                                        134965,
+                                        134988
                                       ],
-                                      "referencedDeclaration": 133625,
+                                      "referencedDeclaration": 134965,
                                       "src": "8502:4:96",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -4770,7 +4770,7 @@
                                         "name": "add",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 133535,
+                                        "referencedDeclaration": 134875,
                                         "src": "8587:3:96",
                                         "typeDescriptions": {
                                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_int256_$returns$_t_uint256_$",
@@ -4809,10 +4809,10 @@
                                     "name": "wmul",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [
-                                      133625,
-                                      133648
+                                      134965,
+                                      134988
                                     ],
-                                    "referencedDeclaration": 133625,
+                                    "referencedDeclaration": 134965,
                                     "src": "8563:4:96",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -5032,7 +5032,7 @@
                                     "name": "wdiv",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 133672,
+                                    "referencedDeclaration": 135012,
                                     "src": "8781:4:96",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -5129,10 +5129,10 @@
                                 "name": "wmul",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [
-                                  133625,
-                                  133648
+                                  134965,
+                                  134988
                                 ],
-                                "referencedDeclaration": 133625,
+                                "referencedDeclaration": 134965,
                                 "src": "8759:4:96",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -5183,10 +5183,10 @@
                             "name": "wmul",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              133625,
-                              133648
+                              134965,
+                              134988
                             ],
-                            "referencedDeclaration": 133625,
+                            "referencedDeclaration": 134965,
                             "src": "8741:4:96",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -5702,7 +5702,7 @@
                                   "name": "WAD",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 133410,
+                                  "referencedDeclaration": 134750,
                                   "src": "9495:3:96",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
@@ -5769,7 +5769,7 @@
                                     "name": "wdiv",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 133672,
+                                    "referencedDeclaration": 135012,
                                     "src": "9501:4:96",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -5888,10 +5888,10 @@
                               "name": "wmul",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [
-                                133625,
-                                133648
+                                134965,
+                                134988
                               ],
-                              "referencedDeclaration": 133625,
+                              "referencedDeclaration": 134965,
                               "src": "9473:4:96",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -5942,10 +5942,10 @@
                           "name": "wmul",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [
-                            133625,
-                            133648
+                            134965,
+                            134988
                           ],
-                          "referencedDeclaration": 133625,
+                          "referencedDeclaration": 134965,
                           "src": "9455:4:96",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",

@@ -3391,7 +3391,7 @@
         43991
       ],
       "DoubleLinkedList": [
-        133391
+        134731
       ],
       "IBuffer": [
         49163
@@ -3415,10 +3415,10 @@
         48879
       ],
       "Pause": [
-        133762
+        135102
       ],
       "Permission": [
-        133918
+        135258
       ],
       "SafeERC20": [
         35920
@@ -3433,10 +3433,10 @@
         41481
       ],
       "WAD": [
-        133410
+        134750
       ],
       "add": [
-        133535
+        134875
       ],
       "calculateDebt": [
         41503
@@ -3454,30 +3454,30 @@
         40997
       ],
       "max": [
-        133502
+        134842
       ],
       "min": [
-        133478,
-        133490
+        134818,
+        134830
       ],
       "sub": [
-        133568
+        134908
       ],
       "toInt256": [
-        133433
+        134773
       ],
       "toUint64": [
-        133456
+        134796
       ],
       "wdiv": [
-        133672
+        135012
       ],
       "wmul": [
-        133625,
-        133648
+        134965,
+        134988
       ],
       "wmulUp": [
-        133660
+        135000
       ]
     },
     "nodeType": "SourceUnit",
@@ -3712,7 +3712,7 @@
         "file": "./utils/Math.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 43992,
-        "sourceUnit": 133700,
+        "sourceUnit": 135040,
         "symbolAliases": [
           {
             "foreign": {
@@ -3720,7 +3720,7 @@
               "name": "WAD",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133410,
+              "referencedDeclaration": 134750,
               "src": "579:3:88",
               "typeDescriptions": {}
             },
@@ -3732,7 +3732,7 @@
               "name": "toInt256",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133433,
+              "referencedDeclaration": 134773,
               "src": "584:8:88",
               "typeDescriptions": {}
             },
@@ -3744,7 +3744,7 @@
               "name": "toUint64",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133456,
+              "referencedDeclaration": 134796,
               "src": "594:8:88",
               "typeDescriptions": {}
             },
@@ -3756,7 +3756,7 @@
               "name": "max",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133502,
+              "referencedDeclaration": 134842,
               "src": "604:3:88",
               "typeDescriptions": {}
             },
@@ -3779,7 +3779,7 @@
               "name": "add",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133535,
+              "referencedDeclaration": 134875,
               "src": "614:3:88",
               "typeDescriptions": {}
             },
@@ -3791,7 +3791,7 @@
               "name": "sub",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133568,
+              "referencedDeclaration": 134908,
               "src": "619:3:88",
               "typeDescriptions": {}
             },
@@ -3814,7 +3814,7 @@
               "name": "wdiv",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133672,
+              "referencedDeclaration": 135012,
               "src": "630:4:88",
               "typeDescriptions": {}
             },
@@ -3826,7 +3826,7 @@
               "name": "wmulUp",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133660,
+              "referencedDeclaration": 135000,
               "src": "636:6:88",
               "typeDescriptions": {}
             },
@@ -3844,7 +3844,7 @@
         "file": "./utils/DoubleLinkedList.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 43992,
-        "sourceUnit": 133392,
+        "sourceUnit": 134732,
         "symbolAliases": [
           {
             "foreign": {
@@ -3852,7 +3852,7 @@
               "name": "DoubleLinkedList",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133391,
+              "referencedDeclaration": 134731,
               "src": "677:16:88",
               "typeDescriptions": {}
             },
@@ -3870,7 +3870,7 @@
         "file": "./utils/Permission.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 43992,
-        "sourceUnit": 133919,
+        "sourceUnit": 135259,
         "symbolAliases": [
           {
             "foreign": {
@@ -3878,7 +3878,7 @@
               "name": "Permission",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133918,
+              "referencedDeclaration": 135258,
               "src": "740:10:88",
               "typeDescriptions": {}
             },
@@ -3896,7 +3896,7 @@
         "file": "./utils/Pause.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 43992,
-        "sourceUnit": 133763,
+        "sourceUnit": 135103,
         "symbolAliases": [
           {
             "foreign": {
@@ -3904,7 +3904,7 @@
               "name": "Pause",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 133762,
+              "referencedDeclaration": 135102,
               "src": "791:5:88",
               "typeDescriptions": {}
             },
@@ -4316,10 +4316,10 @@
                       "name": "wmul",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        133625,
-                        133648
+                        134965,
+                        134988
                       ],
-                      "referencedDeclaration": 133625,
+                      "referencedDeclaration": 134965,
                       "src": "1611:4:88",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -4616,7 +4616,7 @@
                     "name": "wdiv",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 133672,
+                    "referencedDeclaration": 135012,
                     "src": "2097:4:88",
                     "typeDescriptions": {
                       "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -4969,7 +4969,7 @@
                 "2725:16:88"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 133391,
+              "referencedDeclaration": 134731,
               "src": "2725:16:88"
             },
             "typeName": {
@@ -4983,13 +4983,13 @@
                   "2763:4:88"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 133119,
+                "referencedDeclaration": 134459,
                 "src": "2746:21:88"
               },
-              "referencedDeclaration": 133119,
+              "referencedDeclaration": 134459,
               "src": "2746:21:88",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_List_$133119_storage_ptr",
+                "typeIdentifier": "t_struct$_List_$134459_storage_ptr",
                 "typeString": "struct DoubleLinkedList.List"
               }
             }
@@ -5864,7 +5864,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_List_$133119_storage",
+              "typeIdentifier": "t_struct$_List_$134459_storage",
               "typeString": "struct DoubleLinkedList.List"
             },
             "typeName": {
@@ -5878,13 +5878,13 @@
                   "6372:4:88"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 133119,
+                "referencedDeclaration": 134459,
                 "src": "6355:21:88"
               },
-              "referencedDeclaration": 133119,
+              "referencedDeclaration": 134459,
               "src": "6355:21:88",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_List_$133119_storage_ptr",
+                "typeIdentifier": "t_struct$_List_$134459_storage_ptr",
                 "typeString": "struct DoubleLinkedList.List"
               }
             },
@@ -5909,7 +5909,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$133119_storage_$",
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$134459_storage_$",
               "typeString": "mapping(uint256 => struct DoubleLinkedList.List)"
             },
             "typeName": {
@@ -5929,7 +5929,7 @@
               "nodeType": "Mapping",
               "src": "6528:57:88",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$133119_storage_$",
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$134459_storage_$",
                 "typeString": "mapping(uint256 => struct DoubleLinkedList.List)"
               },
               "valueName": "queue",
@@ -5945,13 +5945,13 @@
                     "6574:4:88"
                   ],
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 133119,
+                  "referencedDeclaration": 134459,
                   "src": "6557:21:88"
                 },
-                "referencedDeclaration": 133119,
+                "referencedDeclaration": 134459,
                 "src": "6557:21:88",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_List_$133119_storage_ptr",
+                  "typeIdentifier": "t_struct$_List_$134459_storage_ptr",
                   "typeString": "struct DoubleLinkedList.List"
                 }
               }
@@ -7718,7 +7718,7 @@
                           "name": "WAD",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 133410,
+                          "referencedDeclaration": 134750,
                           "src": "9689:3:88",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -8271,7 +8271,7 @@
                           "name": "wdiv",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 133672,
+                          "referencedDeclaration": 135012,
                           "src": "10398:4:88",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -9275,9 +9275,9 @@
                         "name": "_pause",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [
-                          133735
+                          135075
                         ],
-                        "referencedDeclaration": 133735,
+                        "referencedDeclaration": 135075,
                         "src": "11717:6:88",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -9589,7 +9589,7 @@
                         "name": "wdiv",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 133672,
+                        "referencedDeclaration": 135012,
                         "src": "12485:4:88",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -9982,10 +9982,10 @@
                         "name": "wmul",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [
-                          133625,
-                          133648
+                          134965,
+                          134988
                         ],
-                        "referencedDeclaration": 133625,
+                        "referencedDeclaration": 134965,
                         "src": "12996:4:88",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -10684,7 +10684,7 @@
                           "name": "wdiv",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 133672,
+                          "referencedDeclaration": 135012,
                           "src": "13601:4:88",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -11729,7 +11729,7 @@
                                 "name": "WAD",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 133410,
+                                "referencedDeclaration": 134750,
                                 "src": "14538:3:88",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -11772,7 +11772,7 @@
                                 "name": "WAD",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 133410,
+                                "referencedDeclaration": 134750,
                                 "src": "14581:3:88",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -11815,7 +11815,7 @@
                                 "name": "WAD",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 133410,
+                                "referencedDeclaration": 134750,
                                 "src": "14621:3:88",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -12182,7 +12182,7 @@
                                                   "name": "WAD",
                                                   "nodeType": "Identifier",
                                                   "overloadedDeclarations": [],
-                                                  "referencedDeclaration": 133410,
+                                                  "referencedDeclaration": 134750,
                                                   "src": "15629:3:88",
                                                   "typeDescriptions": {
                                                     "typeIdentifier": "t_uint256",
@@ -12225,7 +12225,7 @@
                                               "name": "wdiv",
                                               "nodeType": "Identifier",
                                               "overloadedDeclarations": [],
-                                              "referencedDeclaration": 133672,
+                                              "referencedDeclaration": 135012,
                                               "src": "15586:4:88",
                                               "typeDescriptions": {
                                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -12306,10 +12306,10 @@
                                           "name": "wmul",
                                           "nodeType": "Identifier",
                                           "overloadedDeclarations": [
-                                            133625,
-                                            133648
+                                            134965,
+                                            134988
                                           ],
-                                          "referencedDeclaration": 133625,
+                                          "referencedDeclaration": 134965,
                                           "src": "15560:4:88",
                                           "typeDescriptions": {
                                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -12522,7 +12522,7 @@
                                               "name": "wdiv",
                                               "nodeType": "Identifier",
                                               "overloadedDeclarations": [],
-                                              "referencedDeclaration": 133672,
+                                              "referencedDeclaration": 135012,
                                               "src": "15192:4:88",
                                               "typeDescriptions": {
                                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -12573,10 +12573,10 @@
                                           "name": "wmul",
                                           "nodeType": "Identifier",
                                           "overloadedDeclarations": [
-                                            133625,
-                                            133648
+                                            134965,
+                                            134988
                                           ],
-                                          "referencedDeclaration": 133625,
+                                          "referencedDeclaration": 134965,
                                           "src": "15166:4:88",
                                           "typeDescriptions": {
                                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -12948,10 +12948,10 @@
                         "name": "wmul",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [
-                          133625,
-                          133648
+                          134965,
+                          134988
                         ],
-                        "referencedDeclaration": 133625,
+                        "referencedDeclaration": 134965,
                         "src": "16102:4:88",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -14878,7 +14878,7 @@
                             "name": "add",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 133535,
+                            "referencedDeclaration": 134875,
                             "src": "19349:3:88",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_int256_$returns$_t_uint256_$",
@@ -17306,7 +17306,7 @@
                           "name": "add",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 133535,
+                          "referencedDeclaration": 134875,
                           "src": "23236:3:88",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_int256_$returns$_t_uint256_$",
@@ -17837,7 +17837,7 @@
                         "name": "add",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 133535,
+                        "referencedDeclaration": 134875,
                         "src": "23896:3:88",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_int256_$returns$_t_uint256_$",
@@ -17965,7 +17965,7 @@
                         "name": "add",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 133535,
+                        "referencedDeclaration": 134875,
                         "src": "23969:3:88",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_int256_$returns$_t_uint256_$",
@@ -18488,7 +18488,7 @@
                           "name": "add",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 133535,
+                          "referencedDeclaration": 134875,
                           "src": "24490:3:88",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_int256_$returns$_t_uint256_$",
@@ -19371,7 +19371,7 @@
                               "name": "hasPermission",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 133917,
+                              "referencedDeclaration": 135257,
                               "src": "26478:13:88",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$_t_address_$_t_address_$returns$_t_bool_$",
@@ -19534,7 +19534,7 @@
                                   "name": "hasPermission",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 133917,
+                                  "referencedDeclaration": 135257,
                                   "src": "26665:13:88",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_view$_t_address_$_t_address_$returns$_t_bool_$",
@@ -19717,7 +19717,7 @@
                                 "name": "hasPermission",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 133917,
+                                "referencedDeclaration": 135257,
                                 "src": "26847:13:88",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_view$_t_address_$_t_address_$returns$_t_bool_$",
@@ -21084,7 +21084,7 @@
                         "name": "sub",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 133568,
+                        "referencedDeclaration": 134908,
                         "src": "28313:3:88",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_int256_$returns$_t_uint256_$",
@@ -21180,7 +21180,7 @@
                         "name": "add",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 133535,
+                        "referencedDeclaration": 134875,
                         "src": "28384:3:88",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_int256_$returns$_t_uint256_$",
@@ -21358,10 +21358,10 @@
                         "name": "wmul",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [
-                          133625,
-                          133648
+                          134965,
+                          134988
                         ],
-                        "referencedDeclaration": 133648,
+                        "referencedDeclaration": 134988,
                         "src": "28666:4:88",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_int256_$returns$_t_int256_$",
@@ -22725,7 +22725,7 @@
                           "referencedDeclaration": 41630,
                           "src": "30074:16:88",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_List_$133119_storage",
+                            "typeIdentifier": "t_struct$_List_$134459_storage",
                             "typeString": "struct DoubleLinkedList.List storage ref"
                           }
                         },
@@ -22737,10 +22737,10 @@
                         "memberLocation": "30091:7:88",
                         "memberName": "getHead",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 133141,
+                        "referencedDeclaration": 134481,
                         "src": "30074:24:88",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_function_internal_view$_t_struct$_List_$133119_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                          "typeIdentifier": "t_function_internal_view$_t_struct$_List_$134459_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                           "typeString": "function (struct DoubleLinkedList.List storage pointer) view returns (uint256)"
                         }
                       },
@@ -22827,7 +22827,7 @@
                                 "referencedDeclaration": 41630,
                                 "src": "30166:16:88",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_struct$_List_$133119_storage",
+                                  "typeIdentifier": "t_struct$_List_$134459_storage",
                                   "typeString": "struct DoubleLinkedList.List storage ref"
                                 }
                               },
@@ -22839,10 +22839,10 @@
                               "memberLocation": "30183:7:88",
                               "memberName": "getNext",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 133175,
+                              "referencedDeclaration": 134515,
                               "src": "30166:24:88",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_function_internal_view$_t_struct$_List_$133119_storage_ptr_$_t_uint256_$returns$_t_uint256_$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                                "typeIdentifier": "t_function_internal_view$_t_struct$_List_$134459_storage_ptr_$_t_uint256_$returns$_t_uint256_$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                                 "typeString": "function (struct DoubleLinkedList.List storage pointer,uint256) view returns (uint256)"
                               }
                             },
@@ -23226,7 +23226,7 @@
                             "referencedDeclaration": 41636,
                             "src": "30714:16:88",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$133119_storage_$",
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$134459_storage_$",
                               "typeString": "mapping(uint256 => struct DoubleLinkedList.List storage ref)"
                             }
                           },
@@ -23250,7 +23250,7 @@
                           "nodeType": "IndexAccess",
                           "src": "30714:27:88",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_List_$133119_storage",
+                            "typeIdentifier": "t_struct$_List_$134459_storage",
                             "typeString": "struct DoubleLinkedList.List storage ref"
                           }
                         },
@@ -23262,10 +23262,10 @@
                         "memberLocation": "30742:7:88",
                         "memberName": "getTail",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 133157,
+                        "referencedDeclaration": 134497,
                         "src": "30714:35:88",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_function_internal_view$_t_struct$_List_$133119_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                          "typeIdentifier": "t_function_internal_view$_t_struct$_List_$134459_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                           "typeString": "function (struct DoubleLinkedList.List storage pointer) view returns (uint256)"
                         }
                       },
@@ -23353,7 +23353,7 @@
                                   "referencedDeclaration": 41636,
                                   "src": "30820:16:88",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$133119_storage_$",
+                                    "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$134459_storage_$",
                                     "typeString": "mapping(uint256 => struct DoubleLinkedList.List storage ref)"
                                   }
                                 },
@@ -23377,7 +23377,7 @@
                                 "nodeType": "IndexAccess",
                                 "src": "30820:27:88",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_struct$_List_$133119_storage",
+                                  "typeIdentifier": "t_struct$_List_$134459_storage",
                                   "typeString": "struct DoubleLinkedList.List storage ref"
                                 }
                               },
@@ -23389,10 +23389,10 @@
                               "memberLocation": "30848:7:88",
                               "memberName": "getPrev",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 133193,
+                              "referencedDeclaration": 134533,
                               "src": "30820:35:88",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_function_internal_view$_t_struct$_List_$133119_storage_ptr_$_t_uint256_$returns$_t_uint256_$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                                "typeIdentifier": "t_function_internal_view$_t_struct$_List_$134459_storage_ptr_$_t_uint256_$returns$_t_uint256_$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                                 "typeString": "function (struct DoubleLinkedList.List storage pointer,uint256) view returns (uint256)"
                               }
                             },
@@ -23704,7 +23704,7 @@
                       "name": "WAD",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 133410,
+                      "referencedDeclaration": 134750,
                       "src": "31232:3:88",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -23975,7 +23975,7 @@
                             "name": "WAD",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 133410,
+                            "referencedDeclaration": 134750,
                             "src": "31386:3:88",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -24049,7 +24049,7 @@
                                     "name": "WAD",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 133410,
+                                    "referencedDeclaration": 134750,
                                     "src": "31432:3:88",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_uint256",
@@ -24078,10 +24078,10 @@
                                 "name": "wmul",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [
-                                  133625,
-                                  133648
+                                  134965,
+                                  134988
                                 ],
-                                "referencedDeclaration": 133625,
+                                "referencedDeclaration": 134965,
                                 "src": "31403:4:88",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -24126,7 +24126,7 @@
                           "name": "wdiv",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 133672,
+                          "referencedDeclaration": 135012,
                           "src": "31381:4:88",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -24161,7 +24161,7 @@
                       "name": "toUint64",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 133456,
+                      "referencedDeclaration": 134796,
                       "src": "31372:8:88",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$returns$_t_uint64_$",
@@ -24634,7 +24634,7 @@
                         "referencedDeclaration": 41630,
                         "src": "32475:16:88",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_List_$133119_storage",
+                          "typeIdentifier": "t_struct$_List_$134459_storage",
                           "typeString": "struct DoubleLinkedList.List storage ref"
                         }
                       },
@@ -24646,10 +24646,10 @@
                       "memberLocation": "32492:7:88",
                       "memberName": "getHead",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 133141,
+                      "referencedDeclaration": 134481,
                       "src": "32475:24:88",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_List_$133119_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_List_$134459_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                         "typeString": "function (struct DoubleLinkedList.List storage pointer) view returns (uint256)"
                       }
                     },
@@ -25113,7 +25113,7 @@
                             "referencedDeclaration": 41630,
                             "src": "33051:16:88",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_List_$133119_storage",
+                              "typeIdentifier": "t_struct$_List_$134459_storage",
                               "typeString": "struct DoubleLinkedList.List storage ref"
                             }
                           },
@@ -25125,10 +25125,10 @@
                           "memberLocation": "33068:7:88",
                           "memberName": "getPrev",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 133193,
+                          "referencedDeclaration": 134533,
                           "src": "33051:24:88",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_function_internal_view$_t_struct$_List_$133119_storage_ptr_$_t_uint256_$returns$_t_uint256_$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                            "typeIdentifier": "t_function_internal_view$_t_struct$_List_$134459_storage_ptr_$_t_uint256_$returns$_t_uint256_$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                             "typeString": "function (struct DoubleLinkedList.List storage pointer,uint256) view returns (uint256)"
                           }
                         },
@@ -25247,7 +25247,7 @@
                         "referencedDeclaration": 41630,
                         "src": "33175:16:88",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_List_$133119_storage",
+                          "typeIdentifier": "t_struct$_List_$134459_storage",
                           "typeString": "struct DoubleLinkedList.List storage ref"
                         }
                       },
@@ -25259,10 +25259,10 @@
                       "memberLocation": "33192:6:88",
                       "memberName": "insert",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 133390,
+                      "referencedDeclaration": 134730,
                       "src": "33175:23:88",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_List_$133119_storage_ptr_$_t_uint256_$_t_uint256_$returns$__$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_List_$134459_storage_ptr_$_t_uint256_$_t_uint256_$returns$__$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                         "typeString": "function (struct DoubleLinkedList.List storage pointer,uint256,uint256)"
                       }
                     },
@@ -25662,7 +25662,7 @@
                         "referencedDeclaration": 41630,
                         "src": "33687:16:88",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_List_$133119_storage",
+                          "typeIdentifier": "t_struct$_List_$134459_storage",
                           "typeString": "struct DoubleLinkedList.List storage ref"
                         }
                       },
@@ -25674,10 +25674,10 @@
                       "memberLocation": "33704:6:88",
                       "memberName": "remove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 133292,
+                      "referencedDeclaration": 134632,
                       "src": "33687:23:88",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_List_$133119_storage_ptr_$_t_uint256_$returns$__$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_List_$134459_storage_ptr_$_t_uint256_$returns$__$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                         "typeString": "function (struct DoubleLinkedList.List storage pointer,uint256)"
                       }
                     },
@@ -26465,7 +26465,7 @@
                               "referencedDeclaration": 41636,
                               "src": "34934:16:88",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$133119_storage_$",
+                                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$134459_storage_$",
                                 "typeString": "mapping(uint256 => struct DoubleLinkedList.List storage ref)"
                               }
                             },
@@ -26489,7 +26489,7 @@
                             "nodeType": "IndexAccess",
                             "src": "34934:32:88",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_List_$133119_storage",
+                              "typeIdentifier": "t_struct$_List_$134459_storage",
                               "typeString": "struct DoubleLinkedList.List storage ref"
                             }
                           },
@@ -26501,10 +26501,10 @@
                           "memberLocation": "34967:7:88",
                           "memberName": "getHead",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 133141,
+                          "referencedDeclaration": 134481,
                           "src": "34934:40:88",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_function_internal_view$_t_struct$_List_$133119_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                            "typeIdentifier": "t_function_internal_view$_t_struct$_List_$134459_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                             "typeString": "function (struct DoubleLinkedList.List storage pointer) view returns (uint256)"
                           }
                         },
@@ -26545,7 +26545,7 @@
                           "referencedDeclaration": 41636,
                           "src": "34880:16:88",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$133119_storage_$",
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$134459_storage_$",
                             "typeString": "mapping(uint256 => struct DoubleLinkedList.List storage ref)"
                           }
                         },
@@ -26569,7 +26569,7 @@
                         "nodeType": "IndexAccess",
                         "src": "34880:32:88",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_List_$133119_storage",
+                          "typeIdentifier": "t_struct$_List_$134459_storage",
                           "typeString": "struct DoubleLinkedList.List storage ref"
                         }
                       },
@@ -26581,10 +26581,10 @@
                       "memberLocation": "34913:6:88",
                       "memberName": "insert",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 133390,
+                      "referencedDeclaration": 134730,
                       "src": "34880:39:88",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_List_$133119_storage_ptr_$_t_uint256_$_t_uint256_$returns$__$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_List_$134459_storage_ptr_$_t_uint256_$_t_uint256_$returns$__$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                         "typeString": "function (struct DoubleLinkedList.List storage pointer,uint256,uint256)"
                       }
                     },
@@ -27301,7 +27301,7 @@
                           "referencedDeclaration": 41636,
                           "src": "35697:16:88",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$133119_storage_$",
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$134459_storage_$",
                             "typeString": "mapping(uint256 => struct DoubleLinkedList.List storage ref)"
                           }
                         },
@@ -27325,7 +27325,7 @@
                         "nodeType": "IndexAccess",
                         "src": "35697:27:88",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_List_$133119_storage",
+                          "typeIdentifier": "t_struct$_List_$134459_storage",
                           "typeString": "struct DoubleLinkedList.List storage ref"
                         }
                       },
@@ -27337,10 +27337,10 @@
                       "memberLocation": "35725:6:88",
                       "memberName": "remove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 133292,
+                      "referencedDeclaration": 134632,
                       "src": "35697:34:88",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_List_$133119_storage_ptr_$_t_uint256_$returns$__$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_List_$134459_storage_ptr_$_t_uint256_$returns$__$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                         "typeString": "function (struct DoubleLinkedList.List storage pointer,uint256)"
                       }
                     },
@@ -28374,7 +28374,7 @@
                                 "referencedDeclaration": 41636,
                                 "src": "37036:16:88",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$133119_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$134459_storage_$",
                                   "typeString": "mapping(uint256 => struct DoubleLinkedList.List storage ref)"
                                 }
                               },
@@ -28398,7 +28398,7 @@
                               "nodeType": "IndexAccess",
                               "src": "37036:27:88",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_List_$133119_storage",
+                                "typeIdentifier": "t_struct$_List_$134459_storage",
                                 "typeString": "struct DoubleLinkedList.List storage ref"
                               }
                             },
@@ -28410,10 +28410,10 @@
                             "memberLocation": "37064:6:88",
                             "memberName": "remove",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 133292,
+                            "referencedDeclaration": 134632,
                             "src": "37036:34:88",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_List_$133119_storage_ptr_$_t_uint256_$returns$__$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                              "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_List_$134459_storage_ptr_$_t_uint256_$returns$__$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                               "typeString": "function (struct DoubleLinkedList.List storage pointer,uint256)"
                             }
                           },
@@ -29871,10 +29871,10 @@
                           "name": "wmul",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [
-                            133625,
-                            133648
+                            134965,
+                            134988
                           ],
-                          "referencedDeclaration": 133625,
+                          "referencedDeclaration": 134965,
                           "src": "38974:4:88",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -30146,7 +30146,7 @@
                                   "name": "wdiv",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 133672,
+                                  "referencedDeclaration": 135012,
                                   "src": "39540:4:88",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -30280,7 +30280,7 @@
                                   "name": "wdiv",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 133672,
+                                  "referencedDeclaration": 135012,
                                   "src": "39484:4:88",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -30382,7 +30382,7 @@
                                 "name": "wmulUp",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 133660,
+                                "referencedDeclaration": 135000,
                                 "src": "39593:6:88",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -30421,10 +30421,10 @@
                             "name": "min",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              133478,
-                              133490
+                              134818,
+                              134830
                             ],
-                            "referencedDeclaration": 133478,
+                            "referencedDeclaration": 134818,
                             "src": "39173:3:88",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -30536,10 +30536,10 @@
                             "name": "min",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              133478,
-                              133490
+                              134818,
+                              134830
                             ],
-                            "referencedDeclaration": 133478,
+                            "referencedDeclaration": 134818,
                             "src": "39746:3:88",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -30664,10 +30664,10 @@
                           "name": "wmul",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [
-                            133625,
-                            133648
+                            134965,
+                            134988
                           ],
-                          "referencedDeclaration": 133625,
+                          "referencedDeclaration": 134965,
                           "src": "39883:4:88",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -31072,7 +31072,7 @@
                             "name": "wdiv",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 133672,
+                            "referencedDeclaration": 135012,
                             "src": "40263:4:88",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -31820,7 +31820,7 @@
                               "name": "toInt256",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 133433,
+                              "referencedDeclaration": 134773,
                               "src": "41200:8:88",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$returns$_t_int256_$",
@@ -32024,7 +32024,7 @@
                             "name": "toInt256",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 133433,
+                            "referencedDeclaration": 134773,
                             "src": "41470:8:88",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$returns$_t_int256_$",
@@ -32088,7 +32088,7 @@
                             "name": "toInt256",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 133433,
+                            "referencedDeclaration": 134773,
                             "src": "41515:8:88",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$returns$_t_int256_$",
@@ -33147,7 +33147,7 @@
                       "name": "WAD",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 133410,
+                      "referencedDeclaration": 134750,
                       "src": "42812:3:88",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -33331,7 +33331,7 @@
                         "referencedDeclaration": 41630,
                         "src": "43012:16:88",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_List_$133119_storage",
+                          "typeIdentifier": "t_struct$_List_$134459_storage",
                           "typeString": "struct DoubleLinkedList.List storage ref"
                         }
                       },
@@ -33343,10 +33343,10 @@
                       "memberLocation": "43029:7:88",
                       "memberName": "getHead",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 133141,
+                      "referencedDeclaration": 134481,
                       "src": "43012:24:88",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_List_$133119_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_List_$134459_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                         "typeString": "function (struct DoubleLinkedList.List storage pointer) view returns (uint256)"
                       }
                     },
@@ -33416,7 +33416,7 @@
                           "referencedDeclaration": 41636,
                           "src": "43169:16:88",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$133119_storage_$",
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$134459_storage_$",
                             "typeString": "mapping(uint256 => struct DoubleLinkedList.List storage ref)"
                           }
                         },
@@ -33440,7 +33440,7 @@
                         "nodeType": "IndexAccess",
                         "src": "43169:32:88",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_List_$133119_storage",
+                          "typeIdentifier": "t_struct$_List_$134459_storage",
                           "typeString": "struct DoubleLinkedList.List storage ref"
                         }
                       },
@@ -33452,10 +33452,10 @@
                       "memberLocation": "43202:7:88",
                       "memberName": "getTail",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 133157,
+                      "referencedDeclaration": 134497,
                       "src": "43169:40:88",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_List_$133119_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_List_$134459_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                         "typeString": "function (struct DoubleLinkedList.List storage pointer) view returns (uint256)"
                       }
                     },
@@ -33776,7 +33776,7 @@
                                       "referencedDeclaration": 41630,
                                       "src": "43690:16:88",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_struct$_List_$133119_storage",
+                                        "typeIdentifier": "t_struct$_List_$134459_storage",
                                         "typeString": "struct DoubleLinkedList.List storage ref"
                                       }
                                     },
@@ -33788,10 +33788,10 @@
                                     "memberLocation": "43707:7:88",
                                     "memberName": "getNext",
                                     "nodeType": "MemberAccess",
-                                    "referencedDeclaration": 133175,
+                                    "referencedDeclaration": 134515,
                                     "src": "43690:24:88",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_function_internal_view$_t_struct$_List_$133119_storage_ptr_$_t_uint256_$returns$_t_uint256_$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                                      "typeIdentifier": "t_function_internal_view$_t_struct$_List_$134459_storage_ptr_$_t_uint256_$returns$_t_uint256_$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                                       "typeString": "function (struct DoubleLinkedList.List storage pointer,uint256) view returns (uint256)"
                                     }
                                   },
@@ -33855,7 +33855,7 @@
                                         "referencedDeclaration": 41636,
                                         "src": "43869:16:88",
                                         "typeDescriptions": {
-                                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$133119_storage_$",
+                                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$134459_storage_$",
                                           "typeString": "mapping(uint256 => struct DoubleLinkedList.List storage ref)"
                                         }
                                       },
@@ -33879,7 +33879,7 @@
                                       "nodeType": "IndexAccess",
                                       "src": "43869:32:88",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_struct$_List_$133119_storage",
+                                        "typeIdentifier": "t_struct$_List_$134459_storage",
                                         "typeString": "struct DoubleLinkedList.List storage ref"
                                       }
                                     },
@@ -33891,10 +33891,10 @@
                                     "memberLocation": "43902:7:88",
                                     "memberName": "getTail",
                                     "nodeType": "MemberAccess",
-                                    "referencedDeclaration": 133157,
+                                    "referencedDeclaration": 134497,
                                     "src": "43869:40:88",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_function_internal_view$_t_struct$_List_$133119_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                                      "typeIdentifier": "t_function_internal_view$_t_struct$_List_$134459_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                                       "typeString": "function (struct DoubleLinkedList.List storage pointer) view returns (uint256)"
                                     }
                                   },
@@ -33997,7 +33997,7 @@
                                 "referencedDeclaration": 41636,
                                 "src": "44108:16:88",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$133119_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_List_$134459_storage_$",
                                   "typeString": "mapping(uint256 => struct DoubleLinkedList.List storage ref)"
                                 }
                               },
@@ -34021,7 +34021,7 @@
                               "nodeType": "IndexAccess",
                               "src": "44108:32:88",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_List_$133119_storage",
+                                "typeIdentifier": "t_struct$_List_$134459_storage",
                                 "typeString": "struct DoubleLinkedList.List storage ref"
                               }
                             },
@@ -34033,10 +34033,10 @@
                             "memberLocation": "44141:7:88",
                             "memberName": "getPrev",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 133193,
+                            "referencedDeclaration": 134533,
                             "src": "44108:40:88",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_internal_view$_t_struct$_List_$133119_storage_ptr_$_t_uint256_$returns$_t_uint256_$attached_to$_t_struct$_List_$133119_storage_ptr_$",
+                              "typeIdentifier": "t_function_internal_view$_t_struct$_List_$134459_storage_ptr_$_t_uint256_$returns$_t_uint256_$attached_to$_t_struct$_List_$134459_storage_ptr_$",
                               "typeString": "function (struct DoubleLinkedList.List storage pointer,uint256) view returns (uint256)"
                             }
                           },
@@ -34558,10 +34558,10 @@
                               "name": "wmul",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [
-                                133625,
-                                133648
+                                134965,
+                                134988
                               ],
-                              "referencedDeclaration": 133625,
+                              "referencedDeclaration": 134965,
                               "src": "44533:4:88",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
@@ -36922,7 +36922,7 @@
                 "2480:5:88"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 133762,
+              "referencedDeclaration": 135102,
               "src": "2480:5:88"
             },
             "id": 41543,
@@ -36937,7 +36937,7 @@
                 "2487:10:88"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 133918,
+              "referencedDeclaration": 135258,
               "src": "2487:10:88"
             },
             "id": 41545,
@@ -36989,9 +36989,9 @@
           43991,
           49438,
           48879,
-          133918,
+          135258,
           50279,
-          133762,
+          135102,
           50251,
           33608,
           32230,
@@ -37017,15 +37017,15 @@
           41726,
           41728,
           48479,
-          133121,
-          133123,
-          133125,
-          133395,
-          133397,
-          133399,
-          133401,
-          133403,
-          133787
+          134461,
+          134463,
+          134465,
+          134735,
+          134737,
+          134739,
+          134741,
+          134743,
+          135127
         ]
       }
     ],
