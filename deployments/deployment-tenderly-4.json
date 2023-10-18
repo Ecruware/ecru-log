@@ -147,14 +147,14 @@
   },
   "vaults": {
     "CDPVault_TypeA_WSTETH-WETH": {
-      "address": "0x2811bDDc05205E00563F897A6Af26607eEFe2c61",
+      "address": "0x95D11A7Af976655FeE355e578Cf3c7306e099562",
       "artifactName": "CDPVault_TypeA",
       "constructorArguments": [
         [
           "0xc2Ab733AD6E40FA6E50700bb5C089B33B00577Ae",
           "0x508b5B7Ef125aFBA524fD98C330422d4d0cdd8F2",
           "0x49DA32D3c4423fd1317388255baa607fC9E3AC9D",
-          "0x7BA69955a685639d4d2e23D334685456Fbd4C7f8",
+          "0x3067273B6cD96D9c3F037338B33612fD1ff72912",
           "1000000000000000000",
           "10000000000000000",
           "0",
@@ -185,14 +185,14 @@
       ]
     },
     "CDPVault_TypeA_WSTETH-RETH-SFRXETH": {
-      "address": "0x7C34AE07DC6303072Feb3790aF767bb281b69070",
+      "address": "0x170D7EEB322AdfBFEd3D4211A24Ff96434125C3D",
       "artifactName": "CDPVault_TypeA",
       "constructorArguments": [
         [
           "0xc2Ab733AD6E40FA6E50700bb5C089B33B00577Ae",
           "0x508b5B7Ef125aFBA524fD98C330422d4d0cdd8F2",
           "0x49DA32D3c4423fd1317388255baa607fC9E3AC9D",
-          "0x765c634e42e50866aD9f640fDC80680950A092ab",
+          "0x325311786B0d2CabF039d768263928ba20a330b1",
           "1000000000000000000",
           "10000000000000000",
           "0",
@@ -223,7 +223,7 @@
       ]
     },
     "CDPVault_TypeA_USDC": {
-      "address": "0x2A2a4238ad0715261f39fbb0E974640fcc7951D6",
+      "address": "0xEaa5BB5d4f0482FE316e7684118Da901b1BBb85a",
       "artifactName": "CDPVault_TypeA",
       "constructorArguments": [
         [
