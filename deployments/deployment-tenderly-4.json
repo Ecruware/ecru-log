@@ -57,7 +57,7 @@
       "constructorArguments": []
     },
     "SwapAction": {
-      "address": "0x0E410cE667416ECe3240c6b132e7BD45bda55d85",
+      "address": "0x63b6981fB348e9B27CC81116EE0993131543cacb",
       "artifactName": "SwapAction",
       "constructorArguments": [
         "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
@@ -65,7 +65,7 @@
       ]
     },
     "PoolAction": {
-      "address": "0xf35De49788EDC4Fc739DdC60B77066E596a93aDB",
+      "address": "0x682C083779FE9beB6Be835bd1c90cd2c7a577eFa",
       "artifactName": "PoolAction",
       "constructorArguments": [
         "0xBA12222222228d8Ba445958a75a0704d566BF2C8"
@@ -77,30 +77,30 @@
       "constructorArguments": []
     },
     "PositionAction20": {
-      "address": "0x3Afd4f06581E05aCbf349e03D081b26B5740f534",
+      "address": "0xaaF3880377c81E617e9Fab940D021C2545730E13",
       "artifactName": "PositionAction20",
       "constructorArguments": [
         "0x98456a080324220A9013F73f52402999D06747c6",
-        "0x0E410cE667416ECe3240c6b132e7BD45bda55d85",
-        "0xf35De49788EDC4Fc739DdC60B77066E596a93aDB"
+        "0x63b6981fB348e9B27CC81116EE0993131543cacb",
+        "0x682C083779FE9beB6Be835bd1c90cd2c7a577eFa"
       ]
     },
     "PositionActionYV": {
-      "address": "0x5A0D6DC9D2607E3719fb1Db495718A9699F103ee",
+      "address": "0x6998EE9Fce0bB1d931885f11f04d5b17154CCcd5",
       "artifactName": "PositionActionYV",
       "constructorArguments": [
         "0x98456a080324220A9013F73f52402999D06747c6",
-        "0x0E410cE667416ECe3240c6b132e7BD45bda55d85",
-        "0xf35De49788EDC4Fc739DdC60B77066E596a93aDB"
+        "0x63b6981fB348e9B27CC81116EE0993131543cacb",
+        "0x682C083779FE9beB6Be835bd1c90cd2c7a577eFa"
       ]
     },
     "PositionAction4626": {
-      "address": "0x1cA02ea24dCC68B533ced82c275ba7AC4607AB96",
+      "address": "0x949a5721028C6666248581Ec597443E139Ab0dE0",
       "artifactName": "PositionAction4626",
       "constructorArguments": [
         "0x98456a080324220A9013F73f52402999D06747c6",
-        "0x0E410cE667416ECe3240c6b132e7BD45bda55d85",
-        "0xf35De49788EDC4Fc739DdC60B77066E596a93aDB"
+        "0x63b6981fB348e9B27CC81116EE0993131543cacb",
+        "0x682C083779FE9beB6Be835bd1c90cd2c7a577eFa"
       ]
     },
     "CDPVault_TypeA_Deployer": {
