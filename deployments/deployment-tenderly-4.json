@@ -57,7 +57,7 @@
       "constructorArguments": []
     },
     "SwapAction": {
-      "address": "0x63b6981fB348e9B27CC81116EE0993131543cacb",
+      "address": "0x03e62215aE71f181FB89645E4A74B45d9FA73BCb",
       "artifactName": "SwapAction",
       "constructorArguments": [
         "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
@@ -65,7 +65,7 @@
       ]
     },
     "PoolAction": {
-      "address": "0x682C083779FE9beB6Be835bd1c90cd2c7a577eFa",
+      "address": "0x7975f497337a84d328aA739c10A249988CcE657d",
       "artifactName": "PoolAction",
       "constructorArguments": [
         "0xBA12222222228d8Ba445958a75a0704d566BF2C8"
@@ -77,30 +77,30 @@
       "constructorArguments": []
     },
     "PositionAction20": {
-      "address": "0xaaF3880377c81E617e9Fab940D021C2545730E13",
+      "address": "0x17C5e6BA5f6aD5D7D1303cbB1Fb6aC7a8B65B4FA",
       "artifactName": "PositionAction20",
       "constructorArguments": [
         "0x98456a080324220A9013F73f52402999D06747c6",
-        "0x63b6981fB348e9B27CC81116EE0993131543cacb",
-        "0x682C083779FE9beB6Be835bd1c90cd2c7a577eFa"
+        "0x03e62215aE71f181FB89645E4A74B45d9FA73BCb",
+        "0x7975f497337a84d328aA739c10A249988CcE657d"
       ]
     },
     "PositionActionYV": {
-      "address": "0x6998EE9Fce0bB1d931885f11f04d5b17154CCcd5",
+      "address": "0xDaf1d171cd1010fFb9c66B0060A8fdf24691DED0",
       "artifactName": "PositionActionYV",
       "constructorArguments": [
         "0x98456a080324220A9013F73f52402999D06747c6",
-        "0x63b6981fB348e9B27CC81116EE0993131543cacb",
-        "0x682C083779FE9beB6Be835bd1c90cd2c7a577eFa"
+        "0x03e62215aE71f181FB89645E4A74B45d9FA73BCb",
+        "0x7975f497337a84d328aA739c10A249988CcE657d"
       ]
     },
     "PositionAction4626": {
-      "address": "0x949a5721028C6666248581Ec597443E139Ab0dE0",
+      "address": "0x566E1fAe22E4ff878254c9D6C503c68ddCa5b5fA",
       "artifactName": "PositionAction4626",
       "constructorArguments": [
         "0x98456a080324220A9013F73f52402999D06747c6",
-        "0x63b6981fB348e9B27CC81116EE0993131543cacb",
-        "0x682C083779FE9beB6Be835bd1c90cd2c7a577eFa"
+        "0x03e62215aE71f181FB89645E4A74B45d9FA73BCb",
+        "0x7975f497337a84d328aA739c10A249988CcE657d"
       ]
     },
     "CDPVault_TypeA_Deployer": {
@@ -119,7 +119,7 @@
       ]
     },
     "Aura wstETH-WETH XXXX Deposit Vault": {
-      "address": "0x3067273B6cD96D9c3F037338B33612fD1ff72912",
+      "address": "0x4a53269D46e9e04562028F7C75F731A8e218Ee8F",
       "artifactName": "AuraVault",
       "constructorArguments": [
         "0x2a14db8d09db0542f6a371c0cb308a768227d67d",
@@ -132,7 +132,7 @@
       ]
     },
     "Aura wstETH-rETH-sfrxETH XXXX Deposit Vault": {
-      "address": "0x325311786B0d2CabF039d768263928ba20a330b1",
+      "address": "0x4D9e87A4fe229aFa6d289815aF2E749B8de94fC2",
       "artifactName": "AuraVault",
       "constructorArguments": [
         "0x032b676d5d55e8ecbae88ebee0aa10fb5f72f6cb",
@@ -147,14 +147,14 @@
   },
   "vaults": {
     "CDPVault_TypeA_WSTETH-WETH": {
-      "address": "0x95D11A7Af976655FeE355e578Cf3c7306e099562",
+      "address": "0x733ed7d54a059F8FC90C539429832B91b437689c",
       "artifactName": "CDPVault_TypeA",
       "constructorArguments": [
         [
           "0xc2Ab733AD6E40FA6E50700bb5C089B33B00577Ae",
           "0x508b5B7Ef125aFBA524fD98C330422d4d0cdd8F2",
           "0x49DA32D3c4423fd1317388255baa607fC9E3AC9D",
-          "0x3067273B6cD96D9c3F037338B33612fD1ff72912",
+          "0x4a53269D46e9e04562028F7C75F731A8e218Ee8F",
           "1000000000000000000",
           "10000000000000000",
           "0",
@@ -185,14 +185,14 @@
       ]
     },
     "CDPVault_TypeA_WSTETH-RETH-SFRXETH": {
-      "address": "0x170D7EEB322AdfBFEd3D4211A24Ff96434125C3D",
+      "address": "0xD88AC295d155cB415B20373370576A76b9443C09",
       "artifactName": "CDPVault_TypeA",
       "constructorArguments": [
         [
           "0xc2Ab733AD6E40FA6E50700bb5C089B33B00577Ae",
           "0x508b5B7Ef125aFBA524fD98C330422d4d0cdd8F2",
           "0x49DA32D3c4423fd1317388255baa607fC9E3AC9D",
-          "0x325311786B0d2CabF039d768263928ba20a330b1",
+          "0x4D9e87A4fe229aFa6d289815aF2E749B8de94fC2",
           "1000000000000000000",
           "10000000000000000",
           "0",
@@ -223,7 +223,7 @@
       ]
     },
     "CDPVault_TypeA_USDC": {
-      "address": "0xEaa5BB5d4f0482FE316e7684118Da901b1BBb85a",
+      "address": "0x2C58bf86635611E6F2C5ACe5eC1803b75CD505A4",
       "artifactName": "CDPVault_TypeA",
       "constructorArguments": [
         [
